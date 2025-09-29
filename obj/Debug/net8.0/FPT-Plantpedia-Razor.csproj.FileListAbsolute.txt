@@ -534,3 +534,4 @@ E:\dotNet\FPT-Plantpedia-Razor\obj\Debug\net8.0\refint\FPT-Plantpedia-Razor.dll
 E:\dotNet\FPT-Plantpedia-Razor\obj\Debug\net8.0\FPT-Plantpedia-Razor.pdb
 E:\dotNet\FPT-Plantpedia-Razor\obj\Debug\net8.0\FPT-Plantpedia-Razor.genruntimeconfig.cache
 E:\dotNet\FPT-Plantpedia-Razor\obj\Debug\net8.0\ref\FPT-Plantpedia-Razor.dll
+E:\dotNet\FPT-Plantpedia-Razor\obj\Debug\net8.0\FPT-Plantpedia-Razor.sourcelink.json
