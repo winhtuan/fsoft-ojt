@@ -1,0 +1,242 @@
+@page "/PlantDetail/Detail/{id}"
+@model Plantpedia.Pages.Plant.DetailsModel
+@using Plantpedia.Helper
+
+@{
+    // Tiêu đề đã được set trong file code-behind
+}
+
+<main class="container my-5">
+    <div class="row">
+        <!-- Nút Trở Lại -->
+        <div class="mb-4">
+            <a href="#" onclick="history.back(); return false;" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-2"></i>
+                Trở lại
+            </a>
+        </div>
+
+        <!-- Cột bên trái: Hình ảnh sản phẩm -->
+        <div class="col-lg-6">
+            @if (Model.Plant.ImageUrls != null && Model.Plant.ImageUrls.Any())
+            {
+                <!-- Ảnh chính -->
+                <div class="mb-3">
+                    <img id="mainPlantImage" src="@Model.Plant.ImageUrls.First()" class="img-fluid rounded shadow-sm w-100"
+                        alt="Hình ảnh chính của @Model.Plant.CommonName">
+                </div>
+                <!-- Danh sách ảnh nhỏ (thumbnail) -->
+                <div class="row g-2">
+                    @foreach (var imageUrl in Model.Plant.ImageUrls)
+                    {
+                        <div class="col-3">
+                            <img src="@imageUrl"
+                                class="img-fluid rounded thumbnail-image @(imageUrl == Model.Plant.ImageUrls.First() ? "active" : "")"
+                                alt="Hình ảnh chi tiết của @Model.Plant.CommonName">
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="mb-3">
+                    <img id="mainPlantImage" src="~/images/placeholder.png" class="img-fluid rounded shadow-sm w-100"
+                        alt="Chưa có hình ảnh">
+                </div>
+            }
+        </div>
+
+        <!-- Cột bên phải: Thông tin chi tiết -->
+        <div class="col-lg-6">
+            <h1 class="display-5">@Model.Plant.CommonName</h1>
+            <p class="text-muted fst-italic mb-3"><strong>Tên khoa học:</strong> @Model.Plant.ScientificName</p>
+
+            <h4>Mô tả chi tiết</h4>
+            <p>
+                @Model.Plant.Description
+            </p>
+
+            @if (!string.IsNullOrEmpty(Model.Plant.PlantTypeName))
+            {
+                <p><strong>Loại cây:</strong> <span class="badge bg-success fs-6">@Model.Plant.PlantTypeName</span></p>
+            }
+
+            <p>
+                <strong>Thời gian thu hoạch:</strong>
+                @if (Model.Plant.HarvestDate.HasValue && Model.Plant.HarvestDate > 0)
+                {
+                    <span>Sau @Model.Plant.HarvestDate ngày</span>
+                }
+                else
+                {
+                    <span class="text-muted">Không áp dụng</span>
+                }
+            </p>
+        </div>
+    </div>
+
+    <!-- Phần thông tin bổ sung ở dưới - Dạng Tab -->
+    <hr class="my-5">
+
+    <div class="product-details-tabs">
+        <!-- Tab Navigation -->
+        <ul class="nav nav-tabs nav-fill" id="plantInfoTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="care-tab" data-bs-toggle="tab" data-bs-target="#care-tab-pane"
+                    type="button" role="tab" aria-controls="care-tab-pane" aria-selected="true">
+                    <i class="fas fa-hand-holding-water me-2"></i>Chăm sóc
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="region-tab" data-bs-toggle="tab" data-bs-target="#region-tab-pane"
+                    type="button" role="tab" aria-controls="region-tab-pane" aria-selected="false">
+                    <i class="fas fa-map-marked-alt me-2"></i>Vùng trồng
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="soil-tab" data-bs-toggle="tab" data-bs-target="#soil-tab-pane"
+                    type="button" role="tab" aria-controls="soil-tab-pane" aria-selected="false">
+                    <i class="fas fa-seedling me-2"></i>Loại đất
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="climate-tab" data-bs-toggle="tab" data-bs-target="#climate-tab-pane"
+                    type="button" role="tab" aria-controls="climate-tab-pane" aria-selected="false">
+                    <i class="fas fa-cloud-sun me-2"></i>Khí hậu
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="usage-tab" data-bs-toggle="tab" data-bs-target="#usage-tab-pane"
+                    type="button" role="tab" aria-controls="usage-tab-pane" aria-selected="false">
+                    <i class="fas fa-bullseye me-2"></i>Mục đích sử dụng
+                </button>
+            </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content bg-white p-4 border border-top-0 rounded-bottom shadow-sm" id="plantInfoTabContent">
+
+            <!-- Nội dung Tab Chăm sóc -->
+            <div class="tab-pane fade show active" id="care-tab-pane" role="tabpanel" aria-labelledby="care-tab"
+                tabindex="0">
+                <h5>Hướng dẫn Chăm sóc chi tiết</h5>
+                <dl class="row">
+                    <dt class="col-sm-4">Yêu cầu ánh sáng</dt>
+                    <dd class="col-sm-8">
+                        @EnumHelper.GetDisplayName(Model.Plant.LightRequirement)
+                    </dd>
+                    <dt class="col-sm-4">Nhu cầu tưới nước</dt>
+                    <dd class="col-sm-8">
+                        @EnumHelper.GetDisplayName(Model.Plant.WateringNeeds)
+                    </dd>
+                    <dt class="col-sm-4">Độ ẩm ưa thích</dt>
+                    <dd class="col-sm-8">
+                        @EnumHelper.GetDisplayName(Model.Plant.HumidityPreference)
+                    </dd>
+                    <dt class="col-sm-4">Tốc độ tăng trưởng</dt>
+                    <dd class="col-sm-8">
+                        @EnumHelper.GetDisplayName(Model.Plant.GrowthRate)
+                    </dd>
+                    <dt class="col-sm-4">Loại đất đề xuất</dt>
+                    <dd class="col-sm-8">@Model.Plant.SoilRecommendation</dd>
+                    <dt class="col-sm-4">Thông tin bón phân</dt>
+                    <dd class="col-sm-8">@Model.Plant.FertilizerInfo</dd>
+                </dl>
+            </div>
+
+            <!-- Nội dung Tab Vùng trồng -->
+            <div class="tab-pane fade" id="region-tab-pane" role="tabpanel" aria-labelledby="region-tab" tabindex="0">
+                <h5>Khu vực trồng phù hợp</h5>
+                @if (Model.Plant.RegionNames != null && Model.Plant.RegionNames.Any())
+                {
+                    <ul>
+                        @foreach (var item in Model.Plant.RegionNames)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>Chưa có thông tin.</p>
+                }
+            </div>
+
+            <!-- Nội dung Tab Loại đất -->
+            <div class="tab-pane fade" id="soil-tab-pane" role="tabpanel" aria-labelledby="soil-tab" tabindex="0">
+                <h5>Loại đất phù hợp</h5>
+                @if (Model.Plant.SoilNames != null && Model.Plant.SoilNames.Any())
+                {
+                    <ul>
+                        @foreach (var item in Model.Plant.SoilNames)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>Chưa có thông tin.</p>
+                }
+            </div>
+
+            <!-- Nội dung Tab Khí hậu -->
+            <div class="tab-pane fade" id="climate-tab-pane" role="tabpanel" aria-labelledby="climate-tab" tabindex="0">
+                <h5>Điều kiện khí hậu</h5>
+                @if (Model.Plant.ClimateNames != null && Model.Plant.ClimateNames.Any())
+                {
+                    <ul>
+                        @foreach (var item in Model.Plant.ClimateNames)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>Chưa có thông tin.</p>
+                }
+            </div>
+
+            <!-- Nội dung Tab Mục đích sử dụng -->
+            <div class="tab-pane fade" id="usage-tab-pane" role="tabpanel" aria-labelledby="usage-tab" tabindex="0">
+                <h5>Mục đích sử dụng chính</h5>
+                @if (Model.Plant.UsageNames != null && Model.Plant.UsageNames.Any())
+                {
+                    <ul>
+                        @foreach (var item in Model.Plant.UsageNames)
+                        {
+                            <li>@item</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>Chưa có thông tin.</p>
+                }
+            </div>
+
+        </div> <!-- Thẻ đóng của .tab-content đã được di chuyển đến đây -->
+    </div>
+</main>
+
+@section Scripts {
+    <!-- Giữ nguyên JavaScript cho thư viện ảnh -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mainImage = document.getElementById('mainPlantImage');
+            const thumbnails = document.querySelectorAll('.thumbnail-image');
+
+            if (mainImage && thumbnails.length > 0) {
+                thumbnails.forEach(thumb => {
+                    thumb.addEventListener('click', function () {
+                        mainImage.src = this.src;
+                        mainImage.alt = this.alt;
+                        thumbnails.forEach(innerThumb => innerThumb.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+            }
+        });
+    </script>
+}

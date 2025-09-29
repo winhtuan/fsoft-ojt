@@ -1,0 +1,71 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #323335;
+}
+
+* {
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Sen", sans-serif;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 3px 10px;
+  font-size: 17px;
+  color: #2a2a2a;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #2a2a2a;
+  background-color: #e0fdf9;
+  border-radius: 5px;
+}
+
+.header_section::after {
+  content: "";
+  position: absolute;
+  width: 730px;
+  height: 900px;
+  background-color: #e0fdf9;
+  left: -40px;
+  top: -70px;
+  z-index: -1;
+  border-bottom-right-radius: 100%;
+}
+
+.navbar-brand {
+  margin: 0px;
+  float: right;
+  font-weight: 800;
+  color: #28454e;
+}

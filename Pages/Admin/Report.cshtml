@@ -1,0 +1,45 @@
+@page
+@model Plantpedia.Pages.ReportModel
+@{
+    ViewData["Title"] = "Báo cáo cây trồng";
+    Layout = "_Layout-Admin";
+}
+
+<div class="chart-container mb-4" style="margin-top: 50px;">
+    <div class="options-bar mb-3 d-flex gap-2 justify-content-end align-items-center">
+        <!-- Category Dropdown -->
+        <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="categoryDropdown"
+                data-bs-toggle="dropdown">
+                Theo danh mục
+            </button>
+            <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+                <a class="dropdown-item category-option" href="#" data-category="plantType">Theo loại cây</a>
+                <a class="dropdown-item category-option" href="#" data-category="region">Theo vùng miền</a>
+                <a class="dropdown-item category-option" href="#" data-category="climate">Theo vùng khí hậu</a>
+                <a class="dropdown-item category-option" href="#" data-category="soil">Theo loại đất</a>
+                <a class="dropdown-item category-option" href="#" data-category="usage">Theo mục đích</a>
+            </div>
+        </div>
+
+        <!-- Date Picker -->
+        <div id="datePickerContainer" style="position: relative;">
+            <input type="text" id="datePicker" class="form-control" placeholder="Select date" autocomplete="off">
+        </div>
+
+        <!-- Export PDF Button -->
+        <form id="exportForm" method="post" asp-page-handler="ExportPdf">
+            <input type="hidden" name="type" id="exportTypeInput" />
+            <input type="hidden" name="date" id="exportDateInput" />
+            <button type="submit" class="btn btn-success">Xuất PDF</button>
+        </form>
+    </div>
+
+    <canvas id="barChart"></canvas>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/report-page.js" asp-append-version="true"></script>
+}

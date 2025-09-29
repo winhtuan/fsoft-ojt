@@ -1,0 +1,28 @@
+@model Plantpedia.ViewModel.DropdownViewModel
+
+<div class="col-auto">
+    <div class="dropdown filter-dropdown">
+        <button class="btn btn-filter dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            data-placeholder="@Model.Placeholder">
+            @Model.Placeholder
+        </button>
+        <ul class="dropdown-menu filter-menu">
+            <li>
+                <button class="dropdown-item filter-option" data-filter-name="@Model.Name" data-filter-value="">
+                    Tất cả
+                </button>
+            </li>
+
+            @foreach (var option in Model.Options)
+            {
+                <li>
+                    <button class="dropdown-item filter-option" data-filter-name="@Model.Name"
+                        data-filter-value="@option.Value">
+                        @option.Text
+                    </button>
+                </li>
+            }
+        </ul>
+    </div>
+    <input type="hidden" id="filter-@Model.Name" />
+</div>

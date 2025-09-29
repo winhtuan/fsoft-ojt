@@ -1,0 +1,89 @@
+@page "/home"
+@model Plantpedia.Pages.Home.HomeModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-40">
+    <div class="select_box_section">
+        <form method="get" class="select_box_main">
+            <div class="row mb-4 d-flex align-items-center">
+                <div class="col-11">
+                    <input type="text" class="form-control form-control-lg" placeholder="Enter keywords to search..."
+                        name="Keywords" value="@Model.Keywords" />
+                </div>
+                <div class="col-1">
+                    <a asp-page="/Home/Home" class="btn btn-outline-secondary" data-bs-toggle="tooltip"
+                        title="Làm mới bộ lọc">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                @foreach (var dropdown in Model.FilterDropdowns)
+                {
+                    <input type="hidden" name="@dropdown.Name" id="filter-@dropdown.Name"
+                        value="@Request.Query[dropdown.Name]" />
+                    <partial name="_DropdownPartial" model="dropdown" />
+                }
+            </div>
+
+            <div class="row mt-4">
+                <div class="search_btn">
+                    <button type="submit" class="btn btn-custom-search">Search Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container plant-card-section mb-5">
+        <div class="row justify-content-center">
+            <partial name="_CardPatial" model="Model" />
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-auto">
+            <partial name="_Paging" model="Model.Paging" />
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.filter-option').forEach(function (btn) {
+                btn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    var filterName = btn.getAttribute('data-filter-name');
+                    var filterValue = btn.getAttribute('data-filter-value');
+
+                    // Cập nhật input ẩn
+                    document.getElementById('filter-' + filterName).value = filterValue;
+
+                    // Cập nhật văn bản của nút dropdown
+                    btn.closest('.dropdown').querySelector('.btn-filter').textContent = btn.textContent;
+                });
+            });
+
+            document.querySelectorAll('input[type="hidden"][id^="filter-"]').forEach(function (hiddenInput) {
+                const selectedValue = hiddenInput.value;
+
+                if (selectedValue) {
+                    const filterName = hiddenInput.name;
+
+                    const selectedOption = document.querySelector(`.filter-option[data-filter-name='${filterName}'][data-filter-value='${selectedValue}']`);
+
+                    if (selectedOption) {
+                        // Tìm nút bấm của dropdown cha và cập nhật lại văn bản
+                        const dropdownButton = selectedOption.closest('.dropdown').querySelector('.btn-filter');
+                        if (dropdownButton) {
+                            dropdownButton.textContent = selectedOption.textContent;
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

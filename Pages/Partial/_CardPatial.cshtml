@@ -1,0 +1,26 @@
+@model Plantpedia.Pages.Home.HomeModel
+
+@foreach (var info in Model.PlantCard)
+{
+    <div class="col-6 col-md-3 mb-4">
+        <div class="container plant-card"
+            style="background: url('@(info.ImageUrls.FirstOrDefault() ?? "https://placehold.co/400")') center center/cover no-repeat;">
+            <a asp-page="/PlantDetail/Detail" asp-route-id="@info.PlantId" class="overlay-link">
+                <div class="overlay">
+                    <div class="items"></div>
+                    <div class="items head">
+                        <p>@info.ScientificName</p>
+                        <hr>
+                    </div>
+                    <div class="items common_name">
+                        <p>@info.CommonName</p>
+                    </div>
+                    <div class="items cart">
+                        <i class="fa fa-expand"></i>
+                        <span>VIEW MORE</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+}

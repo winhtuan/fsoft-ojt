@@ -1,0 +1,57 @@
+.thumbnail-image {
+  cursor: pointer; /* Biến con trỏ thành hình bàn tay khi di chuột */
+  border: 2px solid transparent; /* Viền trong suốt để giữ layout ổn định */
+  transition: border-color 0.2s ease-in-out, transform 0.2s ease-in-out; /* Hiệu ứng chuyển động mượt mà */
+}
+
+.thumbnail-image:hover {
+  transform: scale(1.05); /* Phóng to nhẹ ảnh thumbnail khi di chuột qua */
+}
+
+/* Kiểu cho ảnh thumbnail đang được chọn */
+.thumbnail-image.active {
+  border-color: #0d6efd; /* Viền màu xanh dương (màu primary của Bootstrap) */
+}
+
+/* --- Kiểu cho Khu vực Tab --- */
+
+.product-details-tabs .nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.product-details-tabs .nav-link {
+  color: #495057; /* Màu chữ xám đậm cho các tab không được chọn */
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.35rem;
+  border-top-right-radius: 0.35rem;
+}
+
+.product-details-tabs .nav-link:hover {
+  border-color: #e9ecef #e9ecef #dee2e6; /* Hiệu ứng viền khi di chuột */
+}
+
+/* Kiểu cho tab đang được chọn (active) */
+.product-details-tabs .nav-link.active {
+  color: #0d6efd; /* Màu chữ xanh dương */
+  background-color: #fff;
+  /* Trick để làm tab trông như nối liền với phần nội dung bên dưới */
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-bottom: 2px solid #0d6efd; /* Thêm đường gạch chân màu xanh để nhấn mạnh */
+}
+
+/* Kiểu cho phần nội dung của tab */
+.product-details-tabs .tab-content {
+  min-height: 250px; /* Đảm bảo chiều cao tối thiểu để layout không bị nhảy */
+  font-size: 1rem;
+}
+
+.tab-pane h5 {
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+/* Định dạng cho danh sách dl, dt, dd trong tab Chăm sóc */
+.tab-pane dl dt {
+  font-weight: 500;
+}

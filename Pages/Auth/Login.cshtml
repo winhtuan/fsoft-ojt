@@ -1,0 +1,77 @@
+@page
+@model Plantpedia.Pages.LoginModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Plantpedia</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login_page.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="container" onclick="">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <div class="center">
+            <h2>Welcome Back</h2>
+            <form method="post">
+                <input asp-for="Username" type="text" placeholder="Account" />
+                <input asp-for="Password" type="password" placeholder="Password" />
+                <button type="submit">Sign in</button>
+
+                @if (Model.LoginFailed)
+                {
+                    <div class="alert alert-danger mt-3" role="alert">
+                        <i class="bi bi-exclamation-triangle"></i>
+                        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                        {
+                            @Model.ErrorMessage
+                        }
+                        else
+                        {
+                            <text>Tên đăng nhập hoặc mật khẩu không đúng!</text>
+                        }
+                    </div>
+                }
+
+                <h2>&nbsp;</h2>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector(".container");
+            const inputs = document.querySelectorAll(".center input");
+
+            function activateEffect() {
+                if (!container.classList.contains("active")) {
+                    container.classList.add("active");
+                }
+            }
+
+            inputs.forEach(input => {
+                input.addEventListener("focus", activateEffect);
+                input.addEventListener("click", activateEffect);
+            });
+
+            container.addEventListener("click", activateEffect);
+        });
+    </script>
+
+
+</body>
+
+</html>

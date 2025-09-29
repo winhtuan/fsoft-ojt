@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FPT-Plantpedia-Razor.props" />
+</Project>

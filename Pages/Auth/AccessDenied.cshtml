@@ -1,0 +1,31 @@
+@page
+@model Plantpedia.Pages.Auth.AccessDeniedModel
+@{
+    ViewData["Title"] = "Truy cập bị từ chối";
+}
+
+<div class="container text-center mt-5 access-denied-container">
+    <h1 class="display-4 text-danger">
+        <i class="fas fa-ban"></i>
+        Truy cập bị từ chối
+    </h1>
+    <p class="lead mt-4">
+        Rất tiếc, bạn không có quyền truy cập vào trang này.
+    </p>
+    <p>
+        Tài khoản của bạn không được cấp phép để xem nội dung này. Vui lòng kiểm tra lại hoặc liên hệ với quản trị viên
+        nếu bạn cho rằng đây là một sự nhầm lẫn.
+    </p>
+    <hr class="my-4">
+    <p>
+        Bạn có thể quay lại trang trước hoặc trở về trang chủ.
+    </p>
+    <div>
+        <a href="javascript:history.back()" class="btn btn-secondary mr-2">
+            <i class="fas fa-arrow-left"></i> Quay lại
+        </a>
+        <a asp-page="/Home/Home" class="btn btn-primary">
+            <i class="fas fa-home"></i> Về trang chủ
+        </a>
+    </div>
+</div>

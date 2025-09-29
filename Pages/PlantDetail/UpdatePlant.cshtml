@@ -1,0 +1,214 @@
+@page "/edit/plant"
+@model Plantpedia.Pages.Plant.UpdatePlantModel
+@{
+    Layout = "_Layout-Admin";
+    ViewData["Title"] = Model.PageTitle;
+}
+
+<div class="container">
+    <h2 id="form-title" class="mb-4">@ViewData["Title"]</h2>
+
+    <form id="plant-form" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Plant.PlantId" />
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="Plant.ScientificName" class="form-label"></label>
+                <input type="text" asp-for="Plant.ScientificName" class="form-control">
+                <span asp-validation-for="Plant.ScientificName" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="Plant.CommonName" class="form-label"></label>
+                <input type="text" asp-for="Plant.CommonName" class="form-control">
+                <span asp-validation-for="Plant.CommonName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Plant.Description" class="form-label"></label>
+            <textarea asp-for="Plant.Description" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Plant.Description" class="text-danger"></span>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label asp-for="Plant.PlantTypeId" class="form-label"></label>
+                <select asp-for="Plant.PlantTypeId" asp-items="Model.PlantTypes" class="form-select">
+                    <option value="">-- Chọn loại cây --</option>
+                </select>
+                <span asp-validation-for="Plant.PlantTypeId" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Plant.HarvestDate" class="form-label"></label>
+                <input asp-for="Plant.HarvestDate" class="form-control" type="number" placeholder="Số ngày">
+                <span asp-validation-for="Plant.HarvestDate" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Plant.ImageUrl" class="form-label">Đường dẫn ảnh (URL)</label>
+
+                <input asp-for="Plant.ImageUrl" class="form-control" type="text"
+                    placeholder="https://example.com/image.jpg">
+
+                @if (!string.IsNullOrEmpty(Model.Plant.ImageUrl))
+                {
+                    <img id="imagePreview" src="@Model.Plant.ImageUrl" class="img-thumbnail mt-2" style="max-height: 100px;"
+                        alt="Ảnh hiện tại" />
+                }
+                else
+                {
+                    <img id="imagePreview" src="https://placehold.co/400" class="img-thumbnail mt-2"
+                        style="max-height: 100px;" alt="Chưa có ảnh" />
+                }
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Vùng miền</label>
+            <div class="d-flex flex-wrap gap-3">
+                @foreach (var region in Model.Regions)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="RegionIds" value="@region.Id"
+                            id="region-@region.Id" checked="@region.IsChecked">
+                        <label class="form-check-label" for="region-@region.Id">@region.Name</label>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Loại đất</label>
+            <div class="d-flex flex-wrap gap-3">
+                @foreach (var soil in Model.SoilTypes)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="SoilTypeIds" value="@soil.Id"
+                            id="soil-@soil.Id" checked="@soil.IsChecked">
+                        <label class="form-check-label" for="soil-@soil.Id">@soil.Name</label>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Khí hậu</label>
+            <div class="d-flex flex-wrap gap-3">
+                @foreach (var climate in Model.Climates)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="ClimateIds" value="@climate.Id"
+                            id="climate-@climate.Id" checked="@climate.IsChecked">
+                        <label class="form-check-label" for="climate-@climate.Id">@climate.Name</label>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Công dụng</label>
+            <div class="d-flex flex-wrap gap-3">
+                @foreach (var usage in Model.Usages)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="UsageIds" value="@usage.Id"
+                            id="usage-@usage.Id" checked="@usage.IsChecked">
+                        <label class="form-check-label" for="usage-@usage.Id">@usage.Name</label>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <hr class="my-4">
+        <h4 class="mb-3">Thông tin chăm sóc</h4>
+
+        <div class="row mb-3">
+            <div class="mb-3 col-md-6">
+                <label asp-for="Plant.SoilRecommendation" class="form-label"></label>
+                <input type="text" asp-for="Plant.SoilRecommendation" class="form-control">
+                <span asp-validation-for="Plant.SoilRecommendation" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3 col-md-10">
+                <label asp-for="Plant.FertilizerInfo" class="form-label"></label>
+                <textarea asp-for="Plant.FertilizerInfo" class="form-control" rows="2"></textarea>
+                <span asp-validation-for="Plant.FertilizerInfo" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label d-block">Yêu cầu ánh sáng</label>
+                <div class="d-grid gap-2">
+                    @foreach (var val in Enum.GetValues(typeof(LightRequirement)))
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Plant.LightRequirement" value="@val"
+                                id="light-@val">
+                            <label class="form-check-label" for="light-@val">
+                                @EnumHelper.GetDisplayName((LightRequirement)val)
+                            </label>
+                        </div>
+                    }
+                </div>
+                <span asp-validation-for="Plant.LightRequirement" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label d-block">Nhu cầu tưới nước</label>
+                <div class="d-grid gap-2">
+                    @foreach (var val in Enum.GetValues(typeof(WateringNeeds)))
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Plant.WateringNeeds" value="@val"
+                                id="water-@val">
+                            <label class="form-check-label" for="water-@val">
+                                @EnumHelper.GetDisplayName((WateringNeeds)val)
+                            </label>
+                        </div>
+                    }
+                </div>
+                <span asp-validation-for="Plant.WateringNeeds" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label d-block">Ưa thích độ ẩm</label>
+                <div class="d-grid gap-2">
+                    @foreach (var val in Enum.GetValues(typeof(HumidityPreference)))
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Plant.HumidityPreference" value="@val"
+                                id="humidity-@val">
+                            <label class="form-check-label" for="humidity-@val">
+                                @EnumHelper.GetDisplayName((HumidityPreference)val)
+                            </label>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label d-block">Tốc độ phát triển</label>
+                <div class="d-grid gap-2">
+                    @foreach (var val in Enum.GetValues(typeof(GrowthRate)))
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Plant.GrowthRate" value="@val"
+                                id="growth-@val">
+                            <label class="form-check-label" for="growth-@val">
+                                @EnumHelper.GetDisplayName((GrowthRate)val)
+                            </label>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="d-flex gap-2 mb-4 mt-4">
+            <button type="submit" class="btn btn-success" id="submit-btn">@Model.SubmitButtonText</button>
+            <a asp-page="./Index" class="btn btn-secondary">Hủy</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+}

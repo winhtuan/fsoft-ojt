@@ -1,0 +1,33 @@
+@model List<Plantpedia.DTO.PlantDto>
+
+@foreach (var plant in Model)
+{
+    <tr>
+        <td><input type="checkbox" class="form-check-input"></td>
+        <td>
+            <img src="@(plant.ImageUrls?.FirstOrDefault() ?? "https://placehold.co/400")" class="me-2 rounded" alt="plant"
+                style="width:40px; height:40px; object-fit:cover;">
+            @plant.CommonName
+        </td>
+        <td>@plant.PlantTypeName</td>
+        <td>@string.Join(separator: ", ", plant.SoilNames ?? new List<string>())</td>
+        <td>@string.Join(", ", plant.ClimateNames ?? new List<string>())</td>
+        <td>@string.Join(", ", plant.RegionNames ?? new List<string>())</td>
+        <td>@(plant.CreatedDate.ToString("dd/MM/yyyy"))</td>
+        <td>
+            <a asp-page="/PlantDetail/Detail" asp-route-id="@plant.PlantId" class="text-info me-2" data-bs-toggle="tooltip"
+                title="Xem chi tiết"><i class="fa-solid fa-eye"></i></a>
+            <a asp-page="/PlantDetail/UpdatePlant" asp-route-id="@plant.PlantId" class="text-primary me-2"
+                data-bs-toggle="tooltip" title="Chỉnh sửa">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+            <form method="post" asp-page-handler="Delete" style="display: inline;"
+                onsubmit="return confirm('Bạn có thật sự muốn xóa cây trồng này không? Hành động này không thể hoàn tác.');">
+                <input type="hidden" name="id" value="@plant.PlantId" />
+                <button type="submit" class="btn btn-link text-danger p-0" data-bs-toggle="tooltip" title="Xóa">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </form>
+        </td>
+    </tr>
+}

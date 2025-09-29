@@ -1,0 +1,35 @@
+@model Plantpedia.ViewModel.PagingViewModel
+
+@if (Model.TotalPages > 1)
+{
+    int pageRange = 5;
+    int startPage = Math.Max(1, Model.CurrentPage - pageRange / 2);
+    int endPage = Math.Min(Model.TotalPages, startPage + pageRange - 1);
+
+    if (endPage - startPage + 1 < pageRange)
+    {
+        startPage = Math.Max(1, endPage - pageRange + 1);
+    }
+
+    <nav>
+        <ul class="pagination justify-content-center">
+            <!-- Nút Trước -->
+            <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Model.GenerateUrl(Model.CurrentPage - 1)">Trước</a>
+            </li>
+
+            <!-- Các số trang -->
+            @for (int i = startPage; i <= endPage; i++)
+            {
+                <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="@Model.GenerateUrl(i)">@i</a>
+                </li>
+            }
+
+            <!-- Nút Sau -->
+            <li class="page-item @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Model.GenerateUrl(Model.CurrentPage + 1)">Sau</a>
+            </li>
+        </ul>
+    </nav>
+}

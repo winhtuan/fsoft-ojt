@@ -1,0 +1,127 @@
+@page "/admin"
+@model Plantpedia.Pages.Admin.AdminModel
+@{
+    ViewData["Title"] = "Admin Panel";
+    Layout = "_Layout-Admin";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="fw-bold">Admin Dashboard</h2>
+            <p class="text-muted">
+                Chào mừng trở lại, @(Model.CurrentUser?.LastName ?? "Admin")!
+            </p>
+        </div>
+    </div>
+
+    @if (Model.CurrentUser != null)
+    {
+        <div class="row g-4">
+            <!-- Cột thông tin Admin -->
+            <div class="col-lg-4">
+                <div class="card shadow-sm h-100 admin-profile-card">
+                    <div class="card-body text-center pt-4">
+                        <!-- Avatar -->
+                        <img src="@Model.CurrentUser.AvatarUrl" alt="Avatar" class="admin-avatar rounded-circle mb-3">
+                        <h5 class="card-title mb-1 fw-bold">@Model.CurrentUser.LastName</h5>
+
+                        <hr class="my-4">
+
+                        <!-- Danh sách thông tin chi tiết -->
+                        <ul class="list-unstyled text-start profile-details-list">
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-hashtag fa-fw me-3 text-muted"></i>
+                                <div class="d-flex align-items-center gap-3">
+                                    <small class="text-muted d-block">User ID</small>
+                                    <strong>@Model.CurrentUser.UserId</strong>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-id-card fa-fw me-3 text-muted"></i>
+                                <div class="d-flex align-items-center gap-3">
+                                    <small class="text-muted d-block">Giới tính</small>
+                                    <strong>@(char.ToUpper(Model.CurrentUser.Gender) == 'M' ? "Nam" : "Nữ")</strong>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fa-solid fa-cake-candles fa-fw me-3 text-muted"></i>
+                                <div class="d-flex align-items-center gap-3">
+                                    <small class="text-muted d-block">Ngày sinh</small>
+                                    <strong>@Model.CurrentUser.DateOfBirth.ToString("dd/MM/yyyy")</strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cột chức năng -->
+            <div class="col-lg-8">
+                <div class="row g-4">
+                    <!-- Card Quản lý Thực vật -->
+                    <div class="col-md-6">
+                        <a asp-page="/Admin/Plant" class="card-link">
+                            <div class="card card-feature card-feature-primary shadow-sm h-100">
+                                <div class="card-body">
+                                    <div class="feature-icon">
+                                        <i class="fa-solid fa-seedling"></i>
+                                    </div>
+                                    <h5 class="card-title">Quản lý Cây Trồng</h5>
+                                    <p class="card-text text-muted">Thêm, sửa, xóa thông tin Cây Trồng.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card Quản lý User -->
+                    <div class="col-md-6">
+                        <div class="card card-feature card-feature-success shadow-sm h-100 disabled-card">
+                            <div class="card-body">
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <h5 class="card-title">Quản lý User</h5>
+                                <p class="card-text text-muted">Quản lý tài khoản người dùng.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Báo cáo -->
+                    <div class="col-md-6">
+                        <a asp-page="/Admin/Report" class="card-link">
+                            <div class="card card-feature card-feature-info shadow-sm h-100">
+                                <div class="card-body">
+                                    <div class="feature-icon">
+                                        <i class="fa-solid fa-chart-line"></i>
+                                    </div>
+                                    <h5 class="card-title">Báo cáo</h5>
+                                    <p class="card-text text-muted">Xem báo cáo thống kê hệ thống.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card Cài đặt -->
+                    <div class="col-md-6">
+                        <a class="card-link">
+                            <div class="card card-feature card-feature-warning shadow-sm h-100 disabled-card">
+                                <div class="card-body">
+                                    <div class="feature-icon">
+                                        <i class="fa-solid fa-cog"></i>
+                                    </div>
+                                    <h5 class="card-title">Cài đặt</h5>
+                                    <p class="card-text text-muted">Cấu hình các thông số hệ thống.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+</div>
