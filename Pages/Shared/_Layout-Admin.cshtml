@@ -14,52 +14,28 @@
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@@eonasdan/tempus-dominus@6.9.7/dist/css/tempus-dominus.min.css" />
-
+        
+    @RenderSection("Styles", required: false)
 </head>
 
 <body>
 
-    <div class="header_section">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" asp-area="" asp-page="/Admin/Admin"
-                    style="font-weight: 800; color: #28454e;">PLANTPEDIA</a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto gap-4">
-                        <li class="nav-item active">
-                            <a class="nav-link" asp-page="/Admin/Admin">Trang Chủ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Admin/Plant">Cây Trồng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Admin/Report">Báo Cáo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="#">Người Dùng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="#">Hệ Thống</a>
-                        </li>
-                        @if (User.Identity != null && User.Identity.IsAuthenticated)
-                        {
-                            <form asp-page="/Auth/Logout" method="post" class="d-inline">
-                                <button type="submit" class="nav-link btn btn-link text-dark">Đăng xuất</button>
-                            </form>
-                        }
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
+    <header>
+        <h1>PLANTPEDIA</h1>
+        <nav>
+            <a asp-page="/Admin/Admin">Trang Chủ</a>
+            <a asp-page="/Admin/Plant">Cây Trồng</a>
+            <a asp-page="/Admin/Report">Báo Cáo</a>
+            <a asp-page="">Người Dùng</a>
+            <a asp-page="">Hệ Thống</a>
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                <form asp-page="/Auth/Logout" method="post" class="d-flex align-items-center">
+                    <button class="nav-link btn btn-link text-dark">Đăng xuất</button>
+                </form>
+            }
+        </nav>
+    </header>
 
     <div class="container">
         <main role="main" class="pb-3">

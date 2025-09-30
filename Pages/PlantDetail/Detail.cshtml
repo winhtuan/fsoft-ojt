@@ -3,19 +3,13 @@
 @using Plantpedia.Helper
 
 @{
-    // Tiêu đề đã được set trong file code-behind
+    ViewData["Title"] = "Chi tiết cây trồng";
 }
-
+@section Styles {
+    <link rel="stylesheet" href="~/css/detail-page.css" asp-append-version="true" />
+}
 <main class="container my-5">
     <div class="row">
-        <!-- Nút Trở Lại -->
-        <div class="mb-4">
-            <a href="#" onclick="history.back(); return false;" class="btn btn-outline-secondary">
-                <i class="fas fa-arrow-left me-2"></i>
-                Trở lại
-            </a>
-        </div>
-
         <!-- Cột bên trái: Hình ảnh sản phẩm -->
         <div class="col-lg-6">
             @if (Model.Plant.ImageUrls != null && Model.Plant.ImageUrls.Any())

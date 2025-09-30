@@ -1,71 +1,73 @@
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+html {
+font-size: 16px;
+}
 }
 
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #f5f7fa;
-}
-
-.btn:focus,
-.btn:active:focus,
-.btn-link.nav-link:focus,
-.form-control:focus,
-.form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #323335;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
 
 * {
-  box-sizing: border-box !important;
-  transition: ease all 0.5s;
+margin: 0;
+padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
+a {
+text-decoration: none;
+color: inherit;
 }
 
 body {
-  color: #666666;
-  font-size: 14px;
-  font-family: "Sen", sans-serif;
-  line-height: 1.80857;
-  font-weight: normal;
-  overflow-x: hidden;
+font: normal 18px 'Open Sans', sans-serif;
+background: #fafafa;
+color: #333;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 3px 10px;
-  font-size: 17px;
-  color: #2a2a2a;
-  border-radius: 5px;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
+main {
+min-height: 100vh;
 }
 
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #2a2a2a;
-  background-color: #e0fdf9;
-  border-radius: 5px;
+header {
+background: white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+h1{
+font: normal 3.5em 'Playfair Display SC', serif;
+text-align:center;
+letter-spacing: 4px;
 }
 
-.header_section::after {
-  content: "";
-  position: absolute;
-  width: 730px;
-  height: 900px;
-  background-color: #e0fdf9;
-  left: -40px;
-  top: -70px;
-  z-index: -1;
-  border-bottom-right-radius: 100%;
+nav {
+max-width: 800px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
 }
 
-.navbar-brand {
-  margin: 0px;
-  float: right;
-  font-weight: 800;
-  color: #28454e;
+nav a {
+flex-grow: 1;
+text-align: center;
+padding: 1em;
+position: relative;
 }
+
+nav a::after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+right:0;
+height: 2px;
+transform: scaleX(0);
+background: #333;
+transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+}
+
+nav a:hover{
+color: #0d4927;
+}
+
+nav a:hover::after{
+transform: scaleX(1)
+}
+
+

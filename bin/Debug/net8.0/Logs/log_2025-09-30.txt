@@ -1,0 +1,62 @@
+﻿2025-09-30 23:53:24.404 [Login.cshtml] [INFO] : Bắt đầu quá trình đăng nhập cho người dùng 'admin'.
+2025-09-30 23:53:24.414 [UserService] [INFO] : Login attempt for username: 'admin'.
+2025-09-30 23:53:24.416 [UserRepository] [INFO] : Attempting to get user login data for username: admin.
+2025-09-30 23:53:25.261 [UserRepository] [INFO] : Successfully found user login data for username: admin.
+2025-09-30 23:53:25.264 [UserService] [INFO] : User 'admin' authenticated successfully. Updating last login time.
+2025-09-30 23:53:25.264 [UserRepository] [INFO] : Attempting to save changes to the database.
+2025-09-30 23:53:25.322 [UserRepository] [INFO] : Successfully saved changes to the database.
+2025-09-30 23:53:25.322 [UserService] [INFO] : User 'admin' logged in successfully.
+2025-09-30 23:53:25.324 [Login.cshtml] [INFO] : Người dùng 'admin' (UserId: 1) đăng nhập thành công.
+2025-09-30 23:53:25.335 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:53:25.340 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:53:25.341 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:53:25.356 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:53:25.357 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:53:25.357 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-09-30 23:55:44.699 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:55:44.700 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:55:44.701 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:55:44.769 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:55:44.770 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:55:44.770 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-09-30 23:57:20.322 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:57:20.323 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:57:20.323 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:57:20.325 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:57:20.326 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:57:20.326 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-09-30 23:57:44.466 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:57:44.467 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:57:44.467 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:57:44.470 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:57:44.470 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:57:44.470 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-09-30 23:58:07.681 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:58:07.682 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:58:07.682 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:58:07.684 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:58:07.685 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:58:07.685 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-09-30 23:58:30.775 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:58:30.776 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:58:30.777 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:58:30.833 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:58:30.834 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:58:30.834 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-09-30 23:58:35.257 [Logout.cshtml] [INFO] : Người dùng 'admin' đang thực hiện đăng xuất.
+2025-09-30 23:58:35.259 [Logout.cshtml] [INFO] : Người dùng 'admin' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-09-30 23:58:58.623 [Login.cshtml] [INFO] : Bắt đầu quá trình đăng nhập cho người dùng 'admin'.
+2025-09-30 23:58:58.624 [UserService] [INFO] : Login attempt for username: 'admin'.
+2025-09-30 23:58:58.624 [UserRepository] [INFO] : Attempting to get user login data for username: admin.
+2025-09-30 23:58:58.627 [UserRepository] [INFO] : Successfully found user login data for username: admin.
+2025-09-30 23:58:58.629 [UserService] [INFO] : User 'admin' authenticated successfully. Updating last login time.
+2025-09-30 23:58:58.630 [UserRepository] [INFO] : Attempting to save changes to the database.
+2025-09-30 23:58:58.633 [UserRepository] [INFO] : Successfully saved changes to the database.
+2025-09-30 23:58:58.633 [UserService] [INFO] : User 'admin' logged in successfully.
+2025-09-30 23:58:58.634 [Login.cshtml] [INFO] : Người dùng 'admin' (UserId: 1) đăng nhập thành công.
+2025-09-30 23:58:58.640 [Admin.cshtml] [INFO] : Bắt đầu tải trang Admin cho người dùng.
+2025-09-30 23:58:58.640 [UserService] [INFO] : Attempting to retrieve user by ID: 1.
+2025-09-30 23:58:58.641 [UserRepository] [INFO] : Attempting to get user by ID: 1.
+2025-09-30 23:58:58.643 [UserRepository] [INFO] : Successfully found user with ID: 1.
+2025-09-30 23:58:58.643 [UserService] [INFO] : Successfully retrieved user for ID: 1.
+2025-09-30 23:58:58.643 [Admin.cshtml] [INFO] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).

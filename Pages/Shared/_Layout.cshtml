@@ -1,71 +1,39 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Plantpedia</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/detail.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
     <link rel="stylesheet" href="~/Plantpedia.styles.css" asp-append-version="true" />
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/classy-nav/dist/classy-nav.css" />
 
+    @RenderSection("Styles", required: false)
+</head>
 <body>
 
-    <div class="header_section">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" asp-area="" asp-page="/Home/Home"
-                    style="font-weight: 800; color: #28454e;">PLANTPEDIA</a>
+    <header>
+        <h1>PLANTPEDIA</h1>
+        <nav>
+            <a asp-page="/Home/Home">Trang Chủ</a>
+            <a asp-page="/Home/Search">Cây Trồng</a>
+            <a asp-page="">Đóng Góp</a>
+            <a asp-page="">Hội Nhóm</a>
+        </nav>
+    </header>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <main role="main">
+        @RenderBody()
+    </main>
 
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto gap-4">
-                        <li class="nav-item active">
-                            <a class="nav-link" asp-page="/Home/Home">Plant</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="#">Event</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="#">Club</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="#">Contribute</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="#">Donate</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Plantpedia - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/classy-nav/dist/classy-nav.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
-
 </html>

@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/dotNet/FPT-Plantpedia-Razor/Pages/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/dotNet/FPT-Plantpedia-Razor/Pages/Partial/_CardPatial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFxfQ2FyZFBhdGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

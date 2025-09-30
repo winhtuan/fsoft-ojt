@@ -13,16 +13,16 @@
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
-      "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail.css",
-      "PackagePath": "staticwebassets\\css\\detail.css"
+      "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
+      "PackagePath": "staticwebassets\\css\\detail-page.css"
     },
     {
       "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
       "PackagePath": "staticwebassets\\css\\dropdown.css"
     },
     {
-      "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\home.css",
-      "PackagePath": "staticwebassets\\css\\home.css"
+      "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
+      "PackagePath": "staticwebassets\\css\\home-page.css"
     },
     {
       "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
@@ -31,6 +31,10 @@
     {
       "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
       "PackagePath": "staticwebassets\\css\\report-page.css"
+    },
+    {
+      "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
+      "PackagePath": "staticwebassets\\css\\search-page.css"
     },
     {
       "Id": "E:\\dotNet\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
