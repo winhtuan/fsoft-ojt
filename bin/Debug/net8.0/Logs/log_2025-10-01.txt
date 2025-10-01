@@ -165,3 +165,106 @@
 2025-10-01 10:09:58.574 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
 2025-10-01 10:09:58.575 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
 2025-10-01 10:09:58.575 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 20:35:01.577 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 20:35:01.580 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-01 20:35:01.580 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-01 20:35:02.284 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-01 20:35:02.285 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-01 20:35:02.285 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-01 20:35:02.292 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-01 20:35:02.293 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-01 20:35:02.294 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-01 20:35:02.299 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-01 20:35:02.300 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-01 20:35:02.300 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-01 20:35:02.305 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-01 20:35:02.305 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-01 20:35:02.306 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-01 20:35:02.310 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-01 20:35:02.311 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-01 20:35:02.311 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-01 20:35:02.312 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 20:35:02.313 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 20:35:02.313 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 20:35:02.314 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 20:35:02.455 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 20:35:02.456 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 20:35:02.456 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 20:35:02.458 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 20:35:02.458 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 20:35:04.747 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 20:35:04.748 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 20:35:04.748 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 20:35:04.799 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 20:35:04.799 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 20:35:04.799 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:09:49.256 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:09:49.257 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:09:49.257 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:09:49.350 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:09:49.350 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:09:49.350 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:10:25.302 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:10:25.302 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:10:25.302 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:10:25.307 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:10:25.307 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:10:25.307 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:10:34.696 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:10:34.696 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:10:34.696 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:10:34.704 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:10:34.704 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:10:34.705 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:11:21.561 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:11:21.561 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:11:21.562 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:11:21.566 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:11:21.566 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:11:21.566 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:11:43.525 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:11:43.525 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:11:43.525 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:11:43.530 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:11:43.530 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:11:43.530 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:11:53.001 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:11:53.001 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:11:53.001 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:11:53.005 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:11:53.005 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:11:53.006 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:12:03.811 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:12:03.812 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:12:03.812 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:12:03.816 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:12:03.816 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:12:03.816 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:12:26.930 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:12:26.930 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:12:26.930 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:12:26.935 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:12:26.935 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:12:26.935 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:12:38.386 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:12:38.387 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:12:38.387 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:12:38.391 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:12:38.391 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:12:38.391 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:12:47.628 [Detail.cshtml] [Info] : OnGetAsync: Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-01 21:12:47.628 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-01 21:12:47.628 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-01 21:12:47.632 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-01 21:12:47.633 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-01 21:12:47.633 [Detail.cshtml] [Info] : Hiển thị thành công chi tiết cho cây trồng 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-01 21:13:07.375 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 21:13:07.375 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 21:13:07.376 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 21:13:07.376 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 21:13:07.376 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 21:13:07.386 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 21:13:07.386 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 21:13:07.387 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 21:13:07.387 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 21:13:07.387 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.

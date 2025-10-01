@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPT-Plantpedia-Razor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ecdf60e5b8d686c793f16df395502eb305dc261")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07b91f37b192b6caad0d13df7166c417e908a2c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPT-Plantpedia-Razor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPT-Plantpedia-Razor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

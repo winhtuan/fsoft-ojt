@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bp5A7LSx4s6O/hucvVNA+JklIF5WR1hH2F+SNhk0rf8=",
+  "Hash": "KkzDaT1K3Y5LRMSTyk8t35tVMXcH9NLGYTobS+n5iE4=",
   "Source": "FPT-Plantpedia-Razor",
   "BasePath": "_content/FPT-Plantpedia-Razor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FPT-Plantpedia-Razor\\wwwroot",
       "Source": "FPT-Plantpedia-Razor",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "FPT-Plantpedia-Razor#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "P0KvVlpzP11kaVCSr2qPO+7zxUGC9GTrStU0Qa4ZyhI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css"
+      "OriginalItemSpec": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "FPT-Plantpedia-Razor#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "P0KvVlpzP11kaVCSr2qPO+7zxUGC9GTrStU0Qa4ZyhI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/admin#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dashboard.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dashboard.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/detail-page#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -115,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8l650yr154",
-      "Integrity": "nGj3lkazdFN89VeDXhpwumE0P369Ir1CVeRmJ1Zu3fQ=",
+      "Fingerprint": "q9ao84gulq",
+      "Integrity": "/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\detail-page.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/dropdown#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dropdown.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/home-page#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -157,17 +157,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "ftqnzo431y",
+      "Integrity": "fbX+fBeZNl+l/j9PDEwt2kDEGA/qs46TZYQqLy0EM3Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home-page.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/login_page#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login_page.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/report-page#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\report-page.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/search-page#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\search-page.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "js/dashboard#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dashboard.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "js/report-page#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\js\\report-page.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/all#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/all.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/brands#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/brands.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/fontawesome#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/fontawesome.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/regular#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/regular.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/solid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/solid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/svg-with-js#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/svg-with-js.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/svg#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/svg.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/v4-font-face#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/v4-font-face.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/v4-shims#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/v4-shims.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/v5-font-face#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/css/v5-font-face.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/all#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/all.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/brands#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/brands.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/conflict-detection#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/conflict-detection.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/fontawesome#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/fontawesome.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/regular#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1886,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/regular.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/solid#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1928,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/solid.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1949,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/v4-shims#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1970,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/js/v4-shims.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/sprites/brands#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/sprites/regular#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2033,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/sprites/solid#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2054,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -2075,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -2096,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -2117,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -2138,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2180,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2201,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2222,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2243,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2264,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2285,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2306,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2327,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2348,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2369,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2393,7 +2393,7 @@
   "Endpoints": [
     {
       "Route": "css/admin.0hy7zheavo.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2438,7 +2438,7 @@
     },
     {
       "Route": "css/admin.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2475,7 +2475,7 @@
     },
     {
       "Route": "css/dashboard.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dashboard.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2512,7 +2512,7 @@
     },
     {
       "Route": "css/dashboard.ymh0oz04r8.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dashboard.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2556,53 +2556,8 @@
       ]
     },
     {
-      "Route": "css/detail-page.8l650yr154.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1903"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nGj3lkazdFN89VeDXhpwumE0P369Ir1CVeRmJ1Zu3fQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 13:16:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8l650yr154"
-        },
-        {
-          "Name": "label",
-          "Value": "css/detail-page.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nGj3lkazdFN89VeDXhpwumE0P369Ir1CVeRmJ1Zu3fQ="
-        }
-      ]
-    },
-    {
       "Route": "css/detail-page.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2611,7 +2566,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1903"
+          "Value": "3084"
         },
         {
           "Name": "Content-Type",
@@ -2619,11 +2574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nGj3lkazdFN89VeDXhpwumE0P369Ir1CVeRmJ1Zu3fQ=\""
+          "Value": "\"/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 13:16:14 GMT"
+          "Value": "Wed, 01 Oct 2025 13:32:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2633,13 +2588,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nGj3lkazdFN89VeDXhpwumE0P369Ir1CVeRmJ1Zu3fQ="
+          "Value": "sha256-/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY="
+        }
+      ]
+    },
+    {
+      "Route": "css/detail-page.q9ao84gulq.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Oct 2025 13:32:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q9ao84gulq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/detail-page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY="
         }
       ]
     },
     {
       "Route": "css/dropdown.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2676,7 +2676,7 @@
     },
     {
       "Route": "css/dropdown.heeg3gothq.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\dropdown.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,53 +2720,8 @@
       ]
     },
     {
-      "Route": "css/home-page.5ipweew5fc.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 16:50:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/home-page.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
       "Route": "css/home-page.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2775,7 +2730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "2673"
         },
         {
           "Name": "Content-Type",
@@ -2783,11 +2738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"fbX+fBeZNl+l/j9PDEwt2kDEGA/qs46TZYQqLy0EM3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 16:50:42 GMT"
+          "Value": "Wed, 01 Oct 2025 03:07:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2797,13 +2752,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-fbX+fBeZNl+l/j9PDEwt2kDEGA/qs46TZYQqLy0EM3Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/home-page.ftqnzo431y.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fbX+fBeZNl+l/j9PDEwt2kDEGA/qs46TZYQqLy0EM3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Oct 2025 03:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftqnzo431y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/home-page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fbX+fBeZNl+l/j9PDEwt2kDEGA/qs46TZYQqLy0EM3Q="
         }
       ]
     },
     {
       "Route": "css/login_page.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2840,7 +2840,7 @@
     },
     {
       "Route": "css/login_page.mhh1cnnebn.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2885,7 +2885,7 @@
     },
     {
       "Route": "css/report-page.5ipweew5fc.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2930,7 +2930,7 @@
     },
     {
       "Route": "css/report-page.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2967,7 +2967,7 @@
     },
     {
       "Route": "css/search-page.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3004,7 +3004,7 @@
     },
     {
       "Route": "css/search-page.oh1oq41h05.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\search-page.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3049,7 +3049,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3086,7 +3086,7 @@
     },
     {
       "Route": "css/site.lgiv3mt194.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3131,7 +3131,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3168,7 +3168,7 @@
     },
     {
       "Route": "favicon.zgvoz1zu8e.ico",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3213,7 +3213,7 @@
     },
     {
       "Route": "FPT-Plantpedia-Razor.bundle.scp.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3250,7 +3250,7 @@
     },
     {
       "Route": "FPT-Plantpedia-Razor.nef1eka8yq.bundle.scp.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPT-Plantpedia-Razor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3295,7 +3295,7 @@
     },
     {
       "Route": "FPT-Plantpedia-Razor.nef1eka8yq.styles.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3340,7 +3340,7 @@
     },
     {
       "Route": "FPT-Plantpedia-Razor.styles.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FPT-Plantpedia-Razor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3377,7 +3377,7 @@
     },
     {
       "Route": "js/dashboard.2lebcdi2x9.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3422,7 +3422,7 @@
     },
     {
       "Route": "js/dashboard.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3459,7 +3459,7 @@
     },
     {
       "Route": "js/report-page.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3496,7 +3496,7 @@
     },
     {
       "Route": "js/report-page.ri1quxl379.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3541,7 +3541,7 @@
     },
     {
       "Route": "js/site.3r8b2a0bt1.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3586,7 +3586,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3623,7 +3623,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3668,7 +3668,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3705,7 +3705,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3742,7 +3742,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3787,7 +3787,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3824,7 +3824,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3869,7 +3869,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3906,7 +3906,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3951,7 +3951,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3988,7 +3988,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4033,7 +4033,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4070,7 +4070,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4107,7 +4107,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4144,7 +4144,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4189,7 +4189,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4234,7 +4234,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4279,7 +4279,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4324,7 +4324,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4361,7 +4361,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4406,7 +4406,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4443,7 +4443,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4480,7 +4480,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4517,7 +4517,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4562,7 +4562,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4607,7 +4607,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4652,7 +4652,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4689,7 +4689,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4734,7 +4734,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4771,7 +4771,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4808,7 +4808,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4845,7 +4845,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4890,7 +4890,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4935,7 +4935,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4972,7 +4972,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5017,7 +5017,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5054,7 +5054,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5099,7 +5099,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5136,7 +5136,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5173,7 +5173,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5218,7 +5218,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5263,7 +5263,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5300,7 +5300,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5345,7 +5345,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5382,7 +5382,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5419,7 +5419,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5464,7 +5464,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5501,7 +5501,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5546,7 +5546,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5591,7 +5591,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5628,7 +5628,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5673,7 +5673,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5710,7 +5710,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5755,7 +5755,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5792,7 +5792,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5837,7 +5837,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5874,7 +5874,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5919,7 +5919,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5956,7 +5956,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6001,7 +6001,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6038,7 +6038,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6083,7 +6083,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6120,7 +6120,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6165,7 +6165,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6202,7 +6202,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6247,7 +6247,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6284,7 +6284,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6329,7 +6329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6366,7 +6366,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6411,7 +6411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6456,7 +6456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6493,7 +6493,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6538,7 +6538,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6575,7 +6575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6612,7 +6612,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6657,7 +6657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6694,7 +6694,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6739,7 +6739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6776,7 +6776,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6813,7 +6813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6858,7 +6858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6903,7 +6903,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6940,7 +6940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6985,7 +6985,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7022,7 +7022,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7059,7 +7059,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7096,7 +7096,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7141,7 +7141,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7186,7 +7186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7231,7 +7231,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7268,7 +7268,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7313,7 +7313,7 @@
     },
     {
       "Route": "lib/font-awesome/css/all.9z318bggar.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7358,7 +7358,7 @@
     },
     {
       "Route": "lib/font-awesome/css/all.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7395,7 +7395,7 @@
     },
     {
       "Route": "lib/font-awesome/css/all.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7432,7 +7432,7 @@
     },
     {
       "Route": "lib/font-awesome/css/all.min.unrcvpaolo.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7477,7 +7477,7 @@
     },
     {
       "Route": "lib/font-awesome/css/brands.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7514,7 +7514,7 @@
     },
     {
       "Route": "lib/font-awesome/css/brands.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7551,7 +7551,7 @@
     },
     {
       "Route": "lib/font-awesome/css/brands.min.sux6plk4pr.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7596,7 +7596,7 @@
     },
     {
       "Route": "lib/font-awesome/css/brands.rkswu0yuh7.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7641,7 +7641,7 @@
     },
     {
       "Route": "lib/font-awesome/css/fontawesome.1zcykv52vb.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7686,7 +7686,7 @@
     },
     {
       "Route": "lib/font-awesome/css/fontawesome.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7723,7 +7723,7 @@
     },
     {
       "Route": "lib/font-awesome/css/fontawesome.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7760,7 +7760,7 @@
     },
     {
       "Route": "lib/font-awesome/css/fontawesome.min.g6isalsinx.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7805,7 +7805,7 @@
     },
     {
       "Route": "lib/font-awesome/css/regular.8jd55s9b1e.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7850,7 +7850,7 @@
     },
     {
       "Route": "lib/font-awesome/css/regular.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7887,7 +7887,7 @@
     },
     {
       "Route": "lib/font-awesome/css/regular.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7924,7 +7924,7 @@
     },
     {
       "Route": "lib/font-awesome/css/regular.min.oovvalj4qh.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7969,7 +7969,7 @@
     },
     {
       "Route": "lib/font-awesome/css/solid.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8006,7 +8006,7 @@
     },
     {
       "Route": "lib/font-awesome/css/solid.gunuv8auxt.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8051,7 +8051,7 @@
     },
     {
       "Route": "lib/font-awesome/css/solid.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8088,7 +8088,7 @@
     },
     {
       "Route": "lib/font-awesome/css/solid.min.ypn9pm789q.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8133,7 +8133,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg-with-js.0tx4yp8bx2.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8178,7 +8178,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg-with-js.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8215,7 +8215,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg-with-js.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8252,7 +8252,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg-with-js.min.oip0qn90p3.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8297,7 +8297,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8334,7 +8334,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg.hrb8z0i5jj.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8379,7 +8379,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8416,7 +8416,7 @@
     },
     {
       "Route": "lib/font-awesome/css/svg.min.zcaulh5xdq.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\svg.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8461,7 +8461,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-font-face.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8498,7 +8498,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-font-face.min.2vxc70yd52.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8543,7 +8543,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-font-face.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8580,7 +8580,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-font-face.wxs0a097tq.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8625,7 +8625,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-shims.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8662,7 +8662,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-shims.min.8ymlpmi400.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8707,7 +8707,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-shims.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8744,7 +8744,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v4-shims.nzqyuygjth.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8789,7 +8789,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v5-font-face.1gg9xwuzb0.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8834,7 +8834,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v5-font-face.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8871,7 +8871,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v5-font-face.min.28ru45q339.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8916,7 +8916,7 @@
     },
     {
       "Route": "lib/font-awesome/css/v5-font-face.min.css",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8953,7 +8953,7 @@
     },
     {
       "Route": "lib/font-awesome/js/all.45tqg4x7up.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8998,7 +8998,7 @@
     },
     {
       "Route": "lib/font-awesome/js/all.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9035,7 +9035,7 @@
     },
     {
       "Route": "lib/font-awesome/js/all.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9072,7 +9072,7 @@
     },
     {
       "Route": "lib/font-awesome/js/all.min.py2ybw1gba.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9117,7 +9117,7 @@
     },
     {
       "Route": "lib/font-awesome/js/brands.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9154,7 +9154,7 @@
     },
     {
       "Route": "lib/font-awesome/js/brands.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9191,7 +9191,7 @@
     },
     {
       "Route": "lib/font-awesome/js/brands.min.m1klkd23lt.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9236,7 +9236,7 @@
     },
     {
       "Route": "lib/font-awesome/js/brands.nejhfe6rli.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9281,7 +9281,7 @@
     },
     {
       "Route": "lib/font-awesome/js/conflict-detection.ji9bf4qcib.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9326,7 +9326,7 @@
     },
     {
       "Route": "lib/font-awesome/js/conflict-detection.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9363,7 +9363,7 @@
     },
     {
       "Route": "lib/font-awesome/js/conflict-detection.min.8t33go0hg9.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9408,7 +9408,7 @@
     },
     {
       "Route": "lib/font-awesome/js/conflict-detection.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9445,7 +9445,7 @@
     },
     {
       "Route": "lib/font-awesome/js/fontawesome.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9482,7 +9482,7 @@
     },
     {
       "Route": "lib/font-awesome/js/fontawesome.min.9wt1labg7b.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9527,7 +9527,7 @@
     },
     {
       "Route": "lib/font-awesome/js/fontawesome.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9564,7 +9564,7 @@
     },
     {
       "Route": "lib/font-awesome/js/fontawesome.u5vne5frxs.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9609,7 +9609,7 @@
     },
     {
       "Route": "lib/font-awesome/js/regular.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9646,7 +9646,7 @@
     },
     {
       "Route": "lib/font-awesome/js/regular.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9683,7 +9683,7 @@
     },
     {
       "Route": "lib/font-awesome/js/regular.min.un4y1zx5ff.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9728,7 +9728,7 @@
     },
     {
       "Route": "lib/font-awesome/js/regular.yusyy51kcn.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9773,7 +9773,7 @@
     },
     {
       "Route": "lib/font-awesome/js/solid.0o9lw306sr.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9818,7 +9818,7 @@
     },
     {
       "Route": "lib/font-awesome/js/solid.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9855,7 +9855,7 @@
     },
     {
       "Route": "lib/font-awesome/js/solid.min.7zl0yuq7se.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9900,7 +9900,7 @@
     },
     {
       "Route": "lib/font-awesome/js/solid.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9937,7 +9937,7 @@
     },
     {
       "Route": "lib/font-awesome/js/v4-shims.ayhwwq6ndx.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9982,7 +9982,7 @@
     },
     {
       "Route": "lib/font-awesome/js/v4-shims.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10019,7 +10019,7 @@
     },
     {
       "Route": "lib/font-awesome/js/v4-shims.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10056,7 +10056,7 @@
     },
     {
       "Route": "lib/font-awesome/js/v4-shims.min.rfa9ear8a8.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10101,7 +10101,7 @@
     },
     {
       "Route": "lib/font-awesome/sprites/brands.e4wa1aq2yc.svg",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10146,7 +10146,7 @@
     },
     {
       "Route": "lib/font-awesome/sprites/brands.svg",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10183,7 +10183,7 @@
     },
     {
       "Route": "lib/font-awesome/sprites/regular.g45vneobtz.svg",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10228,7 +10228,7 @@
     },
     {
       "Route": "lib/font-awesome/sprites/regular.svg",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10265,7 +10265,7 @@
     },
     {
       "Route": "lib/font-awesome/sprites/solid.gk9q6ke24a.svg",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10310,7 +10310,7 @@
     },
     {
       "Route": "lib/font-awesome/sprites/solid.svg",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10347,7 +10347,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-brands-400.so5smks7wt.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10392,7 +10392,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-brands-400.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10429,7 +10429,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-regular-400.or429vfzju.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10474,7 +10474,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-regular-400.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10511,7 +10511,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-solid-900.vwi9msir6r.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10556,7 +10556,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-solid-900.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10593,7 +10593,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-v4compatibility.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10630,7 +10630,7 @@
     },
     {
       "Route": "lib/font-awesome/webfonts/fa-v4compatibility.xk1x5vz7rb.woff2",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10675,7 +10675,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10720,7 +10720,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10757,7 +10757,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10802,7 +10802,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10839,7 +10839,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10884,7 +10884,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10921,7 +10921,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10966,7 +10966,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11003,7 +11003,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11048,7 +11048,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11085,7 +11085,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11122,7 +11122,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11167,7 +11167,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11204,7 +11204,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11249,7 +11249,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11286,7 +11286,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11331,7 +11331,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11376,7 +11376,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11413,7 +11413,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11458,7 +11458,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11503,7 +11503,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11540,7 +11540,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11577,7 +11577,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11622,7 +11622,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {

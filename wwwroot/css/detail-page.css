@@ -1,57 +1,153 @@
+/* --- Ảnh sản phẩm --- */
+#mainPlantImage {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(60, 72, 88, 0.15);
+  border: 1px solid #e9ecef;
+  background: #f8fafc;
+  object-fit: cover;
+  max-height: 420px;
+}
+
 .thumbnail-image {
-  cursor: pointer; /* Biến con trỏ thành hình bàn tay khi di chuột */
-  border: 2px solid transparent; /* Viền trong suốt để giữ layout ổn định */
-  transition: border-color 0.2s ease-in-out, transform 0.2s ease-in-out; /* Hiệu ứng chuyển động mượt mà */
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(60, 72, 88, 0.08);
+  background: #fff;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 .thumbnail-image:hover {
-  transform: scale(1.05); /* Phóng to nhẹ ảnh thumbnail khi di chuột qua */
+  transform: scale(1.08);
+  border-color: #79e9a7;
+  box-shadow: 0 4px 16px rgba(13, 110, 253, 0.12);
 }
 
-/* Kiểu cho ảnh thumbnail đang được chọn */
 .thumbnail-image.active {
-  border-color: #0d6efd; /* Viền màu xanh dương (màu primary của Bootstrap) */
+  border-color: #198754;
+  box-shadow: 0 0 0 3px #d1e7dd;
 }
 
-/* --- Kiểu cho Khu vực Tab --- */
-
-.product-details-tabs .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+/* --- Tiêu đề và mô tả --- */
+.display-5 {
+  font-weight: 700;
+  color: #075f2c;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
 }
 
-.product-details-tabs .nav-link {
-  color: #495057; /* Màu chữ xám đậm cho các tab không được chọn */
-  font-weight: 500;
-  border: 1px solid transparent;
-  border-top-left-radius: 0.35rem;
-  border-top-right-radius: 0.35rem;
+.text-muted.fst-italic {
+  font-size: 1.1rem;
+  color: #6c757d !important;
 }
 
-.product-details-tabs .nav-link:hover {
-  border-color: #e9ecef #e9ecef #dee2e6; /* Hiệu ứng viền khi di chuột */
-}
-
-/* Kiểu cho tab đang được chọn (active) */
-.product-details-tabs .nav-link.active {
-  color: #0d6efd; /* Màu chữ xanh dương */
-  background-color: #fff;
-  /* Trick để làm tab trông như nối liền với phần nội dung bên dưới */
-  border-color: #dee2e6 #dee2e6 #fff;
-  border-bottom: 2px solid #0d6efd; /* Thêm đường gạch chân màu xanh để nhấn mạnh */
-}
-
-/* Kiểu cho phần nội dung của tab */
-.product-details-tabs .tab-content {
-  min-height: 250px; /* Đảm bảo chiều cao tối thiểu để layout không bị nhảy */
-  font-size: 1rem;
-}
-
-.tab-pane h5 {
-  color: #343a40;
+h4 {
+  color: #146338;
+  font-weight: 600;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
-/* Định dạng cho danh sách dl, dt, dd trong tab Chăm sóc */
-.tab-pane dl dt {
+/* --- Badge loại cây --- */
+.badge.bg-success {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+  background: linear-gradient(90deg, #198754 60%, #43c59e 100%);
+  box-shadow: 0 2px 8px rgba(25, 135, 84, 0.08);
+}
+
+/* --- Tabs --- */
+.product-details-tabs .nav-tabs {
+  border-bottom: 2px solid #dee2e6;
+  background: #f8fafc;
+  border-radius: 0.5rem 0.5rem 0 0;
+  overflow: hidden;
+}
+
+.product-details-tabs .nav-link {
+  color: #495057;
   font-weight: 500;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin: 0 0.2rem;
+  padding: 0.8rem 1.5rem;
+  background: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.product-details-tabs .nav-link:hover {
+  background: #e9ecef;
+  color: #178a2a;
+}
+
+.product-details-tabs .nav-link.active {
+  color: #fff;
+  background: linear-gradient(90deg, #339768 60%, #43c59e 100%);
+  border: none;
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.08);
+}
+
+.product-details-tabs .tab-content {
+  min-height: 250px;
+  font-size: 1.05rem;
+  background: #fff;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 4px 24px rgba(60, 72, 88, 0.10);
+  margin-top: -2px;
+}
+
+.tab-pane h5 {
+  color: #198754;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+/* --- Danh sách trong tab --- */
+.tab-pane ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.tab-pane ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.2rem;
+  position: relative;
+}
+
+.tab-pane ul li::before {
+  content: "•";
+  color: #1d7441;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+/* --- Định dạng cho dl, dt, dd trong tab Chăm sóc --- */
+.tab-pane dl {
+  margin-bottom: 0;
+}
+
+.tab-pane dl dt {
+  font-weight: 600;
+  color: #1d7441;
+}
+
+.tab-pane dl dd {
+  margin-bottom: 1rem;
+  color: #495057;
+}
+
+/* --- Responsive --- */
+@media (max-width: 991.98px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+  .tab-content {
+    font-size: 1rem;
+  }
+  #mainPlantImage {
+    max-height: 260px;
+  }
 }
