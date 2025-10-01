@@ -62,7 +62,7 @@ namespace Plantpedia.Pages
                     LoggerHelper.Info(
                         $"Người dùng '{Username}' (UserId: {user.UserId}) đăng nhập thành công."
                     );
-                    return RedirectAfterLogin();
+                    return RedirectToPage("/Admin/Admin");
                 }
                 else
                 {
@@ -95,33 +95,10 @@ namespace Plantpedia.Pages
                 CookieAuthenticationDefaults.AuthenticationScheme
             );
 
-            // CẢI TIẾN: Thêm AuthenticationProperties để hỗ trợ "Remember Me"
-            var authProperties = new AuthenticationProperties
-            {
-                // Nếu người dùng check "Remember Me", cookie sẽ tồn tại sau khi đóng trình duyệt.
-                IsPersistent = RememberMe,
-
-                // Thời gian sống của cookie, nên đồng bộ với cấu hình trong Program.cs
-                ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1),
-
-                // Tự động làm mới cookie nếu người dùng hoạt động
-                AllowRefresh = true,
-            };
-
             await HttpContext.SignInAsync(
                 CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(claimsIdentity),
-                authProperties // Truyền thuộc tính vào đây
+                new ClaimsPrincipal(claimsIdentity)
             );
-        }
-
-        private IActionResult RedirectAfterLogin()
-        {
-            if (!string.IsNullOrWhiteSpace(ReturnUrl) && Url.IsLocalUrl(ReturnUrl))
-            {
-                return Redirect(ReturnUrl);
-            }
-            return RedirectToPage("/Admin/Admin");
         }
         #endregion
     }

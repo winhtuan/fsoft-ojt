@@ -1,0 +1,103 @@
+.single-hero-post {
+  position: relative; /* Cần thiết để định vị lớp phủ và nội dung */
+  height: 90vh; /* Chiếm 90% chiều cao của màn hình */
+  width: 100%;
+  display: flex; /* Sử dụng flexbox để căn giữa nội dung */
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* Màu chữ mặc định là trắng */
+}
+ 
+/* --- Background Image Styles --- */
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* Đảm bảo ảnh nền che phủ toàn bộ khu vực */
+  background-position: center center; /* Căn giữa ảnh nền */
+  background-repeat: no-repeat;
+  z-index: 1; /* Nằm dưới lớp phủ và nội dung */
+}
+ 
+/* --- Overlay Styles --- */
+.bg-overlay {
+  position: relative; /* Cần thiết cho pseudo-element ::after */
+}
+ 
+.bg-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Lớp phủ màu đen mờ 50% */
+  z-index: 2; /* Nằm trên ảnh nền nhưng dưới nội dung */
+}
+ 
+/* --- Content Styles --- */
+.single-hero-post .container {
+  position: relative;
+  z-index: 3; /* Đảm bảo nội dung luôn nằm trên cùng */
+}
+ 
+.hero-slides-content h2 {
+  font-size: 3rem; /* Cỡ chữ lớn cho tiêu đề */
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Thêm bóng cho chữ để dễ đọc hơn */
+}
+ 
+.hero-slides-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 700px; /* Giới hạn chiều rộng của đoạn văn */
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+ 
+/* --- Button Styles --- */
+.alazea-btn {
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 150px;
+  height: 46px;
+  color: #ffffff;
+  background-color: #70c745;
+  border: 2px solid #70c745;
+  border-radius: 2px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.alazea-btn.active,
+.alazea-btn:hover,
+.alazea-btn:focus {
+  font-size: 16px;
+  color: #70c745;
+  font-weight: 600;
+  background-color: transparent;
+  box-shadow: none;
+}
+/* --- Responsive adjustments for smaller screens --- */
+@media (max-width: 768px) {
+  .hero-slides-content h2 {
+    font-size: 2.2rem;
+  }
+ 
+  .hero-slides-content p {
+    font-size: 1rem;
+  }
+ 
+  .alazea-btn {
+    padding: 12px 28px;
+  }
+}

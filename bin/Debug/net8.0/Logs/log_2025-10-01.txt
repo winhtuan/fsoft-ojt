@@ -95,3 +95,73 @@
 2025-10-01 00:04:06.923 [UserRepository] [Info] : Successfully found user with ID: 1.
 2025-10-01 00:04:06.923 [UserService] [Info] : Successfully retrieved user for ID: 1.
 2025-10-01 00:04:06.923 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-10-01 09:18:43.392 [Login.cshtml] [Info] : Bắt đầu quá trình đăng nhập cho người dùng 'admin'.
+2025-10-01 09:18:43.417 [UserService] [Info] : Login attempt for username: 'admin'.
+2025-10-01 09:18:43.419 [UserRepository] [Info] : Attempting to get user login data for username: admin.
+2025-10-01 09:18:45.221 [UserRepository] [Info] : Successfully found user login data for username: admin.
+2025-10-01 09:18:45.225 [UserService] [Info] : User 'admin' authenticated successfully. Updating last login time.
+2025-10-01 09:18:45.226 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-01 09:18:45.340 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-01 09:18:45.340 [UserService] [Info] : User 'admin' logged in successfully.
+2025-10-01 09:18:45.347 [Login.cshtml] [Info] : Người dùng 'admin' (UserId: 1) đăng nhập thành công.
+2025-10-01 09:18:45.381 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-01 09:18:45.390 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-01 09:18:45.392 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-01 09:18:45.435 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-01 09:18:45.435 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-01 09:18:45.436 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'admin' (UserId: 1).
+2025-10-01 09:18:50.019 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-01 09:18:50.023 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-01 09:18:50.024 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-01 09:18:50.117 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-01 09:18:50.118 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-01 09:18:50.119 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-01 09:18:50.143 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-01 09:18:50.143 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-01 09:18:50.145 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-01 09:18:50.158 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-01 09:18:50.159 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-01 09:18:50.160 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-01 09:18:50.175 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-01 09:18:50.175 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-01 09:18:50.178 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-01 09:18:50.193 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-01 09:18:50.194 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-01 09:18:50.195 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-01 09:18:50.197 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 09:18:50.198 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 09:18:50.201 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 09:18:50.204 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 09:18:50.461 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 09:18:50.461 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 09:18:50.462 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp.
+2025-10-01 09:18:50.464 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-01 09:18:50.464 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-01 09:21:31.896 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-01 09:21:31.896 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 09:21:31.896 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 09:21:31.896 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp.
+2025-10-01 09:21:31.896 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-01 09:21:31.896 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-01 09:25:46.020 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-01 09:25:46.020 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 09:25:46.020 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 09:25:46.020 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp.
+2025-10-01 09:25:46.020 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-01 09:25:46.021 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-01 09:25:56.296 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-01 09:25:56.296 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 09:25:56.296 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 09:25:56.296 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp.
+2025-10-01 09:25:56.296 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-01 09:25:56.296 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-01 10:09:58.441 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 10:09:58.444 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 10:09:58.455 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 10:09:58.457 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 10:09:58.458 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 10:09:58.574 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 10:09:58.574 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 10:09:58.574 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 10:09:58.575 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 10:09:58.575 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.

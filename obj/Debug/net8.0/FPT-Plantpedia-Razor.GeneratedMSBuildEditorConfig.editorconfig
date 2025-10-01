@@ -9,93 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FPT_Plantpedia_Razor
 build_property.RootNamespace = FPT_Plantpedia_Razor
-build_property.ProjectDir = E:\dotNet\FPT-Plantpedia-Razor\
+build_property.ProjectDir = E:\Asp.Net 8\FPT-Plantpedia-Razor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = E:\dotNet\FPT-Plantpedia-Razor
+build_property.MSBuildProjectDirectory = E:\Asp.Net 8\FPT-Plantpedia-Razor
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Admin/Admin.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Admin/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Admin/Plant.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Admin/Plant.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGxhbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Admin/Report.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Admin/Report.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Auth/AccessDenied.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Auth/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Auth/Login.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Auth/Logout.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Auth/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Error.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Home/Home.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Home/Search.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Partial/_CardPatial.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Partial/_CardPatial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFxfQ2FyZFBhdGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Partial/_DropdownPartial.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Partial/_DropdownPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFxfRHJvcGRvd25QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Partial/_ListPlantPartial.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Partial/_ListPlantPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFxfTGlzdFBsYW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Partial/_Paging.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Partial/_Paging.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlhbFxfUGFnaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/PlantDetail/Detail.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/PlantDetail/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbnREZXRhaWxcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/PlantDetail/UpdatePlant.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/PlantDetail/UpdatePlant.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbnREZXRhaWxcVXBkYXRlUGxhbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Shared/_Layout-Admin.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Shared/_Layout-Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQtQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/_ViewImports.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/_ViewStart.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/dotNet/FPT-Plantpedia-Razor/Pages/Shared/_Layout.cshtml]
+[E:/Asp.Net 8/FPT-Plantpedia-Razor/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-acpf9ffp6x

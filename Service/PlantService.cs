@@ -161,14 +161,15 @@ namespace Plantpedia.Service
         private void UpdateCollectionsFromViewModel(PlantInfo plant, UpdatePlantViewModel viewModel)
         {
             plant.PlantImages?.Clear();
-            if (!string.IsNullOrEmpty(viewModel.ImageUrl))
+            plant.PlantImages ??= new List<PlantImg>();
+
+            if (!string.IsNullOrWhiteSpace(viewModel.ImageUrl))
             {
-                plant.PlantImages ??= new List<PlantImg>();
                 plant.PlantImages.Add(
                     new PlantImg
                     {
                         ImageId = Guid.NewGuid().ToString().Substring(0, 10),
-                        ImageUrl = viewModel.ImageUrl,
+                        ImageUrl = viewModel.ImageUrl.Trim(),
                         Caption = $"Ảnh của {plant.CommonName}",
                     }
                 );

@@ -3,7 +3,35 @@
 @{
     ViewData["Title"] = "Trang Chủ";
 }
-
+ 
 @section Styles {
     <link rel="stylesheet" href="~/css/home-page.css" asp-append-version="true" />
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
 }
+ 
+<div class="single-hero-post bg-overlay">
+    <!-- Post Image -->
+    <div class="slide-img bg-img"
+        style="background-image: url(https://img.freepik.com/premium-photo/trees-are-planted-soil-hands-people-take-care-protect-trees_1…">
+    </div>
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12">
+                <!-- Post Content -->
+                <div class="hero-slides-content text-center">
+                    <h2>Tra cứu và khám phá thế giới cây trồng quanh bạn</h2>
+                    <p>Website giúp bạn tìm hiểu thông tin chi tiết về các loại cây: đặc điểm, vùng phân bố, công dụng
+                        và cách chăm sóc.
+                        Nhanh chóng, chính xác và dễ sử dụng dành cho mọi người yêu thiên nhiên.</p>
+                    <div class="welcome-btn-group">
+                        <a href="/Home/Search" class="btn alazea-btn">Bắt đầu tra cứu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

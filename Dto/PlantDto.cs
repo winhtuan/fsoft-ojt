@@ -4,13 +4,6 @@ using Plantpedia.Enum;
 
 namespace Plantpedia.DTO
 {
-    /// <summary>
-    /// Đối tượng truyền tải dữ liệu (DTO) chứa thông tin đầy đủ về một cây trồng.
-    /// DTO này được thiết kế để phục vụ nhiều giao diện khác nhau:
-    /// - Hiển thị danh sách (thẻ cây trồng)
-    /// - Hiển thị trang chi tiết
-    /// - Đổ dữ liệu vào form chỉnh sửa
-    /// </summary>
     public class PlantDto
     {
         // =================================================================

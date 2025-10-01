@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i2Gk9UpCudE=",
+  "dgSpecHash": "ID/fh7EQqxA=",
   "success": true,
-  "projectFilePath": "E:\\dotNet\\FPT-Plantpedia-Razor\\FPT-Plantpedia-Razor.csproj",
+  "projectFilePath": "E:\\Asp.Net 8\\FPT-Plantpedia-Razor\\FPT-Plantpedia-Razor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\winhtuan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\winhtuan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

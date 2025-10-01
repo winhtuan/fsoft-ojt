@@ -2,8 +2,7 @@
 
 @foreach (var plant in Model)
 {
-    <tr>
-        <td><input type="checkbox" class="form-check-input"></td>
+    <tr class="small">
         <td>
             <img src="@(plant.ImageUrls?.FirstOrDefault() ?? "https://placehold.co/400")" class="me-2 rounded" alt="plant"
                 style="width:40px; height:40px; object-fit:cover;">

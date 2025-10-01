@@ -17,6 +17,17 @@ namespace Plantpedia.Helper
 
             if (!Directory.Exists(_logDirectory))
                 Directory.CreateDirectory(_logDirectory);
+
+            string logFileName = $"log_{DateTime.Now:yyyy-MM-dd}.txt";
+            string logFilePath = Path.Combine(_logDirectory, logFileName);
+            if (File.Exists(logFilePath))
+            {
+                try
+                {
+                    File.Delete(logFilePath);
+                }
+                catch { }
+            }
         }
 
         public static void Info(string message, [CallerFilePath] string callerFilePath = "") =>

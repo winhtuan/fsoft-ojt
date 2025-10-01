@@ -32,6 +32,7 @@ namespace Plantpedia.Repository
                 var plants = await _context
                     .PlantInfos.ProjectTo<PlantDto>(_mapper.ConfigurationProvider)
                     .ToListAsync();
+
                 LoggerHelper.Info($"Lấy thành công {plants.Count} cây trồng.");
                 return plants;
             }
@@ -56,6 +57,7 @@ namespace Plantpedia.Repository
             {
                 var query = _context.PlantInfos.AsQueryable();
 
+                // Lọc theo các điều kiện nếu có
                 query = query
                     .WhereIf(!string.IsNullOrEmpty(plantTypeId), p => p.PlantTypeId == plantTypeId)
                     .WhereIf(
@@ -80,6 +82,7 @@ namespace Plantpedia.Repository
                 var result = await query
                     .ProjectTo<PlantDto>(_mapper.ConfigurationProvider)
                     .ToListAsync();
+
                 LoggerHelper.Info($"Tìm thấy {result.Count} cây trồng phù hợp với bộ lọc.");
                 return result;
             }
@@ -96,12 +99,9 @@ namespace Plantpedia.Repository
         )
         {
             if (string.IsNullOrWhiteSpace(keywords))
-            {
                 return query;
-            }
 
             var searchTerms = keywords.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
             foreach (var term in searchTerms)
             {
                 var searchTerm = term.ToLower();
@@ -114,7 +114,6 @@ namespace Plantpedia.Repository
                     || p.PlantUsages.Any(pu => pu.Usage.Name.ToLower().Contains(searchTerm))
                 );
             }
-
             return query;
         }
 
@@ -165,13 +164,10 @@ namespace Plantpedia.Repository
                     .FirstOrDefaultAsync(p => p.PlantId == plantId);
 
                 if (plant == null)
-                {
                     LoggerHelper.Warn($"Không tìm thấy cây trồng để cập nhật với ID: {plantId}.");
-                }
                 else
-                {
                     LoggerHelper.Info($"Lấy thành công cây trồng để cập nhật với ID: {plantId}.");
-                }
+
                 return plant;
             }
             catch (Exception ex)
@@ -180,6 +176,25 @@ namespace Plantpedia.Repository
                     ex,
                     $"Đã xảy ra lỗi khi lấy cây trồng để cập nhật với ID: {plantId}."
                 );
+                throw;
+            }
+        }
+
+        public async Task<PlantInfo?> GetByIdAsync(string id)
+        {
+            LoggerHelper.Info($"Bắt đầu tìm cây trồng theo ID: {id}.");
+            try
+            {
+                var plant = await _context.PlantInfos.FindAsync(id);
+                if (plant == null)
+                    LoggerHelper.Warn($"Không tìm thấy cây trồng với ID: {id}.");
+                else
+                    LoggerHelper.Info($"Tìm thấy thành công cây trồng với ID: {id}.");
+                return plant;
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error(ex, $"Đã xảy ra lỗi khi tìm cây trồng theo ID: {id}.");
                 throw;
             }
         }
@@ -214,29 +229,6 @@ namespace Plantpedia.Repository
                     ex,
                     $"Đã xảy ra lỗi khi cập nhật cây trồng ID: {plant.PlantId}."
                 );
-                throw;
-            }
-        }
-
-        public async Task<PlantInfo?> GetByIdAsync(string id)
-        {
-            LoggerHelper.Info($"Bắt đầu tìm cây trồng theo ID: {id}.");
-            try
-            {
-                var plant = await _context.PlantInfos.FindAsync(id);
-                if (plant == null)
-                {
-                    LoggerHelper.Warn($"Không tìm thấy cây trồng với ID: {id}.");
-                }
-                else
-                {
-                    LoggerHelper.Info($"Tìm thấy thành công cây trồng với ID: {id}.");
-                }
-                return plant;
-            }
-            catch (Exception ex)
-            {
-                LoggerHelper.Error(ex, $"Đã xảy ra lỗi khi tìm cây trồng theo ID: {id}.");
                 throw;
             }
         }
