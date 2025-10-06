@@ -1,0 +1,27 @@
+﻿2025-10-06 09:19:05.860 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-06 09:19:05.871 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-06 09:19:05.872 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-06 09:19:08.393 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-06 09:19:08.396 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-06 09:19:08.399 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-06 09:19:08.429 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-06 09:19:08.431 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-06 09:19:08.434 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-06 09:19:08.458 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-06 09:19:08.459 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-06 09:19:08.461 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-06 09:19:08.479 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-06 09:19:08.481 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-06 09:19:08.484 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-06 09:19:08.503 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-06 09:19:08.505 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-06 09:19:08.509 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-06 09:19:08.512 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-06 09:19:08.514 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-06 09:19:08.518 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-06 09:19:08.524 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-06 09:19:09.156 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 09:19:09.157 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 09:19:09.163 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 09:19:09.167 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-06 09:19:09.168 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.

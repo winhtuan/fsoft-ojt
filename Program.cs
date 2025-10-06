@@ -25,10 +25,10 @@ var mvcBuilder = builder.Services.AddRazorPages(options =>
     options.Conventions.AddPageRoute("/Home/Home", "");
 });
 
-if (builder.Environment.IsDevelopment())
-{
-    mvcBuilder.AddRazorRuntimeCompilation();
-}
+// if (builder.Environment.IsDevelopment())
+// {
+//     mvcBuilder.AddRazorRuntimeCompilation();
+// }
 
 builder.Services.ConfigureApplicationCookie(options =>
 {

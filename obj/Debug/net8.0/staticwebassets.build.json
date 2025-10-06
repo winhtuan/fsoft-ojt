@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KkzDaT1K3Y5LRMSTyk8t35tVMXcH9NLGYTobS+n5iE4=",
+  "Hash": "KpQ1t/Yb8OnSiQjGEds3wwk5mlMYPBtFnfQDarGgJz8=",
   "Source": "FPT-Plantpedia-Razor",
   "BasePath": "_content/FPT-Plantpedia-Razor",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "q9ao84gulq",
-      "Integrity": "/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY=",
+      "Fingerprint": "qlslx11edk",
+      "Integrity": "DnmrvB395moMLl0h2g9YfSWYM46TZvhNB+0nyhzvXwk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\detail-page.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mhh1cnnebn",
-      "Integrity": "ykbCJ59oIQwWoOId+WlzQqu6WPRgPAuux6ZvXD33ZNQ=",
+      "Fingerprint": "5k9nd5uh9y",
+      "Integrity": "JRFKo9SRdvA9EDIyF1OwqwDbYnD9oZfdJHHXkDGoM/A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login_page.css"
@@ -2574,11 +2574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY=\""
+          "Value": "\"DnmrvB395moMLl0h2g9YfSWYM46TZvhNB+0nyhzvXwk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Oct 2025 13:32:25 GMT"
+          "Value": "Wed, 01 Oct 2025 14:12:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2588,12 +2588,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY="
+          "Value": "sha256-DnmrvB395moMLl0h2g9YfSWYM46TZvhNB+0nyhzvXwk="
         }
       ]
     },
     {
-      "Route": "css/detail-page.q9ao84gulq.css",
+      "Route": "css/detail-page.qlslx11edk.css",
       "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\detail-page.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2611,11 +2611,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY=\""
+          "Value": "\"DnmrvB395moMLl0h2g9YfSWYM46TZvhNB+0nyhzvXwk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Oct 2025 13:32:25 GMT"
+          "Value": "Wed, 01 Oct 2025 14:12:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2625,7 +2625,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q9ao84gulq"
+          "Value": "qlslx11edk"
         },
         {
           "Name": "label",
@@ -2633,7 +2633,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/mFyHvowtl5D8dQNLnQCx2J8i76IOYrG02fwZbRpwuY="
+          "Value": "sha256-DnmrvB395moMLl0h2g9YfSWYM46TZvhNB+0nyhzvXwk="
         }
       ]
     },
@@ -2802,6 +2802,51 @@
       ]
     },
     {
+      "Route": "css/login_page.5k9nd5uh9y.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JRFKo9SRdvA9EDIyF1OwqwDbYnD9oZfdJHHXkDGoM/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Oct 2025 07:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5k9nd5uh9y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login_page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JRFKo9SRdvA9EDIyF1OwqwDbYnD9oZfdJHHXkDGoM/A="
+        }
+      ]
+    },
+    {
       "Route": "css/login_page.css",
       "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
       "Selectors": [],
@@ -2812,7 +2857,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2796"
+          "Value": "2206"
         },
         {
           "Name": "Content-Type",
@@ -2820,11 +2865,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ykbCJ59oIQwWoOId+WlzQqu6WPRgPAuux6ZvXD33ZNQ=\""
+          "Value": "\"JRFKo9SRdvA9EDIyF1OwqwDbYnD9oZfdJHHXkDGoM/A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 13:16:32 GMT"
+          "Value": "Mon, 06 Oct 2025 07:13:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2834,52 +2879,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ykbCJ59oIQwWoOId+WlzQqu6WPRgPAuux6ZvXD33ZNQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/login_page.mhh1cnnebn.css",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2796"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ykbCJ59oIQwWoOId+WlzQqu6WPRgPAuux6ZvXD33ZNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 13:16:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mhh1cnnebn"
-        },
-        {
-          "Name": "label",
-          "Value": "css/login_page.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ykbCJ59oIQwWoOId+WlzQqu6WPRgPAuux6ZvXD33ZNQ="
+          "Value": "sha256-JRFKo9SRdvA9EDIyF1OwqwDbYnD9oZfdJHHXkDGoM/A="
         }
       ]
     },

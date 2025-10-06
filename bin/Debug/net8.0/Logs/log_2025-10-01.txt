@@ -268,3 +268,58 @@
 2025-10-01 21:13:07.387 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
 2025-10-01 21:13:07.387 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
 2025-10-01 21:13:07.387 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 22:14:05.823 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 22:14:05.828 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-01 22:14:05.828 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-01 22:14:06.522 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-01 22:14:06.522 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-01 22:14:06.523 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-01 22:14:06.529 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-01 22:14:06.529 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-01 22:14:06.530 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-01 22:14:06.534 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-01 22:14:06.535 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-01 22:14:06.535 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-01 22:14:06.540 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-01 22:14:06.540 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-01 22:14:06.540 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-01 22:14:06.545 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-01 22:14:06.545 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-01 22:14:06.546 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-01 22:14:06.546 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 22:14:06.547 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 22:14:06.548 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 22:14:06.549 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 22:14:06.682 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:06.682 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:06.683 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:06.684 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 22:14:06.684 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 22:14:17.615 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 22:14:17.616 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 22:14:17.616 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 22:14:17.616 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:17.616 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 22:14:17.616 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 22:14:20.237 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 22:14:20.237 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 22:14:20.237 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 22:14:20.237 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:20.238 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 22:14:20.238 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 22:14:24.959 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 22:14:24.959 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 22:14:24.960 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Khí hậu ID: CLM05     
+2025-10-01 22:14:24.960 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 22:14:24.960 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-01 22:14:25.045 [PlantRepository] [Info] : Tìm thấy 4 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:25.045 [PlantService] [Info] : Service tìm thấy 4 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:25.045 [Search.cshtml] [Info] : Tìm thấy tổng cộng 4 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:25.045 [Search.cshtml] [Info] : Hiển thị 4 cây trồng trên trang 1.
+2025-10-01 22:14:25.046 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-01 22:14:34.879 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-01 22:14:34.880 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-01 22:14:34.880 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-01 22:14:34.880 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-01 22:14:34.880 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-01 22:14:34.880 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.

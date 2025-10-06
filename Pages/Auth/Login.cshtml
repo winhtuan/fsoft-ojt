@@ -6,31 +6,39 @@
 }
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Plantpedia</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/login_page.css" asp-append-version="true" />
 </head>
-
 <body>
-    <div class="container" onclick="">
-        <div class="top"></div>
-        <div class="bottom"></div>
-        <div class="center">
-            <h2>Welcome Back</h2>
+    <div class="container" id="container">
+        <!-- Đăng ký -->
+        <div class="form-container sign-up-container">
+            <form method="post" asp-page-handler="Register">
+                <h1>Tạo tài khoản</h1>
+                <input type="text" name="Name" placeholder="Họ và tên" required />
+                <input type="email" name="Email" placeholder="Email" required />
+                <input type="password" name="Password" placeholder="Mật khẩu" required />
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+        <!-- Đăng nhập -->
+        <div class="form-container sign-in-container">
             <form method="post">
-                <input asp-for="Username" type="text" placeholder="Account" />
-                <input asp-for="Password" type="password" placeholder="Password" />
-                <button type="submit">Sign in</button>
-
+                <h1>Đăng nhập</h1>
+                <input asp-for="Username" type="text" placeholder="Tên đăng nhập hoặc Email" autocomplete="username" required />
+                <input asp-for="Password" type="password" placeholder="Mật khẩu" autocomplete="current-password" required />
+                <a href="/ForgotPassword">Quên mật khẩu?</a>
+                <button type="submit">Đăng nhập</button>
                 @if (Model.LoginFailed)
                 {
-                    <div class="alert alert-danger mt-3" role="alert">
+                    <div class="alert alert-danger" role="alert">
                         <i class="bi bi-exclamation-triangle"></i>
                         @if (!string.IsNullOrEmpty(Model.ErrorMessage))
                         {
@@ -42,36 +50,36 @@
                         }
                     </div>
                 }
-
-                <h2>&nbsp;</h2>
             </form>
         </div>
+        <!-- Panel hiệu ứng chuyển -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Chào mừng trở lại!</h1>
+                    <p>Đăng nhập để khám phá Plantpedia.</p>
+                    <button class="ghost" id="signIn" type="button">Đăng nhập</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Xin chào, bạn mới!</h1>
+                    <p>Nhập thông tin để bắt đầu cùng Plantpedia.</p>
+                    <button class="ghost" id="signUp" type="button">Đăng ký</button>
+                </div>
+            </div>
+        </div>
     </div>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const container = document.querySelector(".container");
-            const inputs = document.querySelectorAll(".center input");
-
-            function activateEffect() {
-                if (!container.classList.contains("active")) {
-                    container.classList.add("active");
-                }
-            }
-
-            inputs.forEach(input => {
-                input.addEventListener("focus", activateEffect);
-                input.addEventListener("click", activateEffect);
-            });
-
-            container.addEventListener("click", activateEffect);
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const container = document.getElementById('container');
+        signUpButton.addEventListener('click', () => {
+            container.classList.add("right-panel-active");
+        });
+        signInButton.addEventListener('click', () => {
+            container.classList.remove("right-panel-active");
         });
     </script>
-
-
 </body>
-
 </html>
