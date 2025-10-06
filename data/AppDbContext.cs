@@ -130,10 +130,10 @@ namespace PLANTINFOWEB.Data
             seedPlantCare(modelBuilder);
             seedPlantInfo(modelBuilder);
             seedPlantImg(modelBuilder);
-            seedAdminAccount(modelBuilder);
+            seedAccount(modelBuilder);
         }
 
-        private static void seedAdminAccount(ModelBuilder modelBuilder)
+        private static void seedAccount(ModelBuilder modelBuilder)
         {
             // Seed cho user_account
             modelBuilder
@@ -142,21 +142,44 @@ namespace PLANTINFOWEB.Data
                     new UserAccount
                     {
                         UserId = 1,
-                        LastName = "Admin",
+                        LastName = "Nguyen Minh A",
                         Gender = 'M',
                         DateOfBirth = new DateTime(2004, 6, 21, 0, 0, 0, DateTimeKind.Utc),
-                        AvatarUrl = "https://zando-ai.com/wp-content/uploads/2025/01/hero-img.png",
+                        AvatarUrl =
+                            "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/AWS-EC2.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",
+                    },
+                    new UserAccount
+                    {
+                        UserId = 2,
+                        LastName = "Nguyen Minh B",
+                        Gender = 'M',
+                        DateOfBirth = new DateTime(2004, 6, 21, 0, 0, 0, DateTimeKind.Utc),
+                        AvatarUrl =
+                            "https://tse3.mm.bing.net/th/id/OIP.JMspq1z3Vm2m00ioNzUtEgHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
                     }
                 );
 
-            // Seed cho user_login_data (liên kết user_id = 1)
+            // Seed cho user_login_data
             modelBuilder
                 .Entity<UserLoginData>()
                 .HasData(
                     new UserLoginData
                     {
                         UserId = 1,
-                        Username = "admin",
+                        Username = "minha",
+                        Role = Role.admin,
+                        Email = "winhtuan.dev@gmail.com",
+                        PasswordSalt = "5W8Ubef8XcxAeznr0uPnWA==",
+                        PasswordHash = "dD8tZsGrCCpE6ZJgyiv7s85HAfs6MI0L8ccPVZ6gOXQ=",
+                        CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc),
+                        LastLoginAt = null,
+                    },
+                    new UserLoginData
+                    {
+                        UserId = 2,
+                        Username = "minhb",
+                        Role = Role.user,
+                        Email = "winhtuan@gmail.com",
                         PasswordSalt = "5W8Ubef8XcxAeznr0uPnWA==",
                         PasswordHash = "dD8tZsGrCCpE6ZJgyiv7s85HAfs6MI0L8ccPVZ6gOXQ=",
                         CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc),

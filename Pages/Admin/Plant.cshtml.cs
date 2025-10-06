@@ -14,7 +14,7 @@ using Plantpedia.ViewModel;
 
 namespace Plantpedia.Pages
 {
-    [Authorize]
+    [Authorize(Policy = "AdminOnly")]
     public class PlantModel : PageModel
     {
         private readonly ILookupService _lookupService;

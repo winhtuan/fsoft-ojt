@@ -23,6 +23,23 @@
             <a asp-page="/Home/Search">Cây Trồng</a>
             <a asp-page="">Đóng Góp</a>
             <a asp-page="">Hội Nhóm</a>
+            @if (!User.Identity!.IsAuthenticated)
+            {
+                <a asp-page="/Auth/Login">Đăng Nhập</a>
+            }
+            @if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("admin"))
+            {
+                <a asp-page="/Admin/Admin">Trang Quản Lý</a>
+                <form asp-page="/Auth/Logout" method="post" class="d-flex align-items-center">
+                    <button class="nav-link btn btn-link text-dark">Đăng xuất</button>
+                </form>
+            }
+            else if (User.Identity!.IsAuthenticated && (User.IsInRole("user") || User.IsInRole("expert")))
+            {
+                <form asp-page="/Auth/Logout" method="post" class="d-flex align-items-center">
+                    <button class="nav-link btn btn-link text-dark">Đăng xuất</button>
+                </form>
+            }
         </nav>
     </header>
 

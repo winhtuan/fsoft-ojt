@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using PLANTINFOWEB.Data;
+using Plantpedia.Enum;
 using Plantpedia.Helper;
 using Plantpedia.Models;
 
@@ -48,23 +49,18 @@ namespace Plantpedia.Repository
             }
         }
 
-        public async Task<bool> IsUsernameExistsAsync(string username)
+        public async Task<bool> IsGmailExistsAsync(string email)
         {
-            LoggerHelper.Info($"Checking if username '{username}' exists.");
+            LoggerHelper.Info($"Checking if email '{email}' exists.");
             try
             {
-                var exists = await _context.UserLoginDatas.AnyAsync(uld =>
-                    uld.Username == username
-                );
-                LoggerHelper.Info($"Username '{username}' exists: {exists}.");
+                var exists = await _context.UserLoginDatas.AnyAsync(uld => uld.Email == email);
+                LoggerHelper.Info($"Email '{email}' exists: {exists}.");
                 return exists;
             }
             catch (Exception ex)
             {
-                LoggerHelper.Error(
-                    ex,
-                    $"An error occurred while checking for username: {username}."
-                );
+                LoggerHelper.Error(ex, $"An error occurred while checking for email: {email}.");
                 throw;
             }
         }
@@ -214,6 +210,36 @@ namespace Plantpedia.Repository
             catch (Exception ex)
             {
                 LoggerHelper.Error(ex, "An error occurred while saving changes to the database.");
+                throw;
+            }
+        }
+
+        public async Task<UserAccount> RegisterNewUserAsync(
+            string name,
+            string email,
+            string password
+        )
+        {
+            LoggerHelper.Info($"Bắt đầu đăng ký người dùng mới: {email}");
+
+            try
+            {
+                var userAccount = AuthHelper.CreateUserAccount(name);
+                await AddUserAccountAsync(userAccount);
+                LoggerHelper.Info($"Đã tạo UserAccount cho: {email} với ID: {userAccount.UserId}");
+                await SaveChangesAsync();
+
+                var loginData = AuthHelper.CreateUserLoginData(userAccount.UserId, email, password);
+                await AddUserLoginDataAsync(loginData);
+                LoggerHelper.Info($"Đã tạo UserLoginData cho: {email}");
+                await SaveChangesAsync();
+
+                LoggerHelper.Info($"Đăng ký thành công cho người dùng: {email}");
+                return userAccount;
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error(ex, $"Lỗi khi đăng ký người dùng: {email}");
                 throw;
             }
         }

@@ -3,6 +3,24 @@
 @{
     Layout = null;
     ViewData["Title"] = "Login";
+
+    // Lấy dữ liệu TempData (nếu có lỗi / dữ liệu form đăng ký cũ)
+    var registerErrorsJson = TempData["RegisterErrors"] as string;
+    var registerModelJson = TempData["RegisterModel"] as string;
+    var loginErrorsJson = TempData["LoginErrors"] as string;
+
+    string[] registerErrors = Array.Empty<string>();
+    string[] loginErrors = Array.Empty<string>();
+    Plantpedia.ViewModel.RegisterViewModel? registerModel = null;
+
+    if (!string.IsNullOrEmpty(registerErrorsJson))
+        registerErrors = System.Text.Json.JsonSerializer.Deserialize<string[]>(registerErrorsJson) ?? Array.Empty<string>();
+
+    if (!string.IsNullOrEmpty(loginErrorsJson))
+        loginErrors = System.Text.Json.JsonSerializer.Deserialize<string[]>(loginErrorsJson) ?? Array.Empty<string>();
+
+    if (!string.IsNullOrEmpty(registerModelJson))
+        registerModel = System.Text.Json.JsonSerializer.Deserialize<Plantpedia.ViewModel.RegisterViewModel>(registerModelJson);
 }
 
 <!DOCTYPE html>
@@ -18,40 +36,57 @@
 </head>
 <body>
     <div class="container" id="container">
+
         <!-- Đăng ký -->
         <div class="form-container sign-up-container">
-            <form method="post" asp-page-handler="Register">
-                <h1>Tạo tài khoản</h1>
-                <input type="text" name="Name" placeholder="Họ và tên" required />
-                <input type="email" name="Email" placeholder="Email" required />
-                <input type="password" name="Password" placeholder="Mật khẩu" required />
-                <button type="submit">Đăng ký</button>
-            </form>
+            <form asp-controller="Auth" asp-action="Register" method="post">
+    @Html.AntiForgeryToken()
+    <h1>Tạo tài khoản</h1>
+
+    @if (registerErrors.Length > 0)
+    {
+        <div class="alert alert-danger text-start" role="alert">
+            <ul class="mb-0">
+                @foreach (var err in registerErrors)
+                {
+                    <li>@err</li>
+                }
+            </ul>
         </div>
+    }
+
+    <input type="text" name="Name" placeholder="Họ và tên" value="@(registerModel?.Name ?? string.Empty)" required />
+    <input type="email" name="Email" placeholder="Email" value="@(registerModel?.Email ?? string.Empty)" required />
+    <input type="password" name="Password" placeholder="Mật khẩu" required />
+    <button type="submit">Đăng ký</button>
+</form>
+        </div>
+
         <!-- Đăng nhập -->
         <div class="form-container sign-in-container">
-            <form method="post">
-                <h1>Đăng nhập</h1>
-                <input asp-for="Username" type="text" placeholder="Tên đăng nhập hoặc Email" autocomplete="username" required />
-                <input asp-for="Password" type="password" placeholder="Mật khẩu" autocomplete="current-password" required />
-                <a href="/ForgotPassword">Quên mật khẩu?</a>
-                <button type="submit">Đăng nhập</button>
-                @if (Model.LoginFailed)
+            <form asp-controller="Auth" asp-action="Login" method="post">
+    @Html.AntiForgeryToken()
+    <h1>Đăng nhập</h1>
+
+    @if (loginErrors.Length > 0)
+    {
+        <div class="alert alert-danger text-start" role="alert">
+            <ul class="mb-0">
+                @foreach (var err in loginErrors)
                 {
-                    <div class="alert alert-danger" role="alert">
-                        <i class="bi bi-exclamation-triangle"></i>
-                        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
-                        {
-                            @Model.ErrorMessage
-                        }
-                        else
-                        {
-                            <text>Tên đăng nhập hoặc mật khẩu không đúng!</text>
-                        }
-                    </div>
+                    <li>@err</li>
                 }
-            </form>
+            </ul>
         </div>
+    }
+
+    <input type="text" name="username" placeholder="Tên đăng nhập hoặc Email" autocomplete="username" required />
+    <input type="password" name="password" placeholder="Mật khẩu" autocomplete="current-password" required />
+    <a href="/ForgotPassword">Quên mật khẩu?</a>
+    <button type="submit">Đăng nhập</button>
+</form> 
+        </div>
+
         <!-- Panel hiệu ứng chuyển -->
         <div class="overlay-container">
             <div class="overlay">
@@ -68,15 +103,25 @@
             </div>
         </div>
     </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
     <script>
         const signUpButton = document.getElementById('signUp');
         const signInButton = document.getElementById('signIn');
         const container = document.getElementById('container');
+
+        // Nếu controller gửi showRegister = true => mở sẵn form đăng ký
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('showRegister') === 'true') {
+            container.classList.add("right-panel-active");
+        }
+
         signUpButton.addEventListener('click', () => {
             container.classList.add("right-panel-active");
         });
+
         signInButton.addEventListener('click', () => {
             container.classList.remove("right-panel-active");
         });

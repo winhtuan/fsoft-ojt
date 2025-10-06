@@ -11,7 +11,7 @@ using Plantpedia.ViewModel;
 
 namespace Plantpedia.Pages.Plant
 {
-    [Authorize]
+    [Authorize(Policy = "AdminOnly")]
     public class UpdatePlantModel : PageModel
     {
         private readonly IPlantService _plantService;

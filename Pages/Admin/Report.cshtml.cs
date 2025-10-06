@@ -7,7 +7,7 @@ using Plantpedia.Service;
 
 namespace Plantpedia.Pages;
 
-[Authorize]
+[Authorize(Policy = "AdminOnly")]
 public class ReportModel : PageModel
 {
     private readonly IMesciusReportService _reportService;

@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Plantpedia.Helper;
 using Plantpedia.Models;
 using Plantpedia.Repository;
+using Plantpedia.ViewModel;
 
 namespace Plantpedia.Service
 {
@@ -143,6 +144,15 @@ namespace Plantpedia.Service
                 );
                 throw;
             }
+        }
+
+        public async Task<UserAccount> RegisterAsync(RegisterViewModel model)
+        {
+            return await _userRepository.RegisterNewUserAsync(
+                model.Name,
+                model.Email,
+                model.Password
+            );
         }
     }
 }

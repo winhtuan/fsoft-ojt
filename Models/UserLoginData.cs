@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Plantpedia.Enum;
 
 namespace Plantpedia.Models
 {
@@ -16,6 +17,16 @@ namespace Plantpedia.Models
         [MaxLength(100)]
         [Column("username")]
         public string Username { get; set; }
+
+        [Required]
+        [MaxLength(200)]
+        [EmailAddress]
+        [Column("email")]
+        public string Email { get; set; }
+
+        [MaxLength(25)]
+        [Column("role")]
+        public Role Role { get; set; }
 
         [Required]
         [MaxLength(100)]

@@ -7,7 +7,7 @@ using Plantpedia.Service;
 
 namespace Plantpedia.Pages.Admin
 {
-    [Authorize]
+    [Authorize(Policy = "AdminOnly")]
     public class AdminModel : PageModel
     {
         private readonly IUserService _userService;

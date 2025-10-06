@@ -1,6 +1,7 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using PLANTINFOWEB.Data;
 using Plantpedia.Mapping;
 using Plantpedia.Repository;
@@ -14,6 +15,7 @@ builder.Logging.AddDebug();
 builder.Logging.SetMinimumLevel(LogLevel.Information);
 
 builder.Services.AddRazorPages();
+builder.Services.AddSignalR();
 
 builder.Services.Configure<Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions>(options =>
 {
@@ -25,15 +27,15 @@ var mvcBuilder = builder.Services.AddRazorPages(options =>
     options.Conventions.AddPageRoute("/Home/Home", "");
 });
 
-// if (builder.Environment.IsDevelopment())
-// {
-//     mvcBuilder.AddRazorRuntimeCompilation();
-// }
-
-builder.Services.ConfigureApplicationCookie(options =>
+if (builder.Environment.IsDevelopment())
 {
-    options.LoginPath = "/Auth/Login";
-    options.AccessDeniedPath = "/Auth/Login";
+    mvcBuilder.AddRazorRuntimeCompilation();
+}
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("admin"));
+    options.AddPolicy("ExpertOnly", policy => policy.RequireRole("expert"));
 });
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -55,20 +57,12 @@ builder.Services.AddScoped<IMesciusReportService, MeciusReportService>();
 
 builder.Services.AddHttpContextAccessor();
 
-builder.Services.AddSession();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
-
-// Cấu hình JWT
-var jwtSettings = builder.Configuration.GetSection("Jwt");
-var secretKey = jwtSettings["SecretKey"] ?? "YourSuperSecretKeyThatIsAtLeast32CharactersLong!";
-var issuer = jwtSettings["Issuer"] ?? "Plantpedia";
-var audience = jwtSettings["Audience"] ?? "PlantpediaUsers";
-
 builder
     .Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -77,6 +71,10 @@ builder
         options.AccessDeniedPath = "/Auth/AccessDenied";
         options.ExpireTimeSpan = TimeSpan.FromHours(1);
         options.SlidingExpiration = true;
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.Cookie.Name = "Plantpedia.Auth";
     });
 
 builder.Services.AddAuthorization();
@@ -96,10 +94,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseSession();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapControllers();
 app.MapRazorPages();
+app.MapHub<MyNotificationHub>("/notificationHub");
 
 app.Run();

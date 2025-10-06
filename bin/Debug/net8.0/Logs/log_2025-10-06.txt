@@ -25,3 +25,158 @@
 2025-10-06 09:19:09.163 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
 2025-10-06 09:19:09.167 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
 2025-10-06 09:19:09.168 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-06 22:48:32.244 [Login.cshtml] [Info] : Bắt đầu quá trình đăng nhập cho người dùng 'minha'.
+2025-10-06 22:48:32.248 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-06 22:48:32.250 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-06 22:48:33.046 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-06 22:48:33.048 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-06 22:48:33.049 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 22:48:33.098 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 22:48:33.098 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-06 22:48:33.101 [Login.cshtml] [Info] : Người dùng 'minha' (UserId: 1) đăng nhập thành công.
+2025-10-06 23:02:30.599 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-06 23:02:30.607 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-06 23:02:30.608 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-06 23:02:31.409 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-06 23:02:31.409 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-06 23:02:31.410 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-06 23:02:31.418 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-06 23:02:31.418 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-06 23:02:31.419 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-06 23:02:31.424 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-06 23:02:31.424 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-06 23:02:31.425 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-06 23:02:31.433 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-06 23:02:31.433 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-06 23:02:31.434 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-06 23:02:31.440 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-06 23:02:31.440 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-06 23:02:31.441 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-06 23:02:31.442 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-06 23:02:31.442 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-06 23:02:31.443 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-06 23:02:31.444 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-06 23:02:31.611 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:02:31.611 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:02:31.611 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:02:31.612 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-06 23:02:31.612 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-06 23:02:48.314 [Login.cshtml] [Info] : Bắt đầu quá trình đăng nhập cho người dùng 'minha'.
+2025-10-06 23:02:48.315 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-06 23:02:48.316 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-06 23:02:48.408 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-06 23:02:48.410 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-06 23:02:48.411 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 23:02:48.473 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 23:02:48.473 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-06 23:02:48.475 [Login.cshtml] [Info] : Người dùng 'minha' (UserId: 1) đăng nhập thành công.
+2025-10-06 23:02:48.608 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-06 23:02:48.618 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-06 23:02:48.618 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-06 23:02:48.659 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-06 23:02:48.659 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-06 23:02:48.660 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-06 23:02:51.526 [Logout.cshtml] [Info] : Người dùng 'minha' đang thực hiện đăng xuất.
+2025-10-06 23:02:51.526 [Logout.cshtml] [Info] : Người dùng 'minha' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-06 23:02:59.296 [Login.cshtml] [Info] : Bắt đầu quá trình đăng nhập cho người dùng 'minhb'.
+2025-10-06 23:02:59.296 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-06 23:02:59.297 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-06 23:02:59.301 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-06 23:02:59.316 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-06 23:02:59.316 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 23:02:59.319 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 23:02:59.319 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-06 23:02:59.320 [Login.cshtml] [Info] : Người dùng 'minhb' (UserId: 2) đăng nhập thành công.
+2025-10-06 23:03:05.900 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-06 23:03:05.900 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-06 23:03:05.900 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-06 23:03:05.901 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:03:05.901 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-06 23:03:05.901 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-06 23:03:19.260 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-06 23:03:19.260 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-06 23:03:19.261 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-06 23:03:19.261 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:03:19.261 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-06 23:03:19.261 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-06 23:08:15.649 [Logout.cshtml] [Info] : Người dùng 'minhb' đang thực hiện đăng xuất.
+2025-10-06 23:08:15.649 [Logout.cshtml] [Info] : Người dùng 'minhb' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-06 23:42:07.091 [Login.cshtml] [Info] : Bắt đầu quá trình đăng nhập cho người dùng 'minha'.
+2025-10-06 23:42:07.096 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-06 23:42:07.098 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-06 23:42:07.906 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-06 23:42:07.909 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-06 23:42:07.909 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 23:42:07.961 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 23:42:07.961 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-06 23:42:07.964 [Login.cshtml] [Info] : Người dùng 'minha' (UserId: 1) đăng nhập thành công.
+2025-10-06 23:42:08.314 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-06 23:42:08.322 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-06 23:42:08.323 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-06 23:42:08.337 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-06 23:42:08.337 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-06 23:42:08.337 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-06 23:42:11.967 [Logout.cshtml] [Info] : Người dùng 'minha' đang thực hiện đăng xuất.
+2025-10-06 23:42:11.969 [Logout.cshtml] [Info] : Người dùng 'minha' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-06 23:47:09.445 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-06 23:47:09.449 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-06 23:47:10.253 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-06 23:47:10.255 [UserService] [Warn] : Login failed for 'minha': Invalid password.
+2025-10-06 23:47:21.520 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-06 23:47:21.521 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-06 23:47:21.538 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-06 23:47:21.540 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-06 23:47:21.541 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 23:47:21.614 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 23:47:21.614 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-06 23:47:21.891 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-06 23:47:21.893 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-06 23:47:21.893 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-06 23:47:21.938 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-06 23:47:21.938 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-06 23:47:21.938 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-06 23:47:33.841 [AuthController] [Info] : Bắt đầu đăng ký qua Controller với email: winhtuan@gmail.com
+2025-10-06 23:47:33.842 [UserService] [Info] : Attempting to retrieve user by username: 'winhtuan@gmail.com'.
+2025-10-06 23:47:33.843 [UserRepository] [Info] : Attempting to get user by username: winhtuan@gmail.com.
+2025-10-06 23:47:33.845 [UserRepository] [Warn] : No user found for username: winhtuan@gmail.com.
+2025-10-06 23:47:33.845 [UserService] [Warn] : No user found for username: 'winhtuan@gmail.com'.
+2025-10-06 23:47:33.847 [UserRepository] [Info] : Bắt đầu đăng ký người dùng mới: winhtuan@gmail.com
+2025-10-06 23:47:33.847 [UserRepository] [Info] : Attempting to add a new user account.
+2025-10-06 23:47:33.874 [UserRepository] [Info] : Successfully added new user account with ID: 3.
+2025-10-06 23:47:33.875 [UserRepository] [Info] : Đã tạo UserAccount cho: winhtuan@gmail.com với ID: 3
+2025-10-06 23:47:33.875 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 23:47:33.875 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 23:47:33.877 [UserRepository] [Info] : Attempting to add login data for username: winhtuan.
+2025-10-06 23:47:33.883 [UserRepository] [Info] : Successfully added login data for username: winhtuan.
+2025-10-06 23:47:33.884 [UserRepository] [Info] : Đã tạo UserLoginData cho: winhtuan@gmail.com
+2025-10-06 23:47:33.884 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-06 23:47:33.884 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-06 23:47:33.884 [UserRepository] [Info] : Đăng ký thành công cho người dùng: winhtuan@gmail.com
+2025-10-06 23:47:33.884 [AuthController] [Info] : Đăng ký thành công: UserId=3, Email=winhtuan@gmail.com
+2025-10-06 23:47:37.515 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-06 23:47:37.516 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-06 23:47:37.517 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-06 23:47:37.527 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-06 23:47:37.527 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-06 23:47:37.528 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-06 23:47:37.533 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-06 23:47:37.534 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-06 23:47:37.534 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-06 23:47:37.539 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-06 23:47:37.539 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-06 23:47:37.540 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-06 23:47:37.545 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-06 23:47:37.546 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-06 23:47:37.546 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-06 23:47:37.552 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-06 23:47:37.552 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-06 23:47:37.553 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-06 23:47:37.554 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-06 23:47:37.554 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-06 23:47:37.555 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-06 23:47:37.556 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-06 23:47:37.662 [PlantRepository] [Info] : Tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:47:37.662 [PlantService] [Info] : Service tìm thấy 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:47:37.663 [Search.cshtml] [Info] : Tìm thấy tổng cộng 40 cây trồng phù hợp với bộ lọc.
+2025-10-06 23:47:37.664 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-06 23:47:37.664 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.

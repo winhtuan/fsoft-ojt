@@ -1,4 +1,5 @@
 using Plantpedia.Models;
+using Plantpedia.ViewModel;
 
 namespace Plantpedia.Service
 {
@@ -14,5 +15,6 @@ namespace Plantpedia.Service
             DateTime dateOfBirth,
             string avatarUrl
         );
+        Task<UserAccount> RegisterAsync(RegisterViewModel model);
     }
 }
