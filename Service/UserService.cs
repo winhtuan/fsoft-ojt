@@ -154,5 +154,10 @@ namespace Plantpedia.Service
                 model.Password
             );
         }
+
+        public async Task<bool> EmailExistsAsync(string email)
+        {
+            return await _userRepository.IsGmailExistsAsync(email);
+        }
     }
 }

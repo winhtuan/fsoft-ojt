@@ -2,29 +2,12 @@
 @model Plantpedia.Pages.LoginModel
 @{
     Layout = null;
-    ViewData["Title"] = "Login";
-
-    // Lấy dữ liệu TempData (nếu có lỗi / dữ liệu form đăng ký cũ)
-    var registerErrorsJson = TempData["RegisterErrors"] as string;
-    var registerModelJson = TempData["RegisterModel"] as string;
-    var loginErrorsJson = TempData["LoginErrors"] as string;
-
-    string[] registerErrors = Array.Empty<string>();
-    string[] loginErrors = Array.Empty<string>();
-    Plantpedia.ViewModel.RegisterViewModel? registerModel = null;
-
-    if (!string.IsNullOrEmpty(registerErrorsJson))
-        registerErrors = System.Text.Json.JsonSerializer.Deserialize<string[]>(registerErrorsJson) ?? Array.Empty<string>();
-
-    if (!string.IsNullOrEmpty(loginErrorsJson))
-        loginErrors = System.Text.Json.JsonSerializer.Deserialize<string[]>(loginErrorsJson) ?? Array.Empty<string>();
-
-    if (!string.IsNullOrEmpty(registerModelJson))
-        registerModel = System.Text.Json.JsonSerializer.Deserialize<Plantpedia.ViewModel.RegisterViewModel>(registerModelJson);
+    ViewData["Title"] = "Đăng nhập";
 }
-
+ 
 <!DOCTYPE html>
 <html lang="vi">
+ 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,59 +17,44 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/login_page.css" asp-append-version="true" />
 </head>
+ 
 <body>
     <div class="container" id="container">
-
+ 
         <!-- Đăng ký -->
         <div class="form-container sign-up-container">
-            <form asp-controller="Auth" asp-action="Register" method="post">
-    @Html.AntiForgeryToken()
-    <h1>Tạo tài khoản</h1>
-
-    @if (registerErrors.Length > 0)
-    {
-        <div class="alert alert-danger text-start" role="alert">
-            <ul class="mb-0">
-                @foreach (var err in registerErrors)
-                {
-                    <li>@err</li>
-                }
-            </ul>
+            <form id="registerForm" asp-controller="Auth" asp-action="Register" method="post">
+                @Html.AntiForgeryToken()
+                <h1>Tạo tài khoản</h1>
+ 
+                <!-- Vùng hiển thị lỗi động cho form đăng ký -->
+                <div id="registerErrorsContainer" class="errors-container"></div>
+ 
+                <input type="text" name="Name" placeholder="Họ và tên" required />
+                <input type="email" name="Email" placeholder="Email" required />
+                <input type="password" name="Password" placeholder="Mật khẩu" required />
+                <button type="submit">Đăng ký</button>
+            </form>
         </div>
-    }
-
-    <input type="text" name="Name" placeholder="Họ và tên" value="@(registerModel?.Name ?? string.Empty)" required />
-    <input type="email" name="Email" placeholder="Email" value="@(registerModel?.Email ?? string.Empty)" required />
-    <input type="password" name="Password" placeholder="Mật khẩu" required />
-    <button type="submit">Đăng ký</button>
-</form>
-        </div>
-
+ 
         <!-- Đăng nhập -->
         <div class="form-container sign-in-container">
-            <form asp-controller="Auth" asp-action="Login" method="post">
-    @Html.AntiForgeryToken()
-    <h1>Đăng nhập</h1>
-
-    @if (loginErrors.Length > 0)
-    {
-        <div class="alert alert-danger text-start" role="alert">
-            <ul class="mb-0">
-                @foreach (var err in loginErrors)
-                {
-                    <li>@err</li>
-                }
-            </ul>
+            <form id="loginForm" asp-controller="Auth" asp-action="Login" method="post">
+                @Html.AntiForgeryToken()
+                <h1>Đăng nhập</h1>
+ 
+                <!-- Vùng hiển thị lỗi động cho form đăng nhập -->
+                <div id="loginErrorsContainer" class="errors-container"></div>
+ 
+                <input type="text" name="username" placeholder="Tên đăng nhập hoặc Email" autocomplete="username"
+                    required />
+                <input type="password" name="password" placeholder="Mật khẩu" autocomplete="current-password"
+                    required />
+                <a href="/ForgotPassword">Quên mật khẩu?</a>
+                <button type="submit">Đăng nhập</button>
+            </form>
         </div>
-    }
-
-    <input type="text" name="username" placeholder="Tên đăng nhập hoặc Email" autocomplete="username" required />
-    <input type="password" name="password" placeholder="Mật khẩu" autocomplete="current-password" required />
-    <a href="/ForgotPassword">Quên mật khẩu?</a>
-    <button type="submit">Đăng nhập</button>
-</form> 
-        </div>
-
+ 
         <!-- Panel hiệu ứng chuyển -->
         <div class="overlay-container">
             <div class="overlay">
@@ -103,28 +71,96 @@
             </div>
         </div>
     </div>
-
+ 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+ 
     <script>
-        const signUpButton = document.getElementById('signUp');
-        const signInButton = document.getElementById('signIn');
-        const container = document.getElementById('container');
-
-        // Nếu controller gửi showRegister = true => mở sẵn form đăng ký
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('showRegister') === 'true') {
-            container.classList.add("right-panel-active");
-        }
-
-        signUpButton.addEventListener('click', () => {
-            container.classList.add("right-panel-active");
-        });
-
-        signInButton.addEventListener('click', () => {
-            container.classList.remove("right-panel-active");
+        document.addEventListener('DOMContentLoaded', function () {
+            const registerForm = document.getElementById('registerForm');
+            const loginForm = document.getElementById('loginForm');
+            const registerErrorsContainer = document.getElementById('registerErrorsContainer');
+            const loginErrorsContainer = document.getElementById('loginErrorsContainer');
+ 
+            // Hàm tái sử dụng để hiển thị lỗi
+            function displayErrors(container, errors) {
+                let errorHtml = '<div class="alert alert-danger text-start" role="alert"><ul class="mb-0">';
+                errors.forEach(err => {
+                    errorHtml += `<li>${err}</li>`;
+                });
+                errorHtml += '</ul></div>';
+                container.innerHTML = errorHtml;
+            }
+ 
+            // Hàm tái sử dụng để xử lý việc gửi form
+            async function handleFormSubmit(form, errorContainer) {
+                // Ngăn chặn hành vi submit mặc định
+                event.preventDefault();
+ 
+                // Xóa các thông báo lỗi cũ
+                errorContainer.innerHTML = '';
+                const submitButton = form.querySelector('button[type="submit"]');
+                const originalButtonText = submitButton.innerHTML;
+                submitButton.innerHTML = 'Đang xử lý...';
+                submitButton.disabled = true;
+ 
+                try {
+                    const formData = new FormData(form);
+                    const response = await fetch(form.action, {
+                        method: 'POST',
+                        body: formData,
+                    });
+ 
+                    if (response.ok) {
+                        const result = await response.json();
+                        window.location.href = result.redirectUrl;
+                    } else {
+                        const errorResult = await response.json();
+                        if (errorResult && errorResult.errors) {
+                            displayErrors(errorContainer, errorResult.errors);
+                        } else {
+                            displayErrors(errorContainer, ['Có lỗi không xác định xảy ra.']);
+                        }
+                    }
+                } catch (error) {
+                    console.error('Fetch error:', error);
+                    displayErrors(errorContainer, ['Không thể kết nối đến máy chủ.']);
+                } finally {
+                    // Khôi phục lại trạng thái nút bấm
+                    submitButton.innerHTML = originalButtonText;
+                    submitButton.disabled = false;
+                }
+            }
+ 
+            // Gán sự kiện cho form đăng ký
+            if (registerForm) {
+                registerForm.addEventListener('submit', (event) => handleFormSubmit(registerForm, registerErrorsContainer));
+            }
+ 
+            // Gán sự kiện cho form đăng nhập
+            if (loginForm) {
+                loginForm.addEventListener('submit', (event) => handleFormSubmit(loginForm, loginErrorsContainer));
+            }
+ 
+            // --- Script cũ để chuyển đổi panel ---
+            const signUpButton = document.getElementById('signUp');
+            const signInButton = document.getElementById('signIn');
+            const container = document.getElementById('container');
+ 
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('showRegister') === 'true') {
+                container.classList.add("right-panel-active");
+            }
+ 
+            signUpButton.addEventListener('click', () => {
+                container.classList.add("right-panel-active");
+            });
+ 
+            signInButton.addEventListener('click', () => {
+                container.classList.remove("right-panel-active");
+            });
         });
     </script>
 </body>
+ 
 </html>

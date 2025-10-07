@@ -1,0 +1,21 @@
+﻿2025-10-07 10:53:29.219 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minha
+2025-10-07 10:53:29.229 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-07 10:53:29.233 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-07 10:53:31.012 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-07 10:53:31.017 [UserService] [Warn] : Login failed for 'minha': Invalid password.
+2025-10-07 10:53:36.924 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minha
+2025-10-07 10:53:36.925 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-07 10:53:36.925 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-07 10:53:36.958 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-07 10:53:36.964 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-07 10:53:36.965 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-07 10:53:37.150 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-07 10:53:37.151 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-07 10:53:37.446 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-07 10:53:37.481 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-07 10:53:37.483 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-07 10:53:37.591 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-07 10:53:37.592 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-07 10:53:37.592 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-07 10:53:54.418 [AuthController] [Info] : Người dùng 'minha' đang thực hiện đăng xuất.
+2025-10-07 10:53:54.420 [AuthController] [Info] : Người dùng 'minha' đã đăng xuất thành công. Chuyển hướng về trang chủ.
