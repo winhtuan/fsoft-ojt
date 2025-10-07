@@ -25,23 +25,36 @@ namespace PLANTINFOWEB.Data
         public DbSet<UserLoginData> UserLoginDatas { get; set; }
         public DbSet<PlantCare> PlantCares { get; set; }
 
+        // DbSet tính năng tương tác
+        public DbSet<UserFavorite> UserFavorites { get; set; }
+        public DbSet<Discussion> Discussions { get; set; }
+        public DbSet<DiscussionComment> DiscussionComments { get; set; }
+        public DbSet<DiscussionReaction> DiscussionReactions { get; set; }
+        public DbSet<PlantComparison> PlantComparisons { get; set; }
+        public DbSet<PlantComparisonItem> PlantComparisonItems { get; set; }
+        public DbSet<ComparisonHistory> ComparisonHistories { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            // ==================== COMPOSITE KEYS ====================
             // Composite keys cho bảng liên kết
             modelBuilder.Entity<PlantRegion>().HasKey(pr => new { pr.PlantId, pr.RegionId });
             modelBuilder.Entity<PlantSoil>().HasKey(ps => new { ps.PlantId, ps.SoilTypeId });
             modelBuilder.Entity<PlantClimate>().HasKey(pc => new { pc.PlantId, pc.ClimateId });
             modelBuilder.Entity<PlantUsage>().HasKey(pu => new { pu.PlantId, pu.UsageId });
 
-            // Quan hệ 1-nhiều
+            // ==================== PLANT INFO RELATIONSHIPS ====================
+            // Quan hệ PlantInfo - PlantType (nhiều-1)
             modelBuilder
                 .Entity<PlantInfo>()
                 .HasOne(p => p.PlantType)
                 .WithMany(t => t.Plants)
-                .HasForeignKey(p => p.PlantTypeId);
+                .HasForeignKey(p => p.PlantTypeId)
+                .OnDelete(DeleteBehavior.Cascade);
 
+            // Quan hệ PlantInfo - PlantCare (1-1)
             modelBuilder
                 .Entity<PlantInfo>()
                 .HasOne(p => p.CareInfo)
@@ -49,68 +62,247 @@ namespace PLANTINFOWEB.Data
                 .HasForeignKey<PlantCare>(c => c.PlantId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Quan hệ nhiều-nhiều qua bảng trung gian
-            modelBuilder
-                .Entity<PlantRegion>()
-                .HasOne(pr => pr.Plant)
-                .WithMany(p => p.PlantRegions)
-                .HasForeignKey(pr => pr.PlantId);
-
-            modelBuilder
-                .Entity<PlantRegion>()
-                .HasOne(pr => pr.Region)
-                .WithMany(r => r.PlantRegions)
-                .HasForeignKey(pr => pr.RegionId);
-
-            modelBuilder
-                .Entity<PlantSoil>()
-                .HasOne(ps => ps.Plant)
-                .WithMany(p => p.PlantSoils)
-                .HasForeignKey(ps => ps.PlantId);
-
-            modelBuilder
-                .Entity<PlantSoil>()
-                .HasOne(ps => ps.SoilType)
-                .WithMany(s => s.PlantSoils)
-                .HasForeignKey(ps => ps.SoilTypeId);
-
-            modelBuilder
-                .Entity<PlantClimate>()
-                .HasOne(pc => pc.Plant)
-                .WithMany(p => p.PlantClimates)
-                .HasForeignKey(pc => pc.PlantId);
-
-            modelBuilder
-                .Entity<PlantClimate>()
-                .HasOne(pc => pc.Climate)
-                .WithMany(c => c.PlantClimates)
-                .HasForeignKey(pc => pc.ClimateId);
-
-            modelBuilder
-                .Entity<PlantUsage>()
-                .HasOne(pu => pu.Plant)
-                .WithMany(p => p.PlantUsages)
-                .HasForeignKey(pu => pu.PlantId);
-
-            modelBuilder
-                .Entity<PlantUsage>()
-                .HasOne(pu => pu.Usage)
-                .WithMany(u => u.PlantUsages)
-                .HasForeignKey(pu => pu.UsageId);
-
-            // Quan hệ UserAccount - UserLoginData (1-1)
-            modelBuilder
-                .Entity<UserLoginData>()
-                .HasOne(uld => uld.User)
-                .WithOne(u => u.LoginData)
-                .HasForeignKey<UserLoginData>(uld => uld.UserId);
-
             // Quan hệ PlantInfo - PlantImg (1-nhiều)
             modelBuilder
                 .Entity<PlantImg>()
                 .HasOne(pi => pi.Plant)
                 .WithMany(p => p.PlantImages)
-                .HasForeignKey(pi => pi.PlantId);
+                .HasForeignKey(pi => pi.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // ==================== MANY-TO-MANY RELATIONSHIPS ====================
+            // Quan hệ PlantInfo - Region (nhiều-nhiều qua PlantRegion)
+            modelBuilder
+                .Entity<PlantRegion>()
+                .HasOne(pr => pr.Plant)
+                .WithMany(p => p.PlantRegions)
+                .HasForeignKey(pr => pr.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder
+                .Entity<PlantRegion>()
+                .HasOne(pr => pr.Region)
+                .WithMany(r => r.PlantRegions)
+                .HasForeignKey(pr => pr.RegionId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ PlantInfo - SoilType (nhiều-nhiều qua PlantSoil)
+            modelBuilder
+                .Entity<PlantSoil>()
+                .HasOne(ps => ps.Plant)
+                .WithMany(p => p.PlantSoils)
+                .HasForeignKey(ps => ps.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder
+                .Entity<PlantSoil>()
+                .HasOne(ps => ps.SoilType)
+                .WithMany(s => s.PlantSoils)
+                .HasForeignKey(ps => ps.SoilTypeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ PlantInfo - Climate (nhiều-nhiều qua PlantClimate)
+            modelBuilder
+                .Entity<PlantClimate>()
+                .HasOne(pc => pc.Plant)
+                .WithMany(p => p.PlantClimates)
+                .HasForeignKey(pc => pc.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder
+                .Entity<PlantClimate>()
+                .HasOne(pc => pc.Climate)
+                .WithMany(c => c.PlantClimates)
+                .HasForeignKey(pc => pc.ClimateId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ PlantInfo - Usage (nhiều-nhiều qua PlantUsage)
+            modelBuilder
+                .Entity<PlantUsage>()
+                .HasOne(pu => pu.Plant)
+                .WithMany(p => p.PlantUsages)
+                .HasForeignKey(pu => pu.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder
+                .Entity<PlantUsage>()
+                .HasOne(pu => pu.Usage)
+                .WithMany(u => u.PlantUsages)
+                .HasForeignKey(pu => pu.UsageId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // ==================== USER RELATIONSHIPS ====================
+            // Quan hệ UserAccount - UserLoginData (1-1)
+            modelBuilder
+                .Entity<UserLoginData>()
+                .HasOne(uld => uld.User)
+                .WithOne(u => u.LoginData)
+                .HasForeignKey<UserLoginData>(uld => uld.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // ==================== USER FAVORITE ====================
+            // Quan hệ UserAccount - UserFavorite (1-nhiều)
+            modelBuilder
+                .Entity<UserFavorite>()
+                .HasOne(uf => uf.User)
+                .WithMany(u => u.Favorites)
+                .HasForeignKey(uf => uf.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ PlantInfo - UserFavorite (1-nhiều)
+            modelBuilder
+                .Entity<UserFavorite>()
+                .HasOne(uf => uf.Plant)
+                .WithMany(p => p.UserFavorites)
+                .HasForeignKey(uf => uf.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Unique constraint: 1 user không thể favorite 1 cây 2 lần
+            modelBuilder
+                .Entity<UserFavorite>()
+                .HasIndex(uf => new { uf.UserId, uf.PlantId })
+                .IsUnique();
+
+            // ==================== DISCUSSION ====================
+            // Quan hệ UserAccount - Discussion (1-nhiều)
+            modelBuilder
+                .Entity<Discussion>()
+                .HasOne(d => d.User)
+                .WithMany(u => u.Discussions)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ PlantInfo - Discussion (1-nhiều, optional)
+            modelBuilder
+                .Entity<Discussion>()
+                .HasOne(d => d.Plant)
+                .WithMany(p => p.Discussions)
+                .HasForeignKey(d => d.PlantId)
+                .OnDelete(DeleteBehavior.SetNull); // Nếu cây bị xóa, discussion vẫn giữ
+
+            // ==================== DISCUSSION COMMENT ====================
+            // Quan hệ Discussion - DiscussionComment (1-nhiều)
+            modelBuilder
+                .Entity<DiscussionComment>()
+                .HasOne(dc => dc.Discussion)
+                .WithMany(d => d.Comments)
+                .HasForeignKey(dc => dc.DiscussionId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ UserAccount - DiscussionComment (1-nhiều)
+            modelBuilder
+                .Entity<DiscussionComment>()
+                .HasOne(dc => dc.User)
+                .WithMany(u => u.DiscussionComments)
+                .HasForeignKey(dc => dc.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ DiscussionComment - DiscussionComment (self-referencing cho replies)
+            modelBuilder
+                .Entity<DiscussionComment>()
+                .HasOne(dc => dc.ParentComment)
+                .WithMany(dc => dc.Replies)
+                .HasForeignKey(dc => dc.ParentCommentId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // ==================== DISCUSSION REACTION ====================
+            // Quan hệ UserAccount - DiscussionReaction (1-nhiều)
+            modelBuilder
+                .Entity<DiscussionReaction>()
+                .HasOne(dr => dr.User)
+                .WithMany(u => u.DiscussionReactions)
+                .HasForeignKey(dr => dr.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ Discussion - DiscussionReaction (1-nhiều, optional)
+            modelBuilder
+                .Entity<DiscussionReaction>()
+                .HasOne(dr => dr.Discussion)
+                .WithMany(d => d.Reactions)
+                .HasForeignKey(dr => dr.DiscussionId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ DiscussionComment - DiscussionReaction (1-nhiều, optional)
+            modelBuilder
+                .Entity<DiscussionReaction>()
+                .HasOne(dr => dr.Comment)
+                .WithMany(dc => dc.Reactions)
+                .HasForeignKey(dr => dr.CommentId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Unique constraint cho reaction của discussion
+            modelBuilder
+                .Entity<DiscussionReaction>()
+                .HasIndex(dr => new { dr.UserId, dr.DiscussionId })
+                .IsUnique()
+                .HasFilter("discussion_id IS NOT NULL"); // Chỉ áp dụng khi có DiscussionId
+
+            // Unique constraint cho reaction của comment
+            modelBuilder
+                .Entity<DiscussionReaction>()
+                .HasIndex(dr => new { dr.UserId, dr.CommentId })
+                .IsUnique()
+                .HasFilter("comment_id IS NOT NULL"); // Chỉ áp dụng khi có CommentId
+
+            // ==================== PLANT COMPARISON ITEM ====================
+            modelBuilder
+                .Entity<PlantComparisonItem>()
+                .HasKey(pci => new { pci.ComparisonId, pci.PlantId });
+
+            modelBuilder
+                .Entity<PlantComparisonItem>()
+                .HasOne(pci => pci.Comparison)
+                .WithMany(pc => pc.Items)
+                .HasForeignKey(pci => pci.ComparisonId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder
+                .Entity<PlantComparisonItem>()
+                .HasOne(pci => pci.Plant)
+                .WithMany()
+                .HasForeignKey(pci => pci.PlantId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // ==================== COMPARISON HISTORY ====================
+            // Quan hệ UserAccount - ComparisonHistory (1-nhiều)
+            modelBuilder
+                .Entity<ComparisonHistory>()
+                .HasOne(ch => ch.User)
+                .WithMany(u => u.ComparisonHistories)
+                .HasForeignKey(ch => ch.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Quan hệ PlantInfo - ComparisonHistory (1-nhiều) cho plant_id_1
+            modelBuilder
+                .Entity<ComparisonHistory>()
+                .HasOne(ch => ch.Plant1)
+                .WithMany()
+                .HasForeignKey(ch => ch.PlantId1)
+                .OnDelete(DeleteBehavior.Restrict); // Không xóa history nếu cây bị xóa
+
+            // Quan hệ PlantInfo - ComparisonHistory (1-nhiều) cho plant_id_2
+            modelBuilder
+                .Entity<ComparisonHistory>()
+                .HasOne(ch => ch.Plant2)
+                .WithMany()
+                .HasForeignKey(ch => ch.PlantId2)
+                .OnDelete(DeleteBehavior.Restrict); // Không xóa history nếu cây bị xóa
+
+            // ==================== INDEXES FOR PERFORMANCE ====================
+            // Index cho tìm kiếm discussion theo plant
+            modelBuilder.Entity<Discussion>().HasIndex(d => d.PlantId);
+
+            // Index cho tìm kiếm theo thời gian
+            modelBuilder.Entity<Discussion>().HasIndex(d => d.CreatedAt);
+
+            modelBuilder.Entity<DiscussionComment>().HasIndex(dc => dc.CreatedAt);
+
+            modelBuilder.Entity<UserFavorite>().HasIndex(uf => uf.CreatedAt);
+
+            // Index cho comparison history
+            modelBuilder
+                .Entity<ComparisonHistory>()
+                .HasIndex(ch => new { ch.PlantId1, ch.PlantId2 });
 
             // Seed some initial data: not using for stability
             SeedData(modelBuilder);
@@ -448,7 +640,9 @@ namespace PLANTINFOWEB.Data
                     new PlantClimate { PlantId = "PL037", ClimateId = "CLM01" }, // Hành lá – Nhiệt đới gió mùa
                     new PlantClimate { PlantId = "PL038", ClimateId = "CLM01" }, // Ớt – Nhiệt đới gió mùa
                     new PlantClimate { PlantId = "PL039", ClimateId = "CLM05" }, // Xà lách – Khí hậu mát mẻ
-                    new PlantClimate { PlantId = "PL040", ClimateId = "CLM01" } // Sả – Nhiệt đới gió mùa
+                    new PlantClimate { PlantId = "PL040", ClimateId = "CLM01" }, // Sả – Nhiệt đới gió mùa
+                    new PlantClimate { PlantId = "PL041", ClimateId = "CLM01" }, // Sầu riêng R6 – Nhiệt đới gió mùa
+                    new PlantClimate { PlantId = "PL042", ClimateId = "CLM01" } // Sầu riêng Dona – Nhiệt đới gió mùa
                 );
         }
 
@@ -496,7 +690,9 @@ namespace PLANTINFOWEB.Data
                     new PlantSoil { PlantId = "PL037", SoilTypeId = "SOIL01" }, // Hành lá - đất phù sa
                     new PlantSoil { PlantId = "PL038", SoilTypeId = "SOIL01" }, // Ớt - đất phù sa
                     new PlantSoil { PlantId = "PL039", SoilTypeId = "SOIL01" }, // Xà lách - đất phù sa
-                    new PlantSoil { PlantId = "PL040", SoilTypeId = "SOIL05" } // Sả - đất đồi núi
+                    new PlantSoil { PlantId = "PL040", SoilTypeId = "SOIL05" }, // Sả - đất đồi núi
+                    new PlantSoil { PlantId = "PL041", SoilTypeId = "SOIL02" }, // Sầu riêng R6 – đất đỏ bazan
+                    new PlantSoil { PlantId = "PL042", SoilTypeId = "SOIL02" } // Sầu riêng Dona – đất đỏ bazan
                 );
         }
 
@@ -551,7 +747,9 @@ namespace PLANTINFOWEB.Data
                     new PlantUsage { PlantId = "PL038", UsageId = "USE01" }, // Ớt – thực phẩm (gia vị)
                     new PlantUsage { PlantId = "PL039", UsageId = "USE01" }, // Xà lách – thực phẩm
                     new PlantUsage { PlantId = "PL040", UsageId = "USE01" }, // Sả – thực phẩm (gia vị)
-                    new PlantUsage { PlantId = "PL040", UsageId = "USE02" } // Sả – dược liệu
+                    new PlantUsage { PlantId = "PL040", UsageId = "USE02" }, // Sả – dược liệu
+                    new PlantUsage { PlantId = "PL041", UsageId = "USE01" }, // Sầu riêng R6 – thực phẩm
+                    new PlantUsage { PlantId = "PL042", UsageId = "USE01" } // Sầu riêng Dona – thực phẩm
                 );
         }
 
@@ -599,7 +797,11 @@ namespace PLANTINFOWEB.Data
                     new PlantRegion { PlantId = "PL037", RegionId = "REG01" }, // Hành lá - Phổ biến cả nước
                     new PlantRegion { PlantId = "PL038", RegionId = "REG04" }, // Ớt - Duyên hải Nam Trung Bộ
                     new PlantRegion { PlantId = "PL039", RegionId = "REG05" }, // Xà lách - Trung du miền núi Bắc Bộ
-                    new PlantRegion { PlantId = "PL040", RegionId = "REG01" } // Sả - Đồng bằng sông Cửu Long
+                    new PlantRegion { PlantId = "PL040", RegionId = "REG01" }, // Sả - Đồng bằng sông Cửu Long
+                    new PlantRegion { PlantId = "PL041", RegionId = "REG01" }, // Sầu riêng R6 – Đồng bằng sông Cửu Long
+                    new PlantRegion { PlantId = "PL041", RegionId = "REG03" }, // Sầu riêng R6 – Tây Nguyên
+                    new PlantRegion { PlantId = "PL042", RegionId = "REG01" }, // Sầu riêng Dona – Đồng bằng sông Cửu Long
+                    new PlantRegion { PlantId = "PL042", RegionId = "REG03" } // Sầu riêng Dona – Tây Nguyên
                 );
         }
         #endregion
@@ -1034,6 +1236,28 @@ namespace PLANTINFOWEB.Data
                         SoilRecommendation = "Chịu được nhiều loại đất nhưng cần thoát nước tốt.",
                         FertilizerInfo =
                             "Không kén phân bón. Bón một ít phân NPK hoặc phân hữu cơ vào mùa mưa để cây đẻ nhánh nhiều.",
+                    },
+                    new PlantCare
+                    {
+                        PlantId = "PL041", // Sầu riêng R6
+                        LightRequirement = LightRequirement.NangToanPhan,
+                        WateringNeeds = WateringNeeds.Cao,
+                        GrowthRate = GrowthRate.TrungBinh,
+                        SoilRecommendation =
+                            "Đất đỏ bazan hoặc đất phù sa cổ, tơi xốp, thoát nước tốt, pH 6.0-6.5.",
+                        FertilizerInfo =
+                            "Bón phân hữu cơ hoai mục đầu mùa mưa, bổ sung NPK 16-16-8 định kỳ. Tránh úng nước vì dễ thối rễ.",
+                    },
+                    new PlantCare
+                    {
+                        PlantId = "PL042", // Sầu riêng Dona
+                        LightRequirement = LightRequirement.NangToanPhan,
+                        WateringNeeds = WateringNeeds.Cao,
+                        GrowthRate = GrowthRate.TrungBinh,
+                        SoilRecommendation =
+                            "Thích hợp đất bazan, thoát nước tốt, có tầng canh tác sâu và giàu hữu cơ.",
+                        FertilizerInfo =
+                            "Cần tưới đều trong mùa khô, bón NPK kết hợp phân hữu cơ vi sinh, đặc biệt giai đoạn nuôi trái.",
                     }
                 );
         }
@@ -1507,6 +1731,30 @@ namespace PLANTINFOWEB.Data
                         CreatedDate = new DateTime(2025, 9, 20, 0, 0, 0, DateTimeKind.Utc),
                         UpdatedDate = new DateTime(2025, 9, 20, 0, 0, 0, DateTimeKind.Utc),
                         HarvestDate = 120,
+                    },
+                    new PlantInfo
+                    {
+                        PlantId = "PL041",
+                        ScientificName = "Durio zibethinus 'R6'",
+                        CommonName = "Sầu riêng R6",
+                        Description =
+                            "Giống sầu riêng R6 nổi tiếng ở Việt Nam, cơm vàng, hạt lép, hương vị ngọt béo.",
+                        PlantTypeId = "TYPE02",
+                        CreatedDate = new DateTime(2025, 9, 20, 0, 0, 0, DateTimeKind.Utc),
+                        UpdatedDate = new DateTime(2025, 9, 20, 0, 0, 0, DateTimeKind.Utc),
+                        HarvestDate = 120,
+                    },
+                    new PlantInfo
+                    {
+                        PlantId = "PL042",
+                        ScientificName = "Durio zibethinus 'Dona'",
+                        CommonName = "Sầu riêng Dona (Monthong)",
+                        Description =
+                            "Giống sầu riêng Dona (Monthong Thái Lan), cơm dày, vị ngọt nhẹ, được trồng phổ biến ở miền Nam.",
+                        PlantTypeId = "TYPE02",
+                        CreatedDate = new DateTime(2025, 9, 20, 0, 0, 0, DateTimeKind.Utc),
+                        UpdatedDate = new DateTime(2025, 9, 20, 0, 0, 0, DateTimeKind.Utc),
+                        HarvestDate = 130,
                     }
                 );
         }
@@ -1832,6 +2080,54 @@ namespace PLANTINFOWEB.Data
                         PlantId = "PL040",
                         ImageUrl = "https://vnras.com/wp-content/uploads/2023/11/sa-2-1024x725.jpg",
                         Caption = "Cây Sả và tinh dầu",
+                    },
+                    new PlantImg
+                    {
+                        ImageId = "IMG041",
+                        PlantId = "PL041",
+                        ImageUrl =
+                            "https://img.lazcdn.com/g/p/f48e393476366397e4444dd9df86534a.jpg_720x720q80.jpg",
+                        Caption = "Sầu riêng R6 - cơm vàng, hạt lép, vị ngọt béo đậm đà",
+                    },
+                    new PlantImg
+                    {
+                        ImageId = "IMG042",
+                        PlantId = "PL041",
+                        ImageUrl =
+                            "https://caygiong.tiendatbanme.com/wp-content/uploads/2024/06/dia_chi_cung_cap_giong_sau_rieng_ri6_monthon_musang_king_black_thorn.jpg",
+                        Caption = "Vườn sầu riêng R6 tại Tây Nguyên - năng suất cao, trái lớn",
+                    },
+                    new PlantImg
+                    {
+                        ImageId = "IMG043",
+                        PlantId = "PL041",
+                        ImageUrl =
+                            "https://bizweb.dktcdn.net/100/482/702/products/5-e189baf5-96d2-49af-8341-569e4bb7d9f5.jpg?v=1690703696620",
+                        Caption = "Cắt ngang trái sầu riêng R6 - cơm vàng óng, mùi thơm đặc trưng",
+                    },
+                    new PlantImg
+                    {
+                        ImageId = "IMG044",
+                        PlantId = "PL042",
+                        ImageUrl =
+                            "https://nongsanhaugiang.com.vn/images/10012020/93bf714a6b523023951f486f5b902be0.jpg",
+                        Caption = "Sầu riêng Dona (Monthong) - cơm dày, hạt lép, vị ngọt thanh",
+                    },
+                    new PlantImg
+                    {
+                        ImageId = "IMG045",
+                        PlantId = "PL042",
+                        ImageUrl =
+                            "https://thegioicaygiong.net/wp-content/uploads/2021/12/sau-rieng-dona-5.jpg",
+                        Caption = "Vườn sầu riêng Dona tại Lâm Đồng - năng suất ổn định",
+                    },
+                    new PlantImg
+                    {
+                        ImageId = "IMG046",
+                        PlantId = "PL042",
+                        ImageUrl =
+                            "https://sfarm.vn/wp-content/uploads/2025/05/sau-rieng-thai-dona-la-gi-1.jpg",
+                        Caption = "Cơm sầu riêng Dona vàng nhạt, thơm nhẹ, dẻo và béo",
                     }
                 );
         }
