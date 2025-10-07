@@ -48,12 +48,14 @@ builder.Services.AddAutoMapper(typeof(PlantProfile).Assembly);
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPlantRepository, PlantRepository>();
 builder.Services.AddScoped<ILookupRepository, LookupRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 
 // Service DI
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPlantService, PlantService>();
 builder.Services.AddScoped<ILookupService, LookupService>();
 builder.Services.AddScoped<IMesciusReportService, MeciusReportService>();
+builder.Services.AddScoped<ICommentService, CommentService>();
 
 builder.Services.AddHttpContextAccessor();
 

@@ -8,7 +8,7 @@ using Plantpedia.ViewModel;
 namespace Plantpedia.Controllers
 {
     [Route("auth")]
-    public class AuthController : Controller
+    public class AuthController : ControllerBase
     {
         private readonly IUserService _userService;
 

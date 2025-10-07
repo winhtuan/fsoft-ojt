@@ -26,5 +26,5 @@ Run when models change
 Create SQL file
 
 ```bash
-    dotnet ef migrations script -o migration.sql
+    dotnet ef migrations script -o plantpedia.sql
 ```

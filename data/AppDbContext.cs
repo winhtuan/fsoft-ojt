@@ -27,9 +27,8 @@ namespace PLANTINFOWEB.Data
 
         // DbSet tính năng tương tác
         public DbSet<UserFavorite> UserFavorites { get; set; }
-        public DbSet<Discussion> Discussions { get; set; }
-        public DbSet<DiscussionComment> DiscussionComments { get; set; }
-        public DbSet<DiscussionReaction> DiscussionReactions { get; set; }
+        public DbSet<PlantComment> PlantComments { get; set; }
+        public DbSet<PlantCommentReaction> PlantCommentReactions { get; set; }
         public DbSet<PlantComparison> PlantComparisons { get; set; }
         public DbSet<PlantComparisonItem> PlantComparisonItems { get; set; }
         public DbSet<ComparisonHistory> ComparisonHistories { get; set; }
@@ -162,87 +161,48 @@ namespace PLANTINFOWEB.Data
                 .Entity<UserFavorite>()
                 .HasIndex(uf => new { uf.UserId, uf.PlantId })
                 .IsUnique();
-
-            // ==================== DISCUSSION ====================
-            // Quan hệ UserAccount - Discussion (1-nhiều)
+            // ==================== PLANT COMMENT ====================
             modelBuilder
-                .Entity<Discussion>()
-                .HasOne(d => d.User)
-                .WithMany(u => u.Discussions)
-                .HasForeignKey(d => d.UserId)
+                .Entity<PlantComment>()
+                .HasOne(c => c.User)
+                .WithMany(u => u.PlantComments)
+                .HasForeignKey(c => c.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Quan hệ PlantInfo - Discussion (1-nhiều, optional)
             modelBuilder
-                .Entity<Discussion>()
-                .HasOne(d => d.Plant)
-                .WithMany(p => p.Discussions)
-                .HasForeignKey(d => d.PlantId)
-                .OnDelete(DeleteBehavior.SetNull); // Nếu cây bị xóa, discussion vẫn giữ
-
-            // ==================== DISCUSSION COMMENT ====================
-            // Quan hệ Discussion - DiscussionComment (1-nhiều)
-            modelBuilder
-                .Entity<DiscussionComment>()
-                .HasOne(dc => dc.Discussion)
-                .WithMany(d => d.Comments)
-                .HasForeignKey(dc => dc.DiscussionId)
+                .Entity<PlantComment>()
+                .HasOne(c => c.Plant)
+                .WithMany(p => p.Comments)
+                .HasForeignKey(c => c.PlantId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Quan hệ UserAccount - DiscussionComment (1-nhiều)
             modelBuilder
-                .Entity<DiscussionComment>()
-                .HasOne(dc => dc.User)
-                .WithMany(u => u.DiscussionComments)
-                .HasForeignKey(dc => dc.UserId)
+                .Entity<PlantComment>()
+                .HasOne(c => c.ParentComment)
+                .WithMany(c => c.Replies)
+                .HasForeignKey(c => c.ParentCommentId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            // ==================== PLANT COMMENT REACTION ====================
+            modelBuilder
+                .Entity<PlantCommentReaction>()
+                .HasOne(r => r.Comment)
+                .WithMany(c => c.Reactions)
+                .HasForeignKey(r => r.CommentId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Quan hệ DiscussionComment - DiscussionComment (self-referencing cho replies)
             modelBuilder
-                .Entity<DiscussionComment>()
-                .HasOne(dc => dc.ParentComment)
-                .WithMany(dc => dc.Replies)
-                .HasForeignKey(dc => dc.ParentCommentId)
+                .Entity<PlantCommentReaction>()
+                .HasOne(r => r.User)
+                .WithMany(u => u.PlantCommentReactions)
+                .HasForeignKey(r => r.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // ==================== DISCUSSION REACTION ====================
-            // Quan hệ UserAccount - DiscussionReaction (1-nhiều)
+            // Đảm bảo 1 user chỉ có 1 reaction trên 1 comment
             modelBuilder
-                .Entity<DiscussionReaction>()
-                .HasOne(dr => dr.User)
-                .WithMany(u => u.DiscussionReactions)
-                .HasForeignKey(dr => dr.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // Quan hệ Discussion - DiscussionReaction (1-nhiều, optional)
-            modelBuilder
-                .Entity<DiscussionReaction>()
-                .HasOne(dr => dr.Discussion)
-                .WithMany(d => d.Reactions)
-                .HasForeignKey(dr => dr.DiscussionId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // Quan hệ DiscussionComment - DiscussionReaction (1-nhiều, optional)
-            modelBuilder
-                .Entity<DiscussionReaction>()
-                .HasOne(dr => dr.Comment)
-                .WithMany(dc => dc.Reactions)
-                .HasForeignKey(dr => dr.CommentId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // Unique constraint cho reaction của discussion
-            modelBuilder
-                .Entity<DiscussionReaction>()
-                .HasIndex(dr => new { dr.UserId, dr.DiscussionId })
-                .IsUnique()
-                .HasFilter("discussion_id IS NOT NULL"); // Chỉ áp dụng khi có DiscussionId
-
-            // Unique constraint cho reaction của comment
-            modelBuilder
-                .Entity<DiscussionReaction>()
-                .HasIndex(dr => new { dr.UserId, dr.CommentId })
-                .IsUnique()
-                .HasFilter("comment_id IS NOT NULL"); // Chỉ áp dụng khi có CommentId
+                .Entity<PlantCommentReaction>()
+                .HasIndex(r => new { r.UserId, r.CommentId })
+                .IsUnique();
 
             // ==================== PLANT COMPARISON ITEM ====================
             modelBuilder
@@ -289,14 +249,6 @@ namespace PLANTINFOWEB.Data
                 .OnDelete(DeleteBehavior.Restrict); // Không xóa history nếu cây bị xóa
 
             // ==================== INDEXES FOR PERFORMANCE ====================
-            // Index cho tìm kiếm discussion theo plant
-            modelBuilder.Entity<Discussion>().HasIndex(d => d.PlantId);
-
-            // Index cho tìm kiếm theo thời gian
-            modelBuilder.Entity<Discussion>().HasIndex(d => d.CreatedAt);
-
-            modelBuilder.Entity<DiscussionComment>().HasIndex(dc => dc.CreatedAt);
-
             modelBuilder.Entity<UserFavorite>().HasIndex(uf => uf.CreatedAt);
 
             // Index cho comparison history

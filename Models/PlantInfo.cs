@@ -42,8 +42,7 @@ namespace Plantpedia.Models
         public int? HarvestDate { get; set; }
 
         public ICollection<UserFavorite> FavoritedBy { get; set; } = new List<UserFavorite>();
-        public ICollection<Discussion> Discussions { get; set; } = new List<Discussion>();
         public ICollection<UserFavorite> UserFavorites { get; set; } = new List<UserFavorite>();
-        public ICollection<Discussion> Discussion { get; set; } = new List<Discussion>();
+        public ICollection<PlantComment> Comments { get; set; } = new List<PlantComment>();
     }
 }

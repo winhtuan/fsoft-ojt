@@ -3,22 +3,25 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Plantpedia.Models;
 
-[Table("discussion_comment")]
-public class DiscussionComment
+[Table("plant_comment")]
+public class PlantComment
 {
     [Key]
     [Column("comment_id")]
     public int CommentId { get; set; }
 
-    [Column("discussion_id")]
-    public int DiscussionId { get; set; }
+    [Required]
+    [Column("plant_id", TypeName = "char(10)")]
+    public string PlantId { get; set; }
 
+    [Required]
     [Column("user_id")]
     public int UserId { get; set; }
 
     [Column("parent_comment_id")]
     public int? ParentCommentId { get; set; }
 
+    [Required]
     [Column("content", TypeName = "text")]
     public string Content { get; set; }
 
@@ -31,9 +34,14 @@ public class DiscussionComment
     [Column("is_deleted")]
     public bool IsDeleted { get; set; } = false;
 
+    // Navigation
     public UserAccount User { get; set; }
-    public Discussion Discussion { get; set; }
-    public DiscussionComment? ParentComment { get; set; }
-    public ICollection<DiscussionComment> Replies { get; set; } = new List<DiscussionComment>();
-    public ICollection<DiscussionReaction> Reactions { get; set; } = new List<DiscussionReaction>();
+    public PlantInfo Plant { get; set; }
+
+    [ForeignKey("ParentCommentId")]
+    public PlantComment? ParentComment { get; set; }
+
+    public ICollection<PlantComment> Replies { get; set; } = new List<PlantComment>();
+    public ICollection<PlantCommentReaction> Reactions { get; set; } =
+        new List<PlantCommentReaction>();
 }

@@ -67,7 +67,27 @@
                 }
             </p>
         </div>
+<hr class="my-5" />
 
+<section id="commentSection" class="mt-5">
+  <h4 class="mb-4">Bình luận</h4>
+
+  <!-- Form tạo bình luận -->
+  <div class="card shadow-sm mb-4">
+    <div class="card-body">
+      <h5 class="mb-3">Viết bình luận</h5>
+      <div class="mb-3">
+        <textarea id="commentContent" class="form-control" rows="3" placeholder="Chia sẻ ý kiến của bạn..."></textarea>
+      </div>
+      <button id="btnCreateComment" class="btn btn-success px-4">Gửi</button>
+    </div>
+  </div>
+
+  <!-- Danh sách bình luận -->
+  <div id="commentList" class="comment-list"></div>
+</section>
+
+</section>
     <!-- Phần thông tin bổ sung ở dưới - Dạng Tab -->
     <hr class="my-5">
 
@@ -214,7 +234,7 @@
 </main>
 
 @section Scripts {
-    <!-- Giữ nguyên JavaScript cho thư viện ảnh -->
+    <!-- JS cho thư viện ảnh -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const mainImage = document.getElementById('mainPlantImage');
@@ -231,5 +251,113 @@
                 });
             }
         });
+    </script>
+
+    <!-- JS cho bình luận (AJAX không reload trang) -->
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const plantId = "@Model.Plant.PlantId";
+      const apiBase = "/api/comment";
+      const listEl = document.getElementById("commentList");
+      const btnCreate = document.getElementById("btnCreateComment");
+      const txtContent = document.getElementById("commentContent");
+      const CURRENT_USER_ID = 1; // TODO: lấy từ session/identity
+
+      async function fetchJson(url, options) {
+        const res = await fetch(url, options);
+        return await res.json();
+      }
+
+      function renderComment(cmt, depth = 0) {
+        const pad = Math.min(depth * 24, 72);
+        const li = document.createElement("div");
+        li.className = "card mb-2";
+        li.style.marginLeft = pad + "px";
+        li.innerHTML = `
+          <div class="card-body py-3">
+            <div class="d-flex justify-content-between">
+              <div>
+                <strong>${cmt.userName}</strong>
+                <span class="text-muted small ms-2">${new Date(cmt.createdAt).toLocaleString()}</span>
+              </div>
+              <div class="text-muted small">
+                <button class="btn btn-sm btn-outline-secondary me-2 btn-like" data-id="${cmt.commentId}" data-type="L">👍 ${cmt.likeCount}</button>
+                <button class="btn btn-sm btn-outline-secondary btn-dislike" data-id="${cmt.commentId}" data-type="D">👎 ${cmt.dislikeCount}</button>
+              </div>
+            </div>
+            <div class="mt-2">${cmt.content}</div>
+            <div class="mt-2">
+              <button class="btn btn-sm btn-link p-0 text-decoration-none btn-reply" data-id="${cmt.commentId}">Trả lời</button>
+              <div class="reply-form mt-2 d-none">
+                <textarea class="form-control mb-2 reply-content" rows="2" placeholder="Nhập nội dung trả lời..."></textarea>
+                <button class="btn btn-sm btn-primary btn-send-reply" data-parent="${cmt.commentId}">Gửi</button>
+              </div>
+            </div>
+          </div>
+        `;
+
+        li.querySelector(".btn-like").addEventListener("click", () => react(cmt.commentId, 'L'));
+        li.querySelector(".btn-dislike").addEventListener("click", () => react(cmt.commentId, 'D'));
+
+        li.querySelector(".btn-reply").addEventListener("click", () => {
+          li.querySelector(".reply-form").classList.toggle("d-none");
+        });
+
+        li.querySelector(".btn-send-reply").addEventListener("click", async (e) => {
+          const parentId = Number(e.currentTarget.getAttribute("data-parent"));
+          const content = li.querySelector(".reply-content").value.trim();
+          if (!content) { alert("Vui lòng nhập nội dung."); return; }
+
+          const payload = { plantId, userId: CURRENT_USER_ID, content, parentCommentId: parentId };
+          const res = await fetchJson(`${apiBase}/create`, {
+            method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
+          });
+          if (res.success) { await loadComments(); }
+        });
+
+        if (cmt.replies && cmt.replies.length) {
+          cmt.replies.forEach(r => li.appendChild(renderComment(r, depth + 1)));
+        }
+        return li;
+      }
+
+      async function loadComments() {
+        listEl.innerHTML = `<div class="text-muted">Đang tải bình luận...</div>`;
+        try {
+          const res = await fetchJson(`${apiBase}/${plantId}`);
+          listEl.innerHTML = "";
+          if (!res.success || !res.data || res.data.length === 0) {
+            listEl.innerHTML = `<p class="text-muted">Chưa có bình luận nào.</p>`;
+            return;
+          }
+          res.data.forEach(c => listEl.appendChild(renderComment(c)));
+          console.log("[Comment] Loaded:", res.data.length);
+        } catch (e) {
+          console.error("Lỗi tải bình luận:", e);
+          listEl.innerHTML = `<p class="text-danger">Không thể tải bình luận.</p>`;
+        }
+      }
+
+      async function react(commentId, type) {
+        const payload = { commentId, userId: CURRENT_USER_ID, reactionType: type };
+        const res = await fetchJson(`${apiBase}/react`, {
+          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
+        });
+        if (res.success) await loadComments();
+      }
+
+      btnCreate?.addEventListener("click", async () => {
+        const content = txtContent.value.trim();
+        if (!content) { alert("Vui lòng nhập nội dung."); return; }
+        const payload = { plantId, userId: CURRENT_USER_ID, content };
+        const res = await fetchJson(`${apiBase}/create`, {
+          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
+        });
+        if (res.success) { txtContent.value = ""; await loadComments(); }
+        else { alert(res.message ?? "Không thể gửi bình luận."); }
+      });
+
+      loadComments();
+    });
     </script>
 }

@@ -31,6 +31,7 @@ namespace Plantpedia.Repository
             {
                 var plants = await _context
                     .PlantInfos.ProjectTo<PlantDto>(_mapper.ConfigurationProvider)
+                    .AsSplitQuery()
                     .ToListAsync();
 
                 LoggerHelper.Info($"Lấy thành công {plants.Count} cây trồng.");
@@ -81,6 +82,7 @@ namespace Plantpedia.Repository
 
                 var result = await query
                     .ProjectTo<PlantDto>(_mapper.ConfigurationProvider)
+                    .AsSplitQuery()
                     .ToListAsync();
 
                 LoggerHelper.Info($"Tìm thấy {result.Count} cây trồng phù hợp với bộ lọc.");
@@ -125,6 +127,7 @@ namespace Plantpedia.Repository
                 var plant = await _context
                     .PlantInfos.Where(p => p.PlantId == plantId)
                     .ProjectTo<PlantDto>(_mapper.ConfigurationProvider)
+                    .AsSplitQuery()
                     .FirstOrDefaultAsync();
 
                 if (plant == null)
