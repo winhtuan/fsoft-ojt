@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,12 +8,13 @@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/detail.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/Plantpedia.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/classy-nav/dist/classy-nav.css" />
 
     @RenderSection("Styles", required: false)
 </head>
+
 <body>
 
     <header>
@@ -22,24 +24,23 @@
             <a asp-page="/Home/Search">Cây Trồng</a>
             <a asp-page="">Đóng Góp</a>
             <a asp-page="">Hội Nhóm</a>
-            @if (!User.Identity!.IsAuthenticated)
+            @if (User.Identity?.IsAuthenticated == true)
             {
-                <a asp-page="/Auth/Login">Đăng Nhập</a>
-            }
-            else if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("admin"))
-            {
-                <a asp-page="/Admin/Admin">Trang Quản Lý</a>
-                <form action="/auth/logout" method="post" class="d-flex align-items-center">
+                @if (User.IsInRole("admin"))
+                {
+                    <a asp-page="/Admin/Admin">Trang Quản Lý</a>
+                }
+
+                <form asp-controller="Auth" asp-action="Logout" method="post" class="d-flex align-items-center">
                     @Html.AntiForgeryToken()
                     <button class="nav-link btn btn-link text-dark" type="submit">Đăng xuất</button>
                 </form>
             }
-            else if (User.Identity!.IsAuthenticated && (User.IsInRole("user") || User.IsInRole("expert")))
+            else
             {
-                <form action="/auth/logout" method="post" class="d-flex align-items-center">
-                    @Html.AntiForgeryToken()
-                    <button class="nav-link btn btn-link text-dark" type="submit">Đăng xuất</button>
-                </form>
+                <a asp-page="/Auth/Login" asp-route-ReturnUrl="@(Context.Request.Path + Context.Request.QueryString)">
+                    Đăng Nhập
+                </a>
             }
         </nav>
     </header>
@@ -54,4 +55,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

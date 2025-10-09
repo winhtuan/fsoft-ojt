@@ -1,0 +1,177 @@
+﻿2025-10-08 22:58:23.495 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-08 22:58:23.499 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-08 22:58:23.499 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-08 22:58:24.368 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-08 22:58:24.369 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-08 22:58:24.369 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-08 22:58:24.377 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-08 22:58:24.377 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-08 22:58:24.378 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-08 22:58:24.383 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-08 22:58:24.383 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-08 22:58:24.384 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-08 22:58:24.388 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-08 22:58:24.389 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-08 22:58:24.389 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-08 22:58:24.394 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-08 22:58:24.395 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-08 22:58:24.396 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-08 22:58:24.397 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-08 22:58:24.397 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-08 22:58:24.398 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-08 22:58:24.399 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-08 22:58:24.553 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-08 22:58:24.553 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-08 22:58:24.554 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-08 22:58:24.555 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-08 22:58:24.555 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-08 22:58:29.143 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 22:58:29.143 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 22:58:29.143 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 22:58:29.144 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 22:58:29.144 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 22:58:29.145 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 22:58:29.210 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 22:58:29.210 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 22:58:29.210 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 22:58:29.299 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:03:02.799 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:03:02.800 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:03:02.800 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:03:02.803 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:03:02.803 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:03:02.804 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:03:02.859 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:03:02.864 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:03:02.864 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:03:02.864 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:03:20.368 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:03:20.369 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:03:20.369 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:03:20.369 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:03:20.369 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:03:20.369 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:03:20.378 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:03:20.388 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:03:20.388 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:03:20.388 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:03:24.713 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:03:24.713 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:03:24.714 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:03:24.714 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:03:24.715 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:03:24.715 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:03:24.768 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:03:24.768 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:03:24.768 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:03:24.860 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:03:35.444 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:03:35.444 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:03:35.444 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:03:35.444 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:03:35.444 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:03:35.444 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:03:35.451 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:03:35.462 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:03:35.462 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:03:35.462 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:03:40.785 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:03:40.786 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:03:40.786 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:03:40.786 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:03:40.786 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:03:40.786 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:03:40.789 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:03:40.793 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:03:40.794 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:03:40.794 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:05:22.650 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:05:22.651 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:05:22.651 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:05:22.651 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:05:22.651 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:05:22.651 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:05:22.657 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:05:22.663 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:05:22.664 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:05:22.664 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:13:05.778 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:13:05.778 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:13:05.778 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:13:05.778 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:13:05.778 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:13:05.779 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:13:05.818 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:13:05.826 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:13:05.826 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:13:05.826 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:30:09.266 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002%20%20%20%20%20'.
+2025-10-08 23:30:09.266 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002%20%20%20%20%20.
+2025-10-08 23:30:09.266 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002%20%20%20%20%20.
+2025-10-08 23:30:09.267 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:30:09.267 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:30:09.267 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:30:09.304 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:30:09.305 [PlantRepository] [Warn] : Không tìm thấy cây trồng với ID: PL002%20%20%20%20%20. Trả về một DTO rỗng.
+2025-10-08 23:30:09.306 [PlantService] [Warn] : Service không tìm thấy cây trồng với ID: PL002%20%20%20%20%20.
+2025-10-08 23:30:09.306 [PlantController] [Warn] : Không tìm thấy cây trồng nào với ID: 'PL002%20%20%20%20%20'.
+2025-10-08 23:35:42.785 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:35:42.786 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:35:42.786 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:35:42.787 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:35:42.787 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:35:42.787 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:35:42.831 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:35:42.840 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:35:42.840 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:35:42.840 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:36:44.714 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:36:44.715 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:36:44.715 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:36:44.716 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:36:44.717 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:36:44.717 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:36:44.725 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:36:44.730 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:36:44.730 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:36:44.730 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:37:08.747 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:37:08.748 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:37:08.748 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:37:08.748 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:37:08.748 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:37:08.748 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:37:08.757 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:37:08.766 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:37:08.766 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:37:08.766 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:37:25.551 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:37:25.551 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:37:25.551 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:37:25.551 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:37:25.551 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:37:25.552 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:37:25.555 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:37:25.558 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:37:25.559 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:37:25.559 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:37:47.301 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:37:47.302 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:37:47.302 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:37:47.302 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:37:47.303 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:37:47.303 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:37:47.307 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:37:47.312 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:37:47.312 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:37:47.313 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-08 23:37:56.184 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-08 23:37:56.185 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-08 23:37:56.185 [CommentService] [Info] : Lấy danh sách comment cho cây: PL002
+2025-10-08 23:37:56.185 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-08 23:37:56.185 [CommentRepository] [Info] : Tải comment theo plant PL002
+2025-10-08 23:37:56.186 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-08 23:37:56.190 [CommentController] [Info] : Trả về 1 comment
+2025-10-08 23:37:56.194 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-08 23:37:56.194 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-08 23:37:56.195 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).

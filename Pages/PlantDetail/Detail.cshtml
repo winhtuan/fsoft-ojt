@@ -1,363 +1,250 @@
 @page "/PlantDetail/Detail/{id}"
 @model Plantpedia.Pages.Plant.DetailsModel
-@using Plantpedia.Helper
+@using System.Security.Claims
 
 @{
     ViewData["Title"] = "Chi tiết cây trồng";
 }
+
+@Html.AntiForgeryToken()
+
 @section Styles {
     <link rel="stylesheet" href="~/css/detail-page.css" asp-append-version="true" />
 }
+
 <main class="container my-5">
-    <div class="row">
-        <!-- Cột bên trái: Hình ảnh sản phẩm -->
-        <div class="col-lg-6">
-            @if (Model.Plant.ImageUrls != null && Model.Plant.ImageUrls.Any())
-            {
-                <!-- Ảnh chính -->
-                <div class="mb-3">
-                    <img id="mainPlantImage" src="@Model.Plant.ImageUrls.First()" class="img-fluid rounded shadow-sm w-100"
-                        alt="Hình ảnh chính của @Model.Plant.CommonName">
+    <!-- Error Alert -->
+    <div id="errorAlert" class="alert alert-danger d-none" role="alert">
+        <i class="fas fa-exclamation-circle"></i>
+        <span id="errorMessage"></span>
+    </div>
+
+    <!-- Plant Content -->
+    <div id="plantContent" class="d-none">
+        <div class="row">
+            <!-- Image Gallery -->
+            <div class="col-lg-6 mb-4">
+                <!-- Breadcrumb moved here, top left of gallery -->
+                <nav aria-label="breadcrumb" class="mb-0">
+                    <ol class="breadcrumb bg-transparent p-0">
+                        <li class="breadcrumb-item">
+                            <a href="/" class="text-success">
+                                <i class="fas fa-home"></i> Trang chủ
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="/plants" class="text-success">Cây trồng</a>
+                        </li>
+                        <li class="breadcrumb-item active" id="breadcrumbName">Chi tiết</li>
+                    </ol>
+                </nav>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-3">
+                        <img id="mainImage" 
+                             src="~/images/placeholder.png" 
+                             class="img-fluid rounded main-image" 
+                             alt="Ảnh chính">
+                    </div>
                 </div>
-                <!-- Danh sách ảnh nhỏ (thumbnail) -->
-                <div class="row g-2">
-                    @foreach (var imageUrl in Model.Plant.ImageUrls)
+                <div id="thumbnailContainer" class="row g-2 mt-2"></div>
+            </div>
+
+            <!-- Plant Information -->
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body p-4">
+                        <h1 id="plantCommonName" class="h2 fw-bold text-dark mb-2"></h1>
+                        <p class="text-muted fst-italic mb-3">
+                            <i class="fas fa-flask"></i>
+                            <span id="plantScientificName"></span>
+                        </p>
+
+                        <div id="badgesContainer" class="mb-4"></div>
+
+                        <div class="description-box p-3 bg-light rounded mb-4">
+                            <h5 class="text-success mb-3">
+                                <i class="fas fa-info-circle"></i> Mô tả
+                            </h5>
+                            <p id="plantDescription" class="mb-0"></p>
+                        </div>
+
+                        <div id="quickInfoContainer" class="row g-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabs Section -->
+        <div class="card shadow-sm border-0 mt-4">
+            <div class="card-header bg-white border-0">
+                <ul class="nav nav-tabs card-header-tabs" id="plantTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" 
+                                id="careTab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#care" 
+                                type="button" 
+                                role="tab">
+                            <i class="fas fa-hand-holding-water"></i> Chăm sóc
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                                id="regionTab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#region" 
+                                type="button" 
+                                role="tab">
+                            <i class="fas fa-map-marked-alt"></i> Vùng trồng
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                                id="soilTab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#soil" 
+                                type="button" 
+                                role="tab">
+                            <i class="fas fa-layer-group"></i> Loại đất
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                                id="climateTab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#climate" 
+                                type="button" 
+                                role="tab">
+                            <i class="fas fa-cloud-sun"></i> Khí hậu
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" 
+                                id="usageTab" 
+                                data-bs-toggle="tab" 
+                                data-bs-target="#usage" 
+                                type="button" 
+                                role="tab">
+                            <i class="fas fa-utensils"></i> Mục đích
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="tab-content" id="plantTabsContent">
+                    <div class="tab-pane fade show active" id="care" role="tabpanel">
+                        <h5 class="text-success mb-4">
+                            <i class="fas fa-spa"></i> Hướng dẫn chăm sóc chi tiết
+                        </h5>
+                        <dl id="careList" class="row mb-0"></dl>
+                    </div>
+                    <div class="tab-pane fade" id="region" role="tabpanel">
+                        <h5 class="text-success mb-3">
+                            <i class="fas fa-globe-asia"></i> Vùng trồng phù hợp
+                        </h5>
+                        <div id="regionContent"></div>
+                    </div>
+                    <div class="tab-pane fade" id="soil" role="tabpanel">
+                        <h5 class="text-success mb-3">
+                            <i class="fas fa-mountain"></i> Loại đất thích hợp
+                        </h5>
+                        <div id="soilContent"></div>
+                    </div>
+                    <div class="tab-pane fade" id="climate" role="tabpanel">
+                        <h5 class="text-success mb-3">
+                            <i class="fas fa-temperature-high"></i> Khí hậu phù hợp
+                        </h5>
+                        <div id="climateContent"></div>
+                    </div>
+                    <div class="tab-pane fade" id="usage" role="tabpanel">
+                        <h5 class="text-success mb-3">
+                            <i class="fas fa-tasks"></i> Mục đích sử dụng
+                        </h5>
+                        <div id="usageContent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comments Section -->
+        <section class="mt-5" data-plant-id="@Model.PlantId">
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4">
+                    <h4 class="mb-4">
+                        <i class="fas fa-comments text-success"></i> Bình luận
+                    </h4>
+
+                    @if (User.Identity?.IsAuthenticated == true)
                     {
-                        <div class="col-3">
-                            <img src="@imageUrl"
-                                class="img-fluid rounded thumbnail-image @(imageUrl == Model.Plant.ImageUrls.First() ? "active" : "")"
-                                alt="Hình ảnh chi tiết của @Model.Plant.CommonName">
+                        <div class="card bg-light border-0 mb-4">
+                            <div class="card-body">
+                                <h5 class="mb-3">
+                                    <i class="fas fa-pencil-alt text-success"></i> 
+                                    Viết bình luận
+                                </h5>
+                                <textarea id="commentContent" 
+                                          class="form-control mb-3" 
+                                          rows="4"
+                                          placeholder="Chia sẻ ý kiến, kinh nghiệm của bạn về cây trồng này..."></textarea>
+                                <div id="commentError" class="alert alert-danger d-none" role="alert"></div>
+                                <button id="btnSubmitComment" class="btn btn-success">
+                                    <i class="fas fa-paper-plane"></i> Gửi bình luận
+                                </button>
+                            </div>
                         </div>
                     }
+                    else
+                    {
+                        <div class="card bg-light border-0 mb-4">
+                            <div class="card-body text-center py-5">
+                                <i class="fas fa-lock fa-3x text-success mb-3"></i>
+                                <h5 class="mb-3">Đăng nhập để bình luận</h5>
+                                <p class="text-muted mb-4">
+                                    Vui lòng đăng nhập để chia sẻ ý kiến và trao đổi với cộng đồng
+                                </p>
+                                <a asp-page="/Auth/Login" 
+                                   asp-route-ReturnUrl="@(PageContext.HttpContext.Request.Path + PageContext.HttpContext.Request.QueryString)"
+                                   class="btn btn-success">
+                                    <i class="fas fa-sign-in-alt"></i> Đăng nhập ngay
+                                </a>
+                            </div>
+                        </div>
+                    }
+
+                    <div id="commentList"></div>
                 </div>
-            }
-            else
-            {
-                <div class="mb-3">
-                    <img id="mainPlantImage" src="~/images/placeholder.png" class="img-fluid rounded shadow-sm w-100"
-                        alt="Chưa có hình ảnh">
-                </div>
-            }
-        </div>
-
-        <!-- Cột bên phải: Thông tin chi tiết -->
-        <div class="col-lg-6">
-            <h3 class="display-5 ps-2">@Model.Plant.CommonName</h3>
-            <p class="text-muted fst-italic mb-3 ps-2"><strong>Tên khoa học:</strong> @Model.Plant.ScientificName</p>
-
-            <h4 class="ps-2">Mô tả chi tiết</h4>
-            <p class="ps-2">
-                @Model.Plant.Description
-            </p>
-
-            @if (!string.IsNullOrEmpty(Model.Plant.PlantTypeName))
-            {
-                <p class="ps-2"><strong>Loại cây:</strong> <span class="badge bg-success fs-6">@Model.Plant.PlantTypeName</span></p>
-            }
-
-            <p class="ps-2">
-                <strong>Thời gian thu hoạch:</strong>
-                @if (Model.Plant.HarvestDate.HasValue && Model.Plant.HarvestDate > 0)
-                {
-                    <span>Sau @Model.Plant.HarvestDate ngày</span>
-                }
-                else
-                {
-                    <span class="text-muted">Không áp dụng</span>
-                }
-            </p>
-        </div>
-<hr class="my-5" />
-
-<section id="commentSection" class="mt-5">
-  <h4 class="mb-4">Bình luận</h4>
-
-  <!-- Form tạo bình luận -->
-  <div class="card shadow-sm mb-4">
-    <div class="card-body">
-      <h5 class="mb-3">Viết bình luận</h5>
-      <div class="mb-3">
-        <textarea id="commentContent" class="form-control" rows="3" placeholder="Chia sẻ ý kiến của bạn..."></textarea>
-      </div>
-      <button id="btnCreateComment" class="btn btn-success px-4">Gửi</button>
-    </div>
-  </div>
-
-  <!-- Danh sách bình luận -->
-  <div id="commentList" class="comment-list"></div>
-</section>
-
-</section>
-    <!-- Phần thông tin bổ sung ở dưới - Dạng Tab -->
-    <hr class="my-5">
-
-    <div class="product-details-tabs">
-        <!-- Tab Navigation -->
-        <ul class="nav nav-tabs nav-fill" id="plantInfoTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="care-tab" data-bs-toggle="tab" data-bs-target="#care-tab-pane"
-                    type="button" role="tab" aria-controls="care-tab-pane" aria-selected="true">
-                    <i class="fas fa-hand-holding-water me-2"></i>Chăm sóc
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="region-tab" data-bs-toggle="tab" data-bs-target="#region-tab-pane"
-                    type="button" role="tab" aria-controls="region-tab-pane" aria-selected="false">
-                    <i class="fas fa-map-marked-alt me-2"></i>Vùng trồng
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="soil-tab" data-bs-toggle="tab" data-bs-target="#soil-tab-pane"
-                    type="button" role="tab" aria-controls="soil-tab-pane" aria-selected="false">
-                    <i class="fas fa-seedling me-2"></i>Loại đất
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="climate-tab" data-bs-toggle="tab" data-bs-target="#climate-tab-pane"
-                    type="button" role="tab" aria-controls="climate-tab-pane" aria-selected="false">
-                    <i class="fas fa-cloud-sun me-2"></i>Khí hậu
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="usage-tab" data-bs-toggle="tab" data-bs-target="#usage-tab-pane"
-                    type="button" role="tab" aria-controls="usage-tab-pane" aria-selected="false">
-                    <i class="fas fa-bullseye me-2"></i>Mục đích sử dụng
-                </button>
-            </li>
-        </ul>
-
-        <!-- Tab Content -->
-        <div class="tab-content bg-white p-4 border border-top-0 rounded-bottom shadow-sm" id="plantInfoTabContent">
-
-            <!-- Nội dung Tab Chăm sóc -->
-            <div class="tab-pane fade show active" id="care-tab-pane" role="tabpanel" aria-labelledby="care-tab"
-                tabindex="0">
-                <h5>Hướng dẫn Chăm sóc chi tiết</h5>
-                <dl class="row">
-                    <dt class="col-sm-4">Yêu cầu ánh sáng</dt>
-                    <dd class="col-sm-8">
-                        @EnumHelper.GetDisplayName(Model.Plant.LightRequirement)
-                    </dd>
-                    <dt class="col-sm-4">Nhu cầu tưới nước</dt>
-                    <dd class="col-sm-8">
-                        @EnumHelper.GetDisplayName(Model.Plant.WateringNeeds)
-                    </dd>
-                    <dt class="col-sm-4">Độ ẩm ưa thích</dt>
-                    <dd class="col-sm-8">
-                        @EnumHelper.GetDisplayName(Model.Plant.HumidityPreference)
-                    </dd>
-                    <dt class="col-sm-4">Tốc độ tăng trưởng</dt>
-                    <dd class="col-sm-8">
-                        @EnumHelper.GetDisplayName(Model.Plant.GrowthRate)
-                    </dd>
-                    <dt class="col-sm-4">Loại đất đề xuất</dt>
-                    <dd class="col-sm-8">@Model.Plant.SoilRecommendation</dd>
-                    <dt class="col-sm-4">Thông tin bón phân</dt>
-                    <dd class="col-sm-8">@Model.Plant.FertilizerInfo</dd>
-                </dl>
             </div>
-
-            <!-- Nội dung Tab Vùng trồng -->
-            <div class="tab-pane fade" id="region-tab-pane" role="tabpanel" aria-labelledby="region-tab" tabindex="0">
-                <h5>Khu vực trồng phù hợp</h5>
-                @if (Model.Plant.RegionNames != null && Model.Plant.RegionNames.Any())
-                {
-                    <ul>
-                        @foreach (var item in Model.Plant.RegionNames)
-                        {
-                            <li>@item</li>
-                        }
-                    </ul>
-                }
-                else
-                {
-                    <p>Chưa có thông tin.</p>
-                }
-            </div>
-
-            <!-- Nội dung Tab Loại đất -->
-            <div class="tab-pane fade" id="soil-tab-pane" role="tabpanel" aria-labelledby="soil-tab" tabindex="0">
-                <h5>Loại đất phù hợp</h5>
-                @if (Model.Plant.SoilNames != null && Model.Plant.SoilNames.Any())
-                {
-                    <ul>
-                        @foreach (var item in Model.Plant.SoilNames)
-                        {
-                            <li>@item</li>
-                        }
-                    </ul>
-                }
-                else
-                {
-                    <p>Chưa có thông tin.</p>
-                }
-            </div>
-
-            <!-- Nội dung Tab Khí hậu -->
-            <div class="tab-pane fade" id="climate-tab-pane" role="tabpanel" aria-labelledby="climate-tab" tabindex="0">
-                <h5>Điều kiện khí hậu</h5>
-                @if (Model.Plant.ClimateNames != null && Model.Plant.ClimateNames.Any())
-                {
-                    <ul>
-                        @foreach (var item in Model.Plant.ClimateNames)
-                        {
-                            <li>@item</li>
-                        }
-                    </ul>
-                }
-                else
-                {
-                    <p>Chưa có thông tin.</p>
-                }
-            </div>
-
-            <!-- Nội dung Tab Mục đích sử dụng -->
-            <div class="tab-pane fade" id="usage-tab-pane" role="tabpanel" aria-labelledby="usage-tab" tabindex="0">
-                <h5>Mục đích sử dụng chính</h5>
-                @if (Model.Plant.UsageNames != null && Model.Plant.UsageNames.Any())
-                {
-                    <ul>
-                        @foreach (var item in Model.Plant.UsageNames)
-                        {
-                            <li>@item</li>
-                        }
-                    </ul>
-                }
-                else
-                {
-                    <p>Chưa có thông tin.</p>
-                }
-            </div>
-
-        </div> <!-- Thẻ đóng của .tab-content đã được di chuyển đến đây -->
+        </section>
     </div>
 </main>
 
+<!-- Comment Template -->
+<template id="commentTemplate">
+    <div class="comment-item card border-0 bg-light mb-3">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-circle fa-2x text-success me-2"></i>
+                    <div>
+                        <strong class="comment-author d-block"></strong>
+                        <small class="comment-date text-muted"></small>
+                    </div>
+                </div>
+                <button class="btn btn-sm btn-outline-success btn-react" type="button">
+                    <i class="fas fa-seedling"></i>
+                    <span class="react-count ms-1">0</span>
+                </button>
+            </div>
+            <p class="comment-text mb-2"></p>
+            <button class="btn btn-sm btn-link text-success p-0 btn-reply" type="button">
+                <i class="fas fa-reply"></i> Trả lời
+            </button>
+        </div>
+    </div>
+</template>
+
 @section Scripts {
-    <!-- JS cho thư viện ảnh -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const mainImage = document.getElementById('mainPlantImage');
-            const thumbnails = document.querySelectorAll('.thumbnail-image');
-
-            if (mainImage && thumbnails.length > 0) {
-                thumbnails.forEach(thumb => {
-                    thumb.addEventListener('click', function () {
-                        mainImage.src = this.src;
-                        mainImage.alt = this.alt;
-                        thumbnails.forEach(innerThumb => innerThumb.classList.remove('active'));
-                        this.classList.add('active');
-                    });
-                });
-            }
-        });
-    </script>
-
-    <!-- JS cho bình luận (AJAX không reload trang) -->
-    <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const plantId = "@Model.Plant.PlantId";
-      const apiBase = "/api/comment";
-      const listEl = document.getElementById("commentList");
-      const btnCreate = document.getElementById("btnCreateComment");
-      const txtContent = document.getElementById("commentContent");
-      const CURRENT_USER_ID = 1; // TODO: lấy từ session/identity
-
-      async function fetchJson(url, options) {
-        const res = await fetch(url, options);
-        return await res.json();
-      }
-
-      function renderComment(cmt, depth = 0) {
-        const pad = Math.min(depth * 24, 72);
-        const li = document.createElement("div");
-        li.className = "card mb-2";
-        li.style.marginLeft = pad + "px";
-        li.innerHTML = `
-          <div class="card-body py-3">
-            <div class="d-flex justify-content-between">
-              <div>
-                <strong>${cmt.userName}</strong>
-                <span class="text-muted small ms-2">${new Date(cmt.createdAt).toLocaleString()}</span>
-              </div>
-              <div class="text-muted small">
-                <button class="btn btn-sm btn-outline-secondary me-2 btn-like" data-id="${cmt.commentId}" data-type="L">👍 ${cmt.likeCount}</button>
-                <button class="btn btn-sm btn-outline-secondary btn-dislike" data-id="${cmt.commentId}" data-type="D">👎 ${cmt.dislikeCount}</button>
-              </div>
-            </div>
-            <div class="mt-2">${cmt.content}</div>
-            <div class="mt-2">
-              <button class="btn btn-sm btn-link p-0 text-decoration-none btn-reply" data-id="${cmt.commentId}">Trả lời</button>
-              <div class="reply-form mt-2 d-none">
-                <textarea class="form-control mb-2 reply-content" rows="2" placeholder="Nhập nội dung trả lời..."></textarea>
-                <button class="btn btn-sm btn-primary btn-send-reply" data-parent="${cmt.commentId}">Gửi</button>
-              </div>
-            </div>
-          </div>
-        `;
-
-        li.querySelector(".btn-like").addEventListener("click", () => react(cmt.commentId, 'L'));
-        li.querySelector(".btn-dislike").addEventListener("click", () => react(cmt.commentId, 'D'));
-
-        li.querySelector(".btn-reply").addEventListener("click", () => {
-          li.querySelector(".reply-form").classList.toggle("d-none");
-        });
-
-        li.querySelector(".btn-send-reply").addEventListener("click", async (e) => {
-          const parentId = Number(e.currentTarget.getAttribute("data-parent"));
-          const content = li.querySelector(".reply-content").value.trim();
-          if (!content) { alert("Vui lòng nhập nội dung."); return; }
-
-          const payload = { plantId, userId: CURRENT_USER_ID, content, parentCommentId: parentId };
-          const res = await fetchJson(`${apiBase}/create`, {
-            method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
-          });
-          if (res.success) { await loadComments(); }
-        });
-
-        if (cmt.replies && cmt.replies.length) {
-          cmt.replies.forEach(r => li.appendChild(renderComment(r, depth + 1)));
-        }
-        return li;
-      }
-
-      async function loadComments() {
-        listEl.innerHTML = `<div class="text-muted">Đang tải bình luận...</div>`;
-        try {
-          const res = await fetchJson(`${apiBase}/${plantId}`);
-          listEl.innerHTML = "";
-          if (!res.success || !res.data || res.data.length === 0) {
-            listEl.innerHTML = `<p class="text-muted">Chưa có bình luận nào.</p>`;
-            return;
-          }
-          res.data.forEach(c => listEl.appendChild(renderComment(c)));
-          console.log("[Comment] Loaded:", res.data.length);
-        } catch (e) {
-          console.error("Lỗi tải bình luận:", e);
-          listEl.innerHTML = `<p class="text-danger">Không thể tải bình luận.</p>`;
-        }
-      }
-
-      async function react(commentId, type) {
-        const payload = { commentId, userId: CURRENT_USER_ID, reactionType: type };
-        const res = await fetchJson(`${apiBase}/react`, {
-          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
-        });
-        if (res.success) await loadComments();
-      }
-
-      btnCreate?.addEventListener("click", async () => {
-        const content = txtContent.value.trim();
-        if (!content) { alert("Vui lòng nhập nội dung."); return; }
-        const payload = { plantId, userId: CURRENT_USER_ID, content };
-        const res = await fetchJson(`${apiBase}/create`, {
-          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
-        });
-        if (res.success) { txtContent.value = ""; await loadComments(); }
-        else { alert(res.message ?? "Không thể gửi bình luận."); }
-      });
-
-      loadComments();
-    });
-    </script>
+    <script src="~/js/detail-page.js" asp-append-version="true"></script>
+    <script src="~/js/comment.js" asp-append-version="true"></script>
 }

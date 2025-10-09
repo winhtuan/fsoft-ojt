@@ -45,8 +45,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment.js",
+      "PackagePath": "staticwebassets\\js\\comment.js"
+    },
+    {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page.js",
+      "PackagePath": "staticwebassets\\js\\detail-page.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",

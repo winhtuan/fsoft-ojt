@@ -1,52 +1,27 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Plantpedia.DTO;
-using Plantpedia.Helper;
-using Plantpedia.Service;
 
 namespace Plantpedia.Pages.Plant
 {
     public class DetailsModel : PageModel
     {
-        private readonly IPlantService _plantService;
-        public PlantDto Plant { get; private set; }
+        // Thuộc tính này sẽ được dùng trong file .cshtml để truyền ID cho JavaScript
+        public string PlantId { get; private set; }
 
-        public DetailsModel(IPlantService plantService)
+        public IActionResult OnGet(string id)
         {
-            _plantService = plantService;
-        }
-
-        public async Task<IActionResult> OnGetAsync(string id)
-        {
-            LoggerHelper.Info($"Bắt đầu lấy chi tiết cho cây trồng có ID: '{id}'.");
-
-            try
+            if (string.IsNullOrEmpty(id))
             {
-                if (string.IsNullOrEmpty(id))
-                {
-                    LoggerHelper.Warn("ID bị trống, không thể truy vấn chi tiết cây trồng.");
-                    return BadRequest();
-                }
-
-                Plant = await _plantService.GetPlantById(id);
-                if (Plant == null || string.IsNullOrEmpty(Plant.PlantId))
-                {
-                    LoggerHelper.Warn($"Không tìm thấy cây trồng nào với ID: '{id}'.");
-                    return NotFound();
-                }
-
-                ViewData["Title"] = Plant.CommonName;
-                LoggerHelper.Info(
-                    $"Hiển thị thành công chi tiết cho cây '{Plant.CommonName}' (ID: {id})."
-                );
-
-                return Page();
+                return BadRequest("Plant ID is required.");
             }
-            catch (Exception ex)
-            {
-                LoggerHelper.Error(ex, "Lỗi khi tải chi tiết cây trồng.");
-                return RedirectToPage("/Error");
-            }
+
+            // Gán ID để view có thể sử dụng
+            PlantId = id;
+
+            // Đặt một tiêu đề tạm thời, JS sẽ cập nhật lại sau khi tải dữ liệu
+            ViewData["Title"] = "Đang tải chi tiết...";
+
+            return Page();
         }
     }
 }
