@@ -16,8 +16,8 @@ public class PlantCommentReaction
     [Column("user_id")]
     public int UserId { get; set; }
 
-    [Column("reaction_type", TypeName = "char(1)")]
-    public char ReactionType { get; set; } // 'L' = Like, 'D' = Dislike
+    [Column("reaction_type", TypeName = "boolean")]
+    public bool ReactionType { get; set; }
 
     [Column("created_at", TypeName = "timestamp with time zone")]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

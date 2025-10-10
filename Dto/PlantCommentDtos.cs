@@ -12,22 +12,31 @@ namespace Plantpedia.DTO
     {
         public int CommentId { get; set; }
         public int UserId { get; set; }
-
-        // 'L' = Like, 'D' = Dislike, 'N' = remove reaction
-        public char ReactionType { get; set; }
+        public bool ReactionType { get; set; }
     }
 
     public class PlantCommentDto
     {
         public int CommentId { get; set; }
-        public string PlantId { get; set; } = default!;
+        public string PlantId { get; set; }
         public int UserId { get; set; }
-        public string UserName { get; set; } = "Ẩn danh";
-        public string Content { get; set; } = default!;
+        public string UserName { get; set; }
+        public string AvatarUrl { get; set; }
+        public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
         public int? ParentCommentId { get; set; }
-        public int LikeCount { get; set; }
-        public int DislikeCount { get; set; }
+        public int ReactCount { get; set; }
         public List<PlantCommentDto> Replies { get; set; } = new();
+    }
+
+    public class PlantCommentUpdateRequest
+    {
+        public int CommentId { get; set; }
+        public string Content { get; set; } = default!;
+    }
+
+    public class PlantCommentDeleteRequest
+    {
+        public int CommentId { get; set; }
     }
 }

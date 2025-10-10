@@ -28,12 +28,12 @@
                 <nav aria-label="breadcrumb" class="mb-0">
                     <ol class="breadcrumb bg-transparent p-0">
                         <li class="breadcrumb-item">
-                            <a href="/" class="text-success">
+                            <a asp-page="/Home/Home" class="text-success">
                                 <i class="fas fa-home"></i> Trang chủ
                             </a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="/plants" class="text-success">Cây trồng</a>
+                            <a asp-page="/Home/Search" class="text-success">Cây trồng</a>
                         </li>
                         <li class="breadcrumb-item active" id="breadcrumbName">Chi tiết</li>
                     </ol>
@@ -41,10 +41,8 @@
 
                 <div class="card shadow-sm border-0">
                     <div class="card-body p-3">
-                        <img id="mainImage" 
-                             src="~/images/placeholder.png" 
-                             class="img-fluid rounded main-image" 
-                             alt="Ảnh chính">
+                        <img id="mainImage" src="~/images/placeholder.png" class="img-fluid rounded main-image"
+                            alt="Ảnh chính">
                     </div>
                 </div>
                 <div id="thumbnailContainer" class="row g-2 mt-2"></div>
@@ -80,52 +78,32 @@
             <div class="card-header bg-white border-0">
                 <ul class="nav nav-tabs card-header-tabs" id="plantTabs" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" 
-                                id="careTab" 
-                                data-bs-toggle="tab" 
-                                data-bs-target="#care" 
-                                type="button" 
-                                role="tab">
+                        <button class="nav-link active" id="careTab" data-bs-toggle="tab" data-bs-target="#care"
+                            type="button" role="tab">
                             <i class="fas fa-hand-holding-water"></i> Chăm sóc
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" 
-                                id="regionTab" 
-                                data-bs-toggle="tab" 
-                                data-bs-target="#region" 
-                                type="button" 
-                                role="tab">
+                        <button class="nav-link" id="regionTab" data-bs-toggle="tab" data-bs-target="#region"
+                            type="button" role="tab">
                             <i class="fas fa-map-marked-alt"></i> Vùng trồng
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" 
-                                id="soilTab" 
-                                data-bs-toggle="tab" 
-                                data-bs-target="#soil" 
-                                type="button" 
-                                role="tab">
+                        <button class="nav-link" id="soilTab" data-bs-toggle="tab" data-bs-target="#soil" type="button"
+                            role="tab">
                             <i class="fas fa-layer-group"></i> Loại đất
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" 
-                                id="climateTab" 
-                                data-bs-toggle="tab" 
-                                data-bs-target="#climate" 
-                                type="button" 
-                                role="tab">
+                        <button class="nav-link" id="climateTab" data-bs-toggle="tab" data-bs-target="#climate"
+                            type="button" role="tab">
                             <i class="fas fa-cloud-sun"></i> Khí hậu
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" 
-                                id="usageTab" 
-                                data-bs-toggle="tab" 
-                                data-bs-target="#usage" 
-                                type="button" 
-                                role="tab">
+                        <button class="nav-link" id="usageTab" data-bs-toggle="tab" data-bs-target="#usage"
+                            type="button" role="tab">
                             <i class="fas fa-utensils"></i> Mục đích
                         </button>
                     </li>
@@ -169,82 +147,108 @@
 
         <!-- Comments Section -->
         <section class="mt-5" data-plant-id="@Model.PlantId">
-            <div class="card shadow-sm border-0">
-                <div class="card-body p-4">
-                    <h4 class="mb-4">
-                        <i class="fas fa-comments text-success"></i> Bình luận
-                    </h4>
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-4">
+            <h4 class="mb-4">
+                <i class="fas fa-comments text-success"></i> Bình luận
+            </h4>
 
-                    @if (User.Identity?.IsAuthenticated == true)
-                    {
-                        <div class="card bg-light border-0 mb-4">
-                            <div class="card-body">
-                                <h5 class="mb-3">
-                                    <i class="fas fa-pencil-alt text-success"></i> 
-                                    Viết bình luận
-                                </h5>
-                                <textarea id="commentContent" 
-                                          class="form-control mb-3" 
-                                          rows="4"
-                                          placeholder="Chia sẻ ý kiến, kinh nghiệm của bạn về cây trồng này..."></textarea>
-                                <div id="commentError" class="alert alert-danger d-none" role="alert"></div>
-                                <button id="btnSubmitComment" class="btn btn-success">
-                                    <i class="fas fa-paper-plane"></i> Gửi bình luận
-                                </button>
-                            </div>
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="card bg-light border-0 mb-4">
-                            <div class="card-body text-center py-5">
-                                <i class="fas fa-lock fa-3x text-success mb-3"></i>
-                                <h5 class="mb-3">Đăng nhập để bình luận</h5>
-                                <p class="text-muted mb-4">
-                                    Vui lòng đăng nhập để chia sẻ ý kiến và trao đổi với cộng đồng
-                                </p>
-                                <a asp-page="/Auth/Login" 
-                                   asp-route-ReturnUrl="@(PageContext.HttpContext.Request.Path + PageContext.HttpContext.Request.QueryString)"
-                                   class="btn btn-success">
-                                    <i class="fas fa-sign-in-alt"></i> Đăng nhập ngay
-                                </a>
-                            </div>
-                        </div>
-                    }
-
-                    <div id="commentList"></div>
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <div class="card bg-light border-0 mb-4">
+                    <div class="card-body">
+                        <h5 class="mb-3">
+                            <i class="fas fa-pencil-alt text-success"></i>
+                            Viết bình luận
+                        </h5>
+                        <textarea id="commentContent" class="form-control mb-3" rows="4"
+                            placeholder="Chia sẻ ý kiến, kinh nghiệm của bạn về cây trồng này..."></textarea>
+                        <div id="commentError" class="alert alert-danger d-none" role="alert"></div>
+                        <button id="btnSubmitComment" class="btn btn-success" type="button">
+                            <i class="fas fa-paper-plane"></i> Gửi bình luận
+                        </button>
+                    </div>
                 </div>
+            }
+            else
+            {
+                <div class="card bg-light border-0 mb-4">
+                    <div class="card-body text-center py-5">
+                        <i class="fas fa-lock fa-3x text-success mb-3"></i>
+                        <h5 class="mb-3">Đăng nhập để bình luận</h5>
+                        <p class="text-muted mb-4">
+                            Vui lòng đăng nhập để chia sẻ ý kiến và trao đổi với cộng đồng
+                        </p>
+                        <a asp-page="/Auth/Login"
+                            asp-route-ReturnUrl="@(PageContext.HttpContext.Request.Path + PageContext.HttpContext.Request.QueryString)"
+                            class="btn btn-success">
+                            <i class="fas fa-sign-in-alt"></i> Đăng nhập ngay
+                        </a>
+                    </div>
+                </div>
+            }
+
+            <div id="commentList"></div>
+        </div>
+    </div>
+</section>
+
+<template id="commentTemplate">
+    <div class="comment-item">
+        <div class="d-flex">
+            <!-- Avatar - Updated with style inline for consistency -->
+            <div class="comment-avatar flex-shrink-0" style="width: 40px; height: 40px; position: relative;">
+                <img src="" alt="Avatar" class="rounded-circle" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                <i class="fa fa-user-circle" style="font-size: 40px; color: #bbb; position: absolute; top: 0; left: 0; display: none;"></i>
             </div>
-        </section>
+
+            <!-- Nội dung bình luận và các action -->
+            <div class="comment-body flex-grow-1 ms-2">
+                <div class="comment-bubble">
+                    <div class="comment-content-wrapper">
+                        <a href="#" class="comment-author text-dark fw-bold text-decoration-none"></a>
+                        <span class="comment-text"></span>
+                    </div>
+
+                    <!-- Menu 3 chấm - Updated position -->
+                    <div class="comment-options-dropdown dropdown">
+                        <button class="btn btn-sm btn-light py-0 px-2 rounded-circle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item btn-edit" href="#"><i
+                                        class="bi bi-pencil-square me-2"></i>Chỉnh sửa</a></li>
+                            <li><a class="dropdown-item btn-delete text-danger" href="#"><i
+                                        class="bi bi-trash me-2"></i>Xóa</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Actions: Like, Reply, Time - Updated with icons -->
+                <div class="comment-actions small d-flex align-items-center mt-2">
+                    <a href="#" class="btn-react fw-bold text-decoration-none text-muted"><i class="bi bi-heart me-1"></i>Thích</a>
+                    <a href="#" class="btn-reply fw-bold text-decoration-none text-muted"><i class="bi bi-chat-left-text me-1"></i>Trả lời</a>
+                    <small class="comment-date text-muted"></small>
+                    <span class="react-display ms-2" style="display: none;">
+                        <i class="bi bi-heart-fill text-danger"></i>
+                        <span class="react-count">0</span>
+                    </span>
+                </div>
+
+                <div class="dynamic-form-container mt-2"></div>
+            </div>
+        </div>
+
+        <div class="reply-list-container"></div>
+    </div>
+</template>
     </div>
 </main>
 
-<!-- Comment Template -->
-<template id="commentTemplate">
-    <div class="comment-item card border-0 bg-light mb-3">
-        <div class="card-body">
-            <div class="d-flex justify-content-between align-items-start mb-2">
-                <div class="d-flex align-items-center">
-                    <i class="fas fa-user-circle fa-2x text-success me-2"></i>
-                    <div>
-                        <strong class="comment-author d-block"></strong>
-                        <small class="comment-date text-muted"></small>
-                    </div>
-                </div>
-                <button class="btn btn-sm btn-outline-success btn-react" type="button">
-                    <i class="fas fa-seedling"></i>
-                    <span class="react-count ms-1">0</span>
-                </button>
-            </div>
-            <p class="comment-text mb-2"></p>
-            <button class="btn btn-sm btn-link text-success p-0 btn-reply" type="button">
-                <i class="fas fa-reply"></i> Trả lời
-            </button>
-        </div>
-    </div>
-</template>
 
 @section Scripts {
+    <script>window.currentUserId = '@User.FindFirstValue(ClaimTypes.NameIdentifier)';</script>
     <script src="~/js/detail-page.js" asp-append-version="true"></script>
     <script src="~/js/comment.js" asp-append-version="true"></script>
 }

@@ -14,6 +14,27 @@
   --color-water-border: #cff4fc;
   --color-humidity-border: #e2d9f3;
   --color-growth-border: #fed4ba;
+  --color-bubble-bg: #f0f2f5; /* Facebook light gray */
+  --color-text-muted: #6c757d;
+  --color-like-active: #e0245e; /* Red heart like Facebook */
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bubble-bg: var(--color-bubble-bg);
+    --color-text-muted: #b0b3b8;
+  }
+  .comment-bubble {
+    background-color: var(--color-bubble-bg);
+    color: #e4e6eb;
+  }
+  .comment-author {
+    color: #e4e6eb;
+  }
+  .comment-actions a {
+    color: #b0b3b8;
+  }
 }
 
 /* ==================== MAIN IMAGE ==================== */
@@ -106,27 +127,26 @@
   background: linear-gradient(135deg, #20c997 0%, #0fb386 100%) !important;
   color: white;
 }
-
-.badge.plant-type-vegetable {
-  background: linear-gradient(135deg, #198754 0%, #146c43 100%) !important;
+.badge.plant-type-ornamental {
+  background: linear-gradient(135deg, #6f42c1 0%, #59359a 100%) !important;
   color: white;
 }
-
 .badge.plant-type-fruit {
   background: linear-gradient(135deg, #dc3545 0%, #b02a37 100%) !important;
   color: white;
 }
-
-.badge.plant-type-flower {
-  background: linear-gradient(135deg, #d63384 0%, #ab296a 100%) !important;
+.badge.plant-type-industry {
+  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%) !important;
   color: white;
 }
-
-.badge.plant-type-herb {
-  background: linear-gradient(135deg, #6f42c1 0%, #59359a 100%) !important;
+.badge.plant-type-food {
+  background: linear-gradient(135deg, #ffc107 0%, #ffecb3 100%) !important;
+  color: #212529;
+}
+.badge.plant-type-vegetable {
+  background: linear-gradient(135deg, #198754 0%, #146c43 100%) !important;
   color: white;
 }
-
 .badge.harvest-date {
   background: linear-gradient(135deg, #0dcaf0 0%, #0aa2c0 100%) !important;
   color: white;
@@ -170,7 +190,6 @@
 }
 
 .quick-info-card:hover {
-  transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
@@ -372,71 +391,303 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* ==================== COMMENTS SECTION ==================== */
+/* ==================== COMMENT SECTION - UPGRADED ==================== */
+/* Xóa bỏ các style cũ nếu có */
 .comment-item {
-  transition: all 0.3s ease;
-  border-left: 5px solid var(--color-primary) !important;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border: none !important;
+  padding: 0 !important;
 }
 
-.comment-item:hover {
-  transform: translateX(8px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+/* Toàn bộ danh sách bình luận */
+#commentList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Khoảng cách giữa các bình luận cha */
 }
 
-.comment-author {
-  color: var(--color-primary);
-  font-size: 1.1rem;
-  font-weight: 700;
+/* Một mục bình luận */
+.comment-item {
+  position: relative; /* Cần cho các đường nối reply */
+  animation: fadeInComment 0.5s ease-out; /* Animation fade-in cho comment mới */
 }
 
-.comment-date {
-  font-size: 0.85rem;
-  color: #6c757d;
+@keyframes fadeInComment {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.comment-text {
-  line-height: 1.8;
-  color: #495057;
-  font-size: 1.05rem;
+.new-comment {
+  animation: newCommentPulse 1s ease-in-out; /* Pulse cho comment mới thêm */
 }
 
-.btn-react {
-  transition: all 0.3s ease;
-  border-width: 2px;
-  border-radius: 20px;
-  font-weight: 600;
+@keyframes newCommentPulse {
+  0% {
+    background-color: rgba(25, 135, 84, 0.1);
+  }
+  50% {
+    background-color: rgba(25, 135, 84, 0.2);
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
-.btn-react:hover,
-.btn-react.active {
-  background: linear-gradient(135deg, #198754 0%, #146c43 100%);
-  border-color: #198754;
-  color: white;
-  transform: scale(1.1);
-  box-shadow: 0 4px 12px rgba(25, 135, 84, 0.3);
-}
-
-.btn-react i {
+/* Avatar người dùng - Nâng cấp với border và hover */
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  position: relative;
   transition: transform 0.3s ease;
-  font-size: 1.2em;
 }
 
-.btn-react:hover i,
-.btn-react.active i {
-  transform: rotate(20deg) scale(1.2);
+.comment-avatar:hover {
+  transform: scale(1.1);
 }
 
-.btn-reply {
+.comment-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e4e6eb; /* Border nhẹ như Facebook */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-avatar .fa-user-circle {
+  font-size: 40px;
+  color: #bbb;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+/* Bong bóng chứa nội dung bình luận - Nâng cấp với arrow và shadow */
+.comment-bubble {
+  background-color: var(--color-bubble-bg);
+  border-radius: 18px;
+  padding: 8px 12px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.comment-bubble:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+/* Arrow pointer cho bubble (như chat) */
+.comment-bubble::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid var(--color-bubble-bg);
+}
+
+/* Tên tác giả */
+.comment-author {
+  display: block;
+  font-size: 0.85rem;
   font-weight: 600;
-  text-decoration: none;
+  color: #050505; /* Dark như Facebook */
+}
+
+.comment-author:hover {
   color: var(--color-primary);
 }
 
-.btn-reply:hover {
-  text-decoration: underline;
-  color: #146c43;
+/* Nội dung bình luận */
+.comment-text {
+  display: block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  color: #212529;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Các nút hành động (Thích, Trả lời) và thời gian - Nâng cấp với icon */
+.comment-actions {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Khoảng cách đều */
+}
+
+.comment-actions a {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px; /* Icon + text */
+  transition: color 0.2s ease;
+}
+
+.comment-actions a:hover {
+  color: var(--color-primary);
+}
+
+.comment-actions .btn-react {
+  color: var(--color-text-muted);
+}
+
+.comment-actions .btn-react:hover,
+.comment-actions .btn-react.liked {
+  color: var(--color-like-active);
+  animation: heartPulse 0.5s ease-in-out;
+}
+
+@keyframes heartPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.comment-actions .btn-reply:hover {
+  color: var(--color-primary);
+}
+
+/* Hiển thị số lượt thích - Nâng cấp badge với animation */
+.react-display {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 2px 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.react-display:hover {
+  transform: scale(1.1);
+}
+
+/* Nút 3 chấm (ẩn mặc định) */
+.comment-options-dropdown {
+  position: absolute;
+  top: 8px;
+  right: 8px; /* Nằm trong bubble cho clean hơn */
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.comment-bubble:hover .comment-options-dropdown {
+  opacity: 1;
+}
+
+.comment-options-dropdown .btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+  color: #65676b;
+}
+
+.comment-options-dropdown .btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+}
+
+/* Dropdown menu */
+.comment-options-dropdown .dropdown-menu {
+  min-width: 120px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.comment-options-dropdown .dropdown-item {
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.comment-options-dropdown .dropdown-item:hover {
+  background-color: #f0f2f5;
+}
+
+/* --- CSS cho phần phản hồi (Replies) - Nâng cấp curve line mượt hơn --- */
+.reply-list-container {
+  padding-left: 50px;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Tạo không gian cho đường nối */
+.reply-list-container .comment-item {
+  padding-left: 28px;
+}
+
+/* Đường kẻ dọc - Nâng cấp gradient cho modern */
+.reply-list-container .comment-item::before {
+  content: "";
+  position: absolute;
+  left: 20px; /* Căn giữa avatar con */
+  top: -12px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #e4e6eb 20%,
+    #e4e6eb
+  ); /* Fade in */
+}
+
+/* Đường kẻ ngang (góc cong) - Nâng cấp radius lớn hơn cho curve mượt */
+.reply-list-container .comment-item::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 20px; /* Căn giữa avatar con */
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid #e4e6eb;
+  border-left: 2px solid #e4e6eb;
+  border-bottom-left-radius: 16px; /* Radius lớn hơn cho cong mượt */
+}
+
+/* Rút ngắn đường kẻ dọc cho reply cuối cùng */
+.reply-list-container .comment-item:last-child::before {
+  height: 32px; /* Tăng để khớp curve */
+}
+
+/* Form reply/edit - Nâng cấp style */
+.reply-form,
+.edit-form {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.reply-form textarea,
+.edit-form textarea {
+  border-radius: 8px;
+  min-height: 60px;
 }
 
 /* ==================== CARDS ==================== */
@@ -588,7 +839,7 @@ textarea.form-control:focus {
   }
 
   .thumbnail-image {
-    height: 70px;
+    height: 80px;
   }
 
   h1.h2 {
@@ -606,6 +857,36 @@ textarea.form-control:focus {
 
   .tab-content {
     padding: 1.5rem;
+  }
+
+  /* Comment responsive: Giảm size avatar, padding */
+  .comment-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .comment-avatar img,
+  .comment-avatar .fa-user-circle {
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+  }
+
+  .comment-actions {
+    padding-left: 40px;
+    font-size: 0.75rem;
+  }
+
+  .reply-list-container {
+    padding-left: 40px;
+  }
+
+  .reply-list-container .comment-item::before {
+    left: 16px;
+  }
+
+  .reply-list-container .comment-item::after {
+    left: 16px;
   }
 }
 

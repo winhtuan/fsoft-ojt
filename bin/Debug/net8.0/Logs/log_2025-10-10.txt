@@ -1,0 +1,662 @@
+﻿2025-10-10 13:30:36.798 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-10 13:30:36.805 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-10 13:30:36.806 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-10 13:30:38.447 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-10 13:30:38.449 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-10 13:30:38.450 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-10 13:30:38.463 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-10 13:30:38.465 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-10 13:30:38.466 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-10 13:30:38.480 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-10 13:30:38.481 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-10 13:30:38.483 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-10 13:30:38.497 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-10 13:30:38.498 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-10 13:30:38.500 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-10 13:30:38.513 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-10 13:30:38.514 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-10 13:30:38.516 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-10 13:30:38.517 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-10 13:30:38.519 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-10 13:30:38.522 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-10 13:30:38.527 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-10 13:30:38.864 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-10 13:30:38.864 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-10 13:30:38.864 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-10 13:30:38.885 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-10 13:30:38.886 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-10 13:30:46.855 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL006     '.
+2025-10-10 13:30:46.855 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL006     .
+2025-10-10 13:30:46.856 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL006     .
+2025-10-10 13:30:46.858 [CommentController] [Info] : GET list comment plant=PL006
+2025-10-10 13:30:46.991 [CommentController] [Info] : Trả về 0 comment
+2025-10-10 13:30:47.045 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL006     .
+2025-10-10 13:30:47.045 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL006     .
+2025-10-10 13:30:47.045 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Ổi' (ID: PL006     ).
+2025-10-10 13:30:56.778 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minha
+2025-10-10 13:30:56.779 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-10 13:30:56.781 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-10 13:30:56.973 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-10 13:30:56.978 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-10 13:30:56.979 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-10 13:30:57.112 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-10 13:30:57.113 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-10 13:30:57.331 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-10 13:30:57.332 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-10 13:30:57.333 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-10 13:30:57.346 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-10 13:30:57.347 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-10 13:30:57.348 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-10 13:30:59.596 [AuthController] [Info] : Người dùng 'minha' đang thực hiện đăng xuất.
+2025-10-10 13:30:59.598 [AuthController] [Info] : Người dùng 'minha' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-10 13:31:06.003 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-10 13:31:06.003 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-10 13:31:06.004 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-10 13:31:06.012 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-10 13:31:06.015 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-10 13:31:06.016 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-10 13:31:06.030 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-10 13:31:06.030 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-10 13:31:10.231 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-10 13:31:10.231 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-10 13:31:10.232 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-10 13:31:10.232 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-10 13:31:10.233 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-10 13:31:10.233 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-10 13:31:12.659 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:31:12.660 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:31:12.660 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:31:12.660 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:31:12.682 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:31:12.682 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:31:12.683 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:31:12.719 [CommentController] [Info] : Trả về 1 comment
+2025-10-10 13:31:22.841 [CommentController] [Info] : POST create comment Plant=PL002     , User=2
+2025-10-10 13:31:22.970 [UserRepository] [Info] : Attempting to get user by ID: 2.
+2025-10-10 13:31:22.974 [UserRepository] [Info] : Successfully found user with ID: 2.
+2025-10-10 13:32:33.221 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:32:33.222 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:32:33.222 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:32:33.222 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:32:33.229 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:32:33.233 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:32:33.233 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:32:33.233 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:38:00.845 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:38:00.846 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:38:00.846 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:38:00.847 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:38:00.887 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:38:00.895 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:38:00.895 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:38:00.895 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:41:33.661 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:41:33.661 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:41:33.662 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:41:33.662 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:41:33.672 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:41:33.682 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:41:33.683 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:41:33.683 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:44:31.992 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:44:31.992 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:44:31.993 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:44:31.993 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:44:32.051 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:44:32.051 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:44:32.052 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:44:32.139 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:51:55.731 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:51:55.732 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:51:55.732 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:51:55.733 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:51:55.779 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:51:55.788 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:51:55.789 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:51:55.789 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:52:10.861 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:52:10.862 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:52:10.862 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:52:10.862 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:52:10.866 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:52:10.869 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:52:10.869 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:52:10.869 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:55:32.629 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:55:32.630 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:55:32.630 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:55:32.630 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:55:32.639 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:55:32.649 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:55:32.649 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:55:32.649 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 13:57:50.312 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 13:57:50.312 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 13:57:50.312 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 13:57:50.312 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 13:57:50.358 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 13:57:50.364 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 13:57:50.364 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 13:57:50.364 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:08:37.762 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:08:37.762 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:08:37.762 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:08:37.762 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:08:37.813 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:08:37.821 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:08:37.822 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:08:37.822 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:09:35.650 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:09:35.650 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:09:35.650 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:09:35.650 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:09:35.656 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:09:35.666 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:09:35.667 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:09:35.667 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:10:17.828 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:10:17.828 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:10:17.829 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:10:17.829 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:10:17.843 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:10:17.855 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:10:17.855 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:10:17.855 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:10:24.630 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:10:24.686 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:10:26.365 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:15:09.268 [CommentController] [Info] : POST create comment Plant=PL002     , User=2
+2025-10-10 14:15:09.325 [UserRepository] [Info] : Attempting to get user by ID: 2.
+2025-10-10 14:15:09.329 [UserRepository] [Info] : Successfully found user with ID: 2.
+2025-10-10 14:15:37.669 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:15:37.669 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:15:37.670 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:15:37.670 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:15:37.706 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:15:37.749 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:15:37.749 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:15:37.749 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:15:45.202 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minha
+2025-10-10 14:15:45.202 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-10 14:15:45.203 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-10 14:15:45.205 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-10 14:15:45.208 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-10 14:15:45.208 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-10 14:15:45.212 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-10 14:15:45.213 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-10 14:15:45.224 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-10 14:15:45.233 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-10 14:15:45.233 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-10 14:15:45.236 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-10 14:15:45.236 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-10 14:15:45.236 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-10 14:15:52.165 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:15:52.166 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:15:52.166 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:15:52.167 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:15:52.172 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:15:52.181 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:15:52.182 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:15:52.182 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:16:16.222 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:16:21.985 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:16:21.986 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:16:21.987 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:16:21.987 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:16:21.995 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:16:22.007 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:16:22.007 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:16:22.008 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:20:01.131 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:20:01.131 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:20:01.131 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:20:01.132 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:20:01.137 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:20:01.140 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:20:01.140 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:20:01.140 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:20:24.528 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:20:24.529 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:20:24.529 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:20:24.529 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:20:24.593 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:20:24.600 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:20:24.600 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:20:24.600 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:23:48.947 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:23:48.947 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:23:48.947 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:23:48.948 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:23:48.957 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:23:48.966 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:23:48.967 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:23:48.967 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:23:51.988 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:23:51.991 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:29:08.570 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:29:08.571 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:29:08.571 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:29:08.571 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:29:08.612 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:29:08.619 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:29:08.619 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:29:08.619 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:31:23.617 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:31:23.620 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:31:24.939 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:31:24.947 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:31:34.380 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:31:34.390 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:31:58.709 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:31:58.710 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:31:58.711 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:31:58.711 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:31:58.718 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:31:58.731 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:31:58.731 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:31:58.731 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:32:12.697 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:32:12.697 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:32:12.697 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:32:12.697 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:32:12.700 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:32:12.703 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:32:12.704 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:32:12.704 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:35:32.676 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:35:32.676 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:35:32.676 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:35:32.677 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:35:32.724 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:35:32.732 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:35:32.733 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:35:32.733 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:35:44.837 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:35:44.837 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:35:44.837 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:35:44.837 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:35:44.841 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:35:44.845 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:35:44.845 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:35:44.845 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:35:47.400 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:35:47.400 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:35:47.400 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:35:47.400 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:35:47.404 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:35:47.406 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:35:47.407 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:35:47.407 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:36:05.969 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:36:05.969 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:36:05.969 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:36:05.969 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:36:05.974 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:36:05.978 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:36:05.978 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:36:05.978 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:36:23.161 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:36:23.161 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:36:23.162 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:36:23.163 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:36:23.174 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:36:23.184 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:36:23.184 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:36:23.184 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:36:26.553 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:26.555 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:27.541 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:27.545 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:29.093 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:29.097 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:29.686 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:29.690 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:30.721 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:36:30.724 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:34.383 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:36:34.383 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:36:34.383 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:36:34.384 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:36:34.389 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:36:34.392 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:36:34.392 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:36:34.392 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:36:39.061 [CommentController] [Info] : POST react Comment=2, User=1, Type=True
+2025-10-10 14:36:39.900 [CommentController] [Info] : POST react Comment=2, User=1, Type=False
+2025-10-10 14:36:41.362 [CommentController] [Info] : POST react Comment=1, User=1, Type=True
+2025-10-10 14:36:41.365 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:44.025 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:36:44.029 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:44.820 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:36:44.824 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:46.080 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:36:46.084 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:46.485 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:36:46.489 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:48.285 [CommentController] [Info] : POST react Comment=2, User=1, Type=True
+2025-10-10 14:36:48.751 [CommentController] [Info] : POST react Comment=2, User=1, Type=False
+2025-10-10 14:36:51.269 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:51.274 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:51.743 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:51.746 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:52.832 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:36:52.832 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:36:52.833 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:36:52.833 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:36:52.839 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:36:52.858 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:36:52.859 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:36:52.859 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:36:54.406 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:54.410 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:54.924 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:36:54.928 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:57.451 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:36:57.454 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:58.037 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:36:58.040 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:36:59.747 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:36:59.750 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:37:00.091 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:37:00.095 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:46.295 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:38:46.296 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:38:46.296 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:38:46.297 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:38:46.306 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:38:46.311 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:38:46.311 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:38:46.311 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:38:48.281 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:38:48.284 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:48.874 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:38:48.877 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:49.390 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:38:49.392 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:49.833 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:38:49.835 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:52.361 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:38:52.364 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:52.885 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:38:52.888 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:53.277 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:38:53.279 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:53.471 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:38:53.473 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:54.205 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:38:54.207 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:54.514 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:38:54.517 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:38:56.939 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:38:56.939 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:38:56.939 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:38:56.939 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:38:56.944 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:38:56.947 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:38:56.948 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:38:56.948 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:39:00.654 [CommentController] [Info] : POST react Comment=1, User=1, Type=True
+2025-10-10 14:39:00.656 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:01.163 [CommentController] [Info] : POST react Comment=1, User=1, Type=True
+2025-10-10 14:39:01.164 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:03.250 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:03.253 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:03.774 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:03.776 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:04.136 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:04.139 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:05.193 [CommentController] [Info] : POST react Comment=2, User=1, Type=True
+2025-10-10 14:39:05.681 [CommentController] [Info] : POST react Comment=2, User=1, Type=False
+2025-10-10 14:39:06.962 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:06.965 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:07.436 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:07.439 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:07.751 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:07.754 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:39:12.406 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:39:12.407 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:39:12.407 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:39:12.407 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:39:12.411 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:39:12.415 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:39:12.416 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:39:12.416 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:39:18.275 [CommentController] [Info] : POST react Comment=3, User=1, Type=True
+2025-10-10 14:39:18.279 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:42:58.055 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:42:58.166 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:42:58.168 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:42:58.169 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:43:00.022 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:43:00.022 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:43:00.023 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:43:00.121 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:43:05.006 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:43:05.190 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:43:05.669 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:43:05.679 [Lỗi khi cập nhật reaction] [Error] : Bạn chỉ được thả react 1 lần cho mỗi bình luận.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 101
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:43:12.546 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:43:12.550 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:43:12.551 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:43:12.552 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:43:12.558 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:43:12.580 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:43:12.580 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:43:12.581 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:43:16.290 [CommentController] [Info] : POST react Comment=1, User=1, Type=True
+2025-10-10 14:43:16.295 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:43:26.875 [CommentController] [Info] : POST react Comment=1, User=1, Type=True
+2025-10-10 14:43:26.886 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 94
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:47:01.479 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:47:01.534 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:47:01.535 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:47:01.535 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:47:02.291 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:47:02.291 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:47:02.291 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:47:02.322 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:47:05.979 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:47:07.416 [CommentController] [Info] : POST react Comment=1, User=2, Type=False
+2025-10-10 14:47:08.976 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-10 14:47:11.553 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:47:11.580 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 93
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:47:18.251 [CommentController] [Info] : POST react Comment=3, User=2, Type=True
+2025-10-10 14:47:18.255 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 93
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:51:46.192 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:51:46.193 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:51:46.193 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:51:46.193 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:51:46.202 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:51:46.208 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:51:46.208 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:51:46.208 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:51:58.133 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:51:58.137 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 93
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:51:59.010 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:51:59.013 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 93
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:52:00.734 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:00.738 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 93
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:52:01.807 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:52:01.808 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:52:01.809 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:52:01.809 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:52:01.815 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:52:01.832 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:52:01.832 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:52:01.832 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:52:02.849 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:02.887 [Lỗi khi cập nhật reaction] [Error] : Bạn không thể thả react cho bình luận của mình.
+   at Plantpedia.Service.CommentService.ToggleReactionAsync(PlantCommentReactionRequest request, Int32 userId) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Service\CommentService.cs:line 93
+   at Plantpedia.Controllers.CommentController.React(PlantCommentReactionRequest req) in E:\Asp.Net-8\FPT-Plantpedia-Razor\Controllers\CommentController.cs:line 91
+
+2025-10-10 14:52:19.870 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-10 14:52:19.915 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-10 14:52:19.916 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-10 14:52:19.916 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-10 14:52:20.663 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-10 14:52:20.663 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-10 14:52:20.664 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-10 14:52:20.697 [CommentController] [Info] : Trả về 2 comment
+2025-10-10 14:52:31.139 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:31.834 [CommentController] [Info] : POST react Comment=2, User=2, Type=False
+2025-10-10 14:52:32.625 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:33.196 [CommentController] [Info] : POST react Comment=2, User=2, Type=False
+2025-10-10 14:52:33.622 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:34.043 [CommentController] [Info] : POST react Comment=2, User=2, Type=False
+2025-10-10 14:52:34.471 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:35.040 [CommentController] [Info] : POST react Comment=2, User=2, Type=False
+2025-10-10 14:52:49.522 [CommentController] [Info] : POST react Comment=2, User=2, Type=True
+2025-10-10 14:52:50.461 [CommentController] [Info] : POST react Comment=2, User=2, Type=False

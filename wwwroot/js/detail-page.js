@@ -70,18 +70,24 @@
     const iconHtml = icon ? `<i class="fas ${icon} me-1"></i>` : "";
     let badgeClass = "badge me-2 mb-2";
 
-    // Áp dụng màu theo loại
     if (type === "plant-type") {
-      // Phân loại theo tên loại cây
       const lowerText = text.toLowerCase();
-      if (lowerText.includes("cây")) badgeClass += " plant-type-tree";
-      else if (lowerText.includes("rau")) badgeClass += " plant-type-vegetable";
-      else if (lowerText.includes("quả") || lowerText.includes("trái"))
+
+      if (lowerText.includes("thân gỗ")) {
+        badgeClass += " plant-type-tree";
+      } else if (lowerText.includes("ăn quả")) {
         badgeClass += " plant-type-fruit";
-      else if (lowerText.includes("hoa")) badgeClass += " plant-type-flower";
-      else if (lowerText.includes("thảo") || lowerText.includes("gia vị"))
-        badgeClass += " plant-type-herb";
-      else badgeClass += " bg-success";
+      } else if (lowerText.includes("công nghiệp")) {
+        badgeClass += " plant-type-industry";
+      } else if (lowerText.includes("lương thực")) {
+        badgeClass += " plant-type-food";
+      } else if (lowerText.includes("cảnh")) {
+        badgeClass += " plant-type-ornamental";
+      } else if (lowerText.includes("rau") || lowerText.includes("gia vị")) {
+        badgeClass += " plant-type-vegetable";
+      } else {
+        badgeClass += " bg-success";
+      }
     } else if (type === "harvest") {
       badgeClass += " harvest-date";
     } else {

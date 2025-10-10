@@ -16,10 +16,6 @@ namespace Plantpedia.Repository
 
         public async Task<List<PlantComment>> GetByPlantAsync(string plantId)
         {
-            // Log
-            LoggerHelper.Info($"Tải comment theo plant {plantId}");
-
-            // Lấy thread theo cây (bao gồm user, replies, reactions)
             return await _context
                 .PlantComments.Where(c => c.PlantId == plantId && !c.IsDeleted)
                 .Include(c => c.User)
@@ -38,7 +34,7 @@ namespace Plantpedia.Repository
             return await _context
                 .PlantComments.Include(c => c.User)
                 .Include(c => c.Reactions)
-                .FirstOrDefaultAsync(c => c.CommentId == id);
+                .FirstOrDefaultAsync(c => c.CommentId == id && !c.IsDeleted);
         }
 
         public async Task AddAsync(PlantComment comment)
@@ -46,14 +42,47 @@ namespace Plantpedia.Repository
             await _context.PlantComments.AddAsync(comment);
         }
 
-        public async Task UpsertReactionAsync(int commentId, int userId, char reactionType)
+        public void Update(PlantComment comment)
         {
-            var react = await _context.PlantCommentReactions.FirstOrDefaultAsync(x =>
+            _context.PlantComments.Update(comment);
+        }
+
+        public void Delete(PlantComment comment)
+        {
+            comment.IsDeleted = true;
+            _context.PlantComments.Update(comment);
+        }
+
+        public async Task DeleteReactionAsync(int commentId, int userId)
+        {
+            var entity = await _context.PlantCommentReactions.FirstOrDefaultAsync(r =>
+                r.CommentId == commentId && r.UserId == userId
+            );
+            if (entity != null)
+                _context.PlantCommentReactions.Remove(entity);
+        }
+
+        public async Task<PlantCommentReaction?> GetReactionAsync(int commentId, int userId)
+        {
+            return await _context.PlantCommentReactions.FirstOrDefaultAsync(x =>
                 x.CommentId == commentId && x.UserId == userId
             );
+        }
 
-            if (reactionType == 'N')
+        public async Task<int> CountReactionsAsync(int commentId)
+        {
+            return await _context.PlantCommentReactions.CountAsync(r =>
+                r.CommentId == commentId && r.ReactionType == true
+            );
+        }
+
+        public async Task UpsertReactionAsync(int commentId, int userId, bool isReacting)
+        {
+            var react = await GetReactionAsync(commentId, userId);
+
+            if (!isReacting)
             {
+                // Nếu người dùng bỏ react
                 if (react != null)
                     _context.PlantCommentReactions.Remove(react);
                 return;
@@ -61,19 +90,19 @@ namespace Plantpedia.Repository
 
             if (react == null)
             {
+                // Nếu chưa từng react → thêm mới
                 await _context.PlantCommentReactions.AddAsync(
                     new PlantCommentReaction
                     {
                         CommentId = commentId,
                         UserId = userId,
-                        ReactionType = reactionType,
+                        ReactionType = true,
                         CreatedAt = DateTime.UtcNow,
                     }
                 );
             }
             else
             {
-                react.ReactionType = reactionType;
                 react.CreatedAt = DateTime.UtcNow;
             }
         }
