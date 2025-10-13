@@ -122,121 +122,92 @@ input.enter_bt::placeholder {
   font-size: 1rem;
 }
 
-.plant-card {
-  width: 100%;
-  height: 330px;
-  max-width: 300px;
-  background-color: black;
-  box-shadow: 0 0 5px #000;
-  border-radius: 16px;
+.product-card {
+  background: #fff;
+  border-radius: 24px;
   overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  display: flex;
-  align-items: stretch;
+  box-shadow: 0 6px 32px rgba(30, 52, 90, 0.09);
+  transition: box-shadow 0.25s, transform 0.2s;
+  border: 1px solid #f2f2f2;
 }
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(77, 77, 77, 0.92);
-  color: #fef5df;
-  opacity: 0;
-  transition: opacity 0.4s;
-  font-family: "Playfair Display", serif;
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.product-card:hover {
+  box-shadow: 0 10px 40px rgba(34, 43, 70, 0.14);
+  transform: translateY(-3px) scale(1.01);
 }
-
-.head {
-  padding-left: 28px;
-  padding-top: 42px;
-  padding-bottom: 0;
-  font-family: "Playfair Display", serif;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-align: left;
-  line-height: 1.2;
-  position: relative;
-}
-
-.head p {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  color: #fef5df;
-}
-
-.head hr {
-  margin-top: 14px;
-  margin-bottom: 0;
-  margin-left: 0;
-  width: 0;
-  border: none;
-  border-bottom: 2.5px solid #fef5df;
-  transition: width 0.5s;
-}
-
-.common_name p {
-  padding-left: 18px !important;
-  margin: 0;
-  font-size: 1.2rem;
-  color: #fef5df;
-}
-
-.common_name {
-  padding-left: 10px;
-  padding-top: 24px;
-  color: #fef5df;
-  font-family: "Playfair Display", serif;
-  letter-spacing: 1.5px;
-  line-height: 1.2;
-  opacity: 0;
-  transform: translateY(32px);
-  transition: opacity 0.5s, transform 0.5s;
-}
-
-.cart {
-  margin-top: auto;
-  padding-left: 22px;
-  padding-bottom: 24px;
-  font-size: 17px;
-  letter-spacing: 2px;
-  font-family: "Lato", sans-serif;
-  color: #fef5df;
+.product-card__image {
+  height: 220px;
+  background: #f4f8fb;
   display: flex;
   align-items: center;
-  opacity: 0;
-  transform: translateY(22px);
-  transition: opacity 0.5s, transform 0.5s;
+  justify-content: center;
 }
-
-.cart i {
-  font-size: 16px;
-  margin-right: 9px;
-  /* icon nhỏ hơn chữ */
+.product-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-.plant-card:hover .overlay {
-  opacity: 1;
+.product-card__info {
+  padding: 22px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-.plant-card:hover .overlay .head hr {
-  width: 70px;
-  transition-delay: 0.3s;
+.product-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: #232d3f;
 }
-.plant-card:hover .overlay .common_name {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.28s;
+.product-card__description {
+  font-size: 0.98rem;
+  color: #6a7380;
+  margin-bottom: 10px;
+  min-height: 42px;
 }
-.plant-card:hover .overlay .cart {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.32s;
+.product-card__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.product-card__btn {
+  border: none;
+  background: #d83344;
+  color: #fff;
+  padding: 9px 20px;
+  border-radius: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 8px rgba(216, 51, 68, 0.05);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.product-card__btn:hover {
+  background: #b71c2e;
+}
+.product-card__favorite {
+  background: none;
+  border: none;
+  color: #d83344;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+  margin-left: 5px;
+}
+.product-card__favorite.liked {
+  color: #ea3c59;
+}
+.product-card__more {
+  font-size: 0.98rem;
+  color: #344868;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.product-card__more:hover {
+  color: #d83344;
+}
+.product-card__more i {
+  margin-left: 4px;
 }

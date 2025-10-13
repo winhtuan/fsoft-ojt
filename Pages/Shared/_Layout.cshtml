@@ -18,11 +18,11 @@
 
     <header>
         <h1>PLANTPEDIA</h1>
-        <nav>
+        <nav class="main-nav">
             <a asp-page="/Home/Home">Trang Chủ</a>
             <a asp-page="/Home/Search">Cây Trồng</a>
-            <a asp-page="">Đóng Góp</a>
-            <a asp-page="">Hội Nhóm</a>
+            <a asp-page="/Home/Favorite">Cây Yêu Thích</a>
+            <a asp-page="/Home/PlantDiagnosis">Chuẩn Đoán Bệnh</a>
             @if (User.Identity?.IsAuthenticated == true)
             {
                 @if (User.IsInRole("admin"))

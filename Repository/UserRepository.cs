@@ -243,5 +243,13 @@ namespace Plantpedia.Repository
                 throw;
             }
         }
+
+        public async Task<UserLoginData?> GetUserLoginDataByEmailAsync(string email)
+        {
+            var e = email.Trim().ToLowerInvariant();
+            return await _context
+                .UserLoginDatas.Include(uld => uld.User)
+                .FirstOrDefaultAsync(uld => uld.Email.ToLower() == e);
+        }
     }
 }

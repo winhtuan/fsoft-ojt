@@ -29,8 +29,6 @@ namespace Plantpedia.Models
         public UserLoginData LoginData { get; set; }
 
         public ICollection<UserFavorite> Favorites { get; set; } = new List<UserFavorite>();
-        public ICollection<ComparisonHistory> ComparisonHistories { get; set; } =
-            new List<ComparisonHistory>();
         public ICollection<PlantComment> PlantComments { get; set; } = new List<PlantComment>();
         public ICollection<PlantCommentReaction> PlantCommentReactions { get; set; } =
             new List<PlantCommentReaction>();

@@ -14,22 +14,20 @@
     <nav>
         <ul class="pagination justify-content-center">
             <!-- Nút Trước -->
-            <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
-                <a class="page-link" href="@Model.GenerateUrl(Model.CurrentPage - 1)">Trước</a>
+        <li class="page-item prev @(Model.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link" href="@Model.GenerateUrl(Model.CurrentPage - 1)">Trước</a>
+        </li>
+        <!-- Số trang -->
+        @for (int i = startPage; i <= endPage; i++)
+        {
+            <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                <a class="page-link" href="@Model.GenerateUrl(i)">@i</a>
             </li>
-
-            <!-- Các số trang -->
-            @for (int i = startPage; i <= endPage; i++)
-            {
-                <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
-                    <a class="page-link" href="@Model.GenerateUrl(i)">@i</a>
-                </li>
-            }
-
-            <!-- Nút Sau -->
-            <li class="page-item @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
-                <a class="page-link" href="@Model.GenerateUrl(Model.CurrentPage + 1)">Sau</a>
-            </li>
+        }
+        <!-- Nút Sau -->
+        <li class="page-item next @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
+            <a class="page-link" href="@Model.GenerateUrl(Model.CurrentPage + 1)">Sau</a>
+        </li>
         </ul>
     </nav>
 }

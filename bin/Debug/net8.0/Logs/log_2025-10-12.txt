@@ -1,0 +1,770 @@
+﻿2025-10-12 08:37:28.189 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 08:37:28.193 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 08:37:28.193 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 08:37:29.083 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 08:37:29.084 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 08:37:29.085 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 08:37:29.094 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 08:37:29.094 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 08:37:29.095 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 08:37:29.101 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 08:37:29.101 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 08:37:29.102 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 08:37:29.107 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 08:37:29.108 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 08:37:29.109 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 08:37:29.115 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 08:37:29.115 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 08:37:29.116 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 08:37:29.117 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 08:37:29.117 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 08:37:29.118 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 08:37:29.119 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 08:37:29.311 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 08:37:29.311 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 08:37:29.312 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 08:37:29.314 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 08:37:29.314 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 08:38:05.772 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 08:38:05.772 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 08:38:05.773 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 08:38:05.773 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 08:38:05.773 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 08:38:05.773 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 09:16:56.942 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 09:16:56.944 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 09:16:56.945 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 09:16:57.817 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 09:16:57.818 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 09:16:57.818 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 09:16:57.825 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 09:16:57.825 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 09:16:57.826 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 09:16:57.830 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 09:16:57.830 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 09:16:57.831 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 09:16:57.835 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 09:16:57.835 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 09:16:57.835 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 09:16:57.841 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 09:16:57.841 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 09:16:57.842 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 09:16:57.843 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 09:16:57.844 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 09:16:57.845 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 09:16:57.846 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 09:16:58.007 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:16:58.008 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:16:58.008 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:16:58.009 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 09:16:58.009 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 09:19:53.361 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-12 09:19:53.374 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-12 09:19:53.375 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-12 09:19:53.447 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-12 09:19:53.450 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-12 09:19:53.450 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-12 09:19:53.504 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-12 09:19:53.504 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-12 09:19:56.515 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:37:06.363 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:38:53.661 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:39:01.002 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:39:03.038 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:39:43.739 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:41:35.742 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:41:54.258 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:41:55.902 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:44:23.232 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 09:44:24.743 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL024
+2025-10-12 09:44:24.743 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 09:44:24.743 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-12 09:44:24.743 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL034
+2025-10-12 09:44:24.743 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL018
+2025-10-12 09:44:24.743 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL038
+2025-10-12 09:44:24.744 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL024
+2025-10-12 09:44:24.744 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 09:44:24.744 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-12 09:44:24.744 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL034
+2025-10-12 09:44:24.744 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL018
+2025-10-12 09:44:24.744 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL038
+2025-10-12 09:44:24.745 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL024
+2025-10-12 09:44:24.745 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL034
+2025-10-12 09:44:24.745 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-12 09:44:24.746 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL018
+2025-10-12 09:44:24.746 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038
+2025-10-12 09:44:24.746 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 09:44:24.756 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL024
+2025-10-12 09:44:24.756 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL024, isFavorite=True
+2025-10-12 09:44:24.773 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL039
+2025-10-12 09:44:24.774 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL039
+2025-10-12 09:44:24.774 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL039
+2025-10-12 09:44:24.776 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL039
+2025-10-12 09:44:24.776 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL039, isFavorite=True
+2025-10-12 09:44:24.780 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL040
+2025-10-12 09:44:24.780 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL040
+2025-10-12 09:44:24.781 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL040
+2025-10-12 09:44:24.782 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL040
+2025-10-12 09:44:24.782 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL040, isFavorite=True
+2025-10-12 09:44:24.797 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL018
+2025-10-12 09:44:24.797 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL018, isFavorite=True
+2025-10-12 09:44:24.799 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL038
+2025-10-12 09:44:24.800 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL038, isFavorite=True
+2025-10-12 09:44:24.802 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL002
+2025-10-12 09:44:24.802 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=True
+2025-10-12 09:44:24.805 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL034
+2025-10-12 09:44:24.805 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL034, isFavorite=True
+2025-10-12 09:44:24.902 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 09:44:24.902 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 09:44:26.774 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:26.776 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:26.776 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:26.779 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 09:44:26.788 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:26.854 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 09:44:26.855 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 09:44:27.752 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:27.752 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.752 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.755 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.777 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:27.800 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.800 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=True
+2025-10-12 09:44:27.961 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:27.961 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.961 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.963 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.964 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:27.967 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 09:44:27.967 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 09:44:28.576 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:28.577 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:28.577 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:28.579 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL038     
+2025-10-12 09:44:28.580 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:28.586 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL038     
+2025-10-12 09:44:28.586 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=True
+2025-10-12 09:44:29.012 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:29.013 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.013 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.016 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.016 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:29.019 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.019 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 09:44:29.206 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:29.207 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.207 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.209 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.210 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:29.215 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.215 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=True
+2025-10-12 09:44:29.384 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:29.384 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.385 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.386 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.387 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:29.389 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 09:44:29.389 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 09:44:30.040 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:30.040 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.040 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.042 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.043 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:30.056 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.056 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=True
+2025-10-12 09:44:30.219 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:30.219 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.219 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.222 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.222 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:30.224 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.224 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 09:44:30.453 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:30.453 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.453 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.455 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.456 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:30.458 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.459 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=True
+2025-10-12 09:44:30.667 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:30.667 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.667 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.670 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.670 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:30.671 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.671 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 09:44:30.841 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 09:44:30.841 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.841 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.843 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.844 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:44:30.847 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL038     
+2025-10-12 09:44:30.847 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=True
+2025-10-12 09:44:40.431 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 09:44:40.432 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 09:44:40.433 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 09:44:40.440 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 09:44:40.441 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 09:44:40.441 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 09:44:40.447 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 09:44:40.447 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 09:44:40.448 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 09:44:40.452 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 09:44:40.453 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 09:44:40.453 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 09:44:40.458 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 09:44:40.459 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 09:44:40.459 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 09:44:40.464 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 09:44:40.465 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 09:44:40.465 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 09:44:40.466 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 09:44:40.467 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 09:44:40.468 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 09:44:40.469 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 09:44:40.569 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:44:40.570 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:44:40.570 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:44:40.570 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 09:44:40.570 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 09:45:08.459 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 09:45:08.459 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 09:45:08.460 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 09:45:08.460 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:45:08.460 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 09:45:08.460 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 09:45:08.771 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 09:45:08.771 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 09:45:08.771 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-12 09:45:08.771 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-12 09:45:08.771 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-12 09:45:08.771 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-12 09:45:08.771 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 09:45:08.772 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-12 09:45:08.772 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-12 09:45:08.772 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-12 09:45:08.772 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-12 09:45:08.772 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-12 09:45:08.772 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-12 09:45:08.772 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-12 09:45:08.772 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-12 09:45:08.773 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-12 09:45:08.773 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-12 09:45:08.773 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 09:45:08.773 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL003
+2025-10-12 09:45:08.773 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=False
+2025-10-12 09:45:08.774 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-12 09:45:08.774 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-12 09:45:08.774 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 09:45:08.774 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-12 09:45:08.774 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL002
+2025-10-12 09:45:08.774 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=True
+2025-10-12 09:45:08.775 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-12 09:45:08.775 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-12 09:45:08.776 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-12 09:45:08.776 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-12 09:45:08.776 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-12 09:45:08.776 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-12 09:45:08.777 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-12 09:45:08.777 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-12 09:45:08.777 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-12 09:45:08.777 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-12 09:45:08.778 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-12 09:45:08.778 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-12 09:45:08.778 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-12 09:45:08.778 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-12 09:45:11.391 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL002     
+2025-10-12 09:45:11.391 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL002     
+2025-10-12 09:45:11.392 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002     
+2025-10-12 09:45:11.393 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL002     
+2025-10-12 09:45:11.393 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:11.396 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL002     
+2025-10-12 09:45:11.396 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL002     , isFavorite=False
+2025-10-12 09:45:13.091 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL001     
+2025-10-12 09:45:13.092 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.092 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.093 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.094 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:13.096 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.096 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL001     , isFavorite=True
+2025-10-12 09:45:13.540 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL001     
+2025-10-12 09:45:13.540 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.541 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.543 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.543 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:13.545 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.545 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL001     , isFavorite=False
+2025-10-12 09:45:13.743 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL001     
+2025-10-12 09:45:13.744 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.744 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.746 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.746 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:13.752 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.752 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL001     , isFavorite=True
+2025-10-12 09:45:13.901 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL001     
+2025-10-12 09:45:13.901 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.902 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.904 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.904 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:13.907 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL001     
+2025-10-12 09:45:13.907 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL001     , isFavorite=False
+2025-10-12 09:45:16.622 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL002     
+2025-10-12 09:45:16.623 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.623 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.624 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.625 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:16.637 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.638 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL002     , isFavorite=True
+2025-10-12 09:45:16.816 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL002     
+2025-10-12 09:45:16.817 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.817 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.819 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.819 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:16.821 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL002     
+2025-10-12 09:45:16.822 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL002     , isFavorite=False
+2025-10-12 09:45:17.673 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL003     
+2025-10-12 09:45:17.673 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL003     
+2025-10-12 09:45:17.673 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003     
+2025-10-12 09:45:17.675 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL003     
+2025-10-12 09:45:17.675 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 09:45:17.677 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL003     
+2025-10-12 09:45:17.677 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL003     , isFavorite=True
+2025-10-12 09:58:30.824 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 09:58:30.826 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 09:58:30.838 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 09:58:31.552 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 09:58:31.552 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 09:58:31.553 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 09:58:31.560 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 09:58:31.560 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 09:58:31.560 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 09:58:31.565 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 09:58:31.565 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 09:58:31.566 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 09:58:31.570 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 09:58:31.571 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 09:58:31.571 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 09:58:31.575 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 09:58:31.575 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 09:58:31.576 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 09:58:31.577 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 09:58:31.577 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 09:58:31.578 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 09:58:31.579 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 09:58:31.719 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:58:31.719 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:58:31.719 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 09:58:31.720 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 09:58:31.720 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 09:58:34.289 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-12 09:58:34.290 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-12 09:58:34.290 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 09:58:34.290 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-12 09:58:34.290 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-12 09:58:34.291 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-12 09:58:34.291 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-12 09:58:34.291 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-12 09:58:34.291 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-12 09:58:34.292 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 09:58:34.292 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 09:58:34.292 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-12 09:58:34.292 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-12 09:58:34.292 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-12 09:58:34.292 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-12 09:58:34.293 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-12 09:58:34.293 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-12 09:58:34.293 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-12 09:58:34.336 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL002
+2025-10-12 09:58:34.336 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=False
+2025-10-12 09:58:34.362 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-12 09:58:34.363 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-12 09:58:34.363 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-12 09:58:34.370 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-12 09:58:34.370 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-12 09:58:34.372 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-12 09:58:34.372 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-12 09:58:34.373 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-12 09:58:34.374 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-12 09:58:34.374 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-12 09:58:34.379 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-12 09:58:34.379 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-12 09:58:34.412 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 09:58:34.412 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL003
+2025-10-12 09:58:34.412 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=True
+2025-10-12 09:58:34.412 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 09:58:34.414 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-12 09:58:34.415 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-12 09:58:34.415 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-12 09:58:34.415 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-12 10:01:34.288 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL003     
+2025-10-12 10:01:34.289 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL003     
+2025-10-12 10:01:34.289 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003     
+2025-10-12 10:01:34.291 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL003     
+2025-10-12 10:01:34.307 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 10:01:34.359 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL003     
+2025-10-12 10:01:34.360 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL003     , isFavorite=False
+2025-10-12 10:01:35.605 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL003     
+2025-10-12 10:01:35.605 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL003     
+2025-10-12 10:01:35.605 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003     
+2025-10-12 10:01:35.608 [UserFavoriteRepository] [Info] : Add favorite userId=2, plantId=PL003     
+2025-10-12 10:01:35.620 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 10:01:35.639 [UserFavoriteService] [Info] : Added to favorite userId=2, plantId=PL003     
+2025-10-12 10:01:35.639 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL003     , isFavorite=True
+2025-10-12 10:01:37.439 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 10:01:38.582 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL018
+2025-10-12 10:01:38.583 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 10:01:38.583 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL018
+2025-10-12 10:01:38.584 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 10:01:38.584 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL018
+2025-10-12 10:01:38.584 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL024
+2025-10-12 10:01:38.584 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL024
+2025-10-12 10:01:38.584 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL039
+2025-10-12 10:01:38.584 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 10:01:38.584 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL024
+2025-10-12 10:01:38.585 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL039
+2025-10-12 10:01:38.585 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL039
+2025-10-12 10:01:38.585 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL034
+2025-10-12 10:01:38.585 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL034
+2025-10-12 10:01:38.585 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL040
+2025-10-12 10:01:38.585 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL040
+2025-10-12 10:01:38.586 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL034
+2025-10-12 10:01:38.586 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL040
+2025-10-12 10:01:38.586 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL024
+2025-10-12 10:01:38.586 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL024, isFavorite=True
+2025-10-12 10:01:38.586 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL018
+2025-10-12 10:01:38.586 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL018, isFavorite=True
+2025-10-12 10:01:38.586 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL039
+2025-10-12 10:01:38.587 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL039, isFavorite=True
+2025-10-12 10:01:38.587 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 10:01:38.587 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 10:01:38.587 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL040
+2025-10-12 10:01:38.587 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL034
+2025-10-12 10:01:38.587 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL040, isFavorite=True
+2025-10-12 10:01:38.587 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL034, isFavorite=True
+2025-10-12 10:01:38.589 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL041
+2025-10-12 10:01:38.589 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL041
+2025-10-12 10:01:38.589 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL041
+2025-10-12 10:01:38.589 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL042
+2025-10-12 10:01:38.589 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL042
+2025-10-12 10:01:38.590 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL042
+2025-10-12 10:01:38.591 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL042
+2025-10-12 10:01:38.591 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL041
+2025-10-12 10:01:38.591 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL042, isFavorite=True
+2025-10-12 10:01:38.592 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL041, isFavorite=True
+2025-10-12 10:01:42.284 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 10:01:42.378 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL038
+2025-10-12 10:01:42.379 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL038
+2025-10-12 10:01:42.379 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038
+2025-10-12 10:01:42.379 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-12 10:01:42.379 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-12 10:01:42.379 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-12 10:01:42.381 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL038
+2025-10-12 10:01:42.381 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL038, isFavorite=True
+2025-10-12 10:01:42.381 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL003
+2025-10-12 10:01:42.381 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=True
+2025-10-12 10:01:43.975 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL038     
+2025-10-12 10:01:43.975 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL038     
+2025-10-12 10:01:43.975 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL038     
+2025-10-12 10:01:43.977 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL038     
+2025-10-12 10:01:43.977 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 10:01:43.991 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL038     
+2025-10-12 10:01:43.991 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL038     , isFavorite=False
+2025-10-12 10:01:45.063 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL003     
+2025-10-12 10:01:45.063 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL003     
+2025-10-12 10:01:45.064 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003     
+2025-10-12 10:01:45.066 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL003     
+2025-10-12 10:01:45.066 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 10:01:45.069 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL003     
+2025-10-12 10:01:45.069 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL003     , isFavorite=False
+2025-10-12 10:01:46.135 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 10:01:46.220 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 10:01:46.221 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 10:01:46.221 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 10:01:46.221 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL034
+2025-10-12 10:01:46.221 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL034
+2025-10-12 10:01:46.221 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL018
+2025-10-12 10:01:46.222 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL018
+2025-10-12 10:01:46.222 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL018
+2025-10-12 10:01:46.222 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL039
+2025-10-12 10:01:46.222 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL039
+2025-10-12 10:01:46.222 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL039
+2025-10-12 10:01:46.222 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL040
+2025-10-12 10:01:46.222 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL034
+2025-10-12 10:01:46.223 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL024
+2025-10-12 10:01:46.223 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL040
+2025-10-12 10:01:46.223 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL040
+2025-10-12 10:01:46.223 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL024
+2025-10-12 10:01:46.223 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL024
+2025-10-12 10:01:46.223 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL018
+2025-10-12 10:01:46.223 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL018, isFavorite=True
+2025-10-12 10:01:46.224 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL039
+2025-10-12 10:01:46.224 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL034
+2025-10-12 10:01:46.224 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 10:01:46.224 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL040
+2025-10-12 10:01:46.224 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL039, isFavorite=True
+2025-10-12 10:01:46.224 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL034, isFavorite=True
+2025-10-12 10:01:46.225 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 10:01:46.225 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL024
+2025-10-12 10:01:46.225 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL040, isFavorite=True
+2025-10-12 10:01:46.225 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL024, isFavorite=True
+2025-10-12 10:01:46.226 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL041
+2025-10-12 10:01:46.226 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL041
+2025-10-12 10:01:46.226 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL041
+2025-10-12 10:01:46.228 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL042
+2025-10-12 10:01:46.229 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL042
+2025-10-12 10:01:46.229 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL041
+2025-10-12 10:01:46.229 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL042
+2025-10-12 10:01:46.229 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL041, isFavorite=True
+2025-10-12 10:01:46.230 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL042
+2025-10-12 10:01:46.231 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL042, isFavorite=True
+2025-10-12 10:01:50.545 [FavoriteController] [Info] : ToggleFavorite: user=2, plantId=PL034     
+2025-10-12 10:01:50.546 [UserFavoriteService] [Info] : ToggleFavorite userId=2, plantId=PL034     
+2025-10-12 10:01:50.546 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL034     
+2025-10-12 10:01:50.548 [UserFavoriteRepository] [Info] : Remove favorite userId=2, plantId=PL034     
+2025-10-12 10:01:50.549 [UserFavoriteRepository] [Info] : Save changes (UserFavoriteRepository)
+2025-10-12 10:01:50.551 [UserFavoriteService] [Info] : Removed from favorite userId=2, plantId=PL034     
+2025-10-12 10:01:50.551 [FavoriteController] [Info] : ToggleFavorite kết quả: user=2, plantId=PL034     , isFavorite=False
+2025-10-12 10:02:19.428 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 10:02:19.722 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL018
+2025-10-12 10:02:19.722 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL018
+2025-10-12 10:02:19.722 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL018
+2025-10-12 10:02:19.722 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL024
+2025-10-12 10:02:19.723 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL024
+2025-10-12 10:02:19.723 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL024
+2025-10-12 10:02:19.723 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 10:02:19.723 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL039
+2025-10-12 10:02:19.723 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL039
+2025-10-12 10:02:19.723 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL039
+2025-10-12 10:02:19.723 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL040
+2025-10-12 10:02:19.723 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL040
+2025-10-12 10:02:19.723 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL040
+2025-10-12 10:02:19.723 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 10:02:19.724 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL041
+2025-10-12 10:02:19.724 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL041
+2025-10-12 10:02:19.724 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL041
+2025-10-12 10:02:19.724 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 10:02:19.724 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL024
+2025-10-12 10:02:19.724 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL024, isFavorite=True
+2025-10-12 10:02:19.724 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL018
+2025-10-12 10:02:19.725 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL018, isFavorite=True
+2025-10-12 10:02:19.725 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL039
+2025-10-12 10:02:19.725 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL040
+2025-10-12 10:02:19.725 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL039, isFavorite=True
+2025-10-12 10:02:19.725 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL040, isFavorite=True
+2025-10-12 10:02:19.725 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 10:02:19.725 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 10:02:19.725 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL041
+2025-10-12 10:02:19.726 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL041, isFavorite=True
+2025-10-12 10:02:19.728 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL042
+2025-10-12 10:02:19.728 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL042
+2025-10-12 10:02:19.728 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL042
+2025-10-12 10:02:19.730 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL042
+2025-10-12 10:02:19.730 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL042, isFavorite=True
+2025-10-12 10:02:23.956 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 10:02:23.956 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 10:02:23.956 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 10:02:23.956 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 10:02:23.957 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 10:02:23.957 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 10:02:24.034 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-12 10:02:24.034 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-12 10:02:24.034 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-12 10:02:24.034 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-12 10:02:24.035 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-12 10:02:24.035 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-12 10:02:24.035 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-12 10:02:24.035 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-12 10:02:24.035 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-12 10:02:24.035 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-12 10:02:24.035 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-12 10:02:24.035 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-12 10:02:24.036 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 10:02:24.036 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-12 10:02:24.036 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-12 10:02:24.036 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 10:02:24.036 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 10:02:24.036 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-12 10:02:24.037 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL003
+2025-10-12 10:02:24.037 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-12 10:02:24.037 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-12 10:02:24.037 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL002
+2025-10-12 10:02:24.037 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-12 10:02:24.037 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=False
+2025-10-12 10:02:24.037 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-12 10:02:24.038 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=False
+2025-10-12 10:02:24.038 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-12 10:02:24.038 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-12 10:02:24.038 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 10:02:24.038 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 10:02:24.040 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-12 10:02:24.041 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-12 10:02:24.042 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-12 10:02:24.045 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-12 10:02:24.046 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-12 10:02:24.046 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-12 10:02:24.047 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-12 10:02:24.047 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-12 10:02:24.050 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-12 10:02:24.050 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-12 10:02:27.104 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-12 10:02:27.105 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-12 10:02:27.105 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-12 10:02:27.117 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-12 10:02:27.169 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-12 10:02:27.169 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-12 10:02:27.169 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-12 10:02:27.191 [CommentController] [Info] : Trả về 2 comment
+2025-10-12 10:41:04.723 [AuthController] [Info] : Người dùng 'minhb' đang thực hiện đăng xuất.
+2025-10-12 10:41:04.728 [AuthController] [Info] : Người dùng 'minhb' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-12 10:41:14.843 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 10:41:14.844 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 10:41:14.845 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 10:41:15.555 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 10:41:15.556 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 10:41:15.556 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 10:41:15.562 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 10:41:15.562 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 10:41:15.563 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 10:41:15.567 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 10:41:15.568 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 10:41:15.568 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 10:41:15.573 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 10:41:15.573 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 10:41:15.574 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 10:41:15.579 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 10:41:15.580 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 10:41:15.580 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 10:41:15.581 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 10:41:15.582 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 10:41:15.582 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 10:41:15.583 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 10:41:15.720 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 10:41:15.720 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 10:41:15.721 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 10:41:15.721 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 10:41:15.722 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 10:41:25.790 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-12 10:41:25.791 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-12 10:41:25.804 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-12 10:41:25.890 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-12 10:41:25.893 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-12 10:41:25.894 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-12 10:41:25.939 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-12 10:41:25.939 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-12 10:41:27.569 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-12 10:41:27.787 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL039
+2025-10-12 10:41:27.787 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL041
+2025-10-12 10:41:27.787 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL018
+2025-10-12 10:41:27.787 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL039
+2025-10-12 10:41:27.788 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL041
+2025-10-12 10:41:27.788 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL018
+2025-10-12 10:41:27.788 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL039
+2025-10-12 10:41:27.788 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL041
+2025-10-12 10:41:27.789 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL018
+2025-10-12 10:41:27.789 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-12 10:41:27.789 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL040
+2025-10-12 10:41:27.789 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL024
+2025-10-12 10:41:27.790 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL024
+2025-10-12 10:41:27.790 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL024
+2025-10-12 10:41:27.790 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-12 10:41:27.790 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL040
+2025-10-12 10:41:27.791 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-12 10:41:27.791 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL040
+2025-10-12 10:41:27.798 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL039
+2025-10-12 10:41:27.798 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL039, isFavorite=True
+2025-10-12 10:41:27.812 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL042
+2025-10-12 10:41:27.812 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL042
+2025-10-12 10:41:27.812 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL042
+2025-10-12 10:41:27.814 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL042
+2025-10-12 10:41:27.814 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL042, isFavorite=True
+2025-10-12 10:41:27.846 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL040
+2025-10-12 10:41:27.846 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL040, isFavorite=True
+2025-10-12 10:41:27.852 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-12 10:41:27.853 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-12 10:41:27.854 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL018
+2025-10-12 10:41:27.854 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL018, isFavorite=True
+2025-10-12 10:41:27.855 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL024
+2025-10-12 10:41:27.856 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL024, isFavorite=True
+2025-10-12 10:41:27.937 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL041
+2025-10-12 10:41:27.937 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL041, isFavorite=True
+2025-10-12 10:41:35.249 [AuthController] [Info] : Người dùng 'minhb' đang thực hiện đăng xuất.
+2025-10-12 10:41:35.249 [AuthController] [Info] : Người dùng 'minhb' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-12 11:35:42.474 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 11:35:42.477 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 11:35:42.478 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 11:35:43.375 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 11:35:43.375 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 11:35:43.376 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 11:35:43.384 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 11:35:43.384 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 11:35:43.385 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 11:35:43.389 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 11:35:43.389 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 11:35:43.390 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 11:35:43.394 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 11:35:43.395 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 11:35:43.395 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 11:35:43.400 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 11:35:43.400 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 11:35:43.401 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 11:35:43.401 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 11:35:43.402 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 11:35:43.403 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 11:35:43.404 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 11:35:43.587 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 11:35:43.587 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 11:35:43.588 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 11:35:43.589 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 11:35:43.589 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 11:35:53.531 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-12 11:35:53.531 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-12 11:35:53.532 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-12 11:35:53.532 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-12 11:35:53.617 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-12 11:35:53.618 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-12 11:35:53.618 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-12 11:35:53.718 [CommentController] [Info] : Trả về 2 comment
+2025-10-12 23:24:52.048 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-12 23:24:52.052 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-12 23:24:52.053 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-12 23:24:52.886 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-12 23:24:52.886 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-12 23:24:52.887 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-12 23:24:52.894 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-12 23:24:52.895 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-12 23:24:52.895 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-12 23:24:52.900 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-12 23:24:52.900 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-12 23:24:52.901 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-12 23:24:52.905 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-12 23:24:52.906 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-12 23:24:52.906 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-12 23:24:52.910 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-12 23:24:52.910 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-12 23:24:52.911 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-12 23:24:52.912 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-12 23:24:52.912 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-12 23:24:52.913 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 23:24:52.914 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-12 23:24:53.061 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 23:24:53.062 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 23:24:53.062 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-12 23:24:53.063 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-12 23:24:53.063 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-12 23:24:58.664 [PlantDiagnosisService] [Info] : Bắt đầu chẩn đoán | API: https://plant.id/api/v3/health_assessment | Tệp: 1.jpg | Kích thước: 522540 bytes | Loại: image/jpeg
+2025-10-12 23:24:58.680 [PlantDiagnosisService] [Info] : Độ dài payload gửi đi: 696884 ký tự.
+2025-10-12 23:25:00.983 [PlantDiagnosisService] [Error] : Lỗi Plant.id (400) – Nội dung: Unknown modifier: organs=[`leaf`]. Available modifiers: [classification_level=`all`, classification_level=`genus`, classification_level=`species`, classification_raw=true, health=`all`, health=`auto`, health=`only`, health=`probability`, similar_images=true, symptoms=true]
+2025-10-12 23:45:52.151 [PlantDiagnosisController] [Info] : Nhận yêu cầu chẩn đoán. Tệp: 1.jpg | Kích thước: 522540 bytes | Loại: image/jpeg
+2025-10-12 23:45:52.154 [PlantDiagnosisService] [Info] : Bắt đầu chẩn đoán | API: https://plant.id/api/v3/health_assessment | Tệp: 1.jpg | Kích thước: 522540 bytes | Loại: image/jpeg
+2025-10-12 23:45:52.169 [PlantDiagnosisService] [Info] : Độ dài payload gửi đi: 696884 ký tự.
+2025-10-12 23:46:19.610 [PlantDiagnosisService] [Error] : Lỗi Plant.id 400: Unknown modifier: organs=[`leaf`]. Available modifiers: [classification_level=`all`, classification_level=`genus`, classification_level=`species`, classification_raw=true, health=`all`, health=`auto`, health=`only`, health=`probability`, similar_images=true, symptoms=true]
+2025-10-12 23:46:19.611 [PlantDiagnosisController] [Error] : AI service trả về 'null' hoặc lỗi trong quá trình xử lý.
+2025-10-12 23:48:18.225 [PlantDiagnosisController] [Info] : Nhận yêu cầu chẩn đoán. Tệp: 1.jpg | Kích thước: 522540 bytes | Loại: image/jpeg
+2025-10-12 23:48:18.230 [PlantDiagnosisService] [Info] : Bắt đầu chẩn đoán với API: https://plant.id/api/v3/health_assessment
+2025-10-12 23:48:18.230 [PlantDiagnosisService] [Info] : Ảnh: 1.jpg, Kích thước: 522540 bytes, Loại: image/jpeg
+2025-10-12 23:48:18.274 [PlantDiagnosisService] [Info] : Độ dài nội dung yêu cầu: 752286 ký tự
+2025-10-12 23:48:21.123 [PlantDiagnosisService] [Info] : Gọi API thành công
+2025-10-12 23:48:21.123 [PlantDiagnosisService] [Info] : Xem nhanh phản hồi: {"access_token": "8ktiSE2o7B562Xv", "model_version": "plant_id:5.0.0", "custom_id": null, "input": {"latitude": null, "longitude": null, "classification_level": "all", "symptoms": true, "classification_raw": true, "similar_images": true, "health": "only", "images": ["https://plant.id/media/imgs/519feb7c75db4802acf0365e288cd8bd.jpg"], "datetime": "2025-10-12T16:48:17.717745+00:00"}, "result": {"is_plant": {"probability": 0.99938667, "threshold": 0.5, "binary": true}, "symptom": {"suggestions": [{...
+2025-10-12 23:48:21.130 [PlantDiagnosisController] [Info] : Model sử dụng: plant_id:5.0.0
+2025-10-12 23:48:21.131 [PlantDiagnosisController] [Info] : Kết quả có trường 'result'. is_plant = true
+2025-10-12 23:48:21.131 [PlantDiagnosisController] [Info] : Trả kết quả chẩn đoán cho client thành công.

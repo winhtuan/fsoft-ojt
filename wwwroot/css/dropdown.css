@@ -43,3 +43,26 @@
   margin-left: 0.4rem;
   border-top-color: #6b7280;
 }
+
+.form-control.form-control-lg {
+  border-radius: 16px;
+  border: 1.5px solid #ced4da;
+  padding-left: 1.2rem;
+  font-size: 1.12rem;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+.form-control.form-control-lg:focus {
+  border-color: #d83344;
+}
+.btn-custom-search {
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  background: #d83344;
+  color: #fff;
+  transition: background 0.2s;
+}
+.btn-custom-search:hover {
+  background: #b71c2e;
+}

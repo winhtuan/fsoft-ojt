@@ -24,14 +24,10 @@ namespace PLANTINFOWEB.Data
         public DbSet<UserAccount> UserAccounts { get; set; }
         public DbSet<UserLoginData> UserLoginDatas { get; set; }
         public DbSet<PlantCare> PlantCares { get; set; }
-
-        // DbSet tính năng tương tác
         public DbSet<UserFavorite> UserFavorites { get; set; }
         public DbSet<PlantComment> PlantComments { get; set; }
         public DbSet<PlantCommentReaction> PlantCommentReactions { get; set; }
-        public DbSet<PlantComparison> PlantComparisons { get; set; }
-        public DbSet<PlantComparisonItem> PlantComparisonItems { get; set; }
-        public DbSet<ComparisonHistory> ComparisonHistories { get; set; }
+        public DbSet<PasswordReset> PasswordResets => Set<PasswordReset>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -139,6 +135,15 @@ namespace PLANTINFOWEB.Data
                 .HasForeignKey<UserLoginData>(uld => uld.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            modelBuilder.Entity<PasswordReset>(e =>
+            {
+                e.HasKey(x => x.Id);
+                e.Property(x => x.Email).HasMaxLength(256).IsRequired();
+                e.Property(x => x.CodeHash).HasMaxLength(512).IsRequired();
+                e.HasIndex(x => new { x.Email, x.Used });
+                e.HasIndex(x => x.ExpiresAtUtc);
+            });
+
             // ==================== USER FAVORITE ====================
             // Quan hệ UserAccount - UserFavorite (1-nhiều)
             modelBuilder
@@ -203,58 +208,6 @@ namespace PLANTINFOWEB.Data
                 .Entity<PlantCommentReaction>()
                 .HasIndex(r => new { r.UserId, r.CommentId })
                 .IsUnique();
-
-            // ==================== PLANT COMPARISON ITEM ====================
-            modelBuilder
-                .Entity<PlantComparisonItem>()
-                .HasKey(pci => new { pci.ComparisonId, pci.PlantId });
-
-            modelBuilder
-                .Entity<PlantComparisonItem>()
-                .HasOne(pci => pci.Comparison)
-                .WithMany(pc => pc.Items)
-                .HasForeignKey(pci => pci.ComparisonId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder
-                .Entity<PlantComparisonItem>()
-                .HasOne(pci => pci.Plant)
-                .WithMany()
-                .HasForeignKey(pci => pci.PlantId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // ==================== COMPARISON HISTORY ====================
-            // Quan hệ UserAccount - ComparisonHistory (1-nhiều)
-            modelBuilder
-                .Entity<ComparisonHistory>()
-                .HasOne(ch => ch.User)
-                .WithMany(u => u.ComparisonHistories)
-                .HasForeignKey(ch => ch.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // Quan hệ PlantInfo - ComparisonHistory (1-nhiều) cho plant_id_1
-            modelBuilder
-                .Entity<ComparisonHistory>()
-                .HasOne(ch => ch.Plant1)
-                .WithMany()
-                .HasForeignKey(ch => ch.PlantId1)
-                .OnDelete(DeleteBehavior.Restrict); // Không xóa history nếu cây bị xóa
-
-            // Quan hệ PlantInfo - ComparisonHistory (1-nhiều) cho plant_id_2
-            modelBuilder
-                .Entity<ComparisonHistory>()
-                .HasOne(ch => ch.Plant2)
-                .WithMany()
-                .HasForeignKey(ch => ch.PlantId2)
-                .OnDelete(DeleteBehavior.Restrict); // Không xóa history nếu cây bị xóa
-
-            // ==================== INDEXES FOR PERFORMANCE ====================
-            modelBuilder.Entity<UserFavorite>().HasIndex(uf => uf.CreatedAt);
-
-            // Index cho comparison history
-            modelBuilder
-                .Entity<ComparisonHistory>()
-                .HasIndex(ch => new { ch.PlantId1, ch.PlantId2 });
 
             // Seed some initial data: not using for stability
             SeedData(modelBuilder);

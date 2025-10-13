@@ -1,0 +1,32 @@
+@page
+@model Plantpedia.Pages.Home.FavoriteModel
+@{
+    ViewData["Title"] = "Cây trồng yêu thích";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/search-page.css" asp-append-version="true" />
+}
+
+<h1 class="mb-4">Danh sách cây trồng yêu thích</h1>
+
+<div class="container plant-card-section mb-5">
+    <div class="row justify-content-center">
+        <partial name="_CardPatial" model="Model.FavoritePlants" />
+    </div>
+</div>
+
+<div class="row justify-content-center mt-4">
+    <div class="col-auto">
+        <partial name="_Paging" model="Model.Paging" />
+    </div>
+</div>
+
+<div id="no-favorite" class="alert alert-info d-none">
+    Bạn chưa có cây nào trong danh sách yêu thích.<br>
+    Hãy thêm những cây bạn quan tâm nhé!
+</div>
+
+@section Scripts {
+    <script src="~/js/favorite.js" asp-append-version="true"></script>
+}

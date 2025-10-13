@@ -21,12 +21,20 @@
       "PackagePath": "staticwebassets\\css\\dropdown.css"
     },
     {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\favorite-page.css",
+      "PackagePath": "staticwebassets\\css\\favorite-page.css"
+    },
+    {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
       "PackagePath": "staticwebassets\\css\\home-page.css"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\login_page.css",
       "PackagePath": "staticwebassets\\css\\login_page.css"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\plant-diagnosis-page.css",
+      "PackagePath": "staticwebassets\\css\\plant-diagnosis-page.css"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\report-page.css",
@@ -55,6 +63,18 @@
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page.js",
       "PackagePath": "staticwebassets\\js\\detail-page.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\favorite.js",
+      "PackagePath": "staticwebassets\\js\\favorite.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\forgot-pass.js",
+      "PackagePath": "staticwebassets\\js\\forgot-pass.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\plant-diagnosis.js",
+      "PackagePath": "staticwebassets\\js\\plant-diagnosis.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",

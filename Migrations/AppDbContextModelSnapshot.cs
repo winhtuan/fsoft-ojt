@@ -99,42 +99,46 @@ namespace FPT_Plantpedia_Razor.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Plantpedia.Models.ComparisonHistory", b =>
+            modelBuilder.Entity("Plantpedia.Models.PasswordReset", b =>
                 {
-                    b.Property<int>("HistoryId")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("history_id");
+                        .HasColumnType("bigint");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("HistoryId"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
 
-                    b.Property<DateTime>("ComparedAt")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("compared_at");
+                    b.Property<int>("Attempts")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("PlantId1")
+                    b.Property<string>("CodeHash")
                         .IsRequired()
-                        .HasColumnType("char(10)")
-                        .HasColumnName("plant_id_1");
+                        .HasMaxLength(512)
+                        .HasColumnType("character varying(512)");
 
-                    b.Property<string>("PlantId2")
+                    b.Property<DateTime>("CreatedAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("char(10)")
-                        .HasColumnName("plant_id_2");
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)");
+
+                    b.Property<DateTime>("ExpiresAtUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("Used")
+                        .HasColumnType("boolean");
 
                     b.Property<int>("UserId")
-                        .HasColumnType("integer")
-                        .HasColumnName("user_id");
+                        .HasColumnType("integer");
 
-                    b.HasKey("HistoryId");
+                    b.HasKey("Id");
 
-                    b.HasIndex("PlantId2");
+                    b.HasIndex("ExpiresAtUtc");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("Email", "Used");
 
-                    b.HasIndex("PlantId1", "PlantId2");
-
-                    b.ToTable("comparison_history");
+                    b.ToTable("PasswordResets");
                 });
 
             modelBuilder.Entity("Plantpedia.Models.PlantCare", b =>
@@ -868,74 +872,6 @@ namespace FPT_Plantpedia_Razor.Migrations
                         .IsUnique();
 
                     b.ToTable("plant_comment_reaction");
-                });
-
-            modelBuilder.Entity("Plantpedia.Models.PlantComparison", b =>
-                {
-                    b.Property<int>("ComparisonId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("comparison_id");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ComparisonId"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("created_at");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("text")
-                        .HasColumnName("description");
-
-                    b.Property<bool>("IsPublic")
-                        .HasColumnType("boolean")
-                        .HasColumnName("is_public");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("character varying(255)")
-                        .HasColumnName("name");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("updated_at");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer")
-                        .HasColumnName("user_id");
-
-                    b.HasKey("ComparisonId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("plant_comparison");
-                });
-
-            modelBuilder.Entity("Plantpedia.Models.PlantComparisonItem", b =>
-                {
-                    b.Property<int>("ComparisonId")
-                        .HasColumnType("integer")
-                        .HasColumnName("comparison_id");
-
-                    b.Property<string>("PlantId")
-                        .HasColumnType("char(10)")
-                        .HasColumnName("plant_id");
-
-                    b.Property<string>("Note")
-                        .HasMaxLength(255)
-                        .HasColumnType("character varying(255)")
-                        .HasColumnName("note");
-
-                    b.Property<int>("SortOrder")
-                        .HasColumnType("integer")
-                        .HasColumnName("sort_order");
-
-                    b.HasKey("ComparisonId", "PlantId");
-
-                    b.HasIndex("PlantId");
-
-                    b.ToTable("plant_comparison_item");
                 });
 
             modelBuilder.Entity("Plantpedia.Models.PlantImg", b =>
@@ -2823,8 +2759,6 @@ namespace FPT_Plantpedia_Razor.Migrations
 
                     b.HasKey("FavoriteId");
 
-                    b.HasIndex("CreatedAt");
-
                     b.HasIndex("PlantId");
 
                     b.HasIndex("PlantInfoPlantId");
@@ -2905,33 +2839,6 @@ namespace FPT_Plantpedia_Razor.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Plantpedia.Models.ComparisonHistory", b =>
-                {
-                    b.HasOne("Plantpedia.Models.PlantInfo", "Plant1")
-                        .WithMany()
-                        .HasForeignKey("PlantId1")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Plantpedia.Models.PlantInfo", "Plant2")
-                        .WithMany()
-                        .HasForeignKey("PlantId2")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Plantpedia.Models.UserAccount", "User")
-                        .WithMany("ComparisonHistories")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Plant1");
-
-                    b.Navigation("Plant2");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Plantpedia.Models.PlantCare", b =>
                 {
                     b.HasOne("Plantpedia.Models.PlantInfo", "PlantInfo")
@@ -3005,36 +2912,6 @@ namespace FPT_Plantpedia_Razor.Migrations
                     b.Navigation("Comment");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Plantpedia.Models.PlantComparison", b =>
-                {
-                    b.HasOne("Plantpedia.Models.UserAccount", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Plantpedia.Models.PlantComparisonItem", b =>
-                {
-                    b.HasOne("Plantpedia.Models.PlantComparison", "Comparison")
-                        .WithMany("Items")
-                        .HasForeignKey("ComparisonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Plantpedia.Models.PlantInfo", "Plant")
-                        .WithMany()
-                        .HasForeignKey("PlantId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Comparison");
-
-                    b.Navigation("Plant");
                 });
 
             modelBuilder.Entity("Plantpedia.Models.PlantImg", b =>
@@ -3162,11 +3039,6 @@ namespace FPT_Plantpedia_Razor.Migrations
                     b.Navigation("Replies");
                 });
 
-            modelBuilder.Entity("Plantpedia.Models.PlantComparison", b =>
-                {
-                    b.Navigation("Items");
-                });
-
             modelBuilder.Entity("Plantpedia.Models.PlantInfo", b =>
                 {
                     b.Navigation("CareInfo")
@@ -3211,8 +3083,6 @@ namespace FPT_Plantpedia_Razor.Migrations
 
             modelBuilder.Entity("Plantpedia.Models.UserAccount", b =>
                 {
-                    b.Navigation("ComparisonHistories");
-
                     b.Navigation("Favorites");
 
                     b.Navigation("LoginData")

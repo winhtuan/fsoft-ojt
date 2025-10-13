@@ -1,26 +1,24 @@
-@model Plantpedia.Pages.Home.SearchModel
+@model IEnumerable<Plantpedia.DTO.PlantDto>
 
-@foreach (var info in Model.PlantCard)
+@foreach (var info in Model)
 {
-    <div class="col-6 col-md-3 mb-4">
-        <div class="container plant-card"
-            style="background: url('@(info.ImageUrls.FirstOrDefault() ?? "https://placehold.co/400")') center center/cover no-repeat;">
-            <a asp-page="/PlantDetail/Detail" asp-route-id="@info.PlantId" class="overlay-link">
-                <div class="overlay">
-                    <div class="items"></div>
-                    <div class="items head">
-                        <p>@info.ScientificName</p>
-                        <hr>
-                    </div>
-                    <div class="items common_name">
-                        <p>@info.CommonName</p>
-                    </div>
-                    <div class="items cart">
-                        <i class="fa fa-expand"></i>
-                        <span>VIEW MORE</span>
-                    </div>
+    <div class="cont col-6 col-md-3 mb-4">
+        <div class="product-card">
+            <div class="product-card__image">
+                <img src="@(info.ImageUrls.FirstOrDefault() ?? "https://placehold.co/400")" alt="@info.CommonName">
+            </div>
+            <div class="product-card__info">
+                <h2 class="product-card__title">@info.CommonName</h2>
+                <p class="product-card__description">@info.Description</p>
+                <div class="product-card__actions">
+                    <a asp-page="/PlantDetail/Detail" asp-route-id="@info.PlantId" class="product-card__more">
+                        Xem thêm <i class="fa fa-arrow-right"></i>
+                    </a>
+                    <button class="product-card__favorite btn-unfavorite" data-plant-id="@info.PlantId" title="Bỏ khỏi yêu thích">
+                        <i class="fa fa-heart"></i>
+                    </button>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 }

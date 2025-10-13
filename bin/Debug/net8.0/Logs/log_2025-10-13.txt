@@ -1,0 +1,42 @@
+﻿2025-10-13 00:37:26.403 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-13 00:37:26.405 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-13 00:37:26.406 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-13 00:37:27.195 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-13 00:37:27.198 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-13 00:37:27.199 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-13 00:37:27.253 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-13 00:37:27.253 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-13 00:37:30.664 [AuthController] [Info] : Người dùng 'minhb' đang thực hiện đăng xuất.
+2025-10-13 00:37:30.666 [AuthController] [Info] : Người dùng 'minhb' đã đăng xuất thành công. Chuyển hướng về trang chủ.
+2025-10-13 00:37:41.912 [UserRepository] [Info] : Checking if email 'winhtuan@gmail.com' exists.
+2025-10-13 00:37:41.942 [UserRepository] [Info] : Email 'winhtuan@gmail.com' exists: True.
+2025-10-13 00:37:41.942 [UserRepository] [Info] : Attempting to get user login data for username: winhtuan@gmail.com.
+2025-10-13 00:37:41.945 [UserRepository] [Warn] : No user login data found for username: winhtuan@gmail.com.
+2025-10-13 00:37:41.947 [UserRepository] [Info] : Attempting to get user login data for username: winhtuan@gmail.com.
+2025-10-13 00:37:41.948 [UserRepository] [Warn] : No user login data found for username: winhtuan@gmail.com.
+2025-10-13 00:37:41.968 [PasswordResetRepository] [Info] : Tạo yêu cầu đặt lại mật khẩu cho winhtuan@gmail.com
+2025-10-13 00:37:42.036 [EmailService] [Info] : Gửi email đến winhtuan@gmail.com với tiêu đề: Mã xác nhận đặt lại mật khẩu - Plantpedia
+2025-10-13 00:37:47.319 [ForgotPasswordService] [Info] : Đã gửi mã OTP quên mật khẩu tới winhtuan@gmail.com
+2025-10-13 00:37:47.319 [ForgotPasswordController] [Info] : Yêu cầu gửi OTP cho winhtuan@gmail.com: OK
+2025-10-13 00:38:18.324 [UserRepository] [Info] : Attempting to get user login data for username: winhtuan@gmail.com.
+2025-10-13 00:38:18.325 [UserRepository] [Warn] : No user login data found for username: winhtuan@gmail.com.
+2025-10-13 08:39:30.234 [UserRepository] [Info] : Checking if email 'winhtuan@gmail.com' exists.
+2025-10-13 08:39:31.035 [UserRepository] [Info] : Email 'winhtuan@gmail.com' exists: True.
+2025-10-13 08:39:31.036 [UserRepository] [Info] : Attempting to get user login data for username: winhtuan@gmail.com.
+2025-10-13 08:39:31.092 [UserRepository] [Warn] : No user login data found for username: winhtuan@gmail.com.
+2025-10-13 08:39:31.094 [UserRepository] [Info] : Attempting to get user login data for username: winhtuan@gmail.com.
+2025-10-13 08:39:31.097 [UserRepository] [Warn] : No user login data found for username: winhtuan@gmail.com.
+2025-10-13 08:39:31.112 [PasswordResetRepository] [Info] : Tạo yêu cầu đặt lại mật khẩu cho winhtuan@gmail.com
+2025-10-13 08:39:31.214 [EmailService] [Info] : Gửi email đến winhtuan@gmail.com với tiêu đề: Mã xác nhận đặt lại mật khẩu - Plantpedia
+2025-10-13 08:39:37.219 [ForgotPasswordService] [Info] : Đã gửi mã OTP quên mật khẩu tới winhtuan@gmail.com
+2025-10-13 08:39:37.220 [ForgotPasswordController] [Info] : Yêu cầu gửi OTP cho winhtuan@gmail.com: OK
+2025-10-13 08:39:55.080 [UserRepository] [Info] : Attempting to get user login data for username: winhtuan@gmail.com.
+2025-10-13 08:39:55.082 [UserRepository] [Warn] : No user login data found for username: winhtuan@gmail.com.
+2025-10-13 08:45:52.529 [UserRepository] [Info] : Checking if email 'winhtuan@gmail.com' exists.
+2025-10-13 08:45:54.767 [UserRepository] [Info] : Email 'winhtuan@gmail.com' exists: True.
+2025-10-13 08:45:55.381 [EmailService] [Info] : Gửi email đến winhtuan@gmail.com với tiêu đề: Mã xác nhận đặt lại mật khẩu - Plantpedia
+2025-10-13 08:46:00.294 [ForgotPasswordService] [Info] : Đã gửi mã OTP quên mật khẩu tới winhtuan@gmail.com
+2025-10-13 08:46:00.294 [ForgotPasswordController] [Info] : Yêu cầu gửi OTP cho winhtuan@gmail.com: OK
+2025-10-13 08:46:17.349 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-13 08:46:17.374 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-13 08:46:17.380 [ForgotPasswordService] [Info] : Đã đặt lại mật khẩu cho winhtuan@gmail.com

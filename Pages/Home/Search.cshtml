@@ -41,7 +41,7 @@
 
     <div class="container plant-card-section mb-5">
         <div class="row justify-content-center">
-            <partial name="_CardPatial" model="Model" />
+            <partial name="_CardPatial" model="Model.PlantCard" />
         </div>
     </div>
 
@@ -53,6 +53,7 @@
 </div>
 
 @section Scripts {
+    <script src="~/js/favorite.js" asp-append-version="true"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.querySelectorAll('.filter-option').forEach(function (btn) {

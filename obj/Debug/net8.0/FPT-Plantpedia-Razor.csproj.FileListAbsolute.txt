@@ -1609,3 +1609,4 @@ E:\Asp.Net-8\FPT-Plantpedia-Razor\obj\Debug\net8.0\refint\FPT-Plantpedia-Razor.d
 E:\Asp.Net-8\FPT-Plantpedia-Razor\obj\Debug\net8.0\FPT-Plantpedia-Razor.pdb
 E:\Asp.Net-8\FPT-Plantpedia-Razor\obj\Debug\net8.0\FPT-Plantpedia-Razor.genruntimeconfig.cache
 E:\Asp.Net-8\FPT-Plantpedia-Razor\obj\Debug\net8.0\ref\FPT-Plantpedia-Razor.dll
+E:\Asp.Net-8\FPT-Plantpedia-Razor\bin\Debug\net8.0\Newtonsoft.Json.dll

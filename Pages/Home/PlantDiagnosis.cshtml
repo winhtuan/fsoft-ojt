@@ -1,0 +1,40 @@
+@page
+@model Plantpedia.Pages.Home.PlantDiagnosis
+@{
+    ViewData["Title"] = "Chuẩn đoán bệnh";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/plant-diagnosis-page.css" asp-append-version="true" />
+}
+
+<div class="diagnosis-wrapper">
+  <div class="diagnosis-btn-group">
+    <label class="diagnosis-btn">
+      <i class="fa fa-upload"></i> Tải hình ảnh
+      <input type="file" accept="image/*" id="image-input" style="display:none" />
+    </label>
+  </div>
+
+  <!-- NEW: layout 2 cột -->
+  <div class="diagnosis-grid">
+    <div class="panel-left">
+      <div id="preview-image" class="img-card empty">
+        <div class="img-empty">Tải ảnh để bắt đầu</div>
+      </div>
+      <div id="diagnosis-error" class="alert alert-danger d-none mt-3"></div>
+    </div>
+
+    <div class="panel-right">
+      <div id="diagnosis-result" class="result-card">
+        <div class="section-title">Kết quả:</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/plant-diagnosis.js" asp-append-version="true"></script>
+}
