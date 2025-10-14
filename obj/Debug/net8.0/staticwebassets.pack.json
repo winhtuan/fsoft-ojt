@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\css\\dropdown.css"
     },
     {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\favorite-page.css",
-      "PackagePath": "staticwebassets\\css\\favorite-page.css"
-    },
-    {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\home-page.css",
       "PackagePath": "staticwebassets\\css\\home-page.css"
     },

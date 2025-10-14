@@ -4,7 +4,7 @@ namespace Plantpedia.Service
 {
     public interface ICommentService
     {
-        Task<List<PlantCommentDto>> GetCommentsByPlantAsync(string plantId);
+        Task<List<PlantCommentDto>> GetCommentsByPlantAsync(string plantId, int? userId);
         Task<PlantCommentDto> CreateAsync(PlantCommentCreateRequest request, int userId);
         Task<int> ToggleReactionAsync(PlantCommentReactionRequest request, int userId);
         Task UpdateAsync(PlantCommentUpdateRequest request, int userId);

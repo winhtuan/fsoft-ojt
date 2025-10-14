@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PLANTINFOWEB.Data;
+using Plantpedia.DTO;
 using Plantpedia.Helper;
 using Plantpedia.Models;
 
@@ -42,15 +43,28 @@ namespace Plantpedia.Repository
             await _context.PlantComments.AddAsync(comment);
         }
 
-        public void Update(PlantComment comment)
+        public async Task UpdateAsync(PlantCommentUpdateRequest request, int userId)
         {
-            _context.PlantComments.Update(comment);
+            var comment = await GetByIdAsync(request.CommentId);
+            if (comment == null)
+                throw new ArgumentException("Bình luận không tồn tại.");
+            if (comment.UserId != userId)
+                throw new UnauthorizedAccessException(
+                    "Bạn không có quyền chỉnh sửa bình luận này."
+                );
+
+            comment.Content = request.Content.Trim();
         }
 
-        public void Delete(PlantComment comment)
+        public async Task DeleteAsync(int commentId, int userId)
         {
-            comment.IsDeleted = true;
-            _context.PlantComments.Update(comment);
+            var comment = await GetByIdAsync(commentId);
+            if (comment == null)
+                throw new ArgumentException("Bình luận không tồn tại.");
+            if (comment.UserId != userId)
+                throw new UnauthorizedAccessException("Bạn không có quyền xóa bình luận này.");
+
+            Delete(comment);
         }
 
         public async Task DeleteReactionAsync(int commentId, int userId)
@@ -82,7 +96,6 @@ namespace Plantpedia.Repository
 
             if (!isReacting)
             {
-                // Nếu người dùng bỏ react
                 if (react != null)
                     _context.PlantCommentReactions.Remove(react);
                 return;
@@ -90,7 +103,6 @@ namespace Plantpedia.Repository
 
             if (react == null)
             {
-                // Nếu chưa từng react → thêm mới
                 await _context.PlantCommentReactions.AddAsync(
                     new PlantCommentReaction
                     {
@@ -108,5 +120,11 @@ namespace Plantpedia.Repository
         }
 
         public async Task SaveChangesAsync() => await _context.SaveChangesAsync();
+
+        public void Delete(PlantComment comment)
+        {
+            comment.IsDeleted = true;
+            _context.PlantComments.Update(comment);
+        }
     }
 }

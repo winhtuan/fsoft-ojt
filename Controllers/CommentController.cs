@@ -22,9 +22,15 @@ namespace Plantpedia.Controllers
         public async Task<IActionResult> GetByPlant(string plantId)
         {
             LoggerHelper.Info($"GET list comment plant={plantId}");
+            int? userId = null;
+            var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (int.TryParse(userIdString, out var id))
+            {
+                userId = id;
+            }
             try
             {
-                var data = await _service.GetCommentsByPlantAsync(plantId);
+                var data = await _service.GetCommentsByPlantAsync(plantId, userId);
                 LoggerHelper.Info($"Trả về {data.Count} comment");
                 return Ok(new { success = true, data });
             }

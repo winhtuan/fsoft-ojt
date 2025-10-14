@@ -391,7 +391,7 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* ==================== COMMENT SECTION - UPGRADED ==================== */
+/* ==================== COMMENT SECTION==================== */
 /* Xóa bỏ các style cũ nếu có */
 .comment-item {
   border: none !important;
@@ -520,37 +520,47 @@
   line-height: 1.4;
 }
 
-/* Các nút hành động (Thích, Trả lời) và thời gian - Nâng cấp với icon */
+/* ==================== COMMENT ACTIONS ==================== */
+
+/* Container cho các nút hành động (Thích, Trả lời) và thời gian */
 .comment-actions {
   font-size: 0.8rem;
-  color: var(--color-text-muted);
+  color: var(--comment-color-text-muted, #65676b);
   display: flex;
   align-items: center;
-  gap: 8px; /* Khoảng cách đều */
+  gap: 12px; /* Tăng khoảng cách cho thoáng hơn */
 }
 
+/* Style chung cho các link hành động */
 .comment-actions a {
   font-weight: 600;
+  text-decoration: none; /* Bỏ gạch chân */
+  color: var(--comment-color-text-muted, #65676b);
   display: flex;
   align-items: center;
-  gap: 4px; /* Icon + text */
-  transition: color 0.2s ease;
+  gap: 4px; /* Khoảng cách giữa icon và chữ */
+  transition: all 0.2s ease; /* Hiệu ứng mượt mà */
 }
 
-.comment-actions a:hover {
-  color: var(--color-primary);
+/* Nút "Thích" (btn-react) */
+.comment-actions .btn-react:hover {
+  transform: scale(1.1); /* Phóng to nhẹ khi hover */
 }
 
-.comment-actions .btn-react {
-  color: var(--color-text-muted);
-}
-
-.comment-actions .btn-react:hover,
-.comment-actions .btn-react.liked {
-  color: var(--color-like-active);
+/* Khi nút "Thích" có class 'active' (đã thích) */
+.comment-actions .btn-react.active {
+  color: var(--comment-color-like-active, #dc3545); /* MÀU ĐỎ */
+  font-weight: 700;
   animation: heartPulse 0.5s ease-in-out;
 }
 
+/* Nút "Trả lời" (btn-reply) */
+.comment-actions .btn-reply:hover {
+  color: var(--comment-color-primary, #198754); /* Màu xanh lá khi hover */
+  text-decoration: underline;
+}
+
+/* Animation tim đập */
 @keyframes heartPulse {
   0% {
     transform: scale(1);
@@ -563,71 +573,132 @@
   }
 }
 
-.comment-actions .btn-reply:hover {
-  color: var(--color-primary);
-}
-
-/* Hiển thị số lượt thích - Nâng cấp badge với animation */
+/* Hiển thị số lượt thích */
 .react-display {
   display: inline-flex !important;
   align-items: center;
   gap: 4px;
   background-color: #fff;
+  border: 1px solid #e0e0e0;
   border-radius: 16px;
   padding: 2px 8px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font-size: 0.8rem;
   transition: transform 0.3s ease;
 }
-
 .react-display:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-/* Nút 3 chấm (ẩn mặc định) */
+/* ==================== DROPDOWN - FIXED VERSION ==================== */
+
+/* [QUAN TRỌNG] Đặt container chứa bubble và nút 3 chấm ở chế độ relative */
+.comment-body {
+  position: relative;
+}
+
+/* Mỗi comment-item cần có position relative để z-index hoạt động */
+.comment-item {
+  position: relative;
+  z-index: 1; /* Default z-index */
+}
+
+/* Nút 3 chấm dropdown */
 .comment-options-dropdown {
   position: absolute;
-  top: 8px;
-  right: 8px; /* Nằm trong bubble cho clean hơn */
+  top: 18px;
+  left: 100%;
+  margin-left: 8px;
   opacity: 0;
+  pointer-events: none;
   transition: opacity 0.2s ease-in-out;
+  z-index: 10; /* Đảm bảo dropdown button luôn ở trên */
 }
 
-.comment-bubble:hover .comment-options-dropdown {
+/* Hiển thị dropdown khi hover vào comment */
+.comment-item:hover .comment-options-dropdown {
   opacity: 1;
+  pointer-events: auto;
 }
 
+/* Style cho nút tròn */
 .comment-options-dropdown .btn {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   border: none;
-  background-color: transparent;
+  background-color: #e4e6eb;
   color: #65676b;
-}
-
-.comment-options-dropdown .btn:hover {
-  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0;
+  position: relative;
+  z-index: 11; /* Button cao hơn một chút */
 }
 
-/* Dropdown menu */
+/* Hiệu ứng hover cho nút */
+.comment-options-dropdown .btn:hover {
+  background-color: #d8dadf;
+}
+
+/* Style cho menu xổ xuống - QUAN TRỌNG: Z-INDEX CAO */
 .comment-options-dropdown .dropdown-menu {
-  min-width: 120px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem 0;
+  z-index: 1050 !important; /* Z-index rất cao để không bị đè */
+  position: absolute;
+  background-color: white;
+}
+
+/* Đảm bảo dropdown menu hiển thị phía trên tất cả */
+.comment-options-dropdown .dropdown-menu.show {
+  z-index: 1050 !important;
 }
 
 .comment-options-dropdown .dropdown-item {
   font-size: 0.9rem;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   transition: background-color 0.2s ease;
 }
 
 .comment-options-dropdown .dropdown-item:hover {
-  background-color: #f0f2f5;
+  background-color: #f8f9fa;
 }
 
-/* --- CSS cho phần phản hồi (Replies) - Nâng cấp curve line mượt hơn --- */
+.comment-options-dropdown .dropdown-item i {
+  width: 16px;
+  text-align: center;
+}
+
+/* Khi dropdown được mở, tăng z-index của comment-item cha */
+.comment-item.dropdown-active {
+  z-index: 1000;
+}
+
+/* Fix cho reply list container để không bị conflict */
+.reply-list-container {
+  position: relative;
+  z-index: 0; /* Thấp hơn để không che dropdown */
+}
+
+/* Đảm bảo các reply không đè lên dropdown của comment cha */
+.reply-list-container .comment-item {
+  z-index: 1;
+}
+
+/* Override Bootstrap dropdown backdrop nếu cần */
+.dropdown-backdrop {
+  z-index: 1040;
+}
+
+/* --- CSS cho phần phản hồi --- */
 .reply-list-container {
   padding-left: 50px;
   margin-top: 12px;

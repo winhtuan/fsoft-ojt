@@ -9,7 +9,6 @@ using Plantpedia.ViewModel;
 
 namespace Plantpedia.Pages.Home
 {
-    [Authorize]
     public class FavoriteModel : PageModel
     {
         private readonly IUserFavoriteService _favoriteService;
@@ -25,13 +24,30 @@ namespace Plantpedia.Pages.Home
             _favoriteService = favoriteService;
         }
 
-        // GET: /Home/Favorite
         public async Task<IActionResult> OnGetAsync()
         {
+            // Nếu chưa đăng nhập: không gọi service, hiển thị popup
+            if (!(User.Identity?.IsAuthenticated ?? false))
+            {
+                var req = HttpContext.Request;
+
+                // Tạo login URL có ReturnUrl
+                ViewData["LoginUrl"] = Url.Page(
+                    "/Auth/Login",
+                    null,
+                    new { ReturnUrl = req.Path + req.QueryString },
+                    req.Scheme
+                );
+
+                ViewData["RequireLogin"] = true;
+                FavoritePlants = new();
+                Paging = new PagingViewModel();
+                return Page();
+            }
+
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
             var allFavorites = await _favoriteService.GetFavoritePlantDtosAsync(userId);
-
             var paged = allFavorites.Paginate(
                 Page,
                 8,
@@ -45,15 +61,21 @@ namespace Plantpedia.Pages.Home
             return Page();
         }
 
-        // AJAX Preview Partial
         public async Task<IActionResult> OnGetPreviewAsync()
         {
             try
             {
+                if (!(User.Identity?.IsAuthenticated ?? false))
+                {
+                    return StatusCode(
+                        StatusCodes.Status401Unauthorized,
+                        "Bạn cần đăng nhập để xem danh sách yêu thích."
+                    );
+                }
+
                 var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
                 var allFavorites = await _favoriteService.GetFavoritePlantDtosAsync(userId);
-
                 var paged = allFavorites.Paginate(
                     Page,
                     8,
@@ -64,15 +86,11 @@ namespace Plantpedia.Pages.Home
                 FavoritePlants = paged.Items;
                 Paging = paged.PagingInfo;
 
-                // Đảm bảo _CardPatial.cshtml dùng model IEnumerable<PlantDto>
                 return Partial("_CardPatial", FavoritePlants);
             }
             catch (Exception ex)
             {
-                LoggerHelper.Error(
-                    ex,
-                    "OnGetPreviewAsync: Xảy ra lỗi khi tải partial view favorite."
-                );
+                LoggerHelper.Error(ex, "OnGetPreviewAsync: Lỗi khi tải partial favorite.");
                 return StatusCode(500, "Đã xảy ra lỗi máy chủ khi tải dữ liệu.");
             }
         }

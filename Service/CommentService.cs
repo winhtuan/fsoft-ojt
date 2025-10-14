@@ -10,13 +10,23 @@ namespace Plantpedia.Service
         private readonly ICommentRepository _repo;
         private readonly IUserRepository _userRepo;
 
-        public CommentService(ICommentRepository repo, IUserRepository userRepo)
+        // private readonly AzureContentSafetyService _azureContentSafetyService;
+
+        public CommentService(
+            ICommentRepository repo,
+            IUserRepository userRepo
+        // AzureContentSafetyService azureContentSafetyService
+        )
         {
             _repo = repo;
             _userRepo = userRepo;
+            // _azureContentSafetyService = azureContentSafetyService;
         }
 
-        public async Task<List<PlantCommentDto>> GetCommentsByPlantAsync(string plantId)
+        public async Task<List<PlantCommentDto>> GetCommentsByPlantAsync(
+            string plantId,
+            int? userId
+        )
         {
             var list = await _repo.GetByPlantAsync(plantId);
 
@@ -32,6 +42,13 @@ namespace Plantpedia.Service
                     CreatedAt = c.CreatedAt,
                     ParentCommentId = c.ParentCommentId,
                     ReactCount = c.Reactions?.Count(r => r.ReactionType == true) ?? 0,
+                    IsReactedByCurrentUser =
+                        userId.HasValue
+                        && (
+                            c.Reactions?.Any(r =>
+                                r.UserId == userId.Value && r.ReactionType == true
+                            ) ?? false
+                        ),
                     Replies = c.Replies?.OrderBy(x => x.CreatedAt).Select(Map).ToList() ?? new(),
                 };
 
@@ -50,6 +67,14 @@ namespace Plantpedia.Service
                 throw new ArgumentException("Thiếu PlantId");
             if (string.IsNullOrWhiteSpace(request.Content))
                 throw new ArgumentException("Nội dung không được để trống");
+
+            // var analysisResult = await _azureContentSafetyService.AnalyzeContentAsync(
+            //     request.Content
+            // );
+            // if (analysisResult.IsHarmful)
+            // {
+            //     throw new ArgumentException(analysisResult.Reason);
+            // }
 
             var entity = new PlantComment
             {
@@ -134,7 +159,13 @@ namespace Plantpedia.Service
                     "Bạn không có quyền chỉnh sửa bình luận này."
                 );
             }
-
+            // var analysisResult = await _azureContentSafetyService.AnalyzeContentAsync(
+            //     request.Content
+            // );
+            // if (analysisResult.IsHarmful)
+            // {
+            //     throw new ArgumentException(analysisResult.Reason);
+            // }
             comment.Content = request.Content.Trim();
             await _repo.SaveChangesAsync();
 

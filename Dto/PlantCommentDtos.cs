@@ -26,6 +26,7 @@ namespace Plantpedia.DTO
         public DateTime CreatedAt { get; set; }
         public int? ParentCommentId { get; set; }
         public int ReactCount { get; set; }
+        public bool IsReactedByCurrentUser { get; set; }
         public List<PlantCommentDto> Replies { get; set; } = new();
     }
 
