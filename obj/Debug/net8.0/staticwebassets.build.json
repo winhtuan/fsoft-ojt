@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w5x6DPYG7OCRO9m8jjGkkk+iIxp5eylbWcnVFXlVOyg=",
+  "Hash": "BAvqtjCuKg2de4F1YIYfPbIiMH2nyTeo18gPRu82XvE=",
   "Source": "FPT-Plantpedia-Razor",
   "BasePath": "_content/FPT-Plantpedia-Razor",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0hy7zheavo",
-      "Integrity": "vA6ULSnvkefG1TSv4hSbT7haf3ulhLaDqhZc1F9xrS4=",
+      "Fingerprint": "vlksr0gxem",
+      "Integrity": "U5LVl9ctFwlbzRPqVKz6jnEC1eai4YkG9fJ7wU2g/I4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\img\\home-bg.jpg",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
-      "RelativePath": "js/comment#[.{fingerprint}]?.js",
+      "RelativePath": "img/home-bg#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -304,11 +304,179 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qtozv7ge8z",
-      "Integrity": "khw12IPMNWL8wGZ4cYxsx+7Gfr+U5TrSr30fg2h7mAQ=",
+      "Fingerprint": "gre5qxeqdw",
+      "Integrity": "/LdvDz1aYyVxcJt6k9jQjditO1x0itoxzfbiH25AisY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\comment.js"
+      "OriginalItemSpec": "wwwroot\\img\\home-bg.jpg"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\comment-manager.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/comment-manager#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gdsnf5lan",
+      "Integrity": "E9aNrA8yuVsc5fMa0EQK5rTfkdnCWvIiCoJXTDM2Sdw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\comment-manager.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-actions.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/components/comment-actions#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gaj6c7sovr",
+      "Integrity": "KG8JhcbVi3h2brO42vGcR760Z8WnLlqUkp+Uwq1eXXU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\components\\comment-actions.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-reactions.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/components/comment-reactions#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nslrzt3nly",
+      "Integrity": "6dH0OpT3uuuSOYasWBC7dSH0r6338Ax9Pv5PbQ0iMCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\components\\comment-reactions.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-renderer.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/components/comment-renderer#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "88enxizf7w",
+      "Integrity": "OB/mxZ0Y7EDbXV028gKA4WqKb3II0zEp2FaX7058W2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\components\\comment-renderer.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\config.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/config#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k5ihv2wyt3",
+      "Integrity": "KL17GBtzPjkcEDQ8Yboezc9acWZab4Ca8B8sQnIUpU0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\config.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\notify.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/helpers/notify#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a4a3yevbkh",
+      "Integrity": "+l+muJmURmJMYouDpTdS75bvlamGh4DGHigJgbGW/nM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\helpers\\notify.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\time.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/helpers/time#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ia0c9op1d",
+      "Integrity": "17oJs/cExs+6BRL+UBkOR5N0qCxeixafIP4HZNQt/8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\helpers\\time.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\services\\comment-api.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/comment-system/services/comment-api#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pk32ns9nht",
+      "Integrity": "mTUNYFxs6CdY6eaSiYGRZfe2P4zcKx1VJ8SUSyni9FE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comment-system\\services\\comment-api.js"
     },
     {
       "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
@@ -332,12 +500,12 @@
       "OriginalItemSpec": "wwwroot\\js\\dashboard.js"
     },
     {
-      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\api-functions.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
-      "RelativePath": "js/detail-page#[.{fingerprint}]?.js",
+      "RelativePath": "js/detail-page/api-functions#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -346,11 +514,158 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yv1irydxm2",
-      "Integrity": "Dq0SyyMTulhO4hVs6tGxZ/RrENauINcZlplDm5CNq48=",
+      "Fingerprint": "x6o3w3y4cm",
+      "Integrity": "xzYMktGoa2zJbcHKpP3wjTtumuOMlsY7GzeUNhusAyg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\detail-page.js"
+      "OriginalItemSpec": "wwwroot\\js\\detail-page\\api-functions.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\constants.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/detail-page/constants#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j0zhizqnhd",
+      "Integrity": "g+nSlg2qoOQOoOGWTscmeKDK9RttYhDkH6JTUyqDHCU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\detail-page\\constants.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\elements.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/detail-page/elements#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hv0j8wr6ll",
+      "Integrity": "07wbutR+zVLlqpWCykO6HQ+toJGckA5jfHH2pZJN+mA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\detail-page\\elements.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\init.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/detail-page/init#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dpgd844kvt",
+      "Integrity": "L5Ki29IFuXu1nkfg8GHzxCNu9b3MAKkHfCjGDdnguU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\detail-page\\init.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\render-functions.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/detail-page/render-functions#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wepw8dc56s",
+      "Integrity": "qKQwjhX6VqIdJ9+H7nWnxgQg9c1IA4wO3tFw5ovK30k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\detail-page\\render-functions.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\utility.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/detail-page/utility#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3q08tifs3u",
+      "Integrity": "q2r4DXORlEMuewHUV/97ErkvBB1/CKrnRG9UNDRDdtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\detail-page\\utility.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\diagnosisApi.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/diagnosis-page/diagnosisApi#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nqb5ol3nwi",
+      "Integrity": "r0YH1iUe4IQZSSe7eFPdCM8SV+t1mDfE+YkCozXPWUU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\diagnosis-page\\diagnosisApi.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\imageHandler.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/diagnosis-page/imageHandler#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t51ktidepi",
+      "Integrity": "4VdxLvvSmHgHu1UiLegk6E1NchdfNPfAfKr0MirG864=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\diagnosis-page\\imageHandler.js"
     },
     {
       "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\favorite.js",
@@ -395,12 +710,12 @@
       "OriginalItemSpec": "wwwroot\\js\\forgot-pass.js"
     },
     {
-      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\plant-diagnosis.js",
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-comment.js",
       "SourceId": "FPT-Plantpedia-Razor",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
       "BasePath": "_content/FPT-Plantpedia-Razor",
-      "RelativePath": "js/plant-diagnosis#[.{fingerprint}]?.js",
+      "RelativePath": "js/main-comment#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -409,11 +724,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "trpe6xlhx0",
-      "Integrity": "+fNiidfEc3IGO8khHwi3EWeAevIwaDjAHAjRxtq/yNc=",
+      "Fingerprint": "wvv37ebbpu",
+      "Integrity": "LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\plant-diagnosis.js"
+      "OriginalItemSpec": "wwwroot\\js\\main-comment.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-detail-page.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/main-detail-page#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uvnrk5zntk",
+      "Integrity": "qmmNtWiUP6AvyC8v258D+iT5Ae2JVr/E131tW4IIyzY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main-detail-page.js"
+    },
+    {
+      "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-diagnosis.js",
+      "SourceId": "FPT-Plantpedia-Razor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\",
+      "BasePath": "_content/FPT-Plantpedia-Razor",
+      "RelativePath": "js/main-diagnosis#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u9r09m092k",
+      "Integrity": "EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main-diagnosis.js"
     },
     {
       "Identity": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
@@ -2518,51 +2875,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/admin.0hy7zheavo.css",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2019"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vA6ULSnvkefG1TSv4hSbT7haf3ulhLaDqhZc1F9xrS4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 13:16:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0hy7zheavo"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vA6ULSnvkefG1TSv4hSbT7haf3ulhLaDqhZc1F9xrS4="
-        }
-      ]
-    },
-    {
       "Route": "css/admin.css",
       "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
       "Selectors": [],
@@ -2573,7 +2885,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2019"
+          "Value": "2318"
         },
         {
           "Name": "Content-Type",
@@ -2581,11 +2893,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vA6ULSnvkefG1TSv4hSbT7haf3ulhLaDqhZc1F9xrS4=\""
+          "Value": "\"U5LVl9ctFwlbzRPqVKz6jnEC1eai4YkG9fJ7wU2g/I4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 13:16:01 GMT"
+          "Value": "Wed, 15 Oct 2025 04:12:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2595,7 +2907,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vA6ULSnvkefG1TSv4hSbT7haf3ulhLaDqhZc1F9xrS4="
+          "Value": "sha256-U5LVl9ctFwlbzRPqVKz6jnEC1eai4YkG9fJ7wU2g/I4="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.vlksr0gxem.css",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5LVl9ctFwlbzRPqVKz6jnEC1eai4YkG9fJ7wU2g/I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 04:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vlksr0gxem"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5LVl9ctFwlbzRPqVKz6jnEC1eai4YkG9fJ7wU2g/I4="
         }
       ]
     },
@@ -3584,8 +3941,8 @@
       ]
     },
     {
-      "Route": "js/comment.js",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment.js",
+      "Route": "img/home-bg.gre5qxeqdw.jpg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\img\\home-bg.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3594,56 +3951,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22840"
+          "Value": "2755661"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"khw12IPMNWL8wGZ4cYxsx+7Gfr+U5TrSr30fg2h7mAQ=\""
+          "Value": "\"/LdvDz1aYyVxcJt6k9jQjditO1x0itoxzfbiH25AisY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Oct 2025 16:42:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-khw12IPMNWL8wGZ4cYxsx+7Gfr+U5TrSr30fg2h7mAQ="
-        }
-      ]
-    },
-    {
-      "Route": "js/comment.qtozv7ge8z.js",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22840"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"khw12IPMNWL8wGZ4cYxsx+7Gfr+U5TrSr30fg2h7mAQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Oct 2025 16:42:41 GMT"
+          "Value": "Wed, 15 Oct 2025 07:10:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3653,15 +3973,708 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qtozv7ge8z"
+          "Value": "gre5qxeqdw"
         },
         {
           "Name": "label",
-          "Value": "js/comment.js"
+          "Value": "img/home-bg.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-khw12IPMNWL8wGZ4cYxsx+7Gfr+U5TrSr30fg2h7mAQ="
+          "Value": "sha256-/LdvDz1aYyVxcJt6k9jQjditO1x0itoxzfbiH25AisY="
+        }
+      ]
+    },
+    {
+      "Route": "img/home-bg.jpg",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\img\\home-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2755661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/LdvDz1aYyVxcJt6k9jQjditO1x0itoxzfbiH25AisY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 07:10:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/LdvDz1aYyVxcJt6k9jQjditO1x0itoxzfbiH25AisY="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/comment-manager.3gdsnf5lan.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\comment-manager.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E9aNrA8yuVsc5fMa0EQK5rTfkdnCWvIiCoJXTDM2Sdw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 14:44:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gdsnf5lan"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/comment-manager.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E9aNrA8yuVsc5fMa0EQK5rTfkdnCWvIiCoJXTDM2Sdw="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/comment-manager.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\comment-manager.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E9aNrA8yuVsc5fMa0EQK5rTfkdnCWvIiCoJXTDM2Sdw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 14:44:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E9aNrA8yuVsc5fMa0EQK5rTfkdnCWvIiCoJXTDM2Sdw="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/components/comment-actions.gaj6c7sovr.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-actions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KG8JhcbVi3h2brO42vGcR760Z8WnLlqUkp+Uwq1eXXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gaj6c7sovr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/components/comment-actions.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KG8JhcbVi3h2brO42vGcR760Z8WnLlqUkp+Uwq1eXXU="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/components/comment-actions.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-actions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KG8JhcbVi3h2brO42vGcR760Z8WnLlqUkp+Uwq1eXXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KG8JhcbVi3h2brO42vGcR760Z8WnLlqUkp+Uwq1eXXU="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/components/comment-reactions.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-reactions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6dH0OpT3uuuSOYasWBC7dSH0r6338Ax9Pv5PbQ0iMCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6dH0OpT3uuuSOYasWBC7dSH0r6338Ax9Pv5PbQ0iMCE="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/components/comment-reactions.nslrzt3nly.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-reactions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6dH0OpT3uuuSOYasWBC7dSH0r6338Ax9Pv5PbQ0iMCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nslrzt3nly"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/components/comment-reactions.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6dH0OpT3uuuSOYasWBC7dSH0r6338Ax9Pv5PbQ0iMCE="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/components/comment-renderer.88enxizf7w.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-renderer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OB/mxZ0Y7EDbXV028gKA4WqKb3II0zEp2FaX7058W2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88enxizf7w"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/components/comment-renderer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OB/mxZ0Y7EDbXV028gKA4WqKb3II0zEp2FaX7058W2k="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/components/comment-renderer.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-renderer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OB/mxZ0Y7EDbXV028gKA4WqKb3II0zEp2FaX7058W2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OB/mxZ0Y7EDbXV028gKA4WqKb3II0zEp2FaX7058W2k="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/config.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KL17GBtzPjkcEDQ8Yboezc9acWZab4Ca8B8sQnIUpU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KL17GBtzPjkcEDQ8Yboezc9acWZab4Ca8B8sQnIUpU0="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/config.k5ihv2wyt3.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1293"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KL17GBtzPjkcEDQ8Yboezc9acWZab4Ca8B8sQnIUpU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k5ihv2wyt3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/config.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KL17GBtzPjkcEDQ8Yboezc9acWZab4Ca8B8sQnIUpU0="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/helpers/notify.a4a3yevbkh.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\notify.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+l+muJmURmJMYouDpTdS75bvlamGh4DGHigJgbGW/nM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a4a3yevbkh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/helpers/notify.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+l+muJmURmJMYouDpTdS75bvlamGh4DGHigJgbGW/nM="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/helpers/notify.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\notify.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+l+muJmURmJMYouDpTdS75bvlamGh4DGHigJgbGW/nM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+l+muJmURmJMYouDpTdS75bvlamGh4DGHigJgbGW/nM="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/helpers/time.1ia0c9op1d.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\time.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"17oJs/cExs+6BRL+UBkOR5N0qCxeixafIP4HZNQt/8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ia0c9op1d"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/helpers/time.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-17oJs/cExs+6BRL+UBkOR5N0qCxeixafIP4HZNQt/8A="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/helpers/time.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\time.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"17oJs/cExs+6BRL+UBkOR5N0qCxeixafIP4HZNQt/8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:58:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-17oJs/cExs+6BRL+UBkOR5N0qCxeixafIP4HZNQt/8A="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/services/comment-api.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\services\\comment-api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTUNYFxs6CdY6eaSiYGRZfe2P4zcKx1VJ8SUSyni9FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:59:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTUNYFxs6CdY6eaSiYGRZfe2P4zcKx1VJ8SUSyni9FE="
+        }
+      ]
+    },
+    {
+      "Route": "js/comment-system/services/comment-api.pk32ns9nht.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\services\\comment-api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTUNYFxs6CdY6eaSiYGRZfe2P4zcKx1VJ8SUSyni9FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Oct 2025 06:59:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk32ns9nht"
+        },
+        {
+          "Name": "label",
+          "Value": "js/comment-system/services/comment-api.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTUNYFxs6CdY6eaSiYGRZfe2P4zcKx1VJ8SUSyni9FE="
         }
       ]
     },
@@ -3748,8 +4761,8 @@
       ]
     },
     {
-      "Route": "js/detail-page.js",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page.js",
+      "Route": "js/detail-page/api-functions.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\api-functions.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3758,7 +4771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11943"
+          "Value": "698"
         },
         {
           "Name": "Content-Type",
@@ -3766,11 +4779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Dq0SyyMTulhO4hVs6tGxZ/RrENauINcZlplDm5CNq48=\""
+          "Value": "\"xzYMktGoa2zJbcHKpP3wjTtumuOMlsY7GzeUNhusAyg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Oct 2025 06:32:29 GMT"
+          "Value": "Wed, 15 Oct 2025 03:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3780,13 +4793,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Dq0SyyMTulhO4hVs6tGxZ/RrENauINcZlplDm5CNq48="
+          "Value": "sha256-xzYMktGoa2zJbcHKpP3wjTtumuOMlsY7GzeUNhusAyg="
         }
       ]
     },
     {
-      "Route": "js/detail-page.yv1irydxm2.js",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page.js",
+      "Route": "js/detail-page/api-functions.x6o3w3y4cm.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\api-functions.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3795,7 +4808,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11943"
+          "Value": "698"
         },
         {
           "Name": "Content-Type",
@@ -3803,11 +4816,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Dq0SyyMTulhO4hVs6tGxZ/RrENauINcZlplDm5CNq48=\""
+          "Value": "\"xzYMktGoa2zJbcHKpP3wjTtumuOMlsY7GzeUNhusAyg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Oct 2025 06:32:29 GMT"
+          "Value": "Wed, 15 Oct 2025 03:34:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3817,15 +4830,589 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yv1irydxm2"
+          "Value": "x6o3w3y4cm"
         },
         {
           "Name": "label",
-          "Value": "js/detail-page.js"
+          "Value": "js/detail-page/api-functions.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Dq0SyyMTulhO4hVs6tGxZ/RrENauINcZlplDm5CNq48="
+          "Value": "sha256-xzYMktGoa2zJbcHKpP3wjTtumuOMlsY7GzeUNhusAyg="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/constants.j0zhizqnhd.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\constants.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+nSlg2qoOQOoOGWTscmeKDK9RttYhDkH6JTUyqDHCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j0zhizqnhd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/detail-page/constants.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+nSlg2qoOQOoOGWTscmeKDK9RttYhDkH6JTUyqDHCU="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/constants.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\constants.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+nSlg2qoOQOoOGWTscmeKDK9RttYhDkH6JTUyqDHCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+nSlg2qoOQOoOGWTscmeKDK9RttYhDkH6JTUyqDHCU="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/elements.hv0j8wr6ll.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\elements.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07wbutR+zVLlqpWCykO6HQ+toJGckA5jfHH2pZJN+mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hv0j8wr6ll"
+        },
+        {
+          "Name": "label",
+          "Value": "js/detail-page/elements.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-07wbutR+zVLlqpWCykO6HQ+toJGckA5jfHH2pZJN+mA="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/elements.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\elements.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07wbutR+zVLlqpWCykO6HQ+toJGckA5jfHH2pZJN+mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-07wbutR+zVLlqpWCykO6HQ+toJGckA5jfHH2pZJN+mA="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/init.dpgd844kvt.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\init.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L5Ki29IFuXu1nkfg8GHzxCNu9b3MAKkHfCjGDdnguU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dpgd844kvt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/detail-page/init.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L5Ki29IFuXu1nkfg8GHzxCNu9b3MAKkHfCjGDdnguU8="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/init.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\init.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L5Ki29IFuXu1nkfg8GHzxCNu9b3MAKkHfCjGDdnguU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L5Ki29IFuXu1nkfg8GHzxCNu9b3MAKkHfCjGDdnguU8="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/render-functions.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\render-functions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qKQwjhX6VqIdJ9+H7nWnxgQg9c1IA4wO3tFw5ovK30k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qKQwjhX6VqIdJ9+H7nWnxgQg9c1IA4wO3tFw5ovK30k="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/render-functions.wepw8dc56s.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\render-functions.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qKQwjhX6VqIdJ9+H7nWnxgQg9c1IA4wO3tFw5ovK30k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wepw8dc56s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/detail-page/render-functions.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qKQwjhX6VqIdJ9+H7nWnxgQg9c1IA4wO3tFw5ovK30k="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/utility.3q08tifs3u.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\utility.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q2r4DXORlEMuewHUV/97ErkvBB1/CKrnRG9UNDRDdtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3q08tifs3u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/detail-page/utility.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q2r4DXORlEMuewHUV/97ErkvBB1/CKrnRG9UNDRDdtw="
+        }
+      ]
+    },
+    {
+      "Route": "js/detail-page/utility.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\utility.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q2r4DXORlEMuewHUV/97ErkvBB1/CKrnRG9UNDRDdtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:33:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q2r4DXORlEMuewHUV/97ErkvBB1/CKrnRG9UNDRDdtw="
+        }
+      ]
+    },
+    {
+      "Route": "js/diagnosis-page/diagnosisApi.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\diagnosisApi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0YH1iUe4IQZSSe7eFPdCM8SV+t1mDfE+YkCozXPWUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 02:50:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r0YH1iUe4IQZSSe7eFPdCM8SV+t1mDfE+YkCozXPWUU="
+        }
+      ]
+    },
+    {
+      "Route": "js/diagnosis-page/diagnosisApi.nqb5ol3nwi.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\diagnosisApi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0YH1iUe4IQZSSe7eFPdCM8SV+t1mDfE+YkCozXPWUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 02:50:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqb5ol3nwi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/diagnosis-page/diagnosisApi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r0YH1iUe4IQZSSe7eFPdCM8SV+t1mDfE+YkCozXPWUU="
+        }
+      ]
+    },
+    {
+      "Route": "js/diagnosis-page/imageHandler.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\imageHandler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4VdxLvvSmHgHu1UiLegk6E1NchdfNPfAfKr0MirG864=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 02:50:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4VdxLvvSmHgHu1UiLegk6E1NchdfNPfAfKr0MirG864="
+        }
+      ]
+    },
+    {
+      "Route": "js/diagnosis-page/imageHandler.t51ktidepi.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\imageHandler.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4VdxLvvSmHgHu1UiLegk6E1NchdfNPfAfKr0MirG864=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 02:50:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t51ktidepi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/diagnosis-page/imageHandler.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4VdxLvvSmHgHu1UiLegk6E1NchdfNPfAfKr0MirG864="
         }
       ]
     },
@@ -3994,8 +5581,8 @@
       ]
     },
     {
-      "Route": "js/plant-diagnosis.js",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\plant-diagnosis.js",
+      "Route": "js/main-comment.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-comment.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4004,7 +5591,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11379"
+          "Value": "335"
         },
         {
           "Name": "Content-Type",
@@ -4012,11 +5599,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+fNiidfEc3IGO8khHwi3EWeAevIwaDjAHAjRxtq/yNc=\""
+          "Value": "\"LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Oct 2025 16:41:12 GMT"
+          "Value": "Tue, 14 Oct 2025 07:00:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4026,13 +5613,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+fNiidfEc3IGO8khHwi3EWeAevIwaDjAHAjRxtq/yNc="
+          "Value": "sha256-LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU="
         }
       ]
     },
     {
-      "Route": "js/plant-diagnosis.trpe6xlhx0.js",
-      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\plant-diagnosis.js",
+      "Route": "js/main-comment.wvv37ebbpu.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-comment.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4041,7 +5628,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11379"
+          "Value": "335"
         },
         {
           "Name": "Content-Type",
@@ -4049,11 +5636,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+fNiidfEc3IGO8khHwi3EWeAevIwaDjAHAjRxtq/yNc=\""
+          "Value": "\"LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Oct 2025 16:41:12 GMT"
+          "Value": "Tue, 14 Oct 2025 07:00:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4063,15 +5650,179 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "trpe6xlhx0"
+          "Value": "wvv37ebbpu"
         },
         {
           "Name": "label",
-          "Value": "js/plant-diagnosis.js"
+          "Value": "js/main-comment.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+fNiidfEc3IGO8khHwi3EWeAevIwaDjAHAjRxtq/yNc="
+          "Value": "sha256-LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU="
+        }
+      ]
+    },
+    {
+      "Route": "js/main-detail-page.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-detail-page.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmmNtWiUP6AvyC8v258D+iT5Ae2JVr/E131tW4IIyzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:30:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmmNtWiUP6AvyC8v258D+iT5Ae2JVr/E131tW4IIyzY="
+        }
+      ]
+    },
+    {
+      "Route": "js/main-detail-page.uvnrk5zntk.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-detail-page.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmmNtWiUP6AvyC8v258D+iT5Ae2JVr/E131tW4IIyzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 03:30:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uvnrk5zntk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main-detail-page.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmmNtWiUP6AvyC8v258D+iT5Ae2JVr/E131tW4IIyzY="
+        }
+      ]
+    },
+    {
+      "Route": "js/main-diagnosis.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-diagnosis.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 02:50:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw="
+        }
+      ]
+    },
+    {
+      "Route": "js/main-diagnosis.u9r09m092k.js",
+      "AssetFile": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-diagnosis.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Oct 2025 02:50:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u9r09m092k"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main-diagnosis.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw="
         }
       ]
     },

@@ -21,6 +21,7 @@ namespace Plantpedia.Repository
         Task CreateAsync(PlantInfo plant);
         Task UpdateAsync(PlantInfo plant);
         Task<PlantInfo?> GetByIdAsync(string id);
+        Task<int> GetPlantCountAsync();
         Task DeleteAsync(PlantInfo plant);
     }
 }

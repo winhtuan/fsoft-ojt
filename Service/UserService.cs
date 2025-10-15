@@ -159,5 +159,10 @@ namespace Plantpedia.Service
         {
             return await _userRepository.IsGmailExistsAsync(email);
         }
+
+        public async Task<int> GetUserCountAsync()
+        {
+            return await _userRepository.GetUserCountAsync();
+        }
     }
 }

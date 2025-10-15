@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
@@ -16,6 +17,7 @@ namespace Plantpedia.Service
         private readonly string _apiKey;
         private readonly string _apiUrl;
         private readonly HttpClient _httpClient;
+        private readonly Dictionary<string, string> _diseaseMap;
 
         public PlantDiagnosisService(
             IConfiguration configuration,
@@ -25,6 +27,63 @@ namespace Plantpedia.Service
             _apiKey = configuration["PlantIdApi:ApiKey"]!;
             _apiUrl = configuration["PlantIdApi:ApiUrl"]!;
             _httpClient = httpClientFactory.CreateClient();
+
+            // Load mapping từ file JSON
+            _diseaseMap = LoadDiseaseMapping();
+        }
+
+        /// <summary>
+        /// Load mapping từ Config/disease_to_vi.json
+        /// </summary>
+        private Dictionary<string, string> LoadDiseaseMapping()
+        {
+            try
+            {
+                var configPath = Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "Config",
+                    "plant_diseases_vi.json"
+                );
+
+                if (!File.Exists(configPath))
+                {
+                    LoggerHelper.Warn(
+                        $"Mapping file not found at: {configPath}. Using default English disease names."
+                    );
+                    return new Dictionary<string, string>();
+                }
+
+                var jsonContent = File.ReadAllText(configPath);
+                var mapping = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
+
+                if (mapping == null || !mapping.Any())
+                {
+                    LoggerHelper.Warn("Mapping file is empty or invalid.");
+                    return new Dictionary<string, string>();
+                }
+
+                LoggerHelper.Info($"Loaded {mapping.Count} disease name mappings from config.");
+                return new Dictionary<string, string>(mapping, StringComparer.OrdinalIgnoreCase);
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error($"Failed to load disease name mapping: {ex.Message}");
+                return new Dictionary<string, string>();
+            }
+        }
+
+        /// <summary>
+        /// Chuyển đổi disease name từ tiếng Anh sang tiếng Việt
+        /// </summary>
+        private string GetVietnameseDiseaseName(string englishDiseaseName)
+        {
+            var lowerName = englishDiseaseName.ToLowerInvariant();
+            if (_diseaseMap.TryGetValue(lowerName, out var vietnameseName))
+            {
+                return vietnameseName;
+            }
+
+            return englishDiseaseName;
         }
 
         public async Task<JsonElement?> DiagnoseAsync(IFormFile image)
@@ -78,8 +137,53 @@ namespace Plantpedia.Service
                     $"Xem nhanh phản hồi: {responseContent.Substring(0, previewLen)}..."
                 );
 
-                var jsonDoc = JsonDocument.Parse(responseContent);
-                return jsonDoc.RootElement.Clone();
+                var rootNode = JsonNode.Parse(responseContent);
+                if (rootNode == null)
+                {
+                    LoggerHelper.Error("Failed to parse API response to JsonNode.");
+                    return null;
+                }
+
+                // Map tên bệnh sang tiếng Việt nếu có
+                if (
+                    rootNode is JsonObject rootObj
+                    && rootObj["result"] is JsonObject result
+                    && result["disease"] is JsonObject disease
+                    && disease["suggestions"] is JsonArray suggestions
+                )
+                {
+                    foreach (var suggestion in suggestions.OfType<JsonObject>())
+                    {
+                        if (
+                            suggestion["name"] is JsonValue nameValue
+                            && nameValue.TryGetValue<string>(out var name)
+                        )
+                        {
+                            var vietName = GetVietnameseDiseaseName(name);
+                            suggestion["name"] = JsonValue.Create(vietName);
+                        }
+
+                        // Tùy chọn: Dịch classification nếu có
+                        if (suggestion["classification"] is JsonArray classification)
+                        {
+                            for (int i = 0; i < classification.Count; i++)
+                            {
+                                if (
+                                    classification[i] is JsonValue classValue
+                                    && classValue.TryGetValue<string>(out var className)
+                                )
+                                {
+                                    var vietClass = GetVietnameseDiseaseName(className);
+                                    classification[i] = JsonValue.Create(vietClass);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                var modifiedJson = rootNode.ToJsonString();
+                var modifiedDoc = JsonDocument.Parse(modifiedJson);
+                return modifiedDoc.RootElement.Clone();
             }
             catch (Exception ex)
             {

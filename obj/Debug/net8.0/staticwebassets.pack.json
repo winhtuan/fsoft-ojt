@@ -49,16 +49,76 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment.js",
-      "PackagePath": "staticwebassets\\js\\comment.js"
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\comment-manager.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\comment-manager.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-actions.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\components\\comment-actions.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-reactions.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\components\\comment-reactions.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\components\\comment-renderer.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\components\\comment-renderer.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\config.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\config.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\notify.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\helpers\\notify.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\time.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\helpers\\time.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\services\\comment-api.js",
+      "PackagePath": "staticwebassets\\js\\comment-system\\services\\comment-api.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
     },
     {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page.js",
-      "PackagePath": "staticwebassets\\js\\detail-page.js"
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\api-functions.js",
+      "PackagePath": "staticwebassets\\js\\detail-page\\api-functions.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\constants.js",
+      "PackagePath": "staticwebassets\\js\\detail-page\\constants.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\elements.js",
+      "PackagePath": "staticwebassets\\js\\detail-page\\elements.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\init.js",
+      "PackagePath": "staticwebassets\\js\\detail-page\\init.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\render-functions.js",
+      "PackagePath": "staticwebassets\\js\\detail-page\\render-functions.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\detail-page\\utility.js",
+      "PackagePath": "staticwebassets\\js\\detail-page\\utility.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\diagnosisApi.js",
+      "PackagePath": "staticwebassets\\js\\diagnosis-page\\diagnosisApi.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\diagnosis-page\\imageHandler.js",
+      "PackagePath": "staticwebassets\\js\\diagnosis-page\\imageHandler.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\favorite.js",
@@ -69,8 +129,16 @@
       "PackagePath": "staticwebassets\\js\\forgot-pass.js"
     },
     {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\plant-diagnosis.js",
-      "PackagePath": "staticwebassets\\js\\plant-diagnosis.js"
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-comment.js",
+      "PackagePath": "staticwebassets\\js\\main-comment.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-detail-page.js",
+      "PackagePath": "staticwebassets\\js\\main-detail-page.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-diagnosis.js",
+      "PackagePath": "staticwebassets\\js\\main-diagnosis.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",

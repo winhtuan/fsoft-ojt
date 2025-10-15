@@ -257,5 +257,20 @@ namespace Plantpedia.Repository
                 throw;
             }
         }
+
+        public async Task<int> GetPlantCountAsync()
+        {
+            try
+            {
+                var count = await _context.PlantInfos.CountAsync();
+                LoggerHelper.Info($"Tổng số cây trồng: {count}");
+                return count;
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error(ex, "Đã xảy ra lỗi khi đếm số lượng cây trồng.");
+                throw;
+            }
+        }
     }
 }

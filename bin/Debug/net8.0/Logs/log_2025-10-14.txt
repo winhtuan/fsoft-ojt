@@ -167,3 +167,566 @@
 2025-10-14 09:00:17.632 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
 2025-10-14 09:00:17.632 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
 2025-10-14 09:00:17.632 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 09:33:51.705 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 09:33:51.709 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-14 09:33:51.710 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-14 09:33:53.238 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-14 09:33:53.240 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-14 09:33:53.242 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-14 09:33:53.265 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-14 09:33:53.266 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-14 09:33:53.268 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-14 09:33:53.282 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-14 09:33:53.284 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-14 09:33:53.286 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-14 09:33:53.298 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-14 09:33:53.300 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-14 09:33:53.301 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-14 09:33:53.313 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-14 09:33:53.315 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-14 09:33:53.318 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-14 09:33:53.320 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 09:33:53.321 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 09:33:53.324 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 09:33:53.328 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 09:33:53.803 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 09:33:53.804 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 09:33:53.804 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 09:33:53.807 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 09:33:53.807 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 09:33:59.971 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 09:33:59.972 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 09:33:59.973 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 09:33:59.975 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 09:34:00.112 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 09:34:00.113 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 09:34:00.113 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 09:34:00.267 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 09:34:15.748 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 09:34:15.752 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 09:34:15.755 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 09:34:15.875 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 09:34:15.886 [UserService] [Warn] : Login failed for 'minhb': Invalid password.
+2025-10-14 09:34:19.158 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 09:34:19.158 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 09:34:19.159 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 09:34:19.166 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 09:34:19.169 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-14 09:34:19.169 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-14 09:34:19.316 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-14 09:34:19.316 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-14 09:34:22.170 [UserFavoriteRepository] [Info] : Get all favorites by userId=2
+2025-10-14 09:34:22.496 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-14 09:34:22.496 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL018
+2025-10-14 09:34:22.498 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-14 09:34:22.498 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL018
+2025-10-14 09:34:22.500 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-14 09:34:22.500 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL018
+2025-10-14 09:34:22.501 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL039
+2025-10-14 09:34:22.501 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL039
+2025-10-14 09:34:22.501 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL040
+2025-10-14 09:34:22.502 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL024
+2025-10-14 09:34:22.502 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL024
+2025-10-14 09:34:22.502 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL024
+2025-10-14 09:34:22.502 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL040
+2025-10-14 09:34:22.502 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL040
+2025-10-14 09:34:22.503 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL039
+2025-10-14 09:34:22.503 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL041
+2025-10-14 09:34:22.503 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL041
+2025-10-14 09:34:22.504 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL041
+2025-10-14 09:34:22.515 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL018
+2025-10-14 09:34:22.517 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL018, isFavorite=True
+2025-10-14 09:34:22.518 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-14 09:34:22.518 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-14 09:34:22.527 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL042
+2025-10-14 09:34:22.527 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL042
+2025-10-14 09:34:22.527 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL042
+2025-10-14 09:34:22.531 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL042
+2025-10-14 09:34:22.532 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL042, isFavorite=True
+2025-10-14 09:34:22.578 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL024
+2025-10-14 09:34:22.578 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL041
+2025-10-14 09:34:22.578 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL041, isFavorite=True
+2025-10-14 09:34:22.578 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL024, isFavorite=True
+2025-10-14 09:34:22.582 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL039
+2025-10-14 09:34:22.583 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL039, isFavorite=True
+2025-10-14 09:34:22.583 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL040
+2025-10-14 09:34:22.583 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL040, isFavorite=True
+2025-10-14 09:34:24.726 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 09:34:24.727 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 09:34:24.727 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 09:34:24.727 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 09:34:24.728 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 09:34:24.728 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 09:34:24.903 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-14 09:34:24.904 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-14 09:34:24.904 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-14 09:34:24.905 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-14 09:34:24.905 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-14 09:34:24.905 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-14 09:34:24.905 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-14 09:34:24.906 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-14 09:34:24.906 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-14 09:34:24.906 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-14 09:34:24.906 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-14 09:34:24.907 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-14 09:34:24.907 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-14 09:34:24.907 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-14 09:34:24.908 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-14 09:34:24.908 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-14 09:34:24.909 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-14 09:34:24.909 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-14 09:34:24.909 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-14 09:34:24.910 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-14 09:34:24.910 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL002
+2025-10-14 09:34:24.910 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL003
+2025-10-14 09:34:24.911 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=False
+2025-10-14 09:34:24.911 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=False
+2025-10-14 09:34:24.912 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-14 09:34:24.912 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-14 09:34:24.913 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-14 09:34:24.913 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-14 09:34:24.914 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-14 09:34:24.914 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-14 09:34:24.915 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-14 09:34:24.915 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-14 09:34:24.915 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-14 09:34:24.917 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-14 09:34:24.917 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-14 09:34:24.917 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-14 09:34:24.918 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-14 09:34:24.918 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-14 09:34:24.919 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-14 09:34:24.919 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-14 09:34:27.121 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL001     '.
+2025-10-14 09:34:27.122 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL001     .
+2025-10-14 09:34:27.122 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL001     .
+2025-10-14 09:34:27.123 [CommentController] [Info] : GET list comment plant=PL001
+2025-10-14 09:34:27.129 [CommentController] [Info] : Trả về 0 comment
+2025-10-14 09:34:27.142 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL001     .
+2025-10-14 09:34:27.143 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL001     .
+2025-10-14 09:34:27.143 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bồ Đề' (ID: PL001     ).
+2025-10-14 09:34:31.915 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 09:34:31.916 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 09:34:31.917 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 09:34:31.917 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 09:34:31.918 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 09:34:31.918 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 09:34:33.528 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 09:34:33.528 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 09:34:33.529 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 09:34:33.534 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 09:34:33.553 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 09:34:33.569 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 09:34:33.570 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 09:34:33.570 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 13:46:38.539 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 13:46:38.543 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-14 13:46:38.544 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-14 13:46:39.254 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-14 13:46:39.255 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-14 13:46:39.255 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-14 13:46:39.262 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-14 13:46:39.262 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-14 13:46:39.263 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-14 13:46:39.268 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-14 13:46:39.269 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-14 13:46:39.269 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-14 13:46:39.274 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-14 13:46:39.275 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-14 13:46:39.276 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-14 13:46:39.280 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-14 13:46:39.281 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-14 13:46:39.282 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-14 13:46:39.282 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 13:46:39.283 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 13:46:39.284 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 13:46:39.285 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 13:46:39.424 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 13:46:39.424 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 13:46:39.425 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 13:46:39.425 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 13:46:39.427 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 13:46:46.402 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 13:46:46.403 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 13:46:46.405 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 13:46:46.518 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 13:46:46.518 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 13:46:46.518 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 13:46:53.260 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 13:46:53.261 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 13:46:53.261 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 13:46:53.261 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 13:46:53.262 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 13:46:53.262 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 13:46:55.914 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL001     '.
+2025-10-14 13:46:55.914 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL001     .
+2025-10-14 13:46:55.914 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL001     .
+2025-10-14 13:46:56.007 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL001     .
+2025-10-14 13:46:56.008 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL001     .
+2025-10-14 13:46:56.008 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bồ Đề' (ID: PL001     ).
+2025-10-14 13:47:56.224 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL001     '.
+2025-10-14 13:47:56.224 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL001     .
+2025-10-14 13:47:56.224 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL001     .
+2025-10-14 13:47:56.232 [CommentController] [Info] : GET list comment plant=PL001
+2025-10-14 13:47:56.237 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL001     .
+2025-10-14 13:47:56.238 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL001     .
+2025-10-14 13:47:56.238 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bồ Đề' (ID: PL001     ).
+2025-10-14 13:47:56.280 [CommentController] [Info] : Trả về 0 comment
+2025-10-14 13:47:59.440 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 13:47:59.440 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 13:47:59.440 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 13:47:59.441 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 13:47:59.441 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 13:47:59.442 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 13:48:02.141 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 13:48:02.141 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 13:48:02.142 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 13:48:02.147 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 13:48:02.152 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 13:48:02.152 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 13:48:02.153 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 13:48:02.299 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 14:00:30.242 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 14:00:30.242 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 14:00:30.242 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 14:00:30.288 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 14:00:30.288 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 14:00:30.288 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 14:00:46.222 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 14:00:46.225 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 14:00:46.228 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 14:00:46.277 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 14:00:46.279 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-14 14:00:46.280 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-14 14:00:46.416 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-14 14:00:46.417 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-14 14:00:48.037 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 14:00:48.037 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 14:00:48.037 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 14:00:48.038 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 14:00:48.038 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 14:00:48.052 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 14:00:48.053 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 14:00:48.053 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 14:00:48.054 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 14:00:48.054 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 14:00:48.183 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-14 14:00:48.183 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-14 14:00:48.183 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-14 14:00:48.183 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-14 14:00:48.184 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-14 14:00:48.184 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-14 14:00:48.184 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-14 14:00:48.184 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-14 14:00:48.185 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-14 14:00:48.185 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-14 14:00:48.185 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-14 14:00:48.185 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-14 14:00:48.186 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-14 14:00:48.186 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-14 14:00:48.186 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-14 14:00:48.186 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-14 14:00:48.186 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-14 14:00:48.187 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-14 14:00:48.211 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-14 14:00:48.211 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-14 14:00:48.229 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-14 14:00:48.229 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-14 14:00:48.229 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-14 14:00:48.232 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-14 14:00:48.232 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-14 14:00:48.236 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-14 14:00:48.237 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-14 14:00:48.237 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-14 14:00:48.238 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-14 14:00:48.239 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-14 14:00:48.248 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-14 14:00:48.249 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-14 14:00:48.250 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL002
+2025-10-14 14:00:48.250 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=False
+2025-10-14 14:00:48.251 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL003
+2025-10-14 14:00:48.251 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=False
+2025-10-14 14:00:48.251 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-14 14:00:48.252 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-14 14:00:48.381 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-14 14:00:48.382 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-14 14:00:50.820 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 14:00:50.821 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 14:00:50.822 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 14:00:50.834 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 14:00:50.835 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 14:00:50.835 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 14:01:09.273 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 14:01:09.273 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 14:01:09.273 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 14:01:09.294 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 14:01:09.294 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 14:01:09.294 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 14:01:25.349 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 14:01:25.349 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 14:01:25.351 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 14:01:25.371 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 14:01:25.371 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 14:01:25.371 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 14:03:02.937 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 14:03:02.937 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 14:03:02.937 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 14:03:02.938 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 14:03:02.950 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 14:03:02.958 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 14:03:02.958 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 14:03:02.959 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 14:03:05.351 [CommentController] [Info] : POST react Comment=5, User=2, Type=True
+2025-10-14 14:03:05.812 [CommentController] [Info] : POST react Comment=5, User=2, Type=False
+2025-10-14 14:03:15.833 [CommentController] [Info] : POST create comment Plant=PL002     , User=2
+2025-10-14 14:03:15.864 [UserRepository] [Info] : Attempting to get user by ID: 2.
+2025-10-14 14:03:15.881 [UserRepository] [Info] : Successfully found user with ID: 2.
+2025-10-14 14:03:24.607 [CommentService] [Info] : User=2 bắt đầu xóa CommentId=7.
+2025-10-14 14:03:24.615 [CommentService] [Info] : User=2 đã xóa thành công (soft delete) CommentId=7.
+2025-10-14 14:03:35.272 [CommentController] [Info] : POST react Comment=6, User=2, Type=True
+2025-10-14 14:03:36.213 [CommentController] [Info] : POST react Comment=6, User=2, Type=False
+2025-10-14 14:03:36.745 [CommentController] [Info] : POST react Comment=6, User=2, Type=True
+2025-10-14 14:03:38.248 [CommentController] [Info] : POST react Comment=1, User=2, Type=False
+2025-10-14 14:03:38.858 [CommentController] [Info] : POST react Comment=1, User=2, Type=True
+2025-10-14 14:03:39.717 [CommentController] [Info] : POST react Comment=6, User=2, Type=False
+2025-10-14 21:39:00.609 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 21:39:00.612 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-14 21:39:00.613 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-14 21:39:01.384 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-14 21:39:01.384 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-14 21:39:01.385 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-14 21:39:01.393 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-14 21:39:01.393 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-14 21:39:01.394 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-14 21:39:01.398 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-14 21:39:01.398 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-14 21:39:01.399 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-14 21:39:01.404 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-14 21:39:01.405 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-14 21:39:01.405 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-14 21:39:01.411 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-14 21:39:01.411 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-14 21:39:01.412 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-14 21:39:01.413 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 21:39:01.413 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 21:39:01.414 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 21:39:01.415 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 21:39:01.581 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 21:39:01.581 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 21:39:01.581 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 21:39:01.582 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 21:39:01.583 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 21:39:06.597 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 21:39:06.598 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 21:39:06.598 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 21:39:06.598 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 21:39:06.598 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 21:39:06.599 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 21:39:09.823 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 21:39:09.823 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 21:39:09.823 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 21:39:09.823 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 21:39:09.823 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 21:39:09.823 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 21:39:12.509 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 21:39:12.509 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 21:39:12.510 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 21:39:12.516 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 21:39:12.580 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 21:39:12.580 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 21:39:12.581 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 21:39:12.806 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 21:43:58.842 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 21:43:58.843 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 21:43:58.844 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 21:43:58.894 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 21:43:58.897 [UserService] [Warn] : Login failed for 'minhb': Invalid password.
+2025-10-14 21:44:04.756 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 21:44:04.756 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 21:44:04.756 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 21:44:04.791 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 21:44:04.793 [UserService] [Warn] : Login failed for 'minhb': Invalid password.
+2025-10-14 21:44:07.319 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 21:44:07.319 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 21:44:07.319 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 21:44:07.322 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 21:44:07.323 [UserService] [Warn] : Login failed for 'minhb': Invalid password.
+2025-10-14 21:44:11.241 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minhb
+2025-10-14 21:44:11.241 [UserService] [Info] : Login attempt for username: 'minhb'.
+2025-10-14 21:44:11.242 [UserRepository] [Info] : Attempting to get user login data for username: minhb.
+2025-10-14 21:44:11.243 [UserRepository] [Info] : Successfully found user login data for username: minhb.
+2025-10-14 21:44:11.245 [UserService] [Info] : User 'minhb' authenticated successfully. Updating last login time.
+2025-10-14 21:44:11.246 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-14 21:44:11.322 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-14 21:44:11.323 [UserService] [Info] : User 'minhb' logged in successfully.
+2025-10-14 21:44:16.037 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 21:44:16.037 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 21:44:16.038 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 21:44:16.038 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 21:44:16.038 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 21:44:16.038 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 21:44:16.131 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-14 21:44:16.132 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-14 21:44:16.132 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-14 21:44:16.132 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-14 21:44:16.133 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-14 21:44:16.133 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-14 21:44:16.133 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-14 21:44:16.133 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-14 21:44:16.133 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-14 21:44:16.133 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-14 21:44:16.133 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-14 21:44:16.134 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-14 21:44:16.134 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-14 21:44:16.134 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-14 21:44:16.134 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-14 21:44:16.134 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-14 21:44:16.135 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-14 21:44:16.135 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-14 21:44:16.173 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-14 21:44:16.174 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-14 21:44:16.182 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-14 21:44:16.183 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-14 21:44:16.183 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-14 21:44:16.185 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-14 21:44:16.185 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-14 21:44:16.189 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-14 21:44:16.189 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL003
+2025-10-14 21:44:16.189 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-14 21:44:16.189 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=False
+2025-10-14 21:44:16.196 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL002
+2025-10-14 21:44:16.196 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=False
+2025-10-14 21:44:16.196 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-14 21:44:16.196 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-14 21:44:16.196 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-14 21:44:16.197 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-14 21:44:16.197 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-14 21:44:16.198 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-14 21:44:16.198 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-14 21:44:16.199 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-14 21:44:16.199 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-14 21:44:18.496 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 21:44:18.497 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 21:44:18.497 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 21:44:18.498 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 21:44:18.507 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 21:44:18.513 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 21:44:18.513 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 21:44:18.513 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 21:44:50.264 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 21:44:50.265 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 21:44:50.265 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 21:44:50.267 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 21:44:50.275 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 21:44:50.281 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 21:44:50.281 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 21:44:50.281 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 21:45:03.046 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 21:45:03.046 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 21:45:03.047 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 21:45:03.047 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 21:45:03.059 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 21:45:03.068 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 21:45:03.068 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 21:45:03.068 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 21:46:34.443 [CommentController] [Info] : POST create comment Plant=PL002     , User=2
+2025-10-14 21:46:35.317 [CommentService] [Warn] : Nội dung bình luận bị từ chối. User=2, Reason=Nội dung bị từ chối vì có yếu tố: sexual.
+2025-10-14 21:46:35.317 [CommentController] [Warn] : Dữ liệu không hợp lệ hoặc bị từ chối kiểm duyệt: Nội dung bị từ chối vì có yếu tố: sexual.
+2025-10-14 22:19:21.197 [PlantDiagnosisController] [Info] : Nhận yêu cầu chẩn đoán. Tệp: 1.jpg | Kích thước: 522540 bytes | Loại: image/jpeg
+2025-10-14 22:19:21.198 [PlantDiagnosisService] [Info] : Bắt đầu chẩn đoán với API: https://plant.id/api/v3/health_assessment
+2025-10-14 22:19:21.199 [PlantDiagnosisService] [Info] : Ảnh: 1.jpg, Kích thước: 522540 bytes, Loại: image/jpeg
+2025-10-14 22:19:21.209 [PlantDiagnosisService] [Info] : Độ dài nội dung yêu cầu: 752286 ký tự
+2025-10-14 22:19:42.018 [PlantDiagnosisService] [Info] : Gọi API thành công
+2025-10-14 22:19:42.019 [PlantDiagnosisService] [Info] : Xem nhanh phản hồi: {"access_token": "Hvu5zJkpuYb4aiN", "model_version": "plant_id:5.0.0", "custom_id": null, "input": {"latitude": null, "longitude": null, "classification_level": "all", "symptoms": true, "classification_raw": true, "similar_images": true, "health": "only", "images": ["https://plant.id/media/imgs/919bf7e4d4884ea8b83b73e35b6d1512.jpg"], "datetime": "2025-10-14T15:19:35.400349+00:00"}, "result": {"disease": {"suggestions": [{"id": "765b06482c4e4ae9", "name": "nutrient deficiency", "probability": 0.4...
+2025-10-14 22:19:42.027 [PlantDiagnosisController] [Info] : Model sử dụng: plant_id:5.0.0
+2025-10-14 22:19:42.027 [PlantDiagnosisController] [Info] : Kết quả có trường 'result'. is_plant = true
+2025-10-14 22:19:42.028 [PlantDiagnosisController] [Info] : Trả kết quả chẩn đoán cho client thành công.
+2025-10-14 22:45:12.049 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 22:45:12.053 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-14 22:45:12.053 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-14 22:45:12.829 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-14 22:45:12.830 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-14 22:45:12.830 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-14 22:45:12.838 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-14 22:45:12.838 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-14 22:45:12.839 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-14 22:45:12.844 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-14 22:45:12.844 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-14 22:45:12.845 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-14 22:45:12.849 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-14 22:45:12.849 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-14 22:45:12.850 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-14 22:45:12.854 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-14 22:45:12.855 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-14 22:45:12.855 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-14 22:45:12.856 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 22:45:12.857 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 22:45:12.859 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 22:45:12.860 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-14 22:45:13.078 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 22:45:13.079 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 22:45:13.079 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 22:45:13.080 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 22:45:13.080 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 22:45:16.011 [Search.cshtml] [Info] : OnGetAsync: Bắt đầu xử lý yêu cầu tải trang chủ.
+2025-10-14 22:45:16.011 [Search.cshtml] [Info] : LoadPlantCardsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-14 22:45:16.011 [Search.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-14 22:45:16.011 [Search.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp với bộ lọc.
+2025-10-14 22:45:16.012 [Search.cshtml] [Info] : Hiển thị 8 cây trồng trên trang 1.
+2025-10-14 22:45:16.012 [Search.cshtml] [Info] : OnGetAsync: Tải trang chủ thành công.
+2025-10-14 22:45:16.197 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL002
+2025-10-14 22:45:16.197 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL004
+2025-10-14 22:45:16.198 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL006
+2025-10-14 22:45:16.198 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL001
+2025-10-14 22:45:16.198 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL002
+2025-10-14 22:45:16.198 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL004
+2025-10-14 22:45:16.199 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL006
+2025-10-14 22:45:16.199 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL001
+2025-10-14 22:45:16.200 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL002
+2025-10-14 22:45:16.212 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL005
+2025-10-14 22:45:16.212 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL005
+2025-10-14 22:45:16.212 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL005
+2025-10-14 22:45:16.214 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL003
+2025-10-14 22:45:16.214 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL003
+2025-10-14 22:45:16.214 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL003
+2025-10-14 22:45:16.216 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL006
+2025-10-14 22:45:16.220 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL001
+2025-10-14 22:45:16.221 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL004
+2025-10-14 22:45:16.246 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL003
+2025-10-14 22:45:16.246 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL003, isFavorite=False
+2025-10-14 22:45:16.269 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL004
+2025-10-14 22:45:16.270 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL004, isFavorite=False
+2025-10-14 22:45:16.277 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL007
+2025-10-14 22:45:16.278 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL007
+2025-10-14 22:45:16.278 [FavoriteController] [Info] : Check isFavorite: user=2, plantId=PL008
+2025-10-14 22:45:16.278 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL007
+2025-10-14 22:45:16.278 [UserFavoriteService] [Info] : IsFavorite userId=2, plantId=PL008
+2025-10-14 22:45:16.278 [UserFavoriteRepository] [Info] : Get favorite userId=2, plantId=PL008
+2025-10-14 22:45:16.280 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL008
+2025-10-14 22:45:16.281 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL008, isFavorite=False
+2025-10-14 22:45:16.303 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL005
+2025-10-14 22:45:16.303 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL005, isFavorite=False
+2025-10-14 22:45:16.308 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL002
+2025-10-14 22:45:16.308 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL002, isFavorite=False
+2025-10-14 22:45:16.312 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL001
+2025-10-14 22:45:16.312 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL001, isFavorite=False
+2025-10-14 22:45:16.343 [UserFavoriteService] [Info] : IsFavorite result=True userId=2, plantId=PL006
+2025-10-14 22:45:16.343 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL006, isFavorite=True
+2025-10-14 22:45:16.344 [UserFavoriteService] [Info] : IsFavorite result=False userId=2, plantId=PL007
+2025-10-14 22:45:16.344 [FavoriteController] [Info] : Kết quả isFavorite: user=2, plantId=PL007, isFavorite=False
+2025-10-14 22:45:18.405 [PlantController] [Info] : Bắt đầu lấy chi tiết cho cây trồng có ID: 'PL002     '.
+2025-10-14 22:45:18.405 [PlantService] [Info] : Service bắt đầu lấy cây trồng theo ID: PL002     .
+2025-10-14 22:45:18.406 [PlantRepository] [Info] : Bắt đầu lấy chi tiết cây trồng với ID: PL002     .
+2025-10-14 22:45:18.410 [HiveModerationService] [Info] : Loaded 21 class name mappings from config.
+2025-10-14 22:45:18.411 [CommentController] [Info] : GET list comment plant=PL002
+2025-10-14 22:45:18.451 [PlantRepository] [Info] : Lấy chi tiết thành công cho cây trồng ID: PL002     .
+2025-10-14 22:45:18.452 [PlantService] [Info] : Service đã lấy thành công cây trồng với ID: PL002     .
+2025-10-14 22:45:18.452 [PlantController] [Info] : Trả về thành công dữ liệu cho cây 'Bằng Lăng tím' (ID: PL002     ).
+2025-10-14 22:45:18.512 [CommentController] [Info] : Trả về 2 comment
+2025-10-14 22:45:26.396 [HiveModerationService] [Info] : Loaded 21 class name mappings from config.
+2025-10-14 22:45:26.402 [CommentController] [Info] : POST create comment Plant=PL002     , User=2
+2025-10-14 22:45:27.172 [HiveModerationService] [Info] : Hive API Response: {"task_id":"caa0ade8-a914-11f0-b0df-a9aef9106dee","model":"hive/text-moderation","version":"1","output":[{"classes":[{"class":"bullying","value":0},{"class":"violent_description","value":-1},{"class":"sexual_description","value":-1},{"class":"drugs","value":-1},{"class":"child_exploitation","value":-1},{"class":"gibberish","value":-1},{"class":"self_harm","value":-1},{"class":"hate","value":-1},{"class":"self_harm_intent","value":-1},{"class":"minor_implicitly_mentioned","value":-1},{"class":"minor_explicitly_mentioned","value":-1},{"class":"phone_number","value":0},{"class":"promotions","value":-1},{"class":"redirection","value":-1},{"class":"child_safety","value":0},{"class":"sexual","value":3},{"class":"spam","value":0},{"class":"violence","value":0},{"class":"weapons","value":-1}],"string_matches":[{"value":"cặc","start_index":0,"end_index":3,"type":"profanity","extra":{}}]}]}
+2025-10-14 22:45:27.175 [HiveModerationService] [Warn] : Detected violation: sexual (Nội dung tình dục / khiêu dâm) - Score: 3
+2025-10-14 22:45:27.175 [HiveModerationService] [Warn] : Harmful content detected: Nội dung tình dục / khiêu dâm
+2025-10-14 22:45:27.175 [CommentService] [Warn] : Nội dung bình luận bị từ chối. User=2, Reason=Nội dung vi phạm: Nội dung tình dục / khiêu dâm
+2025-10-14 22:45:27.175 [CommentController] [Warn] : Dữ liệu không hợp lệ hoặc bị từ chối kiểm duyệt: Nội dung vi phạm: Nội dung tình dục / khiêu dâm

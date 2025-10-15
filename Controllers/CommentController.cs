@@ -64,7 +64,7 @@ namespace Plantpedia.Controllers
             }
             catch (ArgumentException ex)
             {
-                LoggerHelper.Warn($"Dữ liệu không hợp lệ: {ex.Message}");
+                LoggerHelper.Warn($"Dữ liệu không hợp lệ hoặc bị từ chối kiểm duyệt: {ex.Message}");
                 return BadRequest(new { success = false, message = ex.Message });
             }
             catch (Exception ex)

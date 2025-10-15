@@ -251,5 +251,21 @@ namespace Plantpedia.Repository
                 .UserLoginDatas.Include(uld => uld.User)
                 .FirstOrDefaultAsync(uld => uld.Email.ToLower() == e);
         }
+
+        public async Task<int> GetUserCountAsync()
+        {
+            LoggerHelper.Info("Getting total user count.");
+            try
+            {
+                var count = await _context.UserAccounts.CountAsync();
+                LoggerHelper.Info($"Total user count: {count}");
+                return count;
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error(ex, "An error occurred while getting user count.");
+                throw;
+            }
+        }
     }
 }

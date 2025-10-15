@@ -20,5 +20,6 @@ namespace Plantpedia.Service
         Task CreatePlantAsync(UpdatePlantViewModel viewModel);
         Task UpdatePlantAsync(UpdatePlantViewModel viewModel);
         Task<bool> DeleteByIdAsync(string id);
+        Task<int> GetPlantCountAsync();
     }
 }

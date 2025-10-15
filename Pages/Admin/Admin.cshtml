@@ -5,113 +5,143 @@
     Layout = "_Layout-Admin";
 }
 
-<div class="container-fluid mt-4">
-    <div class="row mb-4">
-        <div class="col-12">
-            <h2 class="fw-bold">Admin Dashboard</h2>
-            <p class="text-muted">
+@section Styles {
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+}
+<div class="container-fluid mt-4 admin-dashboard">
+    <!-- Header -->
+    <div class="row mb-4 align-items-center">
+        <div class="col-12 col-md-8">
+            <h2 class="fw-bold mb-1">Admin Dashboard</h2>
+            <p class="text-muted fs-5">
                 Chào mừng trở lại, @(Model.CurrentUser?.LastName ?? "Admin")!
             </p>
+        </div>
+        <div class="col-12 col-md-4 text-md-end">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm nhanh...">
+                <button class="btn btn-outline-secondary"><i class="fa-solid fa-search"></i></button>
+            </div>
         </div>
     </div>
 
     @if (Model.CurrentUser != null)
     {
         <div class="row g-4">
-            <!-- Cột thông tin Admin -->
-            <div class="col-lg-4">
-                <div class="card shadow-sm h-100 admin-profile-card">
+            <!-- Sidebar: Profile Admin -->
+            <div class="col-lg-3">
+                <div class="card shadow-sm admin-profile-card h-100">
                     <div class="card-body text-center pt-4">
-                        <!-- Avatar -->
-                        <img src="@Model.CurrentUser.AvatarUrl" alt="Avatar" class="admin-avatar rounded-circle mb-3">
+                        <img src="@Model.CurrentUser.AvatarUrl" alt="Avatar của @Model.CurrentUser.LastName" class="admin-avatar rounded-circle mb-3">
                         <h5 class="card-title mb-1 fw-bold">@Model.CurrentUser.LastName</h5>
-
-                        <hr class="my-4">
-
-                        <!-- Danh sách thông tin chi tiết -->
+                        <p class="text-muted mb-3">Admin</p>
+                        <hr class="my-3">
                         <ul class="list-unstyled text-start profile-details-list">
                             <li class="d-flex align-items-center mb-3">
                                 <i class="fa-solid fa-hashtag fa-fw me-3 text-muted"></i>
-                                <div class="d-flex align-items-center gap-3">
-                                    <small class="text-muted d-block">User ID</small>
-                                    <strong>@Model.CurrentUser.UserId</strong>
-                                </div>
+                                <div><small class="text-muted">User ID</small> <strong>@Model.CurrentUser.UserId</strong></div>
                             </li>
                             <li class="d-flex align-items-center mb-3">
                                 <i class="fa-solid fa-id-card fa-fw me-3 text-muted"></i>
-                                <div class="d-flex align-items-center gap-3">
-                                    <small class="text-muted d-block">Giới tính</small>
-                                    <strong>@(char.ToUpper(Model.CurrentUser.Gender) == 'M' ? "Nam" : "Nữ")</strong>
-                                </div>
+                                <div><small class="text-muted">Giới tính</small> <strong>@(char.ToUpper(Model.CurrentUser.Gender) == 'M' ? "Nam" : "Nữ")</strong></div>
                             </li>
                             <li class="d-flex align-items-center">
                                 <i class="fa-solid fa-cake-candles fa-fw me-3 text-muted"></i>
-                                <div class="d-flex align-items-center gap-3">
-                                    <small class="text-muted d-block">Ngày sinh</small>
-                                    <strong>@Model.CurrentUser.DateOfBirth.ToString("dd/MM/yyyy")</strong>
-                                </div>
+                                <div><small class="text-muted">Ngày sinh</small> <strong>@Model.CurrentUser.DateOfBirth.ToString("dd/MM/yyyy")</strong></div>
                             </li>
                         </ul>
+                        <a href="/admin/profile/edit" class="btn btn-primary mt-3 w-100">Chỉnh sửa Profile</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Cột chức năng -->
-            <div class="col-lg-8">
-                <div class="row g-4">
-                    <!-- Card Quản lý Thực vật -->
-                    <div class="col-md-6">
-                        <a asp-page="/Admin/Plant" class="card-link">
-                            <div class="card card-feature card-feature-primary shadow-sm h-100">
-                                <div class="card-body">
-                                    <div class="feature-icon">
-                                        <i class="fa-solid fa-seedling"></i>
-                                    </div>
-                                    <h5 class="card-title">Quản lý Cây Trồng</h5>
-                                    <p class="card-text text-muted">Thêm, sửa, xóa thông tin Cây Trồng.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card Quản lý User -->
-                    <div class="col-md-6">
-                        <div class="card card-feature card-feature-success shadow-sm h-100 disabled-card">
+            <!-- Main Content -->
+            <div class="col-lg-9">
+                <!-- Widget Stats -->
+                <div class="row g-4 mb-4">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm stats-card">
                             <div class="card-body">
-                                <div class="feature-icon">
-                                    <i class="fa-solid fa-users"></i>
-                                </div>
-                                <h5 class="card-title">Quản lý User</h5>
-                                <p class="card-text text-muted">Quản lý tài khoản người dùng.</p>
+                                <i class="fa-solid fa-seedling text-success fs-3"></i>
+                                <h6 class="mt-2">Cây Trồng</h6>
+                                <h3>@Model.PlantCount</h3>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm stats-card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-users text-primary fs-3"></i>
+                                <h6 class="mt-2">User Active</h6>
+                                <h3>@Model.UserCount</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm stats-card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-bug text-danger fs-3"></i> <!-- Icon mới cho Bệnh Hại -->
+                                <h6 class="mt-2">Bệnh Hại Mới</h6>
+                                <h3>15</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- Card Báo cáo -->
+                <!-- Cards Chức Năng -->
+                <div class="row g-4">
                     <div class="col-md-6">
-                        <a asp-page="/Admin/Report" class="card-link">
-                            <div class="card card-feature card-feature-info shadow-sm h-100">
-                                <div class="card-body">
-                                    <div class="feature-icon">
-                                        <i class="fa-solid fa-chart-line"></i>
+                        <a asp-page="/Admin/Plant" class="card-link">
+                            <div class="card card-feature card-feature-green shadow-sm h-100">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="feature-icon me-3"><i class="fa-solid fa-seedling"></i></div>
+                                    <div>
+                                        <h5 class="card-title">Quản lý Cây Trồng</h5>
+                                        <p class="card-text text-muted">Thêm, sửa, xóa thông tin Cây Trồng.</p>
                                     </div>
-                                    <h5 class="card-title">Báo cáo</h5>
-                                    <p class="card-text text-muted">Xem báo cáo thống kê hệ thống.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
-
-                    <!-- Card Cài đặt -->
                     <div class="col-md-6">
-                        <a class="card-link">
-                            <div class="card card-feature card-feature-warning shadow-sm h-100 disabled-card">
-                                <div class="card-body">
-                                    <div class="feature-icon">
-                                        <i class="fa-solid fa-cog"></i>
+                        <a asp-page="/Admin/User" class="card-link">
+                            <div class="card card-feature card-feature-blue shadow-sm h-100">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="feature-icon me-3"><i class="fa-solid fa-users"></i></div>
+                                    <div>
+                                        <h5 class="card-title">Quản lý User</h5>
+                                        <p class="card-text text-muted">Quản lý tài khoản người dùng.</p>
                                     </div>
-                                    <h5 class="card-title">Cài đặt</h5>
-                                    <p class="card-text text-muted">Cấu hình các thông số hệ thống.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a asp-page="/Admin/Report" class="card-link">
+                            <div class="card card-feature card-feature-red shadow-sm h-100">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="feature-icon me-3"><i class="fa-solid fa-chart-line"></i></div>
+                                    <div>
+                                        <h5 class="card-title">Báo cáo</h5>
+                                        <p class="card-text text-muted">Thống kê về các loại cây, người dùng và hệ thống.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a asp-page="/Admin/Settings" class="card-link">
+                            <div class="card card-feature card-feature-yellow shadow-sm h-100">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="feature-icon me-3"><i class="fa-solid fa-cog"></i></div>
+                                    <div>
+                                        <h5 class="card-title">Cài đặt</h5>
+                                        <p class="card-text text-muted">Cấu hình các thông số hệ thống.</p>
+                                    </div>
                                 </div>
                             </div>
                         </a>

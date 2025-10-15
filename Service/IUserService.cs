@@ -16,6 +16,7 @@ namespace Plantpedia.Service
             string avatarUrl
         );
         Task<UserAccount> RegisterAsync(RegisterViewModel model);
+        Task<int> GetUserCountAsync();
         Task<bool> EmailExistsAsync(string email);
     }
 }

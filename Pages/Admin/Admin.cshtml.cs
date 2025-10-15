@@ -11,10 +11,15 @@ namespace Plantpedia.Pages.Admin
     public class AdminModel : PageModel
     {
         private readonly IUserService _userService;
+        private readonly IPlantService _plantService;
 
-        public AdminModel(IUserService userService)
+        public int UserCount { get; set; }
+        public int PlantCount { get; set; }
+
+        public AdminModel(IUserService userService, IPlantService plantService)
         {
             _userService = userService;
+            _plantService = plantService;
         }
 
         public UserAccount? CurrentUser { get; set; }
@@ -37,6 +42,8 @@ namespace Plantpedia.Pages.Admin
                 }
 
                 CurrentUser = await _userService.GetUserByIdAsync(userId.Value);
+                UserCount = await _userService.GetUserCountAsync();
+                PlantCount = await _plantService.GetPlantCountAsync();
 
                 if (CurrentUser == null)
                 {

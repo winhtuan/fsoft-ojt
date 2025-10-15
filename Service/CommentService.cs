@@ -9,18 +9,17 @@ namespace Plantpedia.Service
     {
         private readonly ICommentRepository _repo;
         private readonly IUserRepository _userRepo;
-
-        // private readonly AzureContentSafetyService _azureContentSafetyService;
+        private readonly IHiveModerationService _moderationService;
 
         public CommentService(
             ICommentRepository repo,
-            IUserRepository userRepo
-        // AzureContentSafetyService azureContentSafetyService
+            IUserRepository userRepo,
+            IHiveModerationService moderationService
         )
         {
             _repo = repo;
             _userRepo = userRepo;
-            // _azureContentSafetyService = azureContentSafetyService;
+            _moderationService = moderationService;
         }
 
         public async Task<List<PlantCommentDto>> GetCommentsByPlantAsync(
@@ -67,15 +66,14 @@ namespace Plantpedia.Service
                 throw new ArgumentException("Thiếu PlantId");
             if (string.IsNullOrWhiteSpace(request.Content))
                 throw new ArgumentException("Nội dung không được để trống");
-
-            // var analysisResult = await _azureContentSafetyService.AnalyzeContentAsync(
-            //     request.Content
-            // );
-            // if (analysisResult.IsHarmful)
-            // {
-            //     throw new ArgumentException(analysisResult.Reason);
-            // }
-
+            var moderationResult = await _moderationService.AnalyzeTextAsync(request.Content);
+            if (moderationResult.IsHarmful)
+            {
+                LoggerHelper.Warn(
+                    $"Nội dung bình luận bị từ chối. User={userId}, Reason={moderationResult.Reason}"
+                );
+                throw new ArgumentException(moderationResult.Reason);
+            }
             var entity = new PlantComment
             {
                 PlantId = request.PlantId,
@@ -118,17 +116,13 @@ namespace Plantpedia.Service
 
             if (request.ReactionType)
             {
-                // LIKE: Nếu chưa like thì thêm, đã like thì bỏ qua (idempotent)
                 if (existingReact == null)
                     await _repo.UpsertReactionAsync(request.CommentId, userId, true);
-                // Nếu đã like, không làm gì (idempotent)
             }
             else
             {
-                // UNLIKE: Nếu đã like thì xoá, chưa like thì bỏ qua
                 if (existingReact != null)
                     await _repo.DeleteReactionAsync(request.CommentId, userId);
-                // Nếu chưa like, không làm gì (idempotent)
             }
 
             await _repo.SaveChangesAsync();
@@ -159,13 +153,14 @@ namespace Plantpedia.Service
                     "Bạn không có quyền chỉnh sửa bình luận này."
                 );
             }
-            // var analysisResult = await _azureContentSafetyService.AnalyzeContentAsync(
-            //     request.Content
-            // );
-            // if (analysisResult.IsHarmful)
-            // {
-            //     throw new ArgumentException(analysisResult.Reason);
-            // }
+            var moderationResult = await _moderationService.AnalyzeTextAsync(request.Content);
+            if (moderationResult.IsHarmful)
+            {
+                LoggerHelper.Warn(
+                    $"Nội dung bình luận bị từ chối. User={userId}, Reason={moderationResult.Reason}"
+                );
+                throw new ArgumentException(moderationResult.Reason);
+            }
             comment.Content = request.Content.Trim();
             await _repo.SaveChangesAsync();
 

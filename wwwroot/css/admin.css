@@ -1,100 +1,112 @@
-/* === CSS cho Card thông tin Admin mới === */
+/* Admin Dashboard General */
+.admin-dashboard {
+  background-color: #f8f9fa;
+}
 
+/* Profile Card */
 .admin-profile-card {
-  border: none;
-  border-radius: 15px; /* Bo góc mềm mại hơn */
-  overflow: hidden; /* Đảm bảo các thành phần con không bị tràn ra ngoài */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .admin-avatar {
-  width: 100px;
-  height: 100px;
-  object-fit: cover; /* Đảm bảo ảnh không bị méo */
-  border: 4px solid #fff; /* Viền trắng để tách biệt với nền card */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng cho avatar */
+  width: 80px;
+  height: 80px;
+  border: 3px solid #c2c8c2;
 }
 
-.profile-details-list li {
+/* Stats Cards */
+.stats-card {
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  text-align: center;
+}
+
+.stats-card h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.stats-card h6 {
   font-size: 0.9rem;
+  color: #6c757d;
 }
 
-.profile-details-list li i {
-  font-size: 1.2rem;
-  width: 20px; /* Đảm bảo các icon thẳng hàng */
-}
-
-.profile-details-list li strong {
-  font-weight: 600;
-  color: #343a40;
-}
-
-.card-footer .btn {
-  transition: all 0.2s ease-in-out;
-}
-
-/* Card chức năng chung */
+/* Feature Cards */
 .card-feature {
-  border: none;
-  border-left: 4px solid;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 12px;
+  border-left: 5px solid;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card-feature:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
-
-.card-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.card-feature .card-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-feature .card-title {
-  margin-top: 1rem;
-  font-weight: 600;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.05);
+  transition: color 0.3s; /* Thêm transition cho icon nếu cần thay đổi màu khi hover */
 }
 
-/* Màu sắc riêng cho từng card chức năng */
-.card-feature-primary {
-  border-color: #0d6efd;
-}
-.card-feature-primary .feature-icon {
-  color: #0d6efd;
+.card-title {
+  transition: color 0.3s; /* Transition cho hover effect mượt mà */
 }
 
-.card-feature-success {
-  border-color: #198754;
+/* Màu sắc riêng cho từng card */
+.card-feature-green {
+  border-color: #4caf50;
 }
-.card-feature-success .feature-icon {
-  color: #198754;
+.card-feature-green .feature-icon {
+  color: #4caf50;
 }
-
-.card-feature-info {
-  border-color: #0dcaf0;
-}
-.card-feature-info .feature-icon {
-  color: #0dcaf0;
+.card-feature-green:hover .card-title {
+  color: #4caf50; /* Hover: h5 matching border color */
 }
 
-.card-feature-warning {
+.card-feature-blue {
+  border-color: #2196f3;
+}
+.card-feature-blue .feature-icon {
+  color: #2196f3;
+}
+.card-feature-blue:hover .card-title {
+  color: #2196f3; /* Hover: h5 matching border color */
+}
+
+.card-feature-red {
+  border-color: #dc3545; /* Chuẩn hóa thành màu đỏ Bootstrap, thay từ #dc2c2c */
+}
+.card-feature-red .feature-icon {
+  color: #dc3545;
+}
+.card-feature-red:hover .card-title {
+  color: #dc3545; /* Hover: h5 matching border color */
+}
+
+.card-feature-yellow {
   border-color: #ffc107;
 }
-.card-feature-warning .feature-icon {
+.card-feature-yellow .feature-icon {
   color: #ffc107;
 }
+.card-feature-yellow:hover .card-title {
+  color: #ffc107; /* Hover: h5 matching border color */
+}
 
-.disabled-card {
-  pointer-events: none;
-  opacity: 0.6;
-  cursor: not-allowed;
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .admin-profile-card {
+    margin-bottom: 2rem;
+  }
+  .stats-card {
+    text-align: left;
+  }
 }

@@ -250,6 +250,6 @@
 
 @section Scripts {
     <script>window.currentUserId = '@User.FindFirstValue(ClaimTypes.NameIdentifier)';</script>
-    <script src="~/js/detail-page.js" asp-append-version="true"></script>
-    <script src="~/js/comment.js" asp-append-version="true"></script>
+    <script type="module" src="~/js/main-detail-page.js" asp-append-version="true"></script>
+    <script type="module" src="~/js/main-comment.js" asp-append-version="true"></script>
 }

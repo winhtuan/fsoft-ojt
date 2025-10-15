@@ -1,0 +1,23 @@
+{
+  "bullying": "Bắt nạt / công kích cá nhân",
+  "violent_description": "Mô tả bạo lực",
+  "sexual_description": "Mô tả nội dung tình dục",
+  "drugs": "Ma túy / chất kích thích",
+  "illegal_drugs": "Ma túy bất hợp pháp",
+  "child_exploitation": "Bóc lột trẻ em",
+  "gibberish": "Vô nghĩa / không rõ nội dung",
+  "self_harm": "Tự làm hại bản thân",
+  "hate": "Ngôn từ thù ghét / kỳ thị",
+  "self_harm_intent": "Ý định tự hại / tự tử",
+  "minor_implicitly_mentioned": "Nhắc đến trẻ vị thành niên (ngầm)",
+  "minor_explicitly_mentioned": "Nhắc đến trẻ vị thành niên (rõ ràng)",
+  "phone_number": "Số điện thoại",
+  "promotions": "Quảng cáo / khuyến mãi",
+  "redirection": "Liên kết ngoài / điều hướng",
+  "child_safety": "An toàn trẻ em",
+  "sexual": "Nội dung tình dục / khiêu dâm",
+  "spam": "Thư rác / spam",
+  "violence": "Bạo lực",
+  "weapons": "Vũ khí",
+  "profanity": "Tục tĩu / chửi thề"
+}

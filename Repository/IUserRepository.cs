@@ -13,6 +13,7 @@ namespace Plantpedia.Repository
         Task<UserAccount?> GetUserAccountByIdAsync(int userId);
         Task<UserAccount> RegisterNewUserAsync(string name, string email, string password);
         Task<UserLoginData?> GetUserLoginDataByEmailAsync(string email);
+        Task<int> GetUserCountAsync();
         Task SaveChangesAsync();
     }
 }

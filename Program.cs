@@ -103,6 +103,7 @@ builder.Services.AddScoped<IUserFavoriteService, UserFavoriteService>();
 builder.Services.AddScoped<IPlantDiagnosisService, PlantDiagnosisService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IForgotPasswordService, ForgotPasswordService>();
+builder.Services.AddScoped<IHiveModerationService, HiveModerationService>();
 
 var app = builder.Build();
 

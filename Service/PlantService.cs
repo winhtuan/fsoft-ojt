@@ -218,5 +218,10 @@ namespace Plantpedia.Service
                 throw;
             }
         }
+
+        public async Task<int> GetPlantCountAsync()
+        {
+            return await _plantRepository.GetPlantCountAsync();
+        }
     }
 }
