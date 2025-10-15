@@ -5,41 +5,194 @@
     Layout = "_Layout-Admin";
 }
 
-<div class="chart-container mb-4" style="margin-top: 50px;">
-    <div class="options-bar mb-3 d-flex gap-2 justify-content-end align-items-center">
-        <!-- Category Dropdown -->
-        <div class="dropdown">
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="categoryDropdown"
-                data-bs-toggle="dropdown">
-                Theo danh mục
-            </button>
-            <div class="dropdown-menu" aria-labelledby="categoryDropdown">
-                <a class="dropdown-item category-option" href="#" data-category="plantType">Theo loại cây</a>
-                <a class="dropdown-item category-option" href="#" data-category="region">Theo vùng miền</a>
-                <a class="dropdown-item category-option" href="#" data-category="climate">Theo vùng khí hậu</a>
-                <a class="dropdown-item category-option" href="#" data-category="soil">Theo loại đất</a>
-                <a class="dropdown-item category-option" href="#" data-category="usage">Theo mục đích</a>
-            </div>
-        </div>
+@section Styles {
+    <link rel="stylesheet" href="~/css/report-page.css" asp-append-version="true" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
 
-        <!-- Date Picker -->
-        <div id="datePickerContainer" style="position: relative;">
-            <input type="text" id="datePicker" class="form-control" placeholder="Select date" autocomplete="off">
+<div class="main-container">
+  <!-- KPI Section -->
+  <div class="row mb-4 g-3">
+    <div class="col-lg-3 col-md-6">
+      <div class="kpi-card kpi--green">
+        <div class="kpi-title d-flex align-items-center gap-2">
+          <i class="fa-solid fa-tree" aria-hidden="true"></i>
+          <h5>Tổng số cây</h5>
         </div>
-
-        <!-- Export PDF Button -->
-        <form id="exportForm" method="post" asp-page-handler="ExportPdf">
-            <input type="hidden" name="type" id="exportTypeInput" />
-            <input type="hidden" name="date" id="exportDateInput" />
-            <button type="submit" class="btn btn-success">Xuất PDF</button>
-        </form>
+        <p id="totalPlants" class="kpi-value fs-2">0</p>
+      </div>
     </div>
 
-    <canvas id="barChart"></canvas>
+    <div class="col-lg-3 col-md-6">
+      <div class="kpi-card kpi--blue">
+        <div class="kpi-title d-flex align-items-center gap-2">
+          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <h5>Loại phổ biến</h5>
+        </div>
+        <p id="topType" class="kpi-value fs-3" style="font-weight: 600; !important">-</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="kpi-card kpi--amber">
+        <div class="kpi-title d-flex align-items-center gap-2">
+          <i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i>
+          <h5>Tăng trưởng</h5>
+        </div>
+        <p id="growth" class="kpi-value fs-3">21.6%</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="kpi-card kpi--red" title="Số lượt thêm vào yêu thích so với kỳ trước">
+        <div class="kpi-title d-flex align-items-center gap-2">
+          <i class="fa-solid fa-heart-circle-plus" aria-hidden="true"></i>
+          <h5>Yêu thích mới</h5>
+        </div>
+        <p id="favoritesDelta" class="kpi-value fs-3">+ 7</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Options Bar -->
+  <div class="options-bar d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+    <div class="d-flex gap-2 flex-wrap">
+      <!-- Category Dropdown -->
+      <div class="dropdown">
+        <button class="btn btn-outline-success dropdown-toggle d-flex align-items-center gap-2"
+                type="button" id="categoryDropdown" data-bs-toggle="dropdown"
+                title="Chọn loại báo cáo">
+          <i class="fa-solid fa-filter"></i>
+          <span id="categoryText">Theo danh mục</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+          <a class="dropdown-item category-option d-flex align-items-center gap-2"
+             href="#" data-category="plantType">
+            <i class="fa-solid fa-tree text-success"></i> Theo loại cây
+          </a>
+          <a class="dropdown-item category-option d-flex align-items-center gap-2"
+             href="#" data-category="region">
+            <i class="fa-solid fa-location-dot text-success"></i> Theo vùng miền
+          </a>
+          <a class="dropdown-item category-option d-flex align-items-center gap-2"
+             href="#" data-category="climate">
+            <i class="fa-solid fa-cloud-sun text-success"></i> Theo vùng khí hậu
+          </a>
+          <a class="dropdown-item category-option d-flex align-items-center gap-2"
+             href="#" data-category="soil">
+            <i class="fa-solid fa-mound text-success"></i> Theo loại đất
+          </a>
+          <a class="dropdown-item category-option d-flex align-items-center gap-2"
+             href="#" data-category="usage">
+            <i class="fa-solid fa-screwdriver-wrench text-success"></i> Theo mục đích
+          </a>
+        </div>
+      </div>
+
+      <!-- Date Picker -->
+      <div id="datePickerContainer" title="Lọc theo ngày">
+        <div class="input-group">
+          <span class="input-group-text bg-light text-success">
+            <i class="fa-solid fa-calendar-days"></i>
+          </span>
+          <input type="text" id="datePicker" class="form-control border-success"
+                 placeholder="Chọn ngày" autocomplete="off">
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex gap-2 flex-wrap">
+      <!-- Toggle Chart Type -->
+      <div class="btn-group" role="group" title="Chuyển đổi loại biểu đồ">
+        <button id="barToggle" class="btn btn-outline-success active" title="Biểu đồ cột" aria-label="Biểu đồ cột">
+          <i class="fa-solid fa-chart-column fa-fw"></i>
+        </button>
+        <button id="pieToggle" class="btn btn-outline-success" title="Biểu đồ tròn" aria-label="Biểu đồ tròn">
+          <i class="fa-solid fa-chart-pie fa-fw"></i>
+        </button>
+      </div>
+
+      <!-- Reset Button -->
+      <button id="resetFilters" class="btn btn-outline-warning" title="Xóa tất cả bộ lọc" aria-label="Xóa tất cả bộ lọc">
+        <i class="fa-solid fa-rotate-left fa-fw"></i>
+      </button>
+
+      <!-- Export PDF Button (POST tới API Controller) -->
+      <form id="exportForm" method="post" action="/api/report/export-pdf" class="d-inline">
+        <input type="hidden" name="type" id="exportTypeInput" />
+        <input type="hidden" name="date" id="exportDateInput" />
+        <button type="submit" class="btn btn-success" title="Xuất báo cáo PDF">
+          <i class="fa-solid fa-file-pdf"></i> Xuất PDF
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Table & Chart -->
+  <div class="row equalize">
+    <!-- Table -->
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="table-container">
+        <h5 class="mb-3 d-flex align-items-center gap-2">
+          <i class="fa-solid fa-table text-muted"></i>
+          Dữ liệu chi tiết
+        </h5>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover table-sm" id="dataTable">
+            <thead>
+              <tr>
+                <th>Danh mục</th>
+                <th style="padding-left: 0px;">Số lượng</th>
+                <th>Tỷ lệ (%)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="3" class="text-center text-muted">
+                  <i class="fa-solid fa-hourglass-half"></i> Đang tải dữ liệu...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="summary-stats">
+          <small class="text-muted d-flex justify-content-between">
+            <span>
+              <i class="fa-solid fa-circle-info"></i>
+              Tổng: <strong id="tableTotal">0</strong> cây
+            </span>
+            <span>
+              TB: <strong id="tableAverage">0</strong>/danh mục
+            </span>
+          </small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chart -->
+    <div class="col-lg-8 col-md-6 mb-4">
+      <div class="chart-wrapper">
+        <h5 class="mb-3 d-flex align-items-center gap-2">
+          <i class="fa-solid fa-chart-column text-success"></i>
+          Biểu đồ thống kê
+        </h5>
+        <div id="loadingSpinner">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Đang tải...</span>
+          </div>
+          <p class="mt-2 text-muted">Đang tải dữ liệu biểu đồ...</p>
+        </div>
+        <div id="chartContainer">
+          <canvas id="mainChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-
 @section Scripts {
-    <script src="~/js/report-page.js" asp-append-version="true"></script>
+  <script type="module" src="~/js/main-report-page.js" asp-append-version="true"></script>
 }

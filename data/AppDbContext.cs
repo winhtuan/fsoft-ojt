@@ -23,6 +23,7 @@ namespace PLANTINFOWEB.Data
         public DbSet<PlantImg> PlantImgs { get; set; }
         public DbSet<UserAccount> UserAccounts { get; set; }
         public DbSet<UserLoginData> UserLoginDatas { get; set; }
+        public DbSet<UserActivity> UserActivities { get; set; } = default!;
         public DbSet<PlantCare> PlantCares { get; set; }
         public DbSet<UserFavorite> UserFavorites { get; set; }
         public DbSet<PlantComment> PlantComments { get; set; }
@@ -143,7 +144,18 @@ namespace PLANTINFOWEB.Data
                 e.HasIndex(x => new { x.Email, x.Used });
                 e.HasIndex(x => x.ExpiresAtUtc);
             });
-
+            // ==================== USER ACTIVITY ====================
+            modelBuilder.Entity<UserLoginData>().HasIndex(x => x.Username).IsUnique();
+            modelBuilder.Entity<UserLoginData>().HasIndex(x => x.Email).IsUnique();
+            modelBuilder.Entity<UserAccount>().HasIndex(x => x.Status);
+            modelBuilder
+                .Entity<UserActivity>()
+                .HasIndex(x => new
+                {
+                    x.UserId,
+                    x.Type,
+                    x.CreatedAt,
+                });
             // ==================== USER FAVORITE ====================
             // Quan hệ UserAccount - UserFavorite (1-nhiều)
             modelBuilder
@@ -244,6 +256,10 @@ namespace PLANTINFOWEB.Data
                         DateOfBirth = new DateTime(2004, 6, 21, 0, 0, 0, DateTimeKind.Utc),
                         AvatarUrl =
                             "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/AWS-EC2.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",
+                        Status = UserStatus.Active,
+                        CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc),
+                        UpdatedAt = null,
+                        DeletedAt = null,
                     },
                     new UserAccount
                     {
@@ -253,6 +269,10 @@ namespace PLANTINFOWEB.Data
                         DateOfBirth = new DateTime(2004, 6, 21, 0, 0, 0, DateTimeKind.Utc),
                         AvatarUrl =
                             "https://tse3.mm.bing.net/th/id/OIP.JMspq1z3Vm2m00ioNzUtEgHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+                        Status = UserStatus.Active,
+                        CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc),
+                        UpdatedAt = null,
+                        DeletedAt = null,
                     }
                 );
 

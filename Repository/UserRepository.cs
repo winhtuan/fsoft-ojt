@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using PLANTINFOWEB.Data;
+using Plantpedia.DTO;
 using Plantpedia.Enum;
 using Plantpedia.Helper;
 using Plantpedia.Models;
@@ -266,6 +267,126 @@ namespace Plantpedia.Repository
                 LoggerHelper.Error(ex, "An error occurred while getting user count.");
                 throw;
             }
+        }
+
+        public async Task<PagedResult<AdminUserListItemDto>> GetUsersPagedAsync(AdminUserQuery q)
+        {
+            var users = _context
+                .UserAccounts.AsNoTracking()
+                .Include(u => u.LoginData)
+                .Where(u => q.Status == null || u.Status == q.Status);
+
+            if (!string.IsNullOrWhiteSpace(q.Q))
+            {
+                var k = q.Q.Trim().ToLower();
+                users = users.Where(u =>
+                    u.LastName.ToLower().Contains(k)
+                    || u.LoginData.Username.ToLower().Contains(k)
+                    || u.LoginData.Email.ToLower().Contains(k)
+                );
+            }
+
+            var total = await users.CountAsync();
+
+            var items = await users
+                .OrderByDescending(u => u.CreatedAt)
+                .Skip((q.Page - 1) * q.PageSize)
+                .Take(q.PageSize)
+                .Select(u => new AdminUserListItemDto
+                {
+                    UserId = u.UserId,
+                    Username = u.LoginData.Username,
+                    Email = u.LoginData.Email,
+                    LastName = u.LastName,
+                    Gender = u.Gender,
+                    DateOfBirth = u.DateOfBirth,
+                    AvatarUrl = u.AvatarUrl,
+                    Status = u.Status,
+                    CreatedAt = u.CreatedAt,
+                    LastLoginAt = u.LoginData.LastLoginAt,
+                    CommentCount = u.PlantComments.Count(),
+                    ReactionCount = u.PlantCommentReactions.Count(),
+                    SearchCount = u.Activities.Count(a => a.Type == ActivityType.Search),
+                })
+                .ToListAsync();
+
+            return new PagedResult<AdminUserListItemDto> { Items = items, Total = total };
+        }
+
+        public async Task<int> CreateUserAsync(UserAccount account, UserLoginData login)
+        {
+            using var tx = await _context.Database.BeginTransactionAsync();
+            _context.UserAccounts.Add(account);
+            await _context.SaveChangesAsync();
+            login.UserId = account.UserId;
+            _context.UserLoginDatas.Add(login);
+            await _context.SaveChangesAsync();
+            await tx.CommitAsync();
+            return account.UserId;
+        }
+
+        public async Task<bool> UpdateUserAsync(UserAccount account)
+        {
+            account.UpdatedAt = DateTime.UtcNow;
+            _context.UserAccounts.Update(account);
+            return (await _context.SaveChangesAsync()) > 0;
+        }
+
+        public async Task<bool> SoftDeleteAsync(int userId)
+        {
+            var user = await _context.UserAccounts.FirstOrDefaultAsync(x => x.UserId == userId);
+            if (user == null)
+                return false;
+            user.Status = UserStatus.Deleted;
+            user.DeletedAt = DateTime.UtcNow;
+            _context.UserAccounts.Update(user);
+            return (await _context.SaveChangesAsync()) > 0;
+        }
+
+        public async Task<bool> RestoreAsync(int userId)
+        {
+            var user = await _context.UserAccounts.FirstOrDefaultAsync(x => x.UserId == userId);
+            if (user == null)
+                return false;
+            user.Status = UserStatus.Active;
+            user.DeletedAt = null;
+            _context.UserAccounts.Update(user);
+            return (await _context.SaveChangesAsync()) > 0;
+        }
+
+        public async Task LogActivityAsync(
+            int userId,
+            ActivityType type,
+            string? refId,
+            object? metadata
+        )
+        {
+            var json =
+                metadata == null ? null : System.Text.Json.JsonSerializer.Serialize(metadata);
+            _context.UserActivities.Add(
+                new UserActivity
+                {
+                    UserId = userId,
+                    Type = type,
+                    RefId = refId,
+                    Metadata = json,
+                }
+            );
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<UserAccount?> GetUserWithLoginAsync(int userId)
+        {
+            var q = _context
+                .UserAccounts.Include(u => u.LoginData)
+                // (tuỳ chọn) include thêm nếu cần hiển thị trong admin:
+                //.Include(u => u.PlantComments)
+                //.Include(u => u.PlantCommentReactions)
+                //.Include(u => u.Activities)
+                .AsNoTracking()
+                .Where(u => u.UserId == userId);
+
+            return await q.FirstOrDefaultAsync();
         }
     }
 }

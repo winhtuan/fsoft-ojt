@@ -84,17 +84,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tffw1h2m7k"},{"Name":"integrity","Value":"sha256-KTuUeAfyXGEM9KNZVVcHLVMfCsXjyOimuHHGoHk6Wes="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/css/plant-diagnosis-page.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3591"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KTuUeAfyXGEM9KNZVVcHLVMfCsXjyOimuHHGoHk6Wes=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Oct 2025 16:11:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/css/report-page.5ipweew5fc.css">
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/css/report-page.4j1xb4gdqu.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\report-page.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/css/report-page.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Sep 2025 13:15:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4j1xb4gdqu"},{"Name":"integrity","Value":"sha256-AL\u002BHvK5HcoeW5wMKrXP6asXFtVdph44vkLNWkaD1nH8="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/css/report-page.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14457"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022AL\u002BHvK5HcoeW5wMKrXP6asXFtVdph44vkLNWkaD1nH8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:46:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/css/report-page.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\report-page.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Sep 2025 13:15:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AL\u002BHvK5HcoeW5wMKrXP6asXFtVdph44vkLNWkaD1nH8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14457"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022AL\u002BHvK5HcoeW5wMKrXP6asXFtVdph44vkLNWkaD1nH8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:46:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/css/search-page.bdseufs8gm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\search-page.css'))</AssetFile>
@@ -119,6 +119,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fe8dnwd3tw"},{"Name":"integrity","Value":"sha256-x/KGDgYbudEW9kKD\u002BnIlXaVY5Y1vEoOdEC9VnC1Dc7c="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/css/site.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3990"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022x/KGDgYbudEW9kKD\u002BnIlXaVY5Y1vEoOdEC9VnC1Dc7c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Oct 2025 01:30:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/css/user-page.5ipweew5fc.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\user-page.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/css/user-page.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/css/user-page.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\user-page.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -384,53 +396,101 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l8simbwez6"},{"Name":"integrity","Value":"sha256-dcEqK\u002BPVaiRbDvP41hEZ/MrUhGORtq/0Fvk2H0WxX\u002B8="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/forgot-pass.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4159"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dcEqK\u002BPVaiRbDvP41hEZ/MrUhGORtq/0Fvk2H0WxX\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 12 Oct 2025 17:35:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-comment.eg5sy0pj3f.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-comment.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eg5sy0pj3f"},{"Name":"integrity","Value":"sha256-nrwBwUevAiQwoRsyyWEQgLyD/iMYMeAK8vnJiECqNx8="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-comment.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"158"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nrwBwUevAiQwoRsyyWEQgLyD/iMYMeAK8vnJiECqNx8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-comment.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-comment.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"335"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Oct 2025 07:00:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nrwBwUevAiQwoRsyyWEQgLyD/iMYMeAK8vnJiECqNx8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"158"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nrwBwUevAiQwoRsyyWEQgLyD/iMYMeAK8vnJiECqNx8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-comment.wvv37ebbpu.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-comment.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-detail-page.ixsr0a0x9w.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-detail-page.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wvv37ebbpu"},{"Name":"integrity","Value":"sha256-LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-comment.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"335"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LJOuZ5ewnD4hdFPrZTOyNERRlpgUuZYG5UnTVqx6UZU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Oct 2025 07:00:02 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ixsr0a0x9w"},{"Name":"integrity","Value":"sha256-NnNdKoswbM8KvNPt9DEFBhIeEf\u002Btqw1NuyiqP82n6E8="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-detail-page.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"103"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NnNdKoswbM8KvNPt9DEFBhIeEf\u002Btqw1NuyiqP82n6E8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-detail-page.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-detail-page.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qmmNtWiUP6AvyC8v258D\u002BiT5Ae2JVr/E131tW4IIyzY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"129"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qmmNtWiUP6AvyC8v258D\u002BiT5Ae2JVr/E131tW4IIyzY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 03:30:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NnNdKoswbM8KvNPt9DEFBhIeEf\u002Btqw1NuyiqP82n6E8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"103"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NnNdKoswbM8KvNPt9DEFBhIeEf\u002Btqw1NuyiqP82n6E8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-detail-page.uvnrk5zntk.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-detail-page.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-diagnosis.06tidrtt5a.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-diagnosis.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uvnrk5zntk"},{"Name":"integrity","Value":"sha256-qmmNtWiUP6AvyC8v258D\u002BiT5Ae2JVr/E131tW4IIyzY="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-detail-page.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"129"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022qmmNtWiUP6AvyC8v258D\u002BiT5Ae2JVr/E131tW4IIyzY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 03:30:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"06tidrtt5a"},{"Name":"integrity","Value":"sha256-2BJ344Ptcgn33rkMIr7\u002B/0DJGv0g4cszOT8AgWqerAc="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-diagnosis.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7219"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222BJ344Ptcgn33rkMIr7\u002B/0DJGv0g4cszOT8AgWqerAc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-diagnosis.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-diagnosis.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7279"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 02:50:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2BJ344Ptcgn33rkMIr7\u002B/0DJGv0g4cszOT8AgWqerAc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7219"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222BJ344Ptcgn33rkMIr7\u002B/0DJGv0g4cszOT8AgWqerAc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:08:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-diagnosis.u9r09m092k.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-diagnosis.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-report-page.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-report-page.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u9r09m092k"},{"Name":"integrity","Value":"sha256-EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-diagnosis.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7279"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EotD7ipbwkhj1S4dvqdgmx2wjJiF95KFhKjpKiwMFrw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 02:50:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hpQDxNNuLW/LVpkPWyLQjWLZ66zd9TG93Zi4BX7QGNk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2780"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hpQDxNNuLW/LVpkPWyLQjWLZ66zd9TG93Zi4BX7QGNk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:40:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/main-report-page.yid46ehu7i.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main-report-page.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M5yUh0aHcMA/eHMwJOYsjqVUKMlsszjeiVacQ0i5Rgw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5069"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022M5yUh0aHcMA/eHMwJOYsjqVUKMlsszjeiVacQ0i5Rgw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Sep 2025 13:17:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yid46ehu7i"},{"Name":"integrity","Value":"sha256-hpQDxNNuLW/LVpkPWyLQjWLZ66zd9TG93Zi4BX7QGNk="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/main-report-page.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2780"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hpQDxNNuLW/LVpkPWyLQjWLZ66zd9TG93Zi4BX7QGNk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:40:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page.ri1quxl379.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/api.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\api.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ri1quxl379"},{"Name":"integrity","Value":"sha256-M5yUh0aHcMA/eHMwJOYsjqVUKMlsszjeiVacQ0i5Rgw="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/report-page.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5069"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022M5yUh0aHcMA/eHMwJOYsjqVUKMlsszjeiVacQ0i5Rgw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Sep 2025 13:17:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wE8FmnKeHPG6IxnXJbQTUtgFJcVP3Ty9qurUdtOZPWs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"360"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wE8FmnKeHPG6IxnXJbQTUtgFJcVP3Ty9qurUdtOZPWs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:39:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/api.knjbc7bv9b.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\api.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"knjbc7bv9b"},{"Name":"integrity","Value":"sha256-wE8FmnKeHPG6IxnXJbQTUtgFJcVP3Ty9qurUdtOZPWs="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/report-page/api.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"360"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wE8FmnKeHPG6IxnXJbQTUtgFJcVP3Ty9qurUdtOZPWs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:39:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/chart-ui.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\chart-ui.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JbsYcvIB3CwuNR/j9UkkDwX3afoTFliJxGumg\u002B6uHqk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5626"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JbsYcvIB3CwuNR/j9UkkDwX3afoTFliJxGumg\u002B6uHqk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:36:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/chart-ui.xd3waue2f1.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\chart-ui.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xd3waue2f1"},{"Name":"integrity","Value":"sha256-JbsYcvIB3CwuNR/j9UkkDwX3afoTFliJxGumg\u002B6uHqk="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/report-page/chart-ui.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5626"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JbsYcvIB3CwuNR/j9UkkDwX3afoTFliJxGumg\u002B6uHqk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:36:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/core.8ofuzc0qtr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\core.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8ofuzc0qtr"},{"Name":"integrity","Value":"sha256-2N0BJ8ji2v9dwo5help3tMhDXEdqAOVkHKmWTfm8WAk="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/report-page/core.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2528"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222N0BJ8ji2v9dwo5help3tMhDXEdqAOVkHKmWTfm8WAk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:32:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/core.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\core.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2N0BJ8ji2v9dwo5help3tMhDXEdqAOVkHKmWTfm8WAk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2528"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222N0BJ8ji2v9dwo5help3tMhDXEdqAOVkHKmWTfm8WAk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 13:32:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/datepicker.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\datepicker.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6XC/pbAyfjl/fdfKoG92e6JeFvf35LNLxoSaWfVY8Ds="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1476"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226XC/pbAyfjl/fdfKoG92e6JeFvf35LNLxoSaWfVY8Ds=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:39:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/report-page/datepicker.p0twydmccl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\report-page\datepicker.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p0twydmccl"},{"Name":"integrity","Value":"sha256-6XC/pbAyfjl/fdfKoG92e6JeFvf35LNLxoSaWfVY8Ds="},{"Name":"label","Value":"_content/FPT-Plantpedia-Razor/js/report-page/datepicker.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1476"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226XC/pbAyfjl/fdfKoG92e6JeFvf35LNLxoSaWfVY8Ds=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Oct 2025 12:39:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FPT-Plantpedia-Razor/js/site.0zz20754az.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

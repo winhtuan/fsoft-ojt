@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\css\\user-page.css",
+      "PackagePath": "staticwebassets\\css\\user-page.css"
+    },
+    {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -141,8 +145,24 @@
       "PackagePath": "staticwebassets\\js\\main-diagnosis.js"
     },
     {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page.js",
-      "PackagePath": "staticwebassets\\js\\report-page.js"
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-report-page.js",
+      "PackagePath": "staticwebassets\\js\\main-report-page.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page\\api.js",
+      "PackagePath": "staticwebassets\\js\\report-page\\api.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page\\chart-ui.js",
+      "PackagePath": "staticwebassets\\js\\report-page\\chart-ui.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page\\core.js",
+      "PackagePath": "staticwebassets\\js\\report-page\\core.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\report-page\\datepicker.js",
+      "PackagePath": "staticwebassets\\js\\report-page\\datepicker.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",

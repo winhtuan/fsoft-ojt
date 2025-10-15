@@ -1,4 +1,3 @@
-// main-diagnosis.js - File chính import và khởi tạo
 import { DiagnosisApi } from "./diagnosis-page/diagnosisApi.js";
 import { ImageHandler } from "./diagnosis-page/imageHandler.js";
 

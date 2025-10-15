@@ -8,13 +8,8 @@ using Plantpedia.Service;
 namespace Plantpedia.Pages.Admin
 {
     [Authorize(Policy = "AdminOnly")]
-    public class UsersModel : PageModel
+    public class SettingModel : PageModel
     {
-        private readonly IUserService _userService;
-
-        public UsersModel(IUserService userService)
-        {
-            _userService = userService;
-        }
+        public SettingModel(IUserService userService) { }
     }
 }

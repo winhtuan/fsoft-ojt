@@ -980,3 +980,1234 @@ No such host is known.
 2025-10-15 14:21:23.599 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
 2025-10-15 14:21:23.599 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
 2025-10-15 14:21:23.605 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:26:39.373 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'region', Ngày: 'Tất cả'.
+2025-10-15 14:26:39.373 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:39.373 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:39.422 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:39.422 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:39.426 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:26:44.412 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 14:26:44.413 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:44.413 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:44.425 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:44.425 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:44.426 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:26:46.051 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 14:26:46.051 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:46.051 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:46.063 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:46.064 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:46.064 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:26:47.914 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'soil', Ngày: 'Tất cả'.
+2025-10-15 14:26:47.915 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:47.915 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:47.928 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:47.928 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:47.929 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:26:49.917 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'usage', Ngày: 'Tất cả'.
+2025-10-15 14:26:49.917 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:49.917 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:49.927 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:49.928 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:49.929 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 4 nhóm.
+2025-10-15 14:26:51.732 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:26:51.732 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:51.732 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:51.744 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:51.744 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:51.744 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:26:53.951 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'region', Ngày: 'Tất cả'.
+2025-10-15 14:26:53.951 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:26:53.951 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:26:53.963 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:26:53.964 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:26:53.964 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:29:42.146 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:29:42.147 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:29:42.147 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:29:42.156 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:29:42.156 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:29:42.156 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:29:55.304 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:29:55.304 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:29:55.304 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:29:55.316 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:29:55.316 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:29:55.316 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:29:57.131 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:29:57.132 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:29:57.132 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:29:57.148 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:29:57.149 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:29:57.149 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:30:00.408 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 14:30:00.408 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:30:00.408 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:30:00.419 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:30:00.420 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:30:00.420 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:30:02.177 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'soil', Ngày: 'Tất cả'.
+2025-10-15 14:30:02.177 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:30:02.178 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:30:02.189 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:30:02.189 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:30:02.189 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:30:03.908 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'usage', Ngày: 'Tất cả'.
+2025-10-15 14:30:03.908 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:30:03.909 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:30:03.922 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:30:03.922 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:30:03.923 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 4 nhóm.
+2025-10-15 14:33:58.512 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:33:58.513 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:33:58.513 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:33:58.564 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:33:58.564 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:33:58.565 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:34:04.854 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: '2025-10-15'.
+2025-10-15 14:34:04.854 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:34:04.854 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:34:04.864 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:34:04.864 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:34:04.869 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 0 nhóm.
+2025-10-15 14:34:08.224 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: '2025-09-19'.
+2025-10-15 14:34:08.224 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:34:08.225 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:34:08.236 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:34:08.237 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:34:08.238 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:43:49.780 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:43:49.780 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:43:49.780 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:43:49.848 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:43:49.848 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:43:49.849 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:44:42.605 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:44:42.605 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:44:42.605 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:44:42.615 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:44:42.615 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:44:42.615 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:45:33.271 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:45:33.272 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:45:33.272 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:45:33.283 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:45:33.283 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:45:33.283 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:45:38.782 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:45:38.782 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:45:38.782 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:45:38.795 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:45:38.796 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:45:38.796 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:46:57.749 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:46:57.749 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:46:57.750 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:46:57.774 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:46:57.775 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:46:57.775 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:50:24.477 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:50:24.477 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:50:24.477 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:50:24.538 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:50:24.538 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:50:24.539 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:50:30.319 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:50:30.320 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:50:30.320 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:50:30.333 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:50:30.333 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:50:30.334 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:50:31.078 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:50:31.078 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:50:31.079 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:50:31.095 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:50:31.095 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:50:31.096 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:51:04.666 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:51:04.667 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:51:04.667 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:51:04.680 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:51:04.681 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:51:04.681 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:56:01.285 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:56:01.285 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:01.285 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:01.336 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:01.336 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:01.336 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:56:19.092 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: '2025-10-15'.
+2025-10-15 14:56:19.093 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:19.093 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:19.102 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:19.102 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:19.102 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 0 nhóm.
+2025-10-15 14:56:22.401 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: '2025-09-19'.
+2025-10-15 14:56:22.401 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:22.401 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:22.411 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:22.411 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:22.412 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:56:24.724 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'region', Ngày: '2025-09-19'.
+2025-10-15 14:56:24.724 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:24.724 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:24.733 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:24.734 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:24.734 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:56:26.379 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: '2025-09-19'.
+2025-10-15 14:56:26.380 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:26.380 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:26.389 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:26.390 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:26.390 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 2 nhóm.
+2025-10-15 14:56:32.474 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 14:56:32.474 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:32.474 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:32.484 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:32.484 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:32.484 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:56:37.715 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'soil', Ngày: 'Tất cả'.
+2025-10-15 14:56:37.716 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:37.716 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:37.724 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:37.725 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:37.725 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 14:56:39.161 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:56:39.161 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:56:39.162 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:56:39.172 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:56:39.172 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:56:39.173 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 14:59:48.639 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 14:59:48.639 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 14:59:48.640 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 14:59:48.653 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 14:59:48.653 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 14:59:48.653 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:00:06.343 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:00:06.343 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:00:06.343 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:00:06.354 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:00:06.354 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:00:06.355 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:01:39.762 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:01:39.763 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:01:39.763 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:01:39.817 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:01:39.817 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:01:39.817 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:01:46.134 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:01:46.134 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:01:46.134 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:01:46.143 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:01:46.144 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:01:46.144 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:02:12.042 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:02:12.042 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:02:12.042 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:02:12.054 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:02:12.054 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:02:12.054 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:02:17.734 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:02:17.735 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:02:17.735 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:02:17.749 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:02:17.749 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:02:17.749 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:04:32.397 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:04:32.398 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:04:32.398 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:04:32.409 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:04:32.409 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:04:32.410 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:04:44.692 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:04:44.692 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:04:44.692 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:04:44.703 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:04:44.703 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:04:44.703 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:13.867 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:13.868 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:13.868 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:14.024 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:14.024 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:14.025 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:26.805 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:26.805 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:26.805 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:26.814 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:26.814 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:26.815 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:27.512 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:27.512 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:27.512 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:27.523 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:27.523 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:27.523 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:28.004 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:28.005 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:28.005 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:28.015 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:28.015 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:28.015 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:28.560 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:28.560 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:28.560 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:28.573 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:28.573 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:28.573 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:29.028 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:29.028 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:29.029 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:29.038 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:29.038 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:29.038 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:29.222 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:29.222 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:29.223 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:29.234 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:29.234 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:29.234 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:29.404 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:29.404 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:29.404 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:29.416 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:29.416 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:29.416 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:29.574 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:29.574 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:29.574 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:29.585 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:29.585 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:29.585 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:07:29.747 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:07:29.747 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:07:29.747 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:07:29.758 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:07:29.758 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:07:29.759 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:09:16.521 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 15:09:16.521 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:09:16.521 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:09:16.530 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:09:16.530 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:09:16.530 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:09:17.553 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:09:17.553 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:09:17.553 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:09:17.562 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:09:17.562 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:09:17.562 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:11:00.708 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:11:00.708 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:11:00.708 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:11:00.722 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:11:00.722 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:11:00.722 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:11:13.990 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:11:13.990 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:11:13.990 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:11:14.001 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:11:14.002 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:11:14.002 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:11:34.750 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:11:34.750 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:11:34.751 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:11:34.762 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:11:34.763 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:11:34.763 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:11:53.031 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 15:11:53.031 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:11:53.031 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:11:53.042 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:11:53.042 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:11:53.043 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:11:54.344 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:11:54.345 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:11:54.345 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:11:54.355 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:11:54.356 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:11:54.356 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:11:58.964 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'soil', Ngày: 'Tất cả'.
+2025-10-15 15:11:58.965 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:11:58.965 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:11:58.976 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:11:58.976 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:11:58.977 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:12:13.342 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 15:12:13.342 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:12:13.342 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:12:13.355 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:12:13.355 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:12:13.356 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:16:39.683 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 15:16:39.683 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 15:16:39.684 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 15:16:39.734 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 15:16:39.735 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 15:16:39.735 [UserRepository] [Info] : Getting total user count.
+2025-10-15 15:16:39.737 [UserRepository] [Info] : Total user count: 3
+2025-10-15 15:16:39.738 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 15:16:39.739 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 15:16:42.368 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:16:42.369 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:16:42.369 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:16:42.390 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:16:42.391 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:16:42.392 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:18:53.006 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:18:53.006 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:18:53.006 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:18:53.018 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:18:53.018 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:18:53.018 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:20:53.014 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:20:53.014 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:20:53.015 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:20:53.025 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:20:53.025 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:20:53.025 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:21:15.188 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:21:15.188 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:21:15.189 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:21:15.200 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:21:15.200 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:21:15.200 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:21:24.049 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:21:24.049 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:21:24.049 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:21:24.060 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:21:24.060 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:21:24.060 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:21:32.616 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:21:32.617 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:21:32.617 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:21:32.628 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:21:32.628 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:21:32.628 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:21:48.691 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'region', Ngày: 'Tất cả'.
+2025-10-15 15:21:48.692 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:21:48.692 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:21:48.735 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:21:48.735 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:21:48.735 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:21:54.366 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:21:54.366 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:21:54.366 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:21:54.376 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:21:54.376 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:21:54.376 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:21:57.780 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:21:57.781 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:21:57.781 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:21:57.789 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:21:57.789 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:21:57.789 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:23:12.403 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:23:12.403 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:23:12.403 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:23:12.415 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:23:12.415 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:23:12.415 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:23:59.677 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:23:59.677 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:23:59.677 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:23:59.687 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:23:59.687 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:23:59.687 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:24:20.956 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:24:20.956 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:24:20.956 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:24:20.966 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:24:20.966 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:24:20.966 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:25:41.233 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 15:25:41.233 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:25:41.233 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:25:41.245 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:25:41.245 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:25:41.246 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:25:44.830 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'soil', Ngày: 'Tất cả'.
+2025-10-15 15:25:44.830 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:25:44.830 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:25:44.841 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:25:44.841 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:25:44.842 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:25:47.014 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'soil', Ngày: 'Tất cả'.
+2025-10-15 15:25:47.015 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:25:47.015 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:25:47.028 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:25:47.029 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:25:47.029 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:25:48.799 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'usage', Ngày: 'Tất cả'.
+2025-10-15 15:25:48.800 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:25:48.800 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:25:48.812 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:25:48.812 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:25:48.813 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 4 nhóm.
+2025-10-15 15:28:26.207 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:28:26.208 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:28:26.208 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:28:26.267 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:28:26.267 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:28:26.268 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:29:10.200 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 15:29:10.201 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:29:10.201 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:29:10.213 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:29:10.213 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:29:10.214 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:29:12.156 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:29:12.156 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:29:12.156 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:29:12.167 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:29:12.167 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:29:12.167 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:29:36.243 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:29:36.243 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:29:36.243 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:29:36.256 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:29:36.257 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:29:36.257 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:30:17.881 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:30:17.882 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:30:17.882 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:30:17.896 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:30:17.896 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:30:17.896 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:31:17.233 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:31:17.233 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:31:17.233 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:31:17.244 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:31:17.244 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:31:17.245 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:31:38.379 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:31:38.380 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:31:38.380 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:31:38.403 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:31:38.403 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:31:38.403 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:33:42.362 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:33:42.362 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:33:42.362 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:33:42.416 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:33:42.416 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:33:42.416 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:34:05.931 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:34:05.931 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:34:05.931 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:34:05.939 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:34:05.940 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:34:05.940 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:35:57.246 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:35:57.246 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:35:57.246 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:35:57.256 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:35:57.256 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:35:57.257 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:42:21.658 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:42:21.658 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:42:21.658 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:42:21.713 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:42:21.713 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:42:21.713 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:45:50.163 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:45:50.163 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:45:50.163 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:45:50.176 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:45:50.176 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:45:50.176 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 15:45:55.106 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'climate', Ngày: 'Tất cả'.
+2025-10-15 15:45:55.107 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:45:55.107 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:45:55.118 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:45:55.119 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:45:55.119 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:45:57.114 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'region', Ngày: 'Tất cả'.
+2025-10-15 15:45:57.114 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:45:57.114 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:45:57.124 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:45:57.124 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:45:57.125 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 5 nhóm.
+2025-10-15 15:46:02.871 [Report.cshtml] [Info] : Yêu cầu lấy dữ liệu biểu đồ. Loại: 'plantType', Ngày: 'Tất cả'.
+2025-10-15 15:46:02.872 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 15:46:02.872 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 15:46:02.884 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 15:46:02.884 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 15:46:02.885 [Report.cshtml] [Info] : Đã tạo dữ liệu biểu đồ thành công với 6 nhóm.
+2025-10-15 16:09:16.520 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 16:09:16.527 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 16:09:16.528 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 16:09:18.668 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 16:09:18.669 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 16:09:18.671 [UserRepository] [Info] : Getting total user count.
+2025-10-15 16:09:18.716 [UserRepository] [Info] : Total user count: 3
+2025-10-15 16:09:18.726 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 16:09:18.726 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 16:09:21.736 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:09:21.748 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:09:21.750 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:09:21.990 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:09:21.990 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:09:28.254 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 16:09:28.255 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:09:28.256 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:09:28.351 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:09:28.351 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:09:30.821 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 16:09:30.822 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:09:30.822 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:09:30.838 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:09:30.838 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:09:32.305 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 16:09:32.305 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:09:32.305 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:09:32.318 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:09:32.318 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:09:34.205 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 16:09:34.205 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:09:34.205 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:09:34.220 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:09:34.220 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:10:59.644 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:10:59.645 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:10:59.645 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:10:59.658 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:10:59.659 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:11:25.063 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:11:25.063 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:11:25.063 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:11:25.074 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:11:25.074 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:11:26.696 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:11:26.696 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:11:26.697 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:11:26.709 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:11:26.709 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:12:08.080 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:12:08.080 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:12:08.080 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:12:08.092 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:12:08.092 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:15:14.279 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:15:14.279 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:15:14.280 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:15:14.336 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:15:14.336 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:15:35.221 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:15:35.221 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:15:35.222 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:15:35.235 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:15:35.235 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:15:47.951 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:15:47.952 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:15:47.952 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:15:47.966 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:15:47.967 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:16:00.608 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:16:00.608 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:16:00.609 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:16:00.624 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:16:00.624 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:16:05.879 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:16:05.880 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:16:05.880 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:16:05.896 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:16:05.896 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:16:22.082 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-10-15'
+2025-10-15 16:16:22.082 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:16:22.083 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:16:22.095 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:16:22.095 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:16:25.167 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-09-19'
+2025-10-15 16:16:25.168 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:16:25.168 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:16:25.179 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:16:25.179 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:23:51.283 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:23:51.283 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:23:51.284 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:23:51.355 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:23:51.355 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:23:55.497 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-09-19'
+2025-10-15 16:23:55.497 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:23:55.499 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:23:55.513 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:23:55.514 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:23:59.783 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-10-17'
+2025-10-15 16:23:59.783 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:23:59.783 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:23:59.796 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:23:59.796 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:24:02.917 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:24:02.917 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:24:02.917 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:24:02.931 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:24:02.932 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:26:19.129 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:26:19.129 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:26:19.130 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:26:19.141 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:26:19.142 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:26:28.743 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-09-20'
+2025-10-15 16:26:28.743 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:26:28.744 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:26:28.756 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:26:28.756 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:26:49.303 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-09-21'
+2025-10-15 16:26:49.304 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:26:49.304 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:26:49.312 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:26:49.312 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:26:51.086 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-09-14'
+2025-10-15 16:26:51.087 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:26:51.087 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:26:51.098 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:26:51.099 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:26:53.184 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-09-17'
+2025-10-15 16:26:53.185 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:26:53.185 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:26:53.199 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:26:53.199 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:26:56.725 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:26:56.726 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:26:56.726 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:26:56.740 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:26:56.740 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:28:36.407 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:28:36.407 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:28:36.407 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:28:36.418 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:28:36.419 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:45:14.812 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-10-15'
+2025-10-15 16:45:14.812 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:45:14.812 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:45:14.863 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:45:14.863 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:45:19.086 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:45:19.087 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:45:19.087 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:45:19.100 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:45:19.100 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:48:47.745 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:48:47.745 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:48:47.746 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:48:47.757 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:48:47.757 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:09.372 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:49:09.372 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:09.373 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:09.385 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:09.386 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:33.927 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:49:33.927 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:33.928 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:33.940 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:33.941 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:35.494 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:49:35.495 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:35.495 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:35.507 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:35.508 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:39.646 [ReportController] [Info] : [API] chart-data → type='plantType', date='2025-10-15'
+2025-10-15 16:49:39.646 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:39.646 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:39.657 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:39.658 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:40.389 [ReportController] [Info] : [API] chart-data → type='region', date='2025-10-15'
+2025-10-15 16:49:40.389 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:40.389 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:40.400 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:40.400 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:42.582 [ReportController] [Info] : [API] chart-data → type='region', date='2025-09-19'
+2025-10-15 16:49:42.582 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:42.582 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:42.592 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:42.593 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:49:45.425 [ReportController] [Info] : [API] chart-data → type='soil', date='2025-09-19'
+2025-10-15 16:49:45.425 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:49:45.426 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:49:45.438 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:49:45.438 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:50:15.447 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:50:15.447 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:50:15.447 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:50:15.499 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:50:15.499 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:50:49.604 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 16:50:49.605 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:50:49.605 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:50:49.619 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:50:49.619 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:50:53.988 [ReportController] [Info] : [API] chart-data → type='soil', date='Tất cả'
+2025-10-15 16:50:53.988 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:50:53.989 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:50:54.000 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:50:54.001 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 16:50:57.702 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 16:50:57.703 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 16:50:57.703 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 16:50:57.716 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 16:50:57.716 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:41:44.387 [AuthController] [Info] : Bắt đầu đăng nhập AJAX với username: minha
+2025-10-15 19:41:44.389 [UserService] [Info] : Login attempt for username: 'minha'.
+2025-10-15 19:41:44.390 [UserRepository] [Info] : Attempting to get user login data for username: minha.
+2025-10-15 19:41:45.200 [UserRepository] [Info] : Successfully found user login data for username: minha.
+2025-10-15 19:41:45.203 [UserService] [Info] : User 'minha' authenticated successfully. Updating last login time.
+2025-10-15 19:41:45.203 [UserRepository] [Info] : Attempting to save changes to the database.
+2025-10-15 19:41:45.253 [UserRepository] [Info] : Successfully saved changes to the database.
+2025-10-15 19:41:45.253 [UserService] [Info] : User 'minha' logged in successfully.
+2025-10-15 19:41:45.679 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 19:41:45.686 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 19:41:45.687 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 19:41:45.704 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 19:41:45.705 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 19:41:45.706 [UserRepository] [Info] : Getting total user count.
+2025-10-15 19:41:45.726 [UserRepository] [Info] : Total user count: 3
+2025-10-15 19:41:45.731 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 19:41:45.732 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 19:41:49.550 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:41:49.551 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:41:49.551 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:41:49.762 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:41:49.762 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:41:57.278 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 19:41:57.278 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:41:57.278 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:41:57.291 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:41:57.291 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:02.211 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 19:42:02.211 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:02.211 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:02.222 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:02.222 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:03.779 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 19:42:03.779 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:03.779 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:03.789 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:03.789 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:05.634 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:42:05.634 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:05.635 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:05.648 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:05.648 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:10.774 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:42:10.774 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:10.775 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:10.787 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:10.787 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:12.571 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:42:12.571 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:12.571 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:12.582 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:12.582 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:13.982 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 19:42:13.983 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:13.983 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:13.995 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:13.995 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:42:16.576 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:42:16.577 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:42:16.577 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:42:16.588 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:42:16.588 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:44:21.698 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:44:21.699 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:44:21.699 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:44:21.707 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:44:21.707 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:44:32.667 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:44:32.667 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:44:32.667 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:44:32.677 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:44:32.677 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:44:44.175 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:44:44.175 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:44:44.175 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:44:44.184 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:44:44.184 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:45:00.063 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:45:00.063 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:45:00.063 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:45:00.078 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:45:00.079 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:46:33.854 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:46:33.855 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:46:33.855 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:46:33.870 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:46:33.870 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 19:46:47.504 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 19:46:47.505 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 19:46:47.505 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 19:46:47.552 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 19:46:47.552 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:10:46.516 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:10:46.527 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:10:46.527 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:10:46.614 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:10:46.615 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:14:21.572 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:14:21.572 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:14:21.572 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:14:21.597 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:14:21.597 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:14:55.111 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 20:14:55.111 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:14:55.112 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:14:55.120 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:14:55.123 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:14:57.847 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 20:14:57.847 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:14:57.847 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:14:57.855 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:14:57.855 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:15:00.373 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 20:15:00.373 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:15:00.373 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:15:00.381 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:15:00.381 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:15:04.388 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:15:04.389 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:15:04.389 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:15:04.397 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:15:04.397 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:24:26.556 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:24:26.556 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:24:26.556 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:24:26.621 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:24:26.622 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:12.706 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:25:12.706 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:12.706 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:12.718 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:12.719 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:20.453 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 20:25:20.454 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:20.454 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:20.462 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:20.462 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:23.153 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 20:25:23.153 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:23.153 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:23.161 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:23.161 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:26.391 [ReportController] [Info] : [API] chart-data → type='soil', date='Tất cả'
+2025-10-15 20:25:26.391 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:26.391 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:26.399 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:26.399 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:28.411 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 20:25:28.411 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:28.411 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:28.419 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:28.419 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:48.332 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:25:48.332 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:48.332 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:48.340 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:48.340 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:50.137 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:25:50.137 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:50.137 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:50.148 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:50.148 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:53.012 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 20:25:53.012 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:53.012 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:53.020 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:53.020 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:56.154 [ReportController] [Info] : [API] chart-data → type='soil', date='Tất cả'
+2025-10-15 20:25:56.154 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:56.154 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:56.162 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:56.162 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:25:58.441 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 20:25:58.441 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:25:58.441 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:25:58.449 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:25:58.449 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:26:00.211 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 20:26:00.211 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:26:00.212 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:26:00.219 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:26:00.220 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:26:02.671 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:26:02.671 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:26:02.672 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:26:02.680 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:26:02.680 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:26:35.007 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:26:35.007 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:26:35.007 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:26:35.018 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:26:35.019 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:27:08.100 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:27:08.100 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:27:08.101 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:27:08.111 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:27:08.112 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:27:22.283 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:27:22.283 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:27:22.283 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:27:22.293 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:27:22.293 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:27:39.747 [ReportController] [Info] : [API] chart-data → type='soil', date='Tất cả'
+2025-10-15 20:27:39.747 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:27:39.747 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:27:39.755 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:27:39.755 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:27:45.626 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:27:45.627 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:27:45.627 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:27:45.634 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:27:45.634 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:28:21.988 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 20:28:21.988 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:28:21.988 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:28:21.995 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:28:21.996 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:28:31.055 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 20:28:31.055 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:28:31.056 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:28:31.062 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:28:31.062 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:28:41.278 [ReportController] [Info] : [API] chart-data → type='soil', date='Tất cả'
+2025-10-15 20:28:41.278 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:28:41.278 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:28:41.287 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:28:41.287 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:28:48.967 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 20:28:48.967 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:28:48.967 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:28:48.974 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:28:48.975 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:30:19.238 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:30:19.238 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:30:19.239 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:30:19.319 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:30:19.319 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:32:32.645 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:32:32.645 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:32:32.646 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:32:32.659 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:32:32.659 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:36:27.395 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:36:27.395 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:36:27.395 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:36:27.451 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:36:27.452 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:36:33.206 [ReportController] [Info] : [API] chart-data → type='region', date='Tất cả'
+2025-10-15 20:36:33.207 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:36:33.207 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:36:33.215 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:36:33.215 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:36:35.516 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 20:36:35.516 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:36:35.517 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:36:35.525 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:36:35.525 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:36:38.397 [ReportController] [Info] : [API] chart-data → type='soil', date='Tất cả'
+2025-10-15 20:36:38.397 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:36:38.397 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:36:38.406 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:36:38.406 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:36:40.834 [ReportController] [Info] : [API] chart-data → type='usage', date='Tất cả'
+2025-10-15 20:36:40.835 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:36:40.835 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:36:40.843 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:36:40.843 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:36:43.025 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 20:36:43.025 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 20:36:43.025 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 20:36:43.034 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 20:36:43.034 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 20:50:16.837 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-15 20:50:16.839 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-15 20:50:16.840 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-15 20:50:16.882 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-15 20:50:16.883 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-15 20:50:16.884 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-15 20:50:16.890 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-15 20:50:16.890 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-15 20:50:16.890 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-15 20:50:16.894 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-15 20:50:16.895 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-15 20:50:16.895 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-15 20:50:16.901 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-15 20:50:16.901 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-15 20:50:16.902 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-15 20:50:16.907 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-15 20:50:16.908 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-15 20:50:16.909 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-15 20:50:16.909 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-15 20:50:16.910 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-15 20:50:16.911 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-15 20:50:16.913 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-15 20:50:16.927 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-15 20:50:16.927 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-15 20:50:16.927 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp.
+2025-10-15 20:50:16.928 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-15 20:50:16.928 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-15 20:50:19.265 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 20:50:19.266 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 20:50:19.266 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 20:50:19.272 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 20:50:19.273 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 20:50:19.273 [UserRepository] [Info] : Getting total user count.
+2025-10-15 20:50:19.276 [UserRepository] [Info] : Total user count: 3
+2025-10-15 20:50:19.277 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 20:50:19.277 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 21:03:00.721 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 21:03:00.724 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 21:03:00.725 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 21:03:01.690 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 21:03:01.691 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 21:42:56.264 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 21:42:56.273 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 21:42:56.275 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 21:42:57.182 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 21:42:57.183 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 21:42:57.184 [UserRepository] [Info] : Getting total user count.
+2025-10-15 21:42:57.203 [UserRepository] [Info] : Total user count: 2
+2025-10-15 21:42:57.208 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 21:42:57.209 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 21:43:04.950 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 21:43:04.951 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 21:43:04.952 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 21:43:05.071 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 21:43:05.082 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 21:43:08.384 [ReportController] [Info] : [API] chart-data → type='climate', date='Tất cả'
+2025-10-15 21:43:08.385 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 21:43:08.385 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 21:43:08.465 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 21:43:08.466 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 21:43:11.694 [ReportController] [Info] : [API] chart-data → type='climate', date='2025-09-18'
+2025-10-15 21:43:11.694 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 21:43:11.694 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 21:43:11.706 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 21:43:11.706 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 21:44:16.501 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 21:44:16.501 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 21:44:16.501 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 21:44:16.513 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 21:44:16.514 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 21:44:17.906 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-15 21:44:17.907 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-15 21:44:17.908 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-15 21:44:17.915 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-15 21:44:17.915 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-15 21:44:17.916 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-15 21:44:17.921 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-15 21:44:17.921 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-15 21:44:17.922 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-15 21:44:17.925 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-15 21:44:17.926 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-15 21:44:17.927 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-15 21:44:17.931 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-15 21:44:17.931 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-15 21:44:17.932 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-15 21:44:17.936 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-15 21:44:17.937 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-15 21:44:17.938 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-15 21:44:17.939 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-15 21:44:17.940 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-15 21:44:17.941 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-15 21:44:17.942 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-15 21:44:17.951 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-15 21:44:17.951 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-15 21:44:17.952 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp.
+2025-10-15 21:44:17.953 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-15 21:44:17.953 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-15 21:44:18.971 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 21:44:18.971 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 21:44:18.971 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 21:44:18.976 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 21:44:18.976 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 21:44:18.976 [UserRepository] [Info] : Getting total user count.
+2025-10-15 21:44:18.977 [UserRepository] [Info] : Total user count: 2
+2025-10-15 21:44:18.978 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 21:44:18.978 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 22:55:56.543 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 22:55:56.545 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 22:55:56.545 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 22:55:56.610 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 22:55:56.610 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 22:55:56.610 [UserRepository] [Info] : Getting total user count.
+2025-10-15 22:55:56.613 [UserRepository] [Info] : Total user count: 2
+2025-10-15 22:55:56.614 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 22:55:56.614 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 22:55:57.945 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 22:55:57.945 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 22:55:57.946 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 22:55:57.948 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 22:55:57.948 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 22:55:57.948 [UserRepository] [Info] : Getting total user count.
+2025-10-15 22:55:57.949 [UserRepository] [Info] : Total user count: 2
+2025-10-15 22:55:57.949 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 22:55:57.950 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 22:55:59.543 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 22:55:59.544 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 22:55:59.544 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 22:55:59.547 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 22:55:59.548 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 22:55:59.548 [UserRepository] [Info] : Getting total user count.
+2025-10-15 22:55:59.548 [UserRepository] [Info] : Total user count: 2
+2025-10-15 22:55:59.549 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 22:55:59.549 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 22:56:01.697 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 22:56:01.697 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 22:56:01.697 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 22:56:01.733 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 22:56:01.733 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 22:56:02.252 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-15 22:56:02.252 [LookupService] [Info] : Bắt đầu chuẩn bị tất cả filter dropdowns (chạy tuần tự).
+2025-10-15 22:56:02.252 [LookupService] [Info] : Attempting to retrieve all plant types.
+2025-10-15 22:56:02.259 [LookupRepository] [Info] : Lấy thành công 6 loại cây trồng từ database.
+2025-10-15 22:56:02.259 [LookupService] [Info] : Successfully retrieved 6 plant types.
+2025-10-15 22:56:02.259 [LookupService] [Info] : Attempting to retrieve all soil types.
+2025-10-15 22:56:02.260 [LookupRepository] [Info] : Lấy thành công 5 loại đất từ database.
+2025-10-15 22:56:02.260 [LookupService] [Info] : Successfully retrieved 5 soil types.
+2025-10-15 22:56:02.261 [LookupService] [Info] : Attempting to retrieve all regions.
+2025-10-15 22:56:02.262 [LookupRepository] [Info] : Lấy thành công 5 vùng miền từ database.
+2025-10-15 22:56:02.262 [LookupService] [Info] : Successfully retrieved 5 regions.
+2025-10-15 22:56:02.262 [LookupService] [Info] : Attempting to retrieve all climates.
+2025-10-15 22:56:02.263 [LookupRepository] [Info] : Lấy thành công 5 loại khí hậu từ database.
+2025-10-15 22:56:02.263 [LookupService] [Info] : Successfully retrieved 5 climates.
+2025-10-15 22:56:02.263 [LookupService] [Info] : Attempting to retrieve all usages.
+2025-10-15 22:56:02.264 [LookupRepository] [Info] : Lấy thành công 5 mục đích sử dụng từ database.
+2025-10-15 22:56:02.264 [LookupService] [Info] : Successfully retrieved 5 usages.
+2025-10-15 22:56:02.264 [LookupService] [Info] : Chuẩn bị filter dropdowns thành công.
+2025-10-15 22:56:02.264 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-15 22:56:02.264 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-15 22:56:02.265 [PlantService] [Info] : Service bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-15 22:56:02.265 [PlantRepository] [Info] : Bắt đầu lọc cây trồng với từ khóa: ''.
+2025-10-15 22:56:02.272 [PlantRepository] [Info] : Tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-15 22:56:02.272 [PlantService] [Info] : Service tìm thấy 42 cây trồng phù hợp với bộ lọc.
+2025-10-15 22:56:02.272 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp.
+2025-10-15 22:56:02.272 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-15 22:56:02.273 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-15 22:56:03.090 [Admin.cshtml] [Info] : Bắt đầu tải trang Admin cho người dùng.
+2025-10-15 22:56:03.090 [UserService] [Info] : Attempting to retrieve user by ID: 1.
+2025-10-15 22:56:03.090 [UserRepository] [Info] : Attempting to get user by ID: 1.
+2025-10-15 22:56:03.093 [UserRepository] [Info] : Successfully found user with ID: 1.
+2025-10-15 22:56:03.094 [UserService] [Info] : Successfully retrieved user for ID: 1.
+2025-10-15 22:56:03.094 [UserRepository] [Info] : Getting total user count.
+2025-10-15 22:56:03.094 [UserRepository] [Info] : Total user count: 2
+2025-10-15 22:56:03.095 [PlantRepository] [Info] : Tổng số cây trồng: 42
+2025-10-15 22:56:03.095 [Admin.cshtml] [Info] : Tải thành công thông tin cho người dùng 'minha' (UserId: 1).
+2025-10-15 22:56:11.109 [Plant.cshtml] [Info] : OnGetAsync: Bắt đầu tải trang quản lý danh sách cây trồng.
+2025-10-15 22:56:11.109 [Plant.cshtml] [Info] : LoadPlantListsAsync: Bắt đầu tải danh sách cây trồng theo bộ lọc.
+2025-10-15 22:56:11.109 [Plant.cshtml] [Info] : Đang áp dụng các bộ lọc: Không có bộ lọc nào được áp dụng.
+2025-10-15 22:56:11.109 [Plant.cshtml] [Info] : Tìm thấy tổng cộng 42 cây trồng phù hợp.
+2025-10-15 22:56:11.109 [Plant.cshtml] [Info] : Hiển thị 5 cây trồng trên trang 1.
+2025-10-15 22:56:11.110 [Plant.cshtml] [Info] : OnGetAsync: Tải trang quản lý thành công.
+2025-10-15 22:56:19.120 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 22:56:19.121 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 22:56:19.121 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 22:56:19.131 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 22:56:19.131 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.
+2025-10-15 22:56:26.195 [ReportController] [Info] : [API] chart-data → type='plantType', date='Tất cả'
+2025-10-15 22:56:26.195 [PlantService] [Info] : Bắt đầu lấy tất cả cây trồng từ service.
+2025-10-15 22:56:26.195 [PlantRepository] [Info] : Bắt đầu lấy tất cả cây trồng.
+2025-10-15 22:56:26.203 [PlantRepository] [Info] : Lấy thành công 42 cây trồng.
+2025-10-15 22:56:26.203 [PlantService] [Info] : Lấy thành công 42 cây trồng từ service.

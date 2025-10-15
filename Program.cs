@@ -104,6 +104,7 @@ builder.Services.AddScoped<IPlantDiagnosisService, PlantDiagnosisService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IForgotPasswordService, ForgotPasswordService>();
 builder.Services.AddScoped<IHiveModerationService, HiveModerationService>();
+builder.Services.AddScoped<IUserAdminService, UserAdminService>();
 
 var app = builder.Build();
 
