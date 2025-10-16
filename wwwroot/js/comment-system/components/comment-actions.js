@@ -2,7 +2,7 @@
 // COMMENT ACTIONS - Xử lý edit, delete, reply
 // ============================================================
 
-import { notify, confirmAction } from "../helpers/notify.js";
+import { notify, confirmAction } from "../../helpers/notify.js";
 
 export class CommentActions {
   constructor(config, api) {

@@ -41,6 +41,16 @@ public class AdminUsersController : ControllerBase
         return Ok(result);
     }
 
+    // GET: /api/admin/users/{id}/history?take=50
+    [HttpGet("{id:int}/history")]
+    public async Task<IActionResult> History([FromRoute] int id, [FromQuery] int take = 50)
+    {
+        if (id <= 0)
+            return BadRequest("Invalid user id.");
+        var items = await _svc.GetHistoryAsync(id, take);
+        return Ok(new { items });
+    }
+
     // POST: /api/admin/users/create
     [HttpPost("create")]
     public async Task<IActionResult> Create([FromBody] CreateUserDto dto)

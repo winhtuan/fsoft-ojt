@@ -2,7 +2,7 @@
 // COMMENT RENDERER - Xử lý việc render bình luận
 // ============================================================
 
-import { timeAgo } from "../helpers/time.js";
+import { timeAgo } from "../../helpers/time.js";
 
 export class CommentRenderer {
   constructor(config, elements) {

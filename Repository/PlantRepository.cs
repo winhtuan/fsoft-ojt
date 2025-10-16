@@ -7,9 +7,9 @@ using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 using PLANTINFOWEB.Data;
 using Plantpedia.DTO;
-using Plantpedia.Extensions;
 using Plantpedia.Helper;
 using Plantpedia.Models;
+using Plantpedia.Queries;
 
 namespace Plantpedia.Repository
 {

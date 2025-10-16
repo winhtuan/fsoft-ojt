@@ -2901,6 +2901,146 @@ namespace FPT_Plantpedia_Razor.Migrations
                     b.HasIndex("UserId", "Type", "CreatedAt");
 
                     b.ToTable("user_activity");
+
+                    b.HasData(
+                        new
+                        {
+                            ActivityId = 1L,
+                            CreatedAt = new DateTime(2025, 1, 2, 8, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"keyword\":\"cây xương rồng\"}",
+                            Type = 3,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            ActivityId = 2L,
+                            CreatedAt = new DateTime(2025, 1, 3, 9, 30, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"content\":\"Cây này đẹp quá!\"}",
+                            RefId = "cmt_101",
+                            Type = 1,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            ActivityId = 3L,
+                            CreatedAt = new DateTime(2025, 1, 3, 10, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"emoji\":\"❤️\"}",
+                            RefId = "cmt_101",
+                            Type = 2,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            ActivityId = 4L,
+                            CreatedAt = new DateTime(2025, 1, 4, 14, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"keyword\":\"hoa lan hồ điệp\"}",
+                            Type = 3,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            ActivityId = 5L,
+                            CreatedAt = new DateTime(2025, 1, 2, 11, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"keyword\":\"cây trầu bà\"}",
+                            Type = 3,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 6L,
+                            CreatedAt = new DateTime(2025, 1, 3, 16, 15, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"content\":\"Lá cây này có độc không?\"}",
+                            RefId = "cmt_201",
+                            Type = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 7L,
+                            CreatedAt = new DateTime(2025, 1, 3, 17, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"emoji\":\"❤️\"}",
+                            RefId = "post_301",
+                            Type = 2,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 8L,
+                            CreatedAt = new DateTime(2025, 1, 4, 10, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"keyword\":\"sen đá ruby\"}",
+                            Type = 3,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 9L,
+                            CreatedAt = new DateTime(2025, 1, 5, 9, 30, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"content\":\"Cảm ơn bài viết rất bổ ích!\"}",
+                            RefId = "cmt_202",
+                            Type = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 10L,
+                            CreatedAt = new DateTime(2025, 1, 5, 9, 45, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"emoji\":\"❤️\"}",
+                            RefId = "cmt_202",
+                            Type = 2,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 11L,
+                            CreatedAt = new DateTime(2025, 1, 5, 10, 10, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"keyword\":\"cây ăn quả dễ trồng\"}",
+                            Type = 3,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 12L,
+                            CreatedAt = new DateTime(2025, 1, 5, 10, 30, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"content\":\"Tưới mấy lần/tuần là hợp lý?\"}",
+                            RefId = "cmt_203",
+                            Type = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 13L,
+                            CreatedAt = new DateTime(2025, 1, 5, 10, 31, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"emoji\":\"❤️\"}",
+                            RefId = "cmt_203",
+                            Type = 2,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 14L,
+                            CreatedAt = new DateTime(2025, 1, 6, 8, 0, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"keyword\":\"monstera deliciosa\"}",
+                            Type = 3,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 15L,
+                            CreatedAt = new DateTime(2025, 1, 6, 8, 20, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"content\":\"Có chịu bóng râm không?\"}",
+                            RefId = "cmt_204",
+                            Type = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            ActivityId = 16L,
+                            CreatedAt = new DateTime(2025, 1, 6, 8, 25, 0, 0, DateTimeKind.Utc),
+                            Metadata = "{\"emoji\":\"❤️\"}",
+                            RefId = "post_305",
+                            Type = 2,
+                            UserId = 2
+                        });
                 });
 
             modelBuilder.Entity("Plantpedia.Models.PlantCare", b =>

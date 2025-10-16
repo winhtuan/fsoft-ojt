@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\img\\home-bg.jpg"
     },
     {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\admin-user.js",
+      "PackagePath": "staticwebassets\\js\\admin-user.js"
+    },
+    {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\comment-manager.js",
       "PackagePath": "staticwebassets\\js\\comment-system\\comment-manager.js"
     },
@@ -75,14 +79,6 @@
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\config.js",
       "PackagePath": "staticwebassets\\js\\comment-system\\config.js"
-    },
-    {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\notify.js",
-      "PackagePath": "staticwebassets\\js\\comment-system\\helpers\\notify.js"
-    },
-    {
-      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\helpers\\time.js",
-      "PackagePath": "staticwebassets\\js\\comment-system\\helpers\\time.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\comment-system\\services\\comment-api.js",
@@ -133,6 +129,14 @@
       "PackagePath": "staticwebassets\\js\\forgot-pass.js"
     },
     {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\helpers\\notify.js",
+      "PackagePath": "staticwebassets\\js\\helpers\\notify.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\helpers\\time.js",
+      "PackagePath": "staticwebassets\\js\\helpers\\time.js"
+    },
+    {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\main-comment.js",
       "PackagePath": "staticwebassets\\js\\main-comment.js"
     },
@@ -167,6 +171,58 @@
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\core\\api-client.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\core\\api-client.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\core\\dom.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\core\\dom.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\core\\format.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\core\\format.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\core\\state.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\core\\state.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\core\\ui-enhancements.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\core\\ui-enhancements.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\main-user-admin.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\main-user-admin.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\api.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\api.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\events-create.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\events-create.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\events-delete.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\events-delete.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\events-list.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\events-list.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\events-modal.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\events-modal.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\events-update.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\events-update.js"
+    },
+    {
+      "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\js\\user-admin-page\\users\\render.js",
+      "PackagePath": "staticwebassets\\js\\user-admin-page\\users\\render.js"
     },
     {
       "Id": "E:\\Asp.Net-8\\FPT-Plantpedia-Razor\\wwwroot\\lib\\bootstrap\\LICENSE",

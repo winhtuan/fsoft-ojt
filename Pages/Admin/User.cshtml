@@ -35,8 +35,8 @@
     </div>
 
     <!-- ============================================
-      STATISTICS CARDS
-      ============================================ -->
+         STATISTICS CARDS
+         ============================================ -->
     <div class="stats-grid">
         <div class="stat-card stat-card-primary">
             <div class="stat-icon-wrapper">
@@ -87,6 +87,7 @@
             </div>
         </div>
     </div>
+
     <!-- ============================================
          SEARCH & FILTERS BAR
          ============================================ -->
@@ -94,9 +95,9 @@
         <div class="search-container">
             <div class="search-box">
                 <i class="fas fa-search search-icon"></i>
-                <input type="text" 
-                       class="search-input" 
-                       id="globalSearch" 
+                <input type="text"
+                       class="search-input"
+                       id="globalSearch"
                        placeholder="Tìm kiếm username, email, tên người dùng...">
                 <button class="search-clear" id="btnSearchClear" style="display: none;">
                     <i class="fas fa-times"></i>
@@ -123,125 +124,31 @@
                 <span>Đã xóa</span>
             </button>
         </div>
-
-        <!-- Advanced Filters Toggle -->
-        <button class="btn-advanced-filter" id="btnToggleAdvanced">
-            <i class="fas fa-sliders-h"></i>
-            <span>Bộ lọc nâng cao</span>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </button>
     </div>
 
     <!-- ============================================
-         ADVANCED FILTERS (COLLAPSIBLE)
-         ============================================ -->
-    <div class="advanced-filters" id="advancedFilters" style="display: none;">
-        <div class="advanced-filters-content">
-            <div class="filter-group">
-                <label class="filter-label">
-                    <i class="fas fa-user-tag"></i>
-                    Vai trò
-                </label>
-                <select class="filter-select" id="roleFilter">
-                    <option value="">Tất cả vai trò</option>
-                    <option value="admin">Admin</option>
-                    <option value="moderator">Moderator</option>
-                    <option value="user">User</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label class="filter-label">
-                    <i class="fas fa-calendar-alt"></i>
-                    Từ ngày
-                </label>
-                <input type="date" class="filter-input" id="dateFrom">
-            </div>
-
-            <div class="filter-group">
-                <label class="filter-label">
-                    <i class="fas fa-calendar-check"></i>
-                    Đến ngày
-                </label>
-                <input type="date" class="filter-input" id="dateTo">
-            </div>
-
-            <div class="filter-actions">
-                <button class="btn-filter btn-apply" id="btnApplyFilters">
-                    <i class="fas fa-filter"></i>
-                    Áp dụng
-                </button>
-                <button class="btn-filter btn-clear" id="btnClearFilters">
-                    <i class="fas fa-eraser"></i>
-                    Xóa bộ lọc
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- ============================================
-         USERS GRID SECTION
+         USERS TABLE
          ============================================ -->
     <div class="content-section">
         <div class="section-header">
             <h2 class="section-title">Danh sách người dùng</h2>
-            <div class="section-actions">
-                <select class="sort-select" id="sortBy">
-                    <option value="newest">Mới nhất</option>
-                    <option value="oldest">Cũ nhất</option>
-                    <option value="name-asc">Tên A-Z</option>
-                    <option value="name-desc">Tên Z-A</option>
-                </select>
-            </div>
         </div>
 
-        <!-- Users Grid -->
-        <div class="users-grid" id="usersGrid" role="list">
-            <!-- User cards will be dynamically inserted here -->
-            <!-- Example Card Structure (for reference):
-            <div class="user-card" role="listitem">
-                <div class="user-card-header">
-                    <div class="user-avatar">
-                        <img src="avatar.jpg" alt="User Name">
-                        <div class="user-status active"></div>
-                    </div>
-                    <div class="user-select">
-                        <input type="checkbox" class="user-checkbox">
-                    </div>
-                </div>
-                <div class="user-card-body">
-                    <h3 class="user-name">Nguyễn Văn A</h3>
-                    <p class="user-email">nguyenvana@example.com</p>
-                    <div class="user-meta">
-                        <span class="user-meta-item">
-                            <i class="fas fa-calendar"></i>
-                            15/10/2024
-                        </span>
-                        <span class="user-meta-item">
-                            <i class="fas fa-sign-in-alt"></i>
-                            2 giờ trước
-                        </span>
-                    </div>
-                </div>
-                <div class="user-card-footer">
-                    <div class="user-badges">
-                        <span class="badge badge-role">Admin</span>
-                        <span class="badge badge-status active">Hoạt động</span>
-                    </div>
-                    <div class="user-actions">
-                        <button class="action-btn btn-view">
-                            <i class="fas fa-eye"></i>
-                        </button>
-                        <button class="action-btn btn-edit">
-                            <i class="fas fa-edit"></i>
-                        </button>
-                        <button class="action-btn btn-delete">
-                            <i class="fas fa-trash"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            -->
+        <div class="users-table-wrap">
+            <table class="users-table" id="usersTable" role="table" aria-label="Danh sách người dùng">
+                <thead>
+                    <tr>
+                        <th>Người dùng</th>
+                        <th>Email</th>
+                        <th>Trạng thái</th>
+                        <th>Tạo lúc</th>
+                        <th>Đăng nhập cuối</th>
+                        <th class="text-start">Thống kê</th>
+                        <th style="width:1%">Hành động</th>
+                    </tr>
+                </thead>
+                <tbody id="userTableBody"><!-- JS sẽ render vào đây --></tbody>
+            </table>
         </div>
 
         <!-- Loading State -->
@@ -260,7 +167,7 @@
             <h3 class="empty-title">Không tìm thấy người dùng</h3>
             <p class="empty-description">
                 Không có người dùng nào phù hợp với tiêu chí tìm kiếm của bạn.
-                <br>Hãy thử thay đổi bộ lọc hoặc từ khóa tìm kiếm.
+                <br />Hãy thử thay đổi bộ lọc hoặc từ khóa tìm kiếm.
             </p>
             <button class="btn-empty-action" id="btnResetFilters">
                 <i class="fas fa-redo"></i>
@@ -271,69 +178,6 @@
         <!-- Pagination -->
         <div class="pagination-wrapper" id="paginationContainer">
             <!-- Pagination will be dynamically generated -->
-        </div>
-    </div>
-
-    <!-- ============================================
-         BULK ACTIONS BAR (FLOATING)
-         ============================================ -->
-    <div class="bulk-actions-bar" id="bulkActionsBar" style="display: none;">
-        <div class="bulk-actions-content">
-            <div class="bulk-info">
-                <i class="fas fa-check-circle"></i>
-                <span>Đã chọn <strong id="selectedCount">0</strong> người dùng</span>
-            </div>
-            <div class="bulk-actions-buttons">
-                <button class="bulk-btn bulk-btn-activate" id="btnBulkActivate">
-                    <i class="fas fa-play"></i>
-                    <span>Kích hoạt</span>
-                </button>
-                <button class="bulk-btn bulk-btn-suspend" id="btnBulkSuspend">
-                    <i class="fas fa-pause"></i>
-                    <span>Tạm khóa</span>
-                </button>
-                <button class="bulk-btn bulk-btn-delete" id="btnBulkDelete">
-                    <i class="fas fa-trash-alt"></i>
-                    <span>Xóa</span>
-                </button>
-                <button class="bulk-btn bulk-btn-cancel" id="btnBulkCancel">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- ============================================
-     USER DETAIL MODAL
-     ============================================ -->
-<div class="modal fade" id="userDetailModal" tabindex="-1" aria-labelledby="userDetailModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-header-content">
-                    <h5 class="modal-title" id="userDetailModalLabel">Chi tiết người dùng</h5>
-                    <span class="modal-subtitle" id="modalUserEmail"></span>
-                </div>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body" id="userDetailContent">
-                <!-- Content will be dynamically loaded -->
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn-modal btn-secondary" data-bs-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                    Đóng
-                </button>
-                <button type="button" class="btn-modal btn-primary" id="btnEditUser">
-                    <i class="fas fa-edit"></i>
-                    Chỉnh sửa
-                </button>
-                <button type="button" class="btn-modal btn-danger" id="btnDeleteUser" style="display: none;">
-                    <i class="fas fa-trash"></i>
-                    Xóa người dùng
-                </button>
-            </div>
         </div>
     </div>
 </div>
@@ -349,75 +193,7 @@
     </div>
 </div>
 
-<!-- ============================================
-     CONFIRM DELETE MODAL
-     ============================================ -->
-<div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header modal-header-danger">
-                <h5 class="modal-title">
-                    <i class="fas fa-exclamation-triangle"></i>
-                    Xác nhận xóa
-                </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <p>Bạn có chắc chắn muốn xóa người dùng này?</p>
-                <p class="text-danger mb-0">
-                    <small><i class="fas fa-info-circle"></i> Hành động này không thể hoàn tác!</small>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn-modal btn-secondary" data-bs-dismiss="modal">Hủy</button>
-                <button type="button" class="btn-modal btn-danger" id="btnConfirmDelete">
-                    <i class="fas fa-trash"></i>
-                    Xóa
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
 @section Scripts {
-    <script src="~/js/admin-users.js" asp-append-version="true"></script>
-    <script>
-        // Initialize tooltips
-        document.addEventListener('DOMContentLoaded', function() {
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl);
-            });
-
-            // Advanced filters toggle
-            document.getElementById('btnToggleAdvanced')?.addEventListener('click', function() {
-                const advancedFilters = document.getElementById('advancedFilters');
-                const toggleIcon = this.querySelector('.toggle-icon');
-                
-                if (advancedFilters.style.display === 'none') {
-                    advancedFilters.style.display = 'block';
-                    toggleIcon.style.transform = 'rotate(180deg)';
-                    this.classList.add('active');
-                } else {
-                    advancedFilters.style.display = 'none';
-                    toggleIcon.style.transform = 'rotate(0deg)';
-                    this.classList.remove('active');
-                }
-            });
-
-            // Search clear button
-            const searchInput = document.getElementById('globalSearch');
-            const clearBtn = document.getElementById('btnSearchClear');
-            
-            searchInput?.addEventListener('input', function() {
-                clearBtn.style.display = this.value ? 'flex' : 'none';
-            });
-
-            clearBtn?.addEventListener('click', function() {
-                searchInput.value = '';
-                this.style.display = 'none';
-                searchInput.focus();
-            });
-        });
-    </script>
+    <script type="module" src="~/js/user-admin-page/main-user-admin.js"></script>
+    <script type="module" src="~/js/user-admin-page/core/ui-enhancements.js" asp-append-version="true"></script>
 }

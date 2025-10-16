@@ -25,5 +25,6 @@ namespace Plantpedia.Service
         );
         Task<bool> SoftDeleteAsync(int userId);
         Task<bool> RestoreAsync(int userId);
+        Task<IReadOnlyList<UserActivityItemDto>> GetHistoryAsync(int userId, int take = 50);
     }
 }

@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace Plantpedia.Extensions;
+namespace Plantpedia.Queries;
 
 public static class QueryableExtensions
 {

@@ -2,7 +2,7 @@
 // COMMENT MANAGER - Main orchestrator class
 // ============================================================
 
-import { notify } from "./helpers/notify.js";
+import { notify } from "../helpers/notify.js";
 import { CommentConfig } from "./config.js";
 import { CommentAPI } from "./services/comment-api.js";
 import { CommentRenderer } from "./components/comment-renderer.js";

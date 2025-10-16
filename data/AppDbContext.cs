@@ -240,8 +240,10 @@ namespace PLANTINFOWEB.Data
             seedPlantInfo(modelBuilder);
             seedPlantImg(modelBuilder);
             seedAccount(modelBuilder);
+            seedActivity(modelBuilder);
         }
 
+        #region Account & Activity
         private static void seedAccount(ModelBuilder modelBuilder)
         {
             // Seed cho user_account
@@ -305,6 +307,161 @@ namespace PLANTINFOWEB.Data
                 );
         }
 
+        private static void seedActivity(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Entity<UserActivity>()
+                .HasData(
+                    // ===== User 1: 4 activity =====
+                    new UserActivity
+                    {
+                        ActivityId = 1,
+                        UserId = 1,
+                        Type = ActivityType.Search,
+                        RefId = null,
+                        Metadata = "{\"keyword\":\"cây xương rồng\"}",
+                        CreatedAt = new DateTime(2025, 1, 2, 8, 0, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 2,
+                        UserId = 1,
+                        Type = ActivityType.Comment,
+                        RefId = "cmt_101",
+                        Metadata = "{\"content\":\"Cây này đẹp quá!\"}",
+                        CreatedAt = new DateTime(2025, 1, 3, 9, 30, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 3,
+                        UserId = 1,
+                        Type = ActivityType.Reaction, // chỉ “thích”
+                        RefId = "cmt_101",
+                        Metadata = "{\"emoji\":\"❤️\"}",
+                        CreatedAt = new DateTime(2025, 1, 3, 10, 0, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 4,
+                        UserId = 1,
+                        Type = ActivityType.Search,
+                        RefId = null,
+                        Metadata = "{\"keyword\":\"hoa lan hồ điệp\"}",
+                        CreatedAt = new DateTime(2025, 1, 4, 14, 0, 0, DateTimeKind.Utc),
+                    },
+                    // ===== User 2: 12 activity =====
+                    new UserActivity
+                    {
+                        ActivityId = 5,
+                        UserId = 2,
+                        Type = ActivityType.Search,
+                        RefId = null,
+                        Metadata = "{\"keyword\":\"cây trầu bà\"}",
+                        CreatedAt = new DateTime(2025, 1, 2, 11, 0, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 6,
+                        UserId = 2,
+                        Type = ActivityType.Comment,
+                        RefId = "cmt_201",
+                        Metadata = "{\"content\":\"Lá cây này có độc không?\"}",
+                        CreatedAt = new DateTime(2025, 1, 3, 16, 15, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 7,
+                        UserId = 2,
+                        Type = ActivityType.Reaction,
+                        RefId = "post_301",
+                        Metadata = "{\"emoji\":\"❤️\"}",
+                        CreatedAt = new DateTime(2025, 1, 3, 17, 0, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 8,
+                        UserId = 2,
+                        Type = ActivityType.Search,
+                        RefId = null,
+                        Metadata = "{\"keyword\":\"sen đá ruby\"}",
+                        CreatedAt = new DateTime(2025, 1, 4, 10, 0, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 9,
+                        UserId = 2,
+                        Type = ActivityType.Comment,
+                        RefId = "cmt_202",
+                        Metadata = "{\"content\":\"Cảm ơn bài viết rất bổ ích!\"}",
+                        CreatedAt = new DateTime(2025, 1, 5, 9, 30, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 10,
+                        UserId = 2,
+                        Type = ActivityType.Reaction,
+                        RefId = "cmt_202",
+                        Metadata = "{\"emoji\":\"❤️\"}",
+                        CreatedAt = new DateTime(2025, 1, 5, 9, 45, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 11,
+                        UserId = 2,
+                        Type = ActivityType.Search,
+                        RefId = null,
+                        Metadata = "{\"keyword\":\"cây ăn quả dễ trồng\"}",
+                        CreatedAt = new DateTime(2025, 1, 5, 10, 10, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 12,
+                        UserId = 2,
+                        Type = ActivityType.Comment,
+                        RefId = "cmt_203",
+                        Metadata = "{\"content\":\"Tưới mấy lần/tuần là hợp lý?\"}",
+                        CreatedAt = new DateTime(2025, 1, 5, 10, 30, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 13,
+                        UserId = 2,
+                        Type = ActivityType.Reaction,
+                        RefId = "cmt_203",
+                        Metadata = "{\"emoji\":\"❤️\"}",
+                        CreatedAt = new DateTime(2025, 1, 5, 10, 31, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 14,
+                        UserId = 2,
+                        Type = ActivityType.Search,
+                        RefId = null,
+                        Metadata = "{\"keyword\":\"monstera deliciosa\"}",
+                        CreatedAt = new DateTime(2025, 1, 6, 8, 0, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 15,
+                        UserId = 2,
+                        Type = ActivityType.Comment,
+                        RefId = "cmt_204",
+                        Metadata = "{\"content\":\"Có chịu bóng râm không?\"}",
+                        CreatedAt = new DateTime(2025, 1, 6, 8, 20, 0, DateTimeKind.Utc),
+                    },
+                    new UserActivity
+                    {
+                        ActivityId = 16,
+                        UserId = 2,
+                        Type = ActivityType.Reaction,
+                        RefId = "post_305",
+                        Metadata = "{\"emoji\":\"❤️\"}",
+                        CreatedAt = new DateTime(2025, 1, 6, 8, 25, 0, DateTimeKind.Utc),
+                    }
+                );
+        }
+        #endregion
+        #region Plant Info
         private static void seedPlantType(ModelBuilder modelBuilder)
         {
             modelBuilder
@@ -519,8 +676,9 @@ namespace PLANTINFOWEB.Data
                     }
                 );
         }
+        #endregion
 
-        #region N-N
+        #region N-N of PlantInfo
         private static void seedPlantClimate(ModelBuilder modelBuilder)
         {
             modelBuilder

@@ -74,5 +74,10 @@ namespace Plantpedia.Service
         public Task<bool> SoftDeleteAsync(int userId) => _repo.SoftDeleteAsync(userId);
 
         public Task<bool> RestoreAsync(int userId) => _repo.RestoreAsync(userId);
+
+        public Task<IReadOnlyList<UserActivityItemDto>> GetHistoryAsync(
+            int userId,
+            int take = 50
+        ) => _repo.GetRecentAsync(userId, take);
     }
 }

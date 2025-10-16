@@ -2,7 +2,7 @@
 // COMMENT REACTIONS - Xử lý reaction (like/unlike)
 // ============================================================
 
-import { notify } from "../helpers/notify.js";
+import { notify } from "../../helpers/notify.js";
 
 export class CommentReactions {
   constructor(config, api) {

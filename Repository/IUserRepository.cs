@@ -26,5 +26,6 @@ namespace Plantpedia.Repository
 
         // Log hành vi (dùng chung)
         Task LogActivityAsync(int userId, ActivityType type, string? refId, object? metadata);
+        Task<IReadOnlyList<UserActivityItemDto>> GetRecentAsync(int userId, int take = 50);
     }
 }

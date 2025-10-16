@@ -102,6 +102,16 @@ function buildColors(type, labels) {
 // ===== Chart manager =====
 function baseOptions(kind) {
   const isPie = kind === "pie";
+  const getValue = (ctx) => {
+    const p = ctx.parsed;
+    if (typeof p === "number") return p;
+    if (p && typeof p === "object") {
+      const isHorizontal = ctx.chart?.options?.indexAxis === "y";
+      return Number(isHorizontal ? p.x : p.y) || 0;
+    }
+    return Number(p) || 0;
+  };
+
   return {
     responsive: true,
     maintainAspectRatio: false,
@@ -110,16 +120,20 @@ function baseOptions(kind) {
       legend: { display: true, position: isPie ? "top" : "bottom" },
       tooltip: {
         callbacks: {
+          title(items) {
+            return items?.[0]?.label ?? "";
+          },
           label(ctx) {
-            const v = ctx.parsed;
+            const v = getValue(ctx);
             if (isPie) {
-              const total =
-                ctx.chart._metasets[0].total ??
-                ctx.dataset.data.reduce((a, b) => a + b, 0);
+              const total = (ctx.dataset.data || []).reduce(
+                (a, b) => a + Number(b || 0),
+                0
+              );
               const pct = total ? ((v / total) * 100).toFixed(2) : "0.00";
-              return `${ctx.label}: ${v} (${pct}%)`;
+              return `${ctx.dataset.label ?? "Giá trị"}: ${v} (${pct}%)`;
             }
-            return `${ctx.dataset.label}: ${v}`;
+            return `${ctx.dataset.label ?? "Giá trị"}: ${v}`;
           },
         },
       },
@@ -166,7 +180,9 @@ export class ChartManager {
       : [];
     const { bg, border } = buildColors(logicalType, labels);
 
-    this.chart.data.labels = labels;
+    this.chart.data.labels = labels.map((l) =>
+      typeof l === "object" ? l.name ?? l.label ?? String(l.id) : String(l)
+    );
     this.chart.data.datasets[0].data = data;
     this.chart.data.datasets[0].backgroundColor = bg;
     this.chart.data.datasets[0].borderColor = border;

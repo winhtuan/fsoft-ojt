@@ -1,5 +1,6 @@
 // ============================================================
 // NOTIFY HELPERS - Luôn hiển thị bằng popup (modalHelper)
+// wwwroot/js/comment-system/helpers/notify.js
 // ============================================================
 
 export function notify(message, title = "Thông báo") {
